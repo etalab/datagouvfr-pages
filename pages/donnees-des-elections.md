@@ -16,6 +16,7 @@ reuses:
   - 594bc842c751df6fd2111dc1
   - 59436df3c751df61b37da9a8
 datasets:
+  - municipales-2020-resultats-2nd-tour
   - elections-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues
   - elections-municipales-2020-candidatures-au-second-tour
   - election-presidentielle-des-23-avril-et-7-mai-2017-resultats-definitifs-du-2nd-tour
@@ -41,6 +42,7 @@ datasets:
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
 - **Elections municipales 2020** :
+  -  [Municipales 2020  - Résultats du second tour](https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/)
   -  [Liste des candidatures au second tour](https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-second-tour/)
   -  [Liste des candidats élus au 1er tour et liste des communes entièrement pourvues](https://www.data.gouv.fr/fr/datasets/election-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues/)
   -  [Candidatures au 1er tour](https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-1er-tour/)
