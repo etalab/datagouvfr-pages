@@ -1,10 +1,10 @@
 ---
-title: Les données relatives au coronavirus en France
+title: Les données relatives au COVID-19 en France
 keywords:
   - coronavirus
   - covid19
   - covid-19
-description: Page index des jeux de données relatives au coronavirus en France référencés sur data.gouv.fr
+description: Les jeux de données relatifs au COVID-19 en France référencés sur data.gouv.fr
 reuses:
   - 5ea0369268289dd267a94b1d
   - 5eaf2ba01129babe19848510
@@ -46,6 +46,7 @@ datasets:
 
 - [Sites de prélèvements pour les tests COVID-19](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 - [Indicateurs d'activité épidémique COVID-19 par département](https://www.data.gouv.fr/fr/datasets/indicateurs-dactivite-epidemique-covid-19-par-departement/)
+- [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 
 ## Données de la recherche 
 
@@ -86,7 +87,7 @@ En continuité de l'initiative « OpenCOVID19 », l’équipe d’Etalab a trava
 
 #### Le tableau de bord des aides aux entreprises
 
-À partir des données mises à disposition par les ministères économiques et financiers, les équipes d’Etalab ont développé un tableau de bord permettant de consulter et de visualiser les différentes aides accordées par l’état aux entreprises.
+À partir des données mises à disposition par les ministères économiques et financiers, les équipes d’Etalab ont développé un tableau de bord permettant de consulter et de visualiser les différentes aides accordées par l’état aux entreprises en fonction de leur secteur d'activité.
 
 [Consulter le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/)
 
