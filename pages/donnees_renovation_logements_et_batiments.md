@@ -29,11 +29,11 @@ datasets:
   - marches-et-emploi-de-lefficacite-energetique-et-des-enr-batiment-2019
 ---
 
-## Données de l'ADEME
+## Données de [l'ADEME](https://www.data.gouv.fr/fr/organizations/ademe/)
 
 ### Diagnostics de performance énergétique
 
-- Les diagnostics de performance énergétique pour les logements par habitation
+- [Les diagnostics de performance énergétique pour les logements par habitation](https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-logements-par-habitation/)
 - [Les diagnostics de performance énergétique pour les bâtiments publics](https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-batiments-publics/)
 
 ### Aides financières à la rénovation énergétique 
