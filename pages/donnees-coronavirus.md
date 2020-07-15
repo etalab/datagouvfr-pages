@@ -5,6 +5,8 @@ keywords:
   - covid19
   - covid-19
 description: Les jeux de données relatifs au COVID-19 en France référencés sur data.gouv.fr
+menu:
+  - footer
 reuses:
   - 5ea0369268289dd267a94b1d
   - 5eaf2ba01129babe19848510
