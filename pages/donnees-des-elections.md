@@ -8,6 +8,8 @@ keywords:
   - européennes
   - législatives
 description: Page de référencement des jeux de données relatifs aux élections sur data.gouv.fr
+menu:
+  - footer
 reuses:
   - 5e5e9da68b4c4124032dd8d0
   - 5e6119c26f44414855933838
