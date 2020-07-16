@@ -66,4 +66,9 @@ datasets:
 - [Marchés et emploi de l'efficacité énergétique et des EnR - Transport (2019)](https://www.data.gouv.fr/fr/datasets/marches-et-emploi-de-lefficacite-energetique-et-des-enr-transport-2019/)
 - [Marchés et emploi de l'efficacité énergétique et des EnR - Bâtiment (2019)](https://www.data.gouv.fr/fr/datasets/marches-et-emploi-de-lefficacite-energetique-et-des-enr-batiment-2019/)
 
+## Données du Ministère de la Cohésion des Territoires
+
+- [Observatoire des performances énergétiques OPE](https://www.data.gouv.fr/fr/datasets/observatoire-des-performances-energetiques/)
+- [Base des permis de construire (Sitadel)](https://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-sitadel/)
+
 
