@@ -79,4 +79,3 @@ Voir aussi [la page sur les données relatives au COVID-19 en France](https://ww
 
 - [Dates et lieux de collectes de don du sang](https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/)
 - Les données de [l'établissement Français du sang](https://www.data.gouv.fr/en/organizations/etablissement-francais-du-sang/)
-- 
