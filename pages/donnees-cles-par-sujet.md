@@ -20,3 +20,4 @@ Retrouvez ici une sélection de jeux de données clés regroupés par sujet :
 - [Les données relatives à la rénovation énergétique des logements et bâtiments](https://www.data.gouv.fr/fr/pages/donnees-renovation-logements-et-batiments)
 - [Les données relatives à la santé](https://www.data.gouv.fr/fr/pages/donnees-sante)
 - [Les données relatives à la fiscalité et à la commande publique](https://www.data.gouv.fr/fr/pages/donnees-fiscalite-commande-publique)
+- [Les données relatives aux associations et aux fondations](https://www.data.gouv.fr/fr/pages/donnees-associations-fondations)
