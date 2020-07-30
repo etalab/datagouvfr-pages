@@ -10,6 +10,33 @@ keywords:
 description: Données relatives à la fiscalité et à la commande publique en France proposées sur data.gouv.fr
 reuses:
 datasets:
+- donnees-essentielles-de-la-commande-publique-transmises-via-le-pes-marche
+- referentiel-de-donnees-marches-publics
+- programmation-des-achats-de-letat-2018-2021
+- rapports-dobservations-definitives-des-chambres-regionales-des-comptes-crc-et-reponses-associees-1/#_
+- les-finances-publiques-locales-2020-fascicule-1
+- les-finances-publiques-locales-2019
+- amendements-deposes-a-lassemblee-nationale-lies-aux-plf-et-plfss-2018-2019-2020
+- projet-de-loi-de-finances-pour-2020-plf-2020-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap
+- projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations
+- projets-de-loi-de-finances-redaction-de-1ere-lecture-au-senat-resultant-des-travaux-de-lassemblee-nationale
+- amendements-deposes-au-senat
+- les-donnees-contextuelles-des-intercommunalites-et-autres-structures-territoriales
+- criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales
+- base-nationale-sur-les-intercommunalites
+- criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales
+- donnees-de-comptabilite-generale-de-letat
+- balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2019
+- balances-comptables-des-groupements-a-fiscalite-propre-depuis-2010
+- balances-comptables-des-etablissements-publics-locaux-depuis-2010
+- balances-comptables-des-regions-depuis-2010
+- balances-comptables-des-syndicats-depuis-2010
+- balances-comptables-des-departements-depuis-2010
+- balances-comptables-des-communes
+- comptes-individuels-des-groupements-a-fiscalite-propre-fichier-global-a-compter-de-2007
+- comptes-individuels-des-departements-et-des-collectivites-territoriales-uniques-fichier-global-a-compter-de-2008
+- comptes-individuels-des-regions-fichier-global-a-compter-de-2008
+- comptes-individuels-des-collectivites
 ---
 
 ## Données de [la cour des comptes](https://www.data.gouv.fr/fr/organizations/cour-des-comptes/)
@@ -45,7 +72,7 @@ datasets:
 
 ## Balances comptables
 
-### Par le [Ministère de l'Economie et des Finances]((https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-et-des-finances/)
+### Par le [Ministère de l'Economie et des Finances](https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-et-des-finances/)
 
 - [Données de comptabilité générale de l'État](https://www.data.gouv.fr/fr/datasets/donnees-de-comptabilite-generale-de-letat/)
 
@@ -70,7 +97,7 @@ datasets:
 
 ## Comptes individuels
 
-### Par le [Ministère de l'Economie et des Finances]((https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-et-des-finances/)
+### Par le [Ministère de l'Economie et des Finances](https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-et-des-finances/)
 
 - [Comptes individuels des communes (fichier global) à compter de 2000](Comptes individuels des communes (fichier global) à compter de 2000 )
 - [Comptes individuels des groupements à fiscalité propre (fichier global) à compter de 2007](https://www.data.gouv.fr/fr/datasets/comptes-individuels-des-groupements-a-fiscalite-propre-fichier-global-a-compter-de-2007/)
