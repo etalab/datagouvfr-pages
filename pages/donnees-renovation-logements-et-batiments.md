@@ -39,8 +39,8 @@ datasets:
 
 Ces données sont également accessibles via les API correspondantes sur le site api.gouv.fr :
 
-- [Accéder à l'API DPE pour les logements] (https://api.gouv.fr/les-api/api_dpe_logements)
-- [Accéder à l'API DPE pour les bâtiments publics] (https://api.gouv.fr/les-api/api_dpe_batiments_publics)
+- [Accéder à l'API DPE pour les logements](https://api.gouv.fr/les-api/api_dpe_logements)
+- [Accéder à l'API DPE pour les bâtiments publics](https://api.gouv.fr/les-api/api_dpe_batiments_publics)
 
 Pour plus d'informations sur la base DPE et ses usages possibles, [voir aussi l'article de blog "La base des diagnostics de performance énergétique DPE : quelles données, pour quels usages ?"](https://www.data.gouv.fr/fr/posts/la-base-des-diagnostics-de-performance-energetique-dpe/) sur data.gouv.fr.
 
