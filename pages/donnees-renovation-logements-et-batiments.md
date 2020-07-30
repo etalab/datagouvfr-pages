@@ -37,6 +37,13 @@ datasets:
 - [Les diagnostics de performance énergétique pour les logements par habitation](https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-logements-par-habitation/)
 - [Les diagnostics de performance énergétique pour les bâtiments publics](https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-batiments-publics/)
 
+Ces données sont également accessibles via les API correspondantes sur le site api.gouv.fr :
+
+- [Accéder à l'API DPE pour les logements] (https://api.gouv.fr/les-api/api_dpe_logements)
+- [Accéder à l'API DPE pour les bâtiments publics] (https://api.gouv.fr/les-api/api_dpe_batiments_publics)
+
+Pour plus d'informations sur la base DPE et ses usages possibles, [voir aussi l'article de blog "La base des diagnostics de performance énergétique DPE : quelles données, pour quels usages ?"](https://www.data.gouv.fr/fr/posts/la-base-des-diagnostics-de-performance-energetique-dpe/) sur data.gouv.fr.
+
 ### Aides financières à la rénovation énergétique 
 
 - [Nombre de dispositifs d’aides financières à la rénovation énergétique, par région](https://www.data.gouv.fr/fr/datasets/nombre-de-dispositifs-daides-financieres-a-la-renovation-energetique-par-region/)
@@ -71,5 +78,7 @@ datasets:
 
 - [Observatoire des performances énergétiques OPE](https://www.data.gouv.fr/fr/datasets/observatoire-des-performances-energetiques/)
 - [Base des permis de construire (Sitadel)](https://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-sitadel/)
+
+
 
 
