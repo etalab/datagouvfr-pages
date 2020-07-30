@@ -86,7 +86,7 @@ Voir aussi :
 
 ### Le hackathon "A l'asso des données"
 
-Co-organisé par Etalab, Le Mouvement associatif, Latitudes et le Comite National de Liaison des Régies de Quartier, le hackathon "A l'asso des données" a permis d'exploiter une sélection de jeux de données relatifs aux associations pour répondre à plusieurs défis.
+Co-organisé par Etalab, Le Mouvement associatif, Latitudes et le Comite National de Liaison des Régies de Quartier, le hackathon "A l'asso des données" tenu en Nomvembre 2019 a permis d'exploiter une sélection de jeux de données relatifs aux associations pour répondre à plusieurs défis.
 
 [Voir la page du hackathon et les données associées sur data.gouv.fr](https://www.data.gouv.fr/fr/posts/les-jeux-de-donnees-des-associations/)
 
