@@ -12,11 +12,11 @@ Solution : un [dépôt Github](https://github.com/etalab/datagouvfr-pages/tree/m
 
 Il est maintenant possible de lier un schéma référencé sur schema.data.gouv.fr à une ressource data.gouv.fr.
 
-[image:08A0C81A-C4AD-431A-B919-ED7DCC95BF32-1511-0002DE7090AADA0B/Capture d’écran 2020-08-26 à 12.32.39.png]
+![](img/schema-resource.png)
 
 Des infos relatives au schéma sont alors disponibles sur la ressource en question. On peut accéder au schema sur schema.data.gouv.fr et lancer la validation du fichier sur validata.etalab.studio.
 
-[image:9AF854D6-3FA4-4184-AB3F-5280CCA7A446-1511-0002DE9AF97B8536/modal-schema.7ecaa269.png]
+![](img/schema-modal.png)
 
 On peut également accéder à la [liste des jeux de données réputés respecter un schéma, par exemple IRVE](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-irve).
 
@@ -29,7 +29,7 @@ Il est maintenant possible côté api.gouv.fr de lier un à plusieurs jeux de do
 
 Les infos de l’API s’affichent alors sous la description du jeu de données (sauf sur mobile), avec un lien vers api.gouv.fr.
 
-[image:3FF597FF-E8E8-479C-BBE4-F77CA766AB07-1511-0002DEC5B953304F/Capture d’écran 2020-08-26 à 12.38.46.png]
+![](img/api.png)
 
 Vos contributions sont les bienvenues pour relier des APIs à des jeux de données.
 
@@ -38,7 +38,7 @@ Vos contributions sont les bienvenues pour relier des APIs à des jeux de donné
 
 Depuis quelques temps déjà des recommendations sont disponibles sur le « top 50 » de nos jeu de données. Elles pointent vers des jeux de données fréquemment visités avant ou après le dit jeu de données du top 50.
 
-[image:529254A1-A473-4DB2-B722-1A98CBBFC6EA-1511-0002DF37099700C6/Capture d’écran 2020-08-26 à 12.46.52.png]
+![](img/reco.png)
 
 Toutefois ces recommendations n’étaient pas mises à jour et il n’existait qu’une seule source de recommendation, sur laquelle nous n’avions pas la main.
 
