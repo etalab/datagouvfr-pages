@@ -676,7 +676,7 @@ datasets:
     -   Résultats : [par régions, départements, circonscriptions législatives et cantons](http://static.data.gouv.fr/5b/cb5f907d61ecd1036720dd4be906ddb46431e90a88e3259b145759eb0bfdec.xls)
 
 -   **Consultation du 26 juin 2016 des électeurs des communes de la Loire-Atlantique sur le projet de transfert de l’aéroport de Nantes-Atlantique sur la commune de Notre-Dame-des-Landes** :
-    -   Résultats : [Résultats définitifs de la consultation validés par la Commission de recensement](https://www.data.gouv.fr/s/resources/consultation-des-electeurs-des-communes-de-la-loire-atlantique-sur-le-projet-de-transfert-de-laeroport-de-nantes-atlantique-sur-la-commune-de-notre-dame-des-landes-1/20160705-120657)
+    -   Résultats : [Résultats définitifs de la consultation validés par la Commission de recensement](https://www.data.gouv.fr/fr/datasets/r/b47a8e2b-4e93-4016-902f-ecd368dd5924)
 
 ----------------------------------------------------------------------
 
