@@ -51,7 +51,7 @@ datasets:
 
 ## Données économiques
 
-Il est également possible de consulter les données sur [le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/)].
+Il est également possible de consulter les données sur [le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/).
 
 - [Données relatives au dispositif d'activité partielle mis en oeuvre dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Données relatives au fonds de solidarité mis en place dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/)
