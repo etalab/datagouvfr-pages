@@ -49,6 +49,15 @@ datasets:
 - [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
 - [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
 
+## Données économiques
+
+Il est également possible de consulter les données sur [le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/)].
+
+- [Données relatives au dispositif d'activité partielle mis en oeuvre dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/)
+- [Données relatives au fonds de solidarité mis en place dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/)
+- [Données relatives aux prêts garantis par l’Etat dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/)
+- [Données relatives aux reports d'échéances fiscales accordés dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/)
+
 ## Données d'information
 
 - [Données issues du questionnaire d’orientation COVID-19 du Service d’information du Gouvernement (SIG)](https://www.data.gouv.fr/fr/datasets/donnees-issues-du-questionnaire-dorientation-covid-19-du-service-dinformation-du-gouvernement-sig/)
