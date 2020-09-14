@@ -32,13 +32,13 @@ datasets:
 - [Données hospitalières relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
 - [Données des urgences hospitalières et de SOS Médecins relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/)
 
-**Données relatifs au tests**
+**Données relatives au tests**
 
 - [Capacité analytique de tests virologiques dans le cadre de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19/)
 - [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 - [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)
 
-**Données relatifs aux décès**
+**Données relatives aux décès**
 
 - [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
@@ -59,10 +59,10 @@ datasets:
 
 ## Données des territoires
 
-Plusieurs villes et collectivités locales ont publié des jeux de données de toutes sortes relatives au Covid-19. Voici quelques exemples :  
+Plusieurs villes et collectivités locales ont publié des jeux de données de toutes sortes relatives au COVID-19. Voici quelques exemples :  
 
-- La Ville d'Antibes publie [les arrêtés de police réglementaires relatifs au Covid-19](https://www.data.gouv.fr/fr/datasets/covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes/)
-- La région Provence Alpes Côte d’Azur collecte [les données sur les initiatives des communautés de Makers Covid-19](https://www.data.gouv.fr/fr/datasets/covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur/)
+- La Ville d'Antibes publie [les arrêtés de police réglementaires relatifs au COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes/)
+- La région Provence Alpes Côte d’Azur collecte [les données sur les initiatives des communautés de Makers COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur/)
 
 **Données géographiques**
 
