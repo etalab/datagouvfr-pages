@@ -81,7 +81,7 @@ Plusieurs villes et collectivités locales ont publié des jeux de données de t
 
 ## Les réutilisations de données
 
-Les données relatives au coronavirus ont donné lieu à de nombreuses réutilisations sur data.gouv.fr.
+Les données relatives au COVID-19 ont donné lieu à de nombreuses réutilisations sur data.gouv.fr.
 
 #### Le tableau de bord de suivi de l'épidémie sur le site du gouvernement
 
@@ -97,7 +97,7 @@ En continuité de l'initiative « OpenCOVID19 », l’équipe d’Etalab a trava
 
 ## Article de blog
 
-Retrouvez en complément de cette page l'article sur le blog d'Etalab sur **"Comment les administrations ont collaboré à l'ouverture des données du coronavirus : le cas français"**
+Retrouvez en complément de cette page l'article sur le blog d'Etalab sur **"Comment les administrations ont collaboré à l'ouverture des données de la COVID-19 : le cas français"**
 [Lire l'article sur le blog d'Etalab](https://www.etalab.gouv.fr/comment-les-administrations-ont-collabore-a-louverture-des-donnees-du-coronavirus-le-cas-francais)
 
 Pour ne rien manquer de l'actualité de data.gouv.fr et de l'open data, [inscrivez-vous à notre infolettre !](https://infolettres.etalab.gouv.fr/subscribe)
