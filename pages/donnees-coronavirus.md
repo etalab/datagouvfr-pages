@@ -12,75 +12,67 @@ reuses:
   - 5eaf2ba01129babe19848510
   - 5eb2c6d45adcbd021d7b6cd5
 datasets:
-  - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
-  - donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19
-  - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-hospitalieres-relatives-a-lepidemie-de-covid-19
-  - donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19
-  - donnees-relatives-aux-tests-de-depistage-de-covid-19-realises-en-laboratoire-de-ville
-  - niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19
-  - donnees-relatives-aux-resultats-des-tests-virologiques-covid-19
-  - taux-dincidence-de-lepidemie-de-covid-19
-  - donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc
-  - donnees-denquete-relatives-a-levolution-des-comportements-et-de-la-sante-mentale-pendant-lepidemie-de-covid-19-coviprev
+  - onnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19
   - capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19
-  - publications-francaises-covid19-referencees-dans-pubmed
-  - financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19
-  - aide-exceptionnelle-cpsti-rci-covid-19
-  - mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-employeurs-france-entiere-x-secteur-na88
+  - sites-de-prelevements-pour-les-tests-covid
+  - donnees-relatives-aux-resultats-des-tests-virologiques-covid-19
+  - fichier-des-personnes-decedees
+  - nombre-de-deces-quotidiens-par-departement
+  - donnees-de-la-carte-de-vigilance-covid-19
+  - indicateurs-de-suivi-de-lepidemie-de-covid-19
+  - taux-dincidence-de-lepidemie-de-covid-19
 ---
 # Les données relatives au COVID-19
 
 ## Données sanitaires
 
-**Les données de [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/) :**
+**Données hospitalières**
 
 - [Données hospitalières relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
 - [Données des urgences hospitalières et de SOS Médecins relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/)
-- [Données relatives aux tests de dépistage COVID-19 réalisés en laboratoires de ville](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-tests-de-depistage-de-covid-19-realises-en-laboratoire-de-ville/)
-- [Niveaux d'excès de mortalité standardisé pendant l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19/)
-- [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)
-- [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
-- [Données de certification électronique des décès associés au COVID-19 (CEPIDC)](https://www.data.gouv.fr/fr/datasets/donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc/)
-- [Données d'enquête relatives à l'évolution des comportements et de la santé mentale pendant le confinement (COVIPREV)](https://www.data.gouv.fr/fr/datasets/donnees-denquete-relatives-a-levolution-des-comportements-et-de-la-sante-mentale-pendant-le-confinement-coviprev/)
+
+**Données relatifs au tests**
+
 - [Capacité analytique de tests virologiques dans le cadre de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19/)
+- [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
+- [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)
 
-**Les données du [Ministère des solidarités et de la santé](https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/)**
+**Données relatifs aux décès**
 
-- [Sites de prélèvements pour les tests COVID-19](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
-- [Indicateurs d'activité épidémique COVID-19 par département](https://www.data.gouv.fr/fr/datasets/indicateurs-dactivite-epidemique-covid-19-par-departement/)
+- [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
+- [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
+
+**Indicateurs**
+
 - [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
+- [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
+- [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
 
-## Données de la recherche 
+## Données d'information
 
-**Les données du [Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation](https://www.data.gouv.fr/fr/organizations/enseignement-superieur-et-recherche/):**
-
-- [Les publications françaises #Covid19 référencées dans PubMed](https://www.data.gouv.fr/fr/datasets/publications-francaises-covid19-referencees-dans-pubmed/)
-- [Les financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19](https://www.data.gouv.fr/fr/datasets/financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19/)
-
-## Données économiques
-
-**Les [données de l'URSAFF](https://www.data.gouv.fr/fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/):**
-
-- [Aide exceptionnelle "CPSTI RCI COVID-19"](https://www.data.gouv.fr/fr/datasets/aide-exceptionnelle-cpsti-rci-covid-19/)
-- [Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (employeurs), France entière x secteur NA88](https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-employeurs-france-entiere-x-secteur-na88/)
-- [Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (employeurs), par département x grand secteur](https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-employeurs-par-departement-x-grand-secteur/)
-
-**Les données mises à disposition avec l'appui [d'Etalab](https://www.data.gouv.fr/fr/organizations/etalab/):**
-
-- [Données relatives aux prêts garantis par l'Etat dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/)
-- [Données relatives aux reports d'échéances fiscales accordées dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/)
-- [Données relatives au dispositif d'activité partielle mis en œuvre dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/)
-
-## Données démographiques
-
-**Les données mises à disposition par [l'INSEE](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/):**
+- [Données issues du questionnaire d’orientation COVID-19 du Service d’information du Gouvernement (SIG)](https://www.data.gouv.fr/fr/datasets/donnees-issues-du-questionnaire-dorientation-covid-19-du-service-dinformation-du-gouvernement-sig/)
+- [Contenu textuel de la Foire Aux Questions « info entreprises COVID19 »](https://www.data.gouv.fr/fr/datasets/contenu-textuel-de-la-foire-aux-questions-info-entreprises-covid19/)
+- [Foires aux questions publiées par les administrations dans le cadre de la gestion de la pandémie Covid-19](https://www.data.gouv.fr/fr/datasets/foires-aux-questions-publiees-par-les-administrations-dans-le-cadre-de-la-gestion-de-la-pandemie-covid-19/)
+- [Liste des liens URL redirigeant vers les consignes préféctorales dans le cadre du Covid-19](https://www.data.gouv.fr/fr/datasets/liste-des-liens-url-redirigeant-vers-les-consignes-prefectorales-dans-le-cadre-du-covid-19/)
 - [Population présente sur le territoire avant et après le début du confinement – Premiers résultats](https://www.data.gouv.fr/fr/datasets/population-presente-sur-le-territoire-avant-et-apres-le-debut-du-confinement-premiers-resultats/)
-- [Nombre de décès quotidien par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/) 
+
+## Données des territoires
+
+Plusieurs villes et collectivités locales ont publié des jeux de données de toutes sortes relatives au Covid-19. Voici quelques exemples :  
+
+- La Ville d'Antibes publie [les arrêtés de police réglementaires relatifs au Covid-19](https://www.data.gouv.fr/fr/datasets/covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes/)
+- La région Provence Alpes Côte d’Azur collecte [les données sur les initiatives des communautés de Makers Covid-19](https://www.data.gouv.fr/fr/datasets/covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur/)
+
+**Données géographiques**
+
+- Nantes Métropole a publié les données des  [aménagements cyclables temporaires](https://www.data.gouv.fr/fr/datasets/amenagements-cyclables-de-nantes-metropole-crise-sanitaire-covid-19/)
+- Délimitation géographique du port du masque obligatoire [à Grenoble](https://www.data.gouv.fr/fr/datasets/delimitation-geographique-du-port-du-masque-obligatoire/) et [à Nantes](https://www.data.gouv.fr/fr/datasets/zones-de-port-du-masque-obligatoire-de-la-ville-de-nantes-crise-sanitaire-covid-19/)
+- La Ville de Toulouse a mis à jour [la liste des autorisations d’occupation du domaine public, avec les extensions dues au Covid](https://www.data.gouv.fr/fr/datasets/terrasses-autorisees-ville-de-toulouse-1/)
 
 ## Les réutilisations de données
 
-Les données relatives au coronavirus, particulièrement les données de Santé publique France, ont donné lieu à de nombreuses réutilisations sur data.gouv.fr.
+Les données relatives au coronavirus ont donné lieu à de nombreuses réutilisations sur data.gouv.fr.
 
 #### Le tableau de bord de suivi de l'épidémie sur le site du gouvernement
 
@@ -99,3 +91,4 @@ En continuité de l'initiative « OpenCOVID19 », l’équipe d’Etalab a trava
 Retrouvez en complément de cette page l'article sur le blog d'Etalab sur **"Comment les administrations ont collaboré à l'ouverture des données du coronavirus : le cas français"**
 [Lire l'article sur le blog d'Etalab](https://www.etalab.gouv.fr/comment-les-administrations-ont-collabore-a-louverture-des-donnees-du-coronavirus-le-cas-francais)
 
+Pour ne rien manquer de l'actualité de data.gouv.fr et de l'open data, [inscrivez-vous à notre infolettre !](https://infolettres.etalab.gouv.fr/subscribe)
