@@ -43,7 +43,7 @@ datasets:
 - [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
 
-**Indicateurs**
+**Indicateurs de suivi de l'épidémie** 
 
 - [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 - [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
