@@ -58,6 +58,11 @@ Il est également possible de consulter les données sur [le tableau de bord des
 - [Données relatives aux prêts garantis par l’Etat dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Données relatives aux reports d'échéances fiscales accordés dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/)
 
+## Données de la recherche
+
+- [Financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19](https://www.data.gouv.fr/fr/datasets/financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19/)
+- [Publications françaises #Covid19 référencées dans PubMed](https://www.data.gouv.fr/fr/datasets/publications-francaises-covid19-referencees-dans-pubmed/)
+
 ## Données d'information
 
 - [Données issues du questionnaire d’orientation COVID-19 du Service d’information du Gouvernement (SIG)](https://www.data.gouv.fr/fr/datasets/donnees-issues-du-questionnaire-dorientation-covid-19-du-service-dinformation-du-gouvernement-sig/)
