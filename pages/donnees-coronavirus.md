@@ -78,7 +78,7 @@ Plusieurs villes et collectivités locales ont publié des jeux de données de t
 - La Ville d'Antibes publie [les arrêtés de police réglementaires relatifs au COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes/)
 - La région Provence Alpes Côte d’Azur collecte [les données sur les initiatives des communautés de Makers COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur/)
 
-**Données géographiques**
+**Mesures de politiques publiques territoriales**
 
 - Nantes Métropole a publié les données des  [aménagements cyclables temporaires](https://www.data.gouv.fr/fr/datasets/amenagements-cyclables-de-nantes-metropole-crise-sanitaire-covid-19/)
 - Délimitation géographique du port du masque obligatoire [à Grenoble](https://www.data.gouv.fr/fr/datasets/delimitation-geographique-du-port-du-masque-obligatoire/) et [à Nantes](https://www.data.gouv.fr/fr/datasets/zones-de-port-du-masque-obligatoire-de-la-ville-de-nantes-crise-sanitaire-covid-19/)
