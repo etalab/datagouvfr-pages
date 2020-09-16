@@ -33,7 +33,7 @@ datasets:
 - [Données des urgences hospitalières et de SOS Médecins relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/)
 - [Transferts de patients atteints de COVID-19](https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/)
 
-**Données relatives au tests**
+**Données relatives aux tests**
 
 - [Capacité analytique de tests virologiques dans le cadre de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19/)
 - [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
@@ -44,7 +44,7 @@ datasets:
 - [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
 
-Les jeux des données suivants n'ont pas été mis à jour récemment :
+Les jeux des données suivants ont été mis à disposition durant la première vague de l'épidémie. À noter qu'ils n'ont pas été mis à jour récemment :
 
 - [Données de certification électronique des décès associés au COVID-19 (CEPIDC)](https://www.data.gouv.fr/fr/datasets/donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc/)
 - [Niveaux d'excès de mortalité standardisé durant l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19/)
@@ -52,21 +52,18 @@ Les jeux des données suivants n'ont pas été mis à jour récemment :
 
 **Indicateurs de suivi de l'épidémie** 
 
-- [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 - [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
 - [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
+- [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 
 ## Données économiques
 
-Il est également possible de consulter les données sur [le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/).
+Afin de soutenir les entreprises directement impactées par la crise Covid-19, l'Etat a mis en place plusieurs dispositifs d'aides. Retrouvrez ci-dessous les données relatives aux aides versées par l'Etat aux entreprises : 
 
 - [Données relatives au dispositif d'activité partielle mis en oeuvre dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Données relatives au fonds de solidarité mis en place dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Données relatives aux prêts garantis par l’Etat dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Données relatives aux reports d'échéances fiscales accordés dans le cadre de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/)
-
-**Données sur les aides qui ne sont plus versées**
-
 - [Aide exceptionnelle « CPSTI RCI COVID-19 »](https://www.data.gouv.fr/fr/datasets/aide-exceptionnelle-cpsti-rci-covid-19/)
 - [Données relatives aux aides exceptionnelles aux artisans et commerçants dans le cadre de l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/)
 - [Les dispositifs de l'État en faveur des salariés des entreprises en difficulté](https://www.data.gouv.fr/fr/datasets/les-dispositifs-de-letat-en-faveur-des-salaries-des-entreprises-en-difficulte/)
@@ -76,6 +73,9 @@ Il est également possible de consulter les données sur [le tableau de bord des
 - Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (TI)
   - [France entière x secteur NA88](https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-france-entiere-x-secteur-na88/)
   - [Par département x grand secteur](https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-par-departement-x-grand-secteur/)
+
+Il est également possible de consulter les données sur [le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/).
+
 
 ## Données de la recherche
 
@@ -92,7 +92,7 @@ Il est également possible de consulter les données sur [le tableau de bord des
 
 ## Données des territoires
 
-Plusieurs villes et collectivités locales ont publié des jeux de données de toutes sortes relatives au COVID-19. Voici quelques exemples :  
+Plusieurs villes et collectivités locales ont publié des jeux de données relatifs au COVID-19. Voici quelques exemples :  
 
 - La Ville d'Antibes publie [les arrêtés de police réglementaires relatifs au COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes/)
 - La région Provence Alpes Côte d’Azur collecte [les données sur les initiatives des communautés de Makers COVID-19](https://www.data.gouv.fr/fr/datasets/covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur/)
@@ -105,6 +105,8 @@ Plusieurs villes et collectivités locales ont publié des jeux de données de t
 - La Ville de Toulouse a mis à jour [la liste des autorisations d’occupation du domaine public, avec les extensions dues au Covid](https://www.data.gouv.fr/fr/datasets/terrasses-autorisees-ville-de-toulouse-1/)
 - [Lieux de distribution de masques à Marseille](https://www.data.gouv.fr/fr/datasets/marseille-lieux-de-distribution-de-masques/)
 - [Distributeurs de gel hydro-alcoolique à Orléans](https://www.data.gouv.fr/fr/datasets/distributeurs-de-gel-hydro-alcoolique-ville-dorleans/)
+- [Liste des sites de distribution des masques à Issy-les-Moulineaux](https://www.data.gouv.fr/fr/datasets/liste-des-sites-de-distribution-des-masques/). À noter que ce jeu de données n'est pas à jour. 
+- [Liste des sites de distribution des masques à Issy-les-Moulineaux](https://www.data.gouv.fr/fr/datasets/liste-des-sites-de-distribution-des-masques/). À noter que ce jeu de données n'est pas à jour. 
 
 **Données relatives au confinement**
 
@@ -114,30 +116,11 @@ Plusieurs villes et collectivités locales ont publié des jeux de données de t
   - [Commerces des marchés qui livrent en temps de confinement](https://www.data.gouv.fr/fr/datasets/liste-des-commerces-des-marches-qui-livrent-en-temps-de-confinement/)
   - [Commerces qui proposent une livraison à domicile en période de confinement](https://www.data.gouv.fr/fr/datasets/liste-des-commerces-isseens-qui-proposent-une-livraison-a-domicile-durant-le-covid-19/)
 - [Écoles de regroupement de Marseille ouvertes pendant le confinement](https://www.data.gouv.fr/fr/datasets/marseille-covid19-ecoles-de-regroupement/)
-
-**Données pas à jour**
-
 - [Recensement Commerces, établissements et services ouverts pendant la période COVID-19 dans l'agglomération de Nevers](https://www.data.gouv.fr/fr/datasets/recensement-commerces-ets-et-services-ouverts-pendant-la-periode-covid-19/)
-- [Liste des sites de distribution des masques à Issy-les-Moulineaux](https://www.data.gouv.fr/fr/datasets/liste-des-sites-de-distribution-des-masques/)
-- [Liste des lieux de consultation dédiés aux patients présentant des symptômes de la COVID-19 à Toulouse](https://www.data.gouv.fr/fr/datasets/centres-de-consultations-covid-19/)
-
-## Organisations
-
-**Niveau nationale**
-
-- [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)
-- [Ministère des Solidarités et de la Santé](https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/)
-- [Etalab](https://www.data.gouv.fr/fr/organizations/etalab/)
-- [Institut National de la Statistique et des Etudes Economiques (Insee)](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/)
-- [Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales (URSSAF)](https://www.data.gouv.fr/fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/)
-- [Cour des comptes](https://www.data.gouv.fr/fr/organizations/cour-des-comptes/)
-- [Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation](https://www.data.gouv.fr/fr/organizations/enseignement-superieur-et-recherche/)
-- [Service d'Information du Gouvernement](https://www.data.gouv.fr/fr/organizations/service-d-information-du-gouvernement/)
-- [Direction Générale des Entreprises](https://www.data.gouv.fr/fr/organizations/direction-generale-des-entreprises/)
 
 ## Les réutilisations de données
 
-Les données relatives au COVID-19 ont donné lieu à de nombreuses réutilisations sur data.gouv.fr.
+Les données relatives au COVID-19 ont donné lieu à de nombreuses réutilisations sur data.gouv.fr. Parmi ces réutilisations, Etalab a participé au développement de deux outils de visualisation des données. 
 
 #### Le tableau de bord de suivi de l'épidémie sur le site du gouvernement
 
@@ -150,6 +133,18 @@ En continuité de l'initiative « OpenCOVID19 », l’équipe d’Etalab a trava
 À partir des données mises à disposition par les ministères économiques et financiers, les équipes d’Etalab ont développé un tableau de bord permettant de consulter et de visualiser les différentes aides accordées par l’état aux entreprises en fonction de leur secteur d'activité.
 
 [Consulter le tableau de bord des aides aux entreprises](https://aides-entreprises.data.gouv.fr/)
+
+## Liste des organisations qui publient des données relatives au Covid-19
+
+- [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)
+- [Ministère des Solidarités et de la Santé](https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/)
+- [Etalab](https://www.data.gouv.fr/fr/organizations/etalab/)
+- [Institut National de la Statistique et des Etudes Economiques (Insee)](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/)
+- [Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales (URSSAF)](https://www.data.gouv.fr/fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/)
+- [Cour des comptes](https://www.data.gouv.fr/fr/organizations/cour-des-comptes/)
+- [Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation](https://www.data.gouv.fr/fr/organizations/enseignement-superieur-et-recherche/)
+- [Service d'Information du Gouvernement](https://www.data.gouv.fr/fr/organizations/service-d-information-du-gouvernement/)
+- [Direction Générale des Entreprises](https://www.data.gouv.fr/fr/organizations/direction-generale-des-entreprises/)
 
 ## Article de blog
 
