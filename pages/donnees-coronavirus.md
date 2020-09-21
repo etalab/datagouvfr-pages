@@ -13,15 +13,55 @@ reuses:
   - 5eb2c6d45adcbd021d7b6cd5
 datasets:
   - donnees-hospitalieres-relatives-a-lepidemie-de-covid-19
-  - onnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19
+  - donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19
+  - transferts-de-patients-atteints-de-covid-19
   - capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19
   - sites-de-prelevements-pour-les-tests-covid
   - donnees-relatives-aux-resultats-des-tests-virologiques-covid-19
   - fichier-des-personnes-decedees
   - nombre-de-deces-quotidiens-par-departement
-  - donnees-de-la-carte-de-vigilance-covid-19
+  - donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc
+  - niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19
+  - nombre-de-deces-quotidiens-par-departement
   - indicateurs-de-suivi-de-lepidemie-de-covid-19
   - taux-dincidence-de-lepidemie-de-covid-19
+  - donnees-de-la-carte-de-vigilance-covid-19
+  - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
+  - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
+  - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
+  - donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19
+  - aide-exceptionnelle-cpsti-rci-covid-19
+  - donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19
+  - les-dispositifs-de-letat-en-faveur-des-salaries-des-entreprises-en-difficulte
+  - mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-employeurs-france-entiere-x-secteur-na88
+  - mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-employeurs-par-departement-x-grand-secteur
+  - mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-france-entiere-x-secteur-na88
+  - mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-par-departement-x-grand-secteur
+  - financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19
+  - publications-francaises-covid19-referencees-dans-pubmed
+  - donnees-issues-du-questionnaire-dorientation-covid-19-du-service-dinformation-du-gouvernement-sig
+  - contenu-textuel-de-la-foire-aux-questions-info-entreprises-covid19
+  - foires-aux-questions-publiees-par-les-administrations-dans-le-cadre-de-la-gestion-de-la-pandemie-covid-19
+  - liste-des-liens-url-redirigeant-vers-les-consignes-prefectorales-dans-le-cadre-du-covid-19
+  - population-presente-sur-le-territoire-avant-et-apres-le-debut-du-confinement-premiers-resultats
+  - covid-19-arretes-de-police-reglementaires-pris-par-le-maire-dantibes
+  - covid-19-indicateurs-de-production-des-communautes-de-makers-en-provence-alpes-cote-dazur
+  - musees-ouverts-pendant-lete-2020
+  - amenagements-cyclables-de-nantes-metropole-crise-sanitaire-covid-19
+  - delimitation-geographique-du-port-du-masque-obligatoire 
+  - zones-de-port-du-masque-obligatoire-de-la-ville-de-nantes-crise-sanitaire-covid-19
+  - terrasses-autorisees-ville-de-toulouse-1
+  - marseille-lieux-de-distribution-de-masques
+  - distributeurs-de-gel-hydro-alcoolique-ville-dorleans
+  - liste-des-sites-de-distribution-des-masques 
+  - liste-des-sites-de-distribution-des-masques
+  - covid19-commerces-alimentaires-ouverts-a-saint-nazaire
+  - les-commerces-alimentaires-isseens-ouverts-en-periode-de-confinement
+  - liste-des-commerces-des-marches-qui-livrent-en-temps-de-confinement
+  - liste-des-commerces-isseens-qui-proposent-une-livraison-a-domicile-durant-le-covid-19
+  - marseille-covid19-ecoles-de-regroupement
+  - recensement-commerces-ets-et-services-ouverts-pendant-la-periode-covid-19
+  
 ---
 # Les données relatives au COVID-19
 
