@@ -17,6 +17,7 @@ datasets:
 - les-finances-publiques-locales-2020-fascicule-1
 - les-finances-publiques-locales-2019
 - amendements-deposes-a-lassemblee-nationale-lies-aux-plf-et-plfss-2018-2019-2020
+- donnees-de-comptabilite-generale-de-letat
 - projet-de-loi-de-finances-pour-2020-plf-2020-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap
 - projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations
 - projets-de-loi-de-finances-redaction-de-1ere-lecture-au-senat-resultant-des-travaux-de-lassemblee-nationale
@@ -74,6 +75,7 @@ datasets:
 
 ### Par [le Ministère de l'Economie et des Finances](https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-et-des-finances/)
 
+- [Données de comptabilité générale de l'État](https://www.data.gouv.fr/fr/datasets/donnees-de-comptabilite-generale-de-letat/)
 - [Projet de loi de finances pour 2020 (PLF 2020), données du PLF et des annexes projet annuel de performance (PAP)](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap/)
 - [Projet de loi de finances pour 2020 (PLF 2020), données de l'annexe Jaune « Effort financier de l’État en faveur des associations »](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/)
 
