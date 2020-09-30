@@ -689,7 +689,7 @@ datasets:
 **Ressources/ Documentations**
 ============================
 
--   [Inventaire des données d'élections de la Ve République](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150219-181605/Tab_InventaireFichierÉlections.xls)
+-   [Inventaire des données d'élections de la Ve République](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150219-181605/Tab_InventaireFichierElections.xls)
 
 -   [Accès en téléchargement à l'ensemble des résultats des élections (municipales, cantonales, législatives, sénatoriales, européennes et référendums) de 2001 à 2014 au format XML.](http://www.interieur.gouv.fr/avotreservice/elections/telechargements/)
 
