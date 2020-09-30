@@ -37,6 +37,15 @@ datasets:
 - comptes-individuels-des-departements-et-des-collectivites-territoriales-uniques-fichier-global-a-compter-de-2008
 - comptes-individuels-des-regions-fichier-global-a-compter-de-2008
 - comptes-individuels-des-collectivites
+- comptes-consolides-des-regions-2012-2019
+- comptes-des-sdis-2012-2019
+- comptes-consolides-des-departements-2012-2019
+- comptes-des-communes-2012-2019
+- comptes-des-departements-2012-2019
+- comptes-des-regions-2012-2019
+- comptes-des-groupements-a-fiscalite-propre-2012-2019
+- comptes-consolides-des-communes-2012-2019
+- comptes-consolides-des-groupements-a-fiscalite-propre-2012-2019
 ---
 
 ## Données de [la cour des comptes](https://www.data.gouv.fr/fr/organizations/cour-des-comptes/)
@@ -44,6 +53,18 @@ datasets:
 - [Rapports d'observations définitives des Chambres Régionales des Comptes (CRC) et réponses associées ROD_et_reponses](https://www.data.gouv.fr/fr/datasets/rapports-dobservations-definitives-des-chambres-regionales-des-comptes-crc-et-reponses-associees-1/#_)
 - [Les finances publiques locales 2020 – Fascicule 1](https://www.data.gouv.fr/fr/datasets/les-finances-publiques-locales-2020-fascicule-1/)
 - [Les finances publiques locales 2019](https://www.data.gouv.fr/fr/datasets/les-finances-publiques-locales-2019/)
+
+## Données de l'[Observatoire des Finances et de la Gestion publique Locales](https://www.data.gouv.fr/fr/organizations/observatoire-des-finances-et-de-la-gestion-publique-locales/)
+
+- [Comptes des régions 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-regions-2012-2019/)
+- [Comptes consolidés des groupements à fiscalité propre 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-groupements-a-fiscalite-propre-2012-2019/)
+- [Comptes consolidés des communes 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-communes-2012-2019/)
+- [Comptes des départements 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-departements-2012-2019/)
+- [Comptes des communes 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-communes-2012-2019/)
+- [Comptes des SDIS 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-sdis-2012-2019/)
+- [Comptes consolidés des régions 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-regions-2012-2019/)
+- [Comptes consolidés des départements 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-departements-2012-2019/)
+- [Comptes des groupements à fiscalité propre 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-groupements-a-fiscalite-propre-2012-2019/)
 
 ## Données relatives au projet de loi Finance (PLF)
 
