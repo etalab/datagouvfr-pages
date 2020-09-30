@@ -455,6 +455,12 @@ datasets:
     -   Résultats 1er et 2nd tours : [Résultats du scrutin proportionnel et liste des élus](https://www.data.gouv.fr/_uploads/resources/Senatoriales_2014.xlsx)
 -   **Elections sénatoriales partielles du 6 septembre 2015 dans les départements du Cantal et du Gers** :
     -   Résultats 1er et 2nd tours : [Résultats du scrutin proportionnel et liste des élus](https://www.data.gouv.fr/s/resources/resultats-des-elections-senatoriales-partielles-du-6-septembre-2015-cantal-gers/20150908-114758/senatoriales_partielles_6_sept_2015.xlsx)
+-   **Elections sénatoriales 2017** :
+    -   [Liste des candidats](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-du-24-septembre-2017-liste-des-candidats/)
+    -   [Résultats du scrutin majoritaire, tours 1 et 2, scrutin proportionnel et liste des élus](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-2017-resultats/)
+-   **Elections sénatoriales 2020** :
+    -   [Candidatures au premier tour](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-candidatures-au-t1/)
+    -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-resultats/)
 
 
 
