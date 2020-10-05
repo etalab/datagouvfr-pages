@@ -112,7 +112,7 @@ La [Direction générale des collectivités locales (DGCL)](https://www.data.gou
 
 - [Critères de répartition des dotations versées par l’Etat aux collectivités territoriales ](https://www.data.gouv.fr/fr/datasets/criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales/)
 
-## Le fonctionnement des intercommunaulités
+## Le fonctionnement des intercommunalités
 
 L'expression "intercommunalité" désigne les différentes formes de coopérations existantes entre les communes.
 
