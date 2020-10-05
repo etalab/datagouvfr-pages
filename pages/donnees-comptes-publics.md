@@ -37,6 +37,15 @@ datasets:
 - comptes-individuels-des-departements-et-des-collectivites-territoriales-uniques-fichier-global-a-compter-de-2008
 - comptes-individuels-des-regions-fichier-global-a-compter-de-2008
 - comptes-individuels-des-collectivites
+- comptes-des-regions-2012-2019
+- comptes-consolides-des-groupements-a-fiscalite-propre-2012-2019
+- comptes-consolides-des-communes-2012-2019
+- comptes-des-departements-2012-2019
+- comptes-des-communes-2012-2019
+- comptes-des-sdis-2012-2019
+- comptes-consolides-des-regions-2012-2019
+- comptes-consolides-des-departements-2012-2019
+- comptes-des-groupements-a-fiscalite-propre-2012-2019
 ---
 
 
@@ -83,9 +92,17 @@ Le Ministère de l'Economie et des Finances met à disposition en open data les 
 
 Pour plus d’informations, vous pouvez [télécharger la note méthodologique](https://www.impots.gouv.fr/cll/application/pdf/methodo_commune.pdf).
 
-Par ailleurs, l'observatoire des finances et de la gestion publique locales (OFGL) utiliser les données publiées par le Ministère de l'Economie et des Finances afin de proposer des comptes consolidés  : 
+Par ailleurs, l'[observatoire des finances et de la gestion publique locales](https://www.data.gouv.fr/fr/organizations/observatoire-des-finances-et-de-la-gestion-publique-locales/) (OFGL) utiliser les données publiées par le Ministère de l'Economie et des Finances afin de proposer des comptes consolidés  : 
 
--[Plateforme des données ouvertes de l'observatoire des finances et de la gestion publique locales](https://data.ofgl.fr/pages/accueil/)
+- [Comptes des régions 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-regions-2012-2019/)
+- [Comptes consolidés des groupements à fiscalité propre 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-groupements-a-fiscalite-propre-2012-2019/)
+- [Comptes consolidés des communes 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-communes-2012-2019/)
+- [Comptes des départements 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-departements-2012-2019/)
+- [Comptes des communes 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-communes-2012-2019/)
+- [Comptes des SDIS 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-sdis-2012-2019/)
+- [Comptes consolidés des régions 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-regions-2012-2019/)
+- [Comptes consolidés des départements 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-consolides-des-departements-2012-2019/)
+- [Comptes des groupements à fiscalité propre 2012-2019](https://www.data.gouv.fr/fr/datasets/comptes-des-groupements-a-fiscalite-propre-2012-2019/)
 
 ## Les critères de répartition des dotations 
 
