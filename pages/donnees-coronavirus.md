@@ -26,6 +26,8 @@ datasets:
   - indicateurs-de-suivi-de-lepidemie-de-covid-19
   - taux-dincidence-de-lepidemie-de-covid-19
   - donnees-de-la-carte-de-vigilance-covid-19
+  - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
+  - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
   - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
@@ -95,6 +97,8 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
 - [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
 - [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
+- [Taux d'incidence de l'épidémie de COVID-19 par métropole](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole/)
+- [Part des patients COVID-19 dans les réanimations](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations/)
 
 ## Données économiques
 
