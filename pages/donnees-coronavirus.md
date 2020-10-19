@@ -28,6 +28,7 @@ datasets:
   - donnees-de-la-carte-de-vigilance-covid-19
   - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
   - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
+  - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
   - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
