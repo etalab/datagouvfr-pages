@@ -101,6 +101,9 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Taux d'incidence de l'épidémie de COVID-19 par métropole](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole/)
 - [Part des patients COVID-19 dans les réanimations](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations/)
 
+[**Vue d'ensemble des données relatives à l'épidemie**](https://www.data.gouv.fr/fr/datasets/donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble/)
+
+
 ## Données économiques
 
 Afin de soutenir les entreprises directement impactées par la crise Covid-19, l'Etat a mis en place plusieurs dispositifs d'aides. Retrouvrez ci-dessous les données relatives aux aides versées par l'Etat aux entreprises : 
