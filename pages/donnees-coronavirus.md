@@ -26,6 +26,9 @@ datasets:
   - indicateurs-de-suivi-de-lepidemie-de-covid-19
   - taux-dincidence-de-lepidemie-de-covid-19
   - donnees-de-la-carte-de-vigilance-covid-19
+  - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
+  - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
+  - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
   - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
@@ -71,30 +74,36 @@ datasets:
 
 - [Données hospitalières relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
 - [Données des urgences hospitalières et de SOS Médecins relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/)
+- [Part des patients COVID-19 dans les réanimations](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations/)
 - [Transferts de patients atteints de COVID-19](https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/)
 
 **Données relatives aux tests**
 
 - [Capacité analytique de tests virologiques dans le cadre de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19/)
-- [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 - [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)
+- [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
+- [Taux d'incidence de l'épidémie de COVID-19 par métropole (SI-DEP)](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole/)
+- [Données de laboratoires infra-départementales durant l'épidémie COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-infra-departementales-durant-lepidemie-covid-19/)
+- [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 
 **Données relatives aux décès**
 
 - [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
 
+**Indicateurs de suivi de l'épidémie** 
+
+- [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
+- [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
+
+[**Vue d'ensemble des données relatives à l'épidemie**](https://www.data.gouv.fr/fr/datasets/donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble/)
+
+
 Les jeux des données suivants ont été mis à disposition durant la première vague de l'épidémie. À noter qu'ils n'ont pas été mis à jour récemment :
 
 - [Données de certification électronique des décès associés au COVID-19 (CEPIDC)](https://www.data.gouv.fr/fr/datasets/donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc/)
 - [Niveaux d'excès de mortalité standardisé durant l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
-
-**Indicateurs de suivi de l'épidémie** 
-
-- [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
-- [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
-- [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 
 ## Données économiques
 
