@@ -1,5 +1,5 @@
 ---
-title: Les données relatives aux comptes publics de l'Etat
+title: Les données relatives aux comptes publics
 keywords:
   - données
   - opendata
@@ -64,7 +64,7 @@ datasets:
 - certification-des-comptes-2017-du-regime-general-de-securite-sociale
 - certification-des-comptes-2019-du-regime-general-de-securite-sociale
 ---
-# Les données relatives aux comptes publics de l'État
+# Les données relatives aux comptes publics
 
 ## Les balances comptables 
 
