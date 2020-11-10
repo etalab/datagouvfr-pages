@@ -1,5 +1,5 @@
 ---
-title: Les données relatives aux comptes publics de l'Etat
+title: Les données relatives aux comptes publics
 keywords:
   - données
   - opendata
@@ -46,9 +46,26 @@ datasets:
 - comptes-consolides-des-regions-2012-2019
 - comptes-consolides-des-departements-2012-2019
 - comptes-des-groupements-a-fiscalite-propre-2012-2019
+- budget-de-letat-exercice-2012
+- budget-de-letat-exercice-2013-1
+- budget-de-letat-exercice-2014
+- budget-de-letat-exercice-2015-resultats-et-gestion
+- le-budget-de-letat-en-2016-resultats-et-gestion
+- le-budget-de-letat-en-2017-resultats-et-gestion
+- le-budget-de-letat-en-2018-resultats-et-gestion-1
+- le-budget-de-letat-en-2019-resultats-et-gestion
+- compte-general-de-letat-2006-2014
+- certification-des-comptes-de-letat-pour-lexercice-2015
+- certification-des-comptes-de-letat-pour-lexercice-2016
+- certification-des-comptes-2017-de-letat
+- certification-des-comptes-2019-de-letat
+- certification-des-comptes-du-regime-general-de-securite-sociale-2015-1
+- certification-des-comptes-du-regime-general-de-securite-sociale-exercice-2016
+- certification-des-comptes-2017-du-regime-general-de-securite-sociale
+- certification-des-comptes-2019-du-regime-general-de-securite-sociale
 ---
 
-# Les données relatives aux comptes publics de l'Etat
+# Les données relatives aux comptes publics
 
 ## Les balances comptables 
 
@@ -165,3 +182,24 @@ Enfin, le Sénat publie en open data :
 ## Les rapports relatifs aux comptes publics 
 
 La [Cour des comptes](https://www.data.gouv.fr/fr/organizations/cour-des-comptes/) publie différents rapports relatifs aux comptes publics : 
+
+- Budget de l'État 
+  - [Exercice 2012](https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2012/)
+  - [Exercice 2013](https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2013-1/)
+  - [Exercice 2014](https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/)
+  - [Exercice 2015 (résultats et gestion)](https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2015-resultats-et-gestion/)
+  - [Exercice 2016 (résultats et gestion)](https://www.data.gouv.fr/fr/datasets/le-budget-de-letat-en-2016-resultats-et-gestion/)
+  - [Exercice 2017 (résultats et gestion)](https://www.data.gouv.fr/fr/datasets/le-budget-de-letat-en-2017-resultats-et-gestion/)
+  - [Exercice 2018 (résultats et gestion)](https://www.data.gouv.fr/fr/datasets/le-budget-de-letat-en-2018-resultats-et-gestion-1/)
+  - [Exercice 2019 (résultats et gestion)](https://www.data.gouv.fr/fr/datasets/le-budget-de-letat-en-2019-resultats-et-gestion/)
+- [Compte général de l’État (2006-2014)](https://www.data.gouv.fr/fr/datasets/compte-general-de-letat-2006-2014/)
+- Certification des comptes de l'État
+  - [Exercice 2015](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-de-letat-pour-lexercice-2015/)
+  - [Exercice 2016](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-de-letat-pour-lexercice-2016/)
+  - [Exercice 2017](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-2017-de-letat/)
+  - [Exercice 2019](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-2019-de-letat/)
+- Certification des comptes du régime général de sécurité sociale
+  - [Exercice 2015](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-du-regime-general-de-securite-sociale-2015-1/)
+  - [Exercice 2016](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-du-regime-general-de-securite-sociale-exercice-2016/)
+  - [Exercice 2017](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-2017-du-regime-general-de-securite-sociale/)
+  - [Exercice 2019](https://www.data.gouv.fr/fr/datasets/certification-des-comptes-2019-du-regime-general-de-securite-sociale/)
