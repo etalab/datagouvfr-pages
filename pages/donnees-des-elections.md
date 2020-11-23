@@ -38,8 +38,9 @@ datasets:
   - elections-senatoriales-du-24-septembre-2017-liste-des-candidats
 ---
 
-**Élections Municipales**
-=======================
+# Les données relatives aux élections et aux référendums
+
+## Élections Municipales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -73,8 +74,7 @@ datasets:
 
 -   **Élections municipales 2014** :
     -   _Candidatures_:
-        -   Candidatures par région pour les communes de moins de 1000 habitants (sous réserve des recours devant le tribunal administratif ou de refus de récépissés définitifs) : [Alsace](https://www.data.gouv.fr/storage/f/2014-03-11T14-43-15/alsace-candidats-moins-1-000-h.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-11T14-45-08/aquitaine-candidats-moins-1-000-h.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-11T14-47-29/auvergne-candidats-moins-1-000-h.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T14-49-23/basse-normandie-candidats-moins-1-000-h.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-11T14-48-15/bourgogne-candidats-moins-1-000-h.xls),[Bretagne](https://www.data.gouv.fr/storage/f/2014-03-11T14-49-59/bretagne-candidats-moins-1-000-h.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-11T14-50-42/centre-candidats-moins-1-000-h.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-11T14-52-27/champagne-ardenne-candidats-moins-1-000-h.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-11T14-54-18/corse.xls), [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-11T14-55-05/franche-comte-candidats-moins-1-000-h.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-11T14-55-56/guyane-candidats-moins-1-000-h.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T14-56-46/haute-normandie-candidats-moins-1-000-h.xls), [Ile-De-France](https://www.data.gouv.fr/storage/f/2014-03-11T14-57-29/ile-de-france-candidats-moins-1-000-h.xls), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-11T14-59-07/languedoc-roussillon-candidats-moins-1-000-h.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-11T14-59-50/limousin-candidats-moins-1-000-h.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-11T15-00-56/lorraine-candidats-moins-1-000-h.xls),
- [Martinique](https://www.data.gouv.fr/storage/f/2014-03-11T15-01-43/martinique-candidats-moins-1-000-h.xls),[Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-11T15-03-40/midi-pyrenees-candidats-moins-1-000-h.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-11T15-04-46/nord-pas-de-calais-candidats-moins-1-000-h.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-11T15-06-51/paca-candidats-moins-1-000-h.xls), [Pays de la Loire](https://www.data.gouv.fr/storage/f/2014-03-11T15-07-30/pays-de-la-loire-candidats-moins-1-000-h.xls),[Picardie](https://www.data.gouv.fr/storage/f/2014-03-11T15-08-15/picardie-candidats-moins-1-000-h.xls), [Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-11T15-08-57/poitou-charentes-candidats-moins-1-000-h.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-11T15-10-02/rhone-alpes-candidats-moins-1-000-h.xls)
+        -   Candidatures par région pour les communes de moins de 1000 habitants (sous réserve des recours devant le tribunal administratif ou de refus de récépissés définitifs) : [Alsace](https://www.data.gouv.fr/storage/f/2014-03-11T14-43-15/alsace-candidats-moins-1-000-h.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-11T14-45-08/aquitaine-candidats-moins-1-000-h.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-11T14-47-29/auvergne-candidats-moins-1-000-h.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T14-49-23/basse-normandie-candidats-moins-1-000-h.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-11T14-48-15/bourgogne-candidats-moins-1-000-h.xls),[Bretagne](https://www.data.gouv.fr/storage/f/2014-03-11T14-49-59/bretagne-candidats-moins-1-000-h.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-11T14-50-42/centre-candidats-moins-1-000-h.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-11T14-52-27/champagne-ardenne-candidats-moins-1-000-h.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-11T14-54-18/corse.xls), [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-11T14-55-05/franche-comte-candidats-moins-1-000-h.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-11T14-55-56/guyane-candidats-moins-1-000-h.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T14-56-46/haute-normandie-candidats-moins-1-000-h.xls), [Ile-De-France](https://www.data.gouv.fr/storage/f/2014-03-11T14-57-29/ile-de-france-candidats-moins-1-000-h.xls), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-11T14-59-07/languedoc-roussillon-candidats-moins-1-000-h.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-11T14-59-50/limousin-candidats-moins-1-000-h.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-11T15-00-56/lorraine-candidats-moins-1-000-h.xls),[Martinique](https://www.data.gouv.fr/storage/f/2014-03-11T15-01-43/martinique-candidats-moins-1-000-h.xls),[Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-11T15-03-40/midi-pyrenees-candidats-moins-1-000-h.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-11T15-04-46/nord-pas-de-calais-candidats-moins-1-000-h.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-11T15-06-51/paca-candidats-moins-1-000-h.xls), [Pays de la Loire](https://www.data.gouv.fr/storage/f/2014-03-11T15-07-30/pays-de-la-loire-candidats-moins-1-000-h.xls),[Picardie](https://www.data.gouv.fr/storage/f/2014-03-11T15-08-15/picardie-candidats-moins-1-000-h.xls), [Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-11T15-08-57/poitou-charentes-candidats-moins-1-000-h.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-11T15-10-02/rhone-alpes-candidats-moins-1-000-h.xls)
         -   Candidatures par région pour les communes de 1000 habitants et plus (sous réserve des recours devant le tribunal administratif ou de refus de récépissés définitifs) : [Alsace](https://www.data.gouv.fr/storage/f/2014-03-11T17-01-37/alsace-listes-detaillees-candidats-plus-1-000h.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-11T17-02-20/aquitaine-listes-detaillees-candidats-plus-1-000h.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-11T17-02-50/auvergne-listes-detaillees-candidats-plus-1-000h.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T17-03-21/basse-normandie-listes-detaillees-candidats-plus-1-000h.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-11T17-03-48/bourgogne-listes-detaillees-candidats-plus-1-000h.xls), [Bretagne](https://www.data.gouv.fr/storage/f/2014-03-11T17-04-13/bretagne-listes-detaillees-candidats-plus-1-000h.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-11T17-04-37/centre-listes-detaillees-candidats-plus-1-000h.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-11T17-05-08/champagne-ardenne-listes-detaillees-candidats-plus-1-000h.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-11T17-09-58/corse-listes-detaillees-candidats-plus-1-000h.xls), [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-11T17-11-23/franche-comte-listes-detaillees-candidats-plus-1-000h.xls), [Guadeloupe](https://www.data.gouv.fr/storage/f/2014-03-11T17-11-54/guadeloupe-listes-detaillees-candidats-plus-1-000h.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-11T17-12-18/guyane-listes-detaillees-candidats-plus-1-000h.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-11T17-12-49/haute-normandie-listes-detaillees-candidats-plus-1-000h.xls), Ile-De-France ([département 75 à 78](https://www.data.gouv.fr/storage/f/2014-03-11T17-14-05/ile-de-france-1ere-partie-75-78-listes-detaillees-candidats-plus-1-000h.xls) et [département 91 à 95](https://www.data.gouv.fr/storage/f/2014-03-11T17-14-50/ile-de-france-2eme-partie-91-95-listes-detaillees-candidats-plus-1-000h.xls)), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-11T17-16-11/languedoc-roussillon-listes-detaillees-candidats-plus-1-000h.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-11T17-19-29/limousin-listes-detaillees-candidats-plus-1-000h.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-11T17-20-54/lorraine-listes-detaillees-candidats-plus-1-000h.xls), [Martinique](https://www.data.gouv.fr/storage/f/2014-03-11T17-21-21/martinique-listes-detaillees-candidats-plus-1-000h.xls), [Mayotte](https://www.data.gouv.fr/storage/f/2014-03-11T17-21-52/mayotte-listes-detaillees-candidats-plus-1-000h.xls), [Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-11T17-22-22/midi-pyrenees-listes-detaillees-candidats-plus-1-000h.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-11T17-23-33/nord-pas-de-calais-listes-detaillees-candidats-plus-1-000h.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-11T17-24-50/paca-listes-detaillees-candidats-plus-1-000h.xls),[Pays de la Loire](https://www.data.gouv.fr/storage/f/2014-03-11T17-26-16/pays-de-la-loire-listes-detaillees-candidats-plus-1-000h.xls), [Picardie](https://www.data.gouv.fr/storage/f/2014-03-11T17-26-57/picardie-listes-detaillees-candidats-plus-1-000h.xls),[Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-11T17-27-36/poitou-charentes-listes-detaillees-candidats-plus-1-000h.xls), [la Réunion](https://www.data.gouv.fr/storage/f/2014-03-11T17-15-33/la-reunion-listes-detaillees-candidats-plus-1-000h.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-11T17-28-16/rhone-alpes-listes-detaillees-candidats-plus-1-000h.xls).
         -   Candidatures par région pour les communes de 1000 habitants et plus (finaux) : [Alsace](https://www.data.gouv.fr/storage/f/2014-03-27T11-44-32/alsace-listes-detaillees-candidats-plus-1000h-t2.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-27T11-45-22/aquitaine-listes-detaillees-candidats-plus-1000h-t2.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-27T11-52-22/auvergne-listes-detaillees-candidats-plus-1000h-t2.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T11-53-00/basse-normandie-listes-detaillees-candidats-plus-1000h-t2.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-27T11-53-43/bourgogne-listes-detaillees-candidats-plus-1000h-t2.xls), [Bretagne](https://www.data.gouv.fr/storage/f/2014-03-27T11-54-27/bretagne-listes-detaillees-candidats-plus-1000h-t2.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-27T11-55-06/centre-listes-detaillees-candidats-plus-1000h-t2.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-27T11-55-41/champagne-ardennes-listes-detaillees-candidats-plus-1000h-t2.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-27T11-56-08/corse-listes-detaillees-candidats-plus-1000h-t2.xls), [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-27T11-56-43/franche-comte-listes-detaillees-candidats-plus-1000h-t2.xls), [Guadeloupe](https://www.data.gouv.fr/storage/f/2014-03-27T11-57-14/guadeloupe-listes-detaillees-candidats-plus-1000h-t2.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-27T11-57-44/guyane-listes-detaillees-candidats-plus-1000h-t2.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T11-58-24/haute-normandie-listes-detaillees-candidats-plus-1000h-t2.xls), [Ile-De-France](https://www.data.gouv.fr/storage/f/2014-03-27T11-59-04/ile-de-france-listes-detaillees-candidats-plus-1000h-t2.xls), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-27T11-59-41/languedoc-roussillon-listes-detaillees-candidats-plus-1000h-t2.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-27T12-00-18/limousin-listes-detaillees-candidats-plus-1000h-t2.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-27T12-00-53/lorraine-listes-detaillees-candidats-plus-1000h-t2.xls), [Martinique](https://www.data.gouv.fr/storage/f/2014-03-27T12-01-23/martinique-listes-detaillees-candidats-plus-1000h-t2.xls), [Mayotte](https://www.data.gouv.fr/storage/f/2014-03-27T12-01-56/mayotte-listes-detaillees-candidats-plus-1000h-t2.xls), [Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-27T12-02-34/midi-pyrenees-listes-detaillees-candidats-plus-1000h-t2.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-27T12-03-07/nord-pas-de-calais-listes-detaillees-candidats-plus-1000h-t2.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-27T12-03-46/paca-listes-detaillees-candidats-plus-1000h-t2.xls), [Pays-de-la-Loire](https://www.data.gouv.fr/storage/f/2014-03-27T12-04-20/pays-de-loire-listes-detaillees-candidats-plus-1000h-t2.xls), [Picardie](https://www.data.gouv.fr/storage/f/2014-03-27T12-04-53/picardie-listes-detaillees-candidats-plus-1000h-t2.xls), [Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-27T12-05-28/poitou-charentes-listes-detaillees-candidats-plus-1000h-t2.xls), [La Réunion](https://www.data.gouv.fr/storage/f/2014-03-27T12-06-13/reunion-listes-detaillees-candidats-plus-1000h-t2.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-27T12-06-48/rhones-alpes-listes-detaillees-candidats-plus-1000h-t2.xls).
 
@@ -84,11 +84,7 @@ datasets:
         -   Résultats 1er et 2nd tours : [par bureaux de vote](https://www.data.gouv.fr/s/resources/elections-municipales-2014-resultats-par-bureaux-de-vote/20150925-122128/MN14_Bvot_T1T2.txt)
         -   Résultats 1er et 2nd tours : [pour les communes de moins de 1 000 habitants](https://www.data.gouv.fr/storage/f/2014-03-31T09-51-08/muni-2014-resultats-com-moins-1000-t2.txt)
         -   Résultats 1er et 2nd tours : [pour les communes de 1 000 habitants et plus](https://www.data.gouv.fr/storage/f/2014-03-31T09-49-28/muni-2014-resultats-com-1000-et-plus-t2.txt)
-        -   Résultats 1er et 2nd tours par région pour les communes de moins de 1000 habitants :
- [Alsace](https://www.data.gouv.fr/storage/f/2014-03-27T12-12-39/alsace-candidats-moins-1000h-t2.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-27T12-13-43/aquitaine-candidats-moins-1000h-t2.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-27T12-14-24/auvergne-candidats-moins-1000h-t2.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T12-14-54/basse-normandie-candidats-moins-1000h-t2.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-27T12-15-16/bourgogne-candidats-moins-1000h-t2.xls),
- [Bretagne](https://www.data.gouv.fr/storage/f/2014-03-27T12-15-38/bretagne-candidats-moins-1000h-t2.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-01/centre-candidats-moins-1000h-t2.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-35/champagne-ardennes-candidats-moins-1000h-t2.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-57/corse-candidats-moins-1000h-t2.xls),
- [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-27T12-17-20/franche-comte-candidats-moins-1000h-t2.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-27T12-17-42/guyane-candidats-moins-1000h-t2.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-09/haute-normandie-candidats-moins-1000h-t2.xls), [Ile-De-France](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-31/ile-de-france-candidats-moins-1000h-t2.xlshttps:/www.data.gouv.fr/storage/f/2014-03-27T12-18-09/haute-normandie-candidats-moins-1000h-t2.xls), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-55/languedoc-roussillon-candidats-moins-1000h-t2.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-27T12-19-14/limousin-candidats-moins-1000h-t2.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-27T12-19-38/lorraine-candidats-moins-1000h-t2.xls),
- [Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-27T12-20-07/midi-pyrenees-candidats-moins-1000h-t2.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-27T12-20-31/nord-pas-de-calais-candidats-moins-1000h-t2.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-02/paca-candidats-moins-1000h-t2.xls), [Pays-de-la-Loire](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-30/pays-de-la-loire-candidats-moins-1000h-t2.xls), [Picardie](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-54/picardie-candidats-moins-1000h-t2.xls), [Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-27T12-22-25/poitou-charentes-candidats-moins-1000h-t2.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-27T12-22-55/rhone-alpes-candidats-moins-1000h-t2.xls).
+        -   Résultats 1er et 2nd tours par région pour les communes de moins de 1000 habitants : [Alsace](https://www.data.gouv.fr/storage/f/2014-03-27T12-12-39/alsace-candidats-moins-1000h-t2.xls), [Aquitaine](https://www.data.gouv.fr/storage/f/2014-03-27T12-13-43/aquitaine-candidats-moins-1000h-t2.xls), [Auvergne](https://www.data.gouv.fr/storage/f/2014-03-27T12-14-24/auvergne-candidats-moins-1000h-t2.xls), [Basse-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T12-14-54/basse-normandie-candidats-moins-1000h-t2.xls), [Bourgogne](https://www.data.gouv.fr/storage/f/2014-03-27T12-15-16/bourgogne-candidats-moins-1000h-t2.xls), [Bretagne](https://www.data.gouv.fr/storage/f/2014-03-27T12-15-38/bretagne-candidats-moins-1000h-t2.xls), [Centre](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-01/centre-candidats-moins-1000h-t2.xls), [Champagne-Ardennes](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-35/champagne-ardennes-candidats-moins-1000h-t2.xls), [Corse](https://www.data.gouv.fr/storage/f/2014-03-27T12-16-57/corse-candidats-moins-1000h-t2.xls), [Franche-Comté](https://www.data.gouv.fr/storage/f/2014-03-27T12-17-20/franche-comte-candidats-moins-1000h-t2.xls), [Guyane](https://www.data.gouv.fr/storage/f/2014-03-27T12-17-42/guyane-candidats-moins-1000h-t2.xls), [Haute-Normandie](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-09/haute-normandie-candidats-moins-1000h-t2.xls), [Ile-De-France](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-31/ile-de-france-candidats-moins-1000h-t2.xlshttps:/www.data.gouv.fr/storage/f/2014-03-27T12-18-09/haute-normandie-candidats-moins-1000h-t2.xls), [Languedoc-Roussillon](https://www.data.gouv.fr/storage/f/2014-03-27T12-18-55/languedoc-roussillon-candidats-moins-1000h-t2.xls), [Limousin](https://www.data.gouv.fr/storage/f/2014-03-27T12-19-14/limousin-candidats-moins-1000h-t2.xls), [Lorraine](https://www.data.gouv.fr/storage/f/2014-03-27T12-19-38/lorraine-candidats-moins-1000h-t2.xls), [Midi-Pyrénées](https://www.data.gouv.fr/storage/f/2014-03-27T12-20-07/midi-pyrenees-candidats-moins-1000h-t2.xls), [Nord-Pas-de-Calais](https://www.data.gouv.fr/storage/f/2014-03-27T12-20-31/nord-pas-de-calais-candidats-moins-1000h-t2.xls), [Provence-Alpes-Côte-d’Azur](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-02/paca-candidats-moins-1000h-t2.xls), [Pays-de-la-Loire](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-30/pays-de-la-loire-candidats-moins-1000h-t2.xls), [Picardie](https://www.data.gouv.fr/storage/f/2014-03-27T12-21-54/picardie-candidats-moins-1000h-t2.xls), [Poitou-Charentes](https://www.data.gouv.fr/storage/f/2014-03-27T12-22-25/poitou-charentes-candidats-moins-1000h-t2.xls), [Rhône-Alpes](https://www.data.gouv.fr/storage/f/2014-03-27T12-22-55/rhone-alpes-candidats-moins-1000h-t2.xls).
 
     -   _Liste des élus_ :
         -   Par département pour les communes de moins de 1000 habitants : [départements 1-19*](https://www.data.gouv.fr/storage/f/2014-03-31T15-45-28/muni-2014-elus-com-moins-1000h-01-19.xls), [départements 20-34](https://www.data.gouv.fr/storage/f/2014-03-31T15-46-24/muni-2014-elus-com-moins-1000h-2a-34.xls), [départements 35-52](https://www.data.gouv.fr/storage/f/2014-03-31T15-47-17/muni-2014-elus-com-moins-1000h-35-52.xls), [département 53-67](https://www.data.gouv.fr/storage/f/2014-03-31T15-48-08/muni-2014-elus-com-moins-1000h-53-67.xls), [départements 68-88](https://www.data.gouv.fr/storage/f/2014-03-31T15-48-59/muni-2014-elus-com-moins-1000h-68-88.xls), [départements 89-95](https://www.data.gouv.fr/storage/f/2014-03-31T15-49-49/muni-2014-elus-com-moins-1000h-89-95-om.xls).
@@ -113,8 +109,7 @@ datasets:
     -   Résultats 1e tour (pour les communes de plus de 1000 habitants) : [par bureaux de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2014_municipales/municipales-2014-résultats-bureaux_vote-tour1.csv) 
     -   Résultats 2nd tour (pour les communes de plus de 1000 habitants) : [par bureaux de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2014_municipales/municipales-2014-résultats-bureaux_vote-tour2.csv).
 
-**Élections Européennes**
-=======================
+## Élections Européennes
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -148,12 +143,7 @@ datasets:
     -   [Listes des candidats](https://www.data.gouv.fr/fr/datasets/elections-europeennes-du-26-mai-2019-les-candidatures-enregistrees/).
     -   [Résultats des élections européennes 2019](https://www.data.gouv.fr/fr/datasets/resultats-des-elections-europeennes-2019/).
 
-----------------------------------------------------------------------
-
-**Élections législatives**
-========================
-
-
+## Élections législatives
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
 - **Élections législatives des 11 et 18 juin 2017** :
@@ -308,12 +298,7 @@ datasets:
     -   [Contours des circonscriptions des législatives](http://www.toxicode.fr/circonscriptions_download) ([source](http://www.toxicode.fr/circonscriptions))
     -   [Liste des circonscriptions législatives françaises suite au redécoupage électoral de 2012](http://www.nosdonnees.fr/wiki/index.php/Image:Circonscriptions.csv) ([source](http://www.nosdonnees.fr/wiki/index.php/Image:Circonscriptions.csv))
 
-
-
-----------------------------------------------------------------------
-
-**Élections présidentielles**
-===========================
+## Élections présidentielles
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -428,12 +413,7 @@ datasets:
     - [Participation à midi et 17h en 2002, 2007 et 2012](http://komodo.regardscitoyens.org/public/presidentielles2012/historique/participation.csv)
     - [500 signatures des candidats aux élections présidentielles de 1995, 2002 et 2007](http://www.nosdonnees.fr/wiki/images/7/74/500_signatures_de_1995_à_2007.csv.gz)
 
-
-----------------------------------------------------------------------
-
-
-**Élections Sénatoriales**
-==========================
+## Élections Sénatoriales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -462,13 +442,7 @@ datasets:
     -   [Candidatures au premier tour](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-candidatures-au-t1/)
     -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-resultats/)
 
-
-
-----------------------------------------------------------------------
-
-
-**Élections régionales**
-====================
+##Élections régionales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -527,11 +501,7 @@ datasets:
     - [Au format XLS en une archive](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/community/20150204-171419/REGIONALES_1986-2010-xls.zip)
     - [Au format CSV avec leur documentation en une archive](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/community/20150204-171427/REGIONALES_1986-2010-csv.zip)
 
-
-----------------------------------------------------------------------
-
-**Élections Départementales**
-===========================
+## Élections Départementales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -550,14 +520,13 @@ datasets:
     -   Résultats 1er tour : [par bureaux de vote](http://www.nosdonnees.fr/dataset/5ded2968-d0cb-46b6-9bb9-7e0e45685707/resource/eac6a35c-125e-4960-95ca-782b721e47a8/download/electionsdepartementales2015resultatstour1bureauxdevote.csv.zip)
     -   Résultats 2nd tour : [par bureaux de vote](http://www.nosdonnees.fr/dataset/5ded2968-d0cb-46b6-9bb9-7e0e45685707/resource/de05d81d-9706-4ecb-aba4-0993f885e12a/download/electionsdepartementales2015resultatstour2bureauxdevote.csv.zip)
 
-----------------------------------------------------------------------
+## Élections métropolitaines
 
+- **Élections à la Métropole de Lyon du 2020**
+  - [Résultats du premier tour](https://www.data.gouv.fr/fr/datasets/resultats-du-premier-tour-des-elections-a-la-metropole-de-lyon-15-mars-2020/)
+  - [Résultats du second tour](https://www.data.gouv.fr/fr/datasets/resultats-du-second-tour-des-elections-a-la-metropole-de-lyon-28-juin-2020/)
 
-----------------------------------------------------------------------
-
-
-**Élections cantonales**
-======================
+## Élections cantonales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -655,12 +624,8 @@ datasets:
     -   Résultats 1e et 2nd tours : [tous les
 élus](http://www.nosdonnees.fr/wiki/images/c/c8/Cantonales_2011_elus_T1T2.ods)
     -   Résultats : [par canton](http://www.nosdonnees.fr/wiki/images/c/c8/Cantonales_2011_elus_T1T2.ods)
-
-
-----------------------------------------------------------------------
-
-**Référendum/ Consultations**
-============================
+    
+## Référendums et  Consultations
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
@@ -683,11 +648,11 @@ datasets:
 
 -   **Consultation du 26 juin 2016 des électeurs des communes de la Loire-Atlantique sur le projet de transfert de l’aéroport de Nantes-Atlantique sur la commune de Notre-Dame-des-Landes** :
     -   Résultats : [Résultats définitifs de la consultation validés par la Commission de recensement](https://www.data.gouv.fr/fr/datasets/r/b47a8e2b-4e93-4016-902f-ecd368dd5924)
+    
+-  **Consultation des électeurs de la Nouvelle-Calédonie du 4 octobre 2020**
+   -   [Résultats par bureau de vote](https://www.data.gouv.fr/fr/datasets/consultation-des-electeurs-de-la-nouvelle-caledonie-du-4-octobre-2020/)
 
-----------------------------------------------------------------------
-
-**Ressources/ Documentations**
-============================
+## Ressources/ Documentations
 
 -   [Inventaire des données d'élections de la Ve République](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150219-181605/Tab_InventaireFichierElections.xls)
 
