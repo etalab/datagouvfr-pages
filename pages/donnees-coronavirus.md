@@ -26,6 +26,7 @@ datasets:
   - indicateurs-de-suivi-de-lepidemie-de-covid-19
   - taux-dincidence-de-lepidemie-de-covid-19
   - donnees-de-la-carte-de-vigilance-covid-19
+  - metriques-dutilisation-de-lapplication-tousanticovid
   - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
   - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
   - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
@@ -133,6 +134,7 @@ Il est également possible de consulter les données sur [le tableau de bord des
 
 ## Données d'information
 
+- [Métriques d'utilisation de l'application TousAntiCovid](https://www.data.gouv.fr/fr/datasets/metriques-dutilisation-de-lapplication-tousanticovid/)
 - [Données issues du questionnaire d’orientation COVID-19 du Service d’information du Gouvernement (SIG)](https://www.data.gouv.fr/fr/datasets/donnees-issues-du-questionnaire-dorientation-covid-19-du-service-dinformation-du-gouvernement-sig/)
 - [Contenu textuel de la Foire Aux Questions « info entreprises COVID19 »](https://www.data.gouv.fr/fr/datasets/contenu-textuel-de-la-foire-aux-questions-info-entreprises-covid19/)
 - [Foires aux questions publiées par les administrations dans le cadre de la gestion de la pandémie Covid-19](https://www.data.gouv.fr/fr/datasets/foires-aux-questions-publiees-par-les-administrations-dans-le-cadre-de-la-gestion-de-la-pandemie-covid-19/)
