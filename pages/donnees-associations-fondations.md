@@ -52,6 +52,9 @@ Voir aussi :
 
 #### Par le Ministère de l'Economie et des Finances
 
+- [Projet de loi de finances pour 2021 (PLF 2021), données de l'annexe Jaune « Effort financier de l’État en faveur des associations »](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2021-plf-2021-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/)
+- [Projet de loi de finances pour 2020 (PLF 2020), données de l'annexe Jaune « Effort financier de l’État en faveur des associations »](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/)
+- [Projet de loi de finances pour 2019 (PLF 2019), données de l'annexe Jaune « Effort financier de l’État en faveur des associations »](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2019-plf-2019-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/)
 - [Projet de loi de finances pour 2018 (PLF 2018), données de l'annexe Jaune « Effort financier de l’État en faveur des associations »](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2018-plf-2018-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations-1/)
 - [Projet de loi de finances pour 2017 (PLF 2017), jaune effort financier de l’État en faveur des associations](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2017-plf-2017-jaune-effort-financier-de-letat-en-faveur-des-associations/#_)
 - [Projet de loi de finances pour 2016 (PLF 2016), jaune effort financier de l’État en faveur des associations](https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2016-plf-2016-jaune-effort-financier-de-letat-en-faveur-des-associations/)
