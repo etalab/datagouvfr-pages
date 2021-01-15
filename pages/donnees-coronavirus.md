@@ -30,6 +30,8 @@ datasets:
   - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
   - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
   - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
+  - donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19
+  - lieux-de-vaccination-contre-la-covid-19
   - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
@@ -105,6 +107,11 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Données de certification électronique des décès associés au COVID-19 (CEPIDC)](https://www.data.gouv.fr/fr/datasets/donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc/)
 - [Niveaux d'excès de mortalité standardisé durant l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
+
+## Données relatives aux vaccins
+
+- [Données relatives aux personnes vaccinées contre la Covid-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19/)
+- [Lieux de vaccination contre la Covid-19](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-covid-19/)
 
 ## Données économiques
 
