@@ -34,6 +34,7 @@ datasets:
   - lieux-de-vaccination-contre-la-covid-19
   - donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19
   - donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19
+  - donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19
   - donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19
   - donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19
@@ -116,6 +117,7 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Lieux de vaccination contre la Covid-19](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-covid-19/)
 - [Données relatives aux stocks des doses de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/)
 - [Données relatives aux livraisons de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19/)
+- [Données des rendez-vous pris dans des centres de vaccination contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19/)
 
 ## Données économiques
 
