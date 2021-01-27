@@ -30,7 +30,7 @@ datasets:
   - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
   - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
   - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
-  - donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19
+  - donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1
   - lieux-de-vaccination-contre-la-covid-19
   - donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19
   - donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19
@@ -112,7 +112,7 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 
 ## Données relatives aux vaccins
 
-- [Données relatives aux personnes vaccinées contre la Covid-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19/)
+- [Données relatives aux personnes vaccinées contre la Covid-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/)
 - [Lieux de vaccination contre la Covid-19](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-covid-19/)
 - [Données relatives aux stocks des doses de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/)
 - [Données relatives aux livraisons de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19/)
