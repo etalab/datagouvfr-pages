@@ -74,6 +74,8 @@ datasets:
 ---
 # Les données relatives au COVID-19
 
+> Cette page a pour vocation de référencer les principaux jeux de données relatifs à la COVID-19 disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md). 
+
 ## Données sanitaires
 
 **Données hospitalières**
