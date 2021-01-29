@@ -1,5 +1,5 @@
 ---
-title: Les données des élections
+title: Les données relatives aux élections
 keywords:
   - élections
   - électorales
