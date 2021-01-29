@@ -24,6 +24,8 @@ datasets:
 
 # Les données relatives aux associations et aux fondations
 
+> Cette page a pour vocation de référencer les principaux jeux de données relatifs aux associations et aux fondations disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/edit/master/pages/donnees-associations-fondations.md). 
+
 ### Données de référence et répertoires
 
 - [Répertoire National des Associations RNA](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/) par le [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
