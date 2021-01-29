@@ -40,6 +40,8 @@ datasets:
 
 # Les données relatives aux élections et aux référendums
 
+> Cette page a pour vocation de référencer les principaux jeux de données relatifs aux élections et aux référendums disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/edit/master/pages/donnees-des-elections.md). 
+
 ## Élections Municipales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
