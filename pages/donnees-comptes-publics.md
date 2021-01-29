@@ -67,6 +67,7 @@ datasets:
 
 # Les données relatives aux comptes publics
 
+> Cette page a pour vocation de référencer les principaux jeux de données relatifs aux comptes publics disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/edit/master/pages/donnees-comptes-publics.md). 
 ## Les balances comptables 
 
 La balance comptable est un document comptable qui reprend tous les comptes d’un organisme. Elle fait apparaître les soldes créditeurs et débiteurs sur la période de l'exercice. 
