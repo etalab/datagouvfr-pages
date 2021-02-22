@@ -105,6 +105,7 @@ datasets:
 - [Données de la carte de vigilance COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/)
 
 [**Vue d'ensemble des données relatives à l'épidemie**](https://www.data.gouv.fr/fr/datasets/synthese-des-indicateurs-de-suivi-de-lepidemie-covid-19/)
+
 [Ancien jeu de données de vue d'ensemble](https://www.data.gouv.fr/fr/datasets/donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble/)
 
 Les jeux des données suivants ont été mis à disposition durant la première vague de l'épidémie. À noter qu'ils n'ont pas été mis à jour récemment :
