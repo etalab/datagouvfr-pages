@@ -18,6 +18,7 @@ datasets:
   - capacite-analytique-de-tests-virologiques-dans-le-cadre-de-lepidemie-covid-19
   - sites-de-prelevements-pour-les-tests-covid
   - donnees-relatives-aux-resultats-des-tests-virologiques-covid-19
+  - donnees-de-laboratoires-pour-le-depistage-indicateurs-sur-les-variants
   - fichier-des-personnes-decedees
   - nombre-de-deces-quotidiens-par-departement
   - donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc
@@ -92,6 +93,7 @@ datasets:
 - [Taux d'incidence de l'épidémie de COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/taux-dincidence-de-lepidemie-de-covid-19/)
 - [Taux d'incidence de l'épidémie de COVID-19 par métropole (SI-DEP)](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole/)
 - [Données de laboratoires infra-départementales durant l'épidémie COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-infra-departementales-durant-lepidemie-covid-19/)
+- [Données de laboratoires pour le dépistage : Indicateurs sur les variants (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-indicateurs-sur-les-variants/)
 - [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 
 **Données relatives aux décès**
