@@ -14,7 +14,7 @@ datasets:
 ## Données clés par sujet
 
 Retrouvez ici une sélection de jeux de données clés regroupés par sujet :
-
+- [Les données de référence (Service public de la donnée)](https://www.data.gouv.fr/fr/reference)
 - [Les données relatives au COVID-19](https://www.data.gouv.fr/fr/pages/donnees-coronavirus)
 - [Les données des élections](https://www.data.gouv.fr/fr/pages/donnees-des-elections)
 - [Les données relatives aux associations et aux fondations](https://www.data.gouv.fr/fr/pages/donnees-associations-fondations)
