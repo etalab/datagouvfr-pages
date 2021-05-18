@@ -38,6 +38,7 @@ datasets:
   - donnees-relatives-aux-personnes-presentant-des-comorbidites-vaccinees-contre-la-covid-19
   - donnees-relatives-aux-personnes-tres-vulnerables-vaccinees-contre-la-covid-19
   - lieux-de-vaccination-contre-la-covid-19
+  - lieux-de-vaccination-covid-19-pharmacies-sante-fr
   - donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19
   - donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19
   - donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19
@@ -128,6 +129,7 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Données relatives aux personnes présentant des comorbidités vaccinées contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-presentant-des-comorbidites-vaccinees-contre-la-covid-19/)
 - [Données relatives aux personnes très vulnérables vaccinées contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-tres-vulnerables-vaccinees-contre-la-covid-19/)
 - [Lieux de vaccination contre la Covid-19](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-covid-19/)
+- [Lieux de vaccination Covid-19 (pharmacies) - Santé.fr](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-covid-19-pharmacies-sante-fr/)
 - [Données relatives aux stocks des doses de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/)
 - [Données relatives aux livraisons de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19/)
 - [Données des rendez-vous pris dans des centres de vaccination contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19/)
