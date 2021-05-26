@@ -32,7 +32,7 @@ datasets:
 
 Cette page a pour vocation de référencer les principaux jeux de données qui se prêtent bien à l’apprentissage automatique (*Machine Learning*) disponibles sur data.gouv.fr. Elle n’est pas exhaustive et est ouverte aux contributions.
 
-> Pour en savoir plus sur le contexte dans lequel s’inscrit ce catalogue et sur sa constuction vous pouvez lire [l’article dédié](https://pad.incubateur.net/DRI_u2gMQjq8qTkO4Q1_fg#). 
+> Pour en savoir plus sur le contexte dans lequel s’inscrit ce catalogue et sur sa constuction vous pouvez lire [l’article dédié](https://www.data.gouv.fr/fr/posts/les-donnees-ouvertes-pour-lapprentissage-automatique-machine-learning). 
 
 Nous proposons ici un **catalogue des jeux de données identifiés comme exploitables par des algorithmes d’apprentissage automatique regroupés par tâche.**
 Chaque jeu est accompagné : 
