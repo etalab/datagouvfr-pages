@@ -8,8 +8,26 @@ keywords:
 description: Les jeux de données qui se prêtent bien à l’apprentissage automatique (Machine Learning) disponibles sur data.gouv.fr.
 menu:
   - footer
----
+datasets:
+- emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france
+- liste-des-logements-proposes-en-airbnb-sur-bordeaux
+- agribalyse-r-synthese-1
+- donnees-carroyees-issues-du-dispositif-sur-les-revenus-localises-fiscaux-et-sociaux-filosofi
+- demandes-de-valeurs-foncieres
+- inventaire-de-gaz-a-effet-de-serre-territorialise
+- insertion-professionnelle-des-diplomes-de-master-en-universites-et-etablissements-assimil-0
+- bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2019
+- arbres-urbains
+- resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance
+- concentration-horaire-des-polluants-air-ambiant-ligair-orleans-metropole
+- donnees-brutes-de-contribution-anonymisees
+- donnees-hospitalieres-relatives-a-lepidemie-de-covid-19
+- donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19
+- indicateurs-de-suivi-de-lepidemie-de-covid-19
+- eclairage-public-de-la-ville-de-bethune-2017-2019-1
+- parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements
 
+---
 # Catalogue des datasets de *data.gouv.fr* pour le Machine Learning
 
 Cette page a pour vocation de référencer les principaux jeux de données qui se prêtent bien à l’apprentissage automatique (*Machine Learning*) disponibles sur data.gouv.fr. Elle n’est pas exhaustive et est ouverte aux contributions.
