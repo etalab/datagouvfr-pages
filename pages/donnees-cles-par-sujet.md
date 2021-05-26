@@ -19,4 +19,4 @@ Retrouvez ici une sélection de jeux de données clés regroupés par sujet :
 - [Les données des élections](https://www.data.gouv.fr/fr/pages/donnees-des-elections)
 - [Les données relatives aux associations et aux fondations](https://www.data.gouv.fr/fr/pages/donnees-associations-fondations)
 - [Les données relatives aux comptes publics](https://www.data.gouv.fr/fr/pages/donnees-comptes-publics)
-- [Les données données ouvertes pour l’apprentissage automatique (Machine Learning)](https://www.data.gouv.fr/fr/pages/donnees-machine-learning)
+- [Les données ouvertes pour l’apprentissage automatique (Machine Learning)](https://www.data.gouv.fr/fr/pages/donnees-machine-learning)
