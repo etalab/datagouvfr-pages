@@ -5,7 +5,7 @@ keywords:
   - IA
   - AI
   - apprentissage-automatique
-description: Les jeux de données qui se prêtent bien à l’apprentissage automatique (Machine Learning) disponibles sur data.gouv.fr.
+description: Les jeux de données qui se prêtent bien à l’apprentissage automatique (Machine Learning) disponibles sur data‧gouv.fr.
 menu:
   - footer
 datasets:
@@ -28,9 +28,9 @@ datasets:
 - parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements
 
 ---
-# Catalogue des datasets de *data.gouv.fr* pour le Machine Learning
+# Catalogue des datasets de *data‧gouv.fr* pour le Machine Learning
 
-Cette page a pour vocation de référencer les principaux jeux de données qui se prêtent bien à l’apprentissage automatique (*Machine Learning*) disponibles sur data.gouv.fr. Elle n’est pas exhaustive et est ouverte aux contributions.
+Cette page a pour vocation de référencer les principaux jeux de données qui se prêtent bien à l’apprentissage automatique (*Machine Learning*) disponibles sur data‧gouv.fr. Elle n’est pas exhaustive et est ouverte aux contributions.
 
 > Pour en savoir plus sur le contexte dans lequel s’inscrit ce catalogue et sur sa constuction vous pouvez lire [l’article dédié](https://www.data.gouv.fr/fr/posts/les-donnees-ouvertes-pour-lapprentissage-automatique-machine-learning). 
 
@@ -41,7 +41,7 @@ Chaque jeu est accompagné :
 
 > Pour davantage de lisibilité, l’inventaire présenté ici est également [disponible sous la forme d’une application.](https://datascience.etalab.studio/dgml/)
 
-*N.b.: Cette page est en cours de construction et est [ouvertes à la contribution](https://github.com/etalab/datagouvfr-pages/tree/master/pages) plus de jeux de données sont à venir. Le profiling a été effectué avec [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/) et les modèles ont été entrainés à l’aide de [mljar-supervised](https://supervised.mljar.com/)*.
+*N‧b.: Cette page est en cours de construction et est [ouvertes à la contribution](https://github.com/etalab/datagouvfr-pages/tree/master/pages) plus de jeux de données sont à venir. Le profiling a été effectué avec [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/) et les modèles ont été entrainés à l’aide de [mljar-supervised](https://supervised.mljar.com/)*.
 
 ### Régression
 
@@ -50,7 +50,7 @@ Chaque jeu est accompagné :
 *Ce jeu de données présente l’ensemble des caractéristiques techniques des véhicules commercialisés en France en 2013, ainsi que les consommations de carburant, les émissions de CO2 et de polluants de l’air.*  
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/6ff09b59-84ca-4346-a8d1-3587ed94da15.html)
   - [Modèle](https://etalab-ia.github.io/DGML/automodels/6ff09b59-84ca-4346-a8d1-3587ed94da15/README.html) (target variable: *CO2*)
-  - [Réutilisation data.gouv](https://www.data.gouv.fr/fr/reuses/predict-co2-emissions-of-different-cars/)
+  - [Réutilisation data‧gouv](https://www.data.gouv.fr/fr/reuses/predict-co2-emissions-of-different-cars/)
 
 [**Liste des logements proposés en Airbnb sur Bordeaux**](https://www.data.gouv.fr/en/datasets/liste-des-logements-proposes-en-airbnb-sur-bordeaux/)
 C*e jeu de données contient un recensement des caractéristiques des logements (prix par nuit, nombre de pièces, services disponibles, etc.) proposés par Airbnb à Bordeaux.*
@@ -66,7 +66,7 @@ C*e jeu de données contient un recensement des caractéristiques des logements 
 *Ces données proviennent du dispositif sur les revenus localisés sociaux et fiscaux (FiLoSoFi) et contiennent des variables sur la structure par âge des individus, sur les caractéristiques des ménages et des logements et sur les revenus de l’année 2015. On se restreint ici au jeu de données correspondant à la France métropolitaine.*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/aa50b408-49f4-4608-97fd-dd8fb21ef239.html)
   - [Modèle](https://etalab-ia.github.io/DGML/automodels/aa50b408-49f4-4608-97fd-dd8fb21ef239/README.html) (target variable: *Log_soc*)
-  - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/deep-learning-pour-la-prediction-de-la-densite/)
+  - [Réutilisation data‧gouv.fr](https://www.data.gouv.fr/fr/reuses/deep-learning-pour-la-prediction-de-la-densite/)
 
 [**Demande de valeurs foncières**](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) 
 *Publié et produit par la direction générale des finances publiques, ce jeu de données permet de connaître les transactions immobilières intervenues au cours des cinq dernières années sur le territoire métropolitain et les DOM-TOM. On se restreint ici aux données du premier trimestre de 2020.*
@@ -93,7 +93,7 @@ C*e jeu de données contient un recensement des caractéristiques des logements 
 Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux disponibles (caractéristique, lieux, véhicule, usager) dans un unique jeu de données.*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/6af37c98-0933-4ae4-8380-5f63212fb52a.html)
   - [Modèle](https://etalab-ia.github.io/DGML/automodels/6af37c98-0933-4ae4-8380-5f63212fb52a/README.html) (target variable: *grav*)
-  - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/machine-learning-pour-predire-la-gravite-des-accidents/)
+  - [Réutilisation data‧gouv.fr](https://www.data.gouv.fr/fr/reuses/machine-learning-pour-predire-la-gravite-des-accidents/)
 
 [**Arbres urbains**](https://www.data.gouv.fr/fr/datasets/arbres-urbains/)
 *Ce jeu de données comprend des informations sur la localisation, l’espèce, les dimensions, les spécificités et l’état de santé du patrimoine arboré de la commune de Saint-Germain-en-Laye.*
@@ -104,7 +104,7 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
 *Ce jeu de données contient le résultat des contrôles officiels en sécurité sanitaire des aliments réalisés dans tous les établissements de la chaîne alimentaire : abattoirs, commerces de détail (métiers de bouche, restaurants, supermarchés, marchés, vente à la ferme, etc.), restaurants collectifs et établissements agroalimentaires.*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/fff0cc27-977b-40d5-9c11-f7e4e79a0b72.html)
   - [Modèle](https://etalab-ia.github.io/DGML/automodels/fff0cc27-977b-40d5-9c11-f7e4e79a0b72/README.html) (target variable : *Synthese_eval_sanit*)
-  - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/predire-la-qualite-sanitaire-dun-etablissement-alimentaire/)
+  - [Réutilisation data‧gouv.fr](https://www.data.gouv.fr/fr/reuses/predire-la-qualite-sanitaire-dun-etablissement-alimentaire/)
 
 [**Concentration horaire des polluants —Air ambiant —Lig'Air - Orléans Métropole**](https://www.data.gouv.fr/fr/datasets/concentration-horaire-des-polluants-air-ambiant-ligair-orleans-metropole/)
 *Ce jeu de données contient les concentrations moyennes horaires des principaux polluants réglementés dans l’air sur la région Centre-Val de Loire : monoxyde d’azote NO et dioxyde d’azote NO2, particules en suspension PM10, particules en suspension PM2.5, ozone O3, monoxyde de carbone CO. Les données sont souvent mises à jour et peuvent donc évoluer.*
@@ -143,4 +143,9 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
 [Parcoursup 2020](https://www.data.gouv.fr/fr/datasets/parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/#resource-1d916b7c-bd4c-4951-845a-70f7ad7c17db)
 *Ce jeu de données présente les voeux de poursuite d’études et de réorientation dans l’enseignement supérieur ainsi que les propositions des établissements pour chaque formation — hors apprentissage — à la fin du processus d’affectation de la plateforme Parcoursup pour la session 2020*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/1d916b7c-bd4c-4951-845a-70f7ad7c17db.html)
-  - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/classifions-parcoursup/)
+  - [Réutilisation data‧gouv.fr](https://www.data.gouv.fr/fr/reuses/classifions-parcoursup/)
+
+### Traitement automatique du langage
+
+[PIAF](https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/) un jeu de données de questions réponses francophones
+  - [Réutilisation data‧gouv.fr](https://www.data.gouv.fr/fr/reuses/modele-de-questions-reponses-francophone/)
