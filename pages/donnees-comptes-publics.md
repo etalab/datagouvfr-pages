@@ -10,7 +10,7 @@ keywords:
 description: Données relatives aux comptes publics référencés sur data.gouv.fr
 reuses:
 datasets:
-- donnees-essentielles-de-la-commande-publique-transmises-via-le-pes-marche
+- donnees-essentielles-de-la-commande-publique-fichiers-consolides
 - referentiel-de-donnees-marches-publics
 - programmation-des-achats-de-letat-2018-2021
 - rapports-dobservations-definitives-des-chambres-regionales-des-comptes-crc-et-reponses-associees-1/#_
