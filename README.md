@@ -2,7 +2,7 @@
 
 Ce dépôt contient les fichiers qui alimentent [les pages inventaire du portail data.gouv.fr](https://www.data.gouv.fr/fr/pages/donnees-cles-par-sujet).
 
-Les pages sont écrites en [Markdown](https://daringfireball.net/projects/markdown/), avec un en-tête spécifique pour ajouter des jeux de données et des réutilisations.
+Les pages sont écrites en [GitHub Flavored Markdown](https://github.github.com/gfm/), avec un en-tête spécifique pour ajouter des jeux de données et des réutilisations.
 Pour plus d'informations techniques sur les pages inventaire, consulter [cette pull request dans le dépôt de udata-gouvfr](https://github.com/etalab/udata-gouvfr/pull/483).
 
 ## Pages inventaire actuellement publiées
