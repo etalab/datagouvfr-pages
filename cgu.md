@@ -94,7 +94,7 @@ Etalab propose deux types de certifications des organisations :
 - la certification de service public : elle identifie les Autorités administratives ;
 - la certification d’authenticité de l’organisation.
 
-Pour être certifiée, l’organisation en fait la demande par courriel à : [certification@data.gouv.fr](mailto:certification@data.gouv.fr).
+Pour être certifiée, [**l’organisation en fait la demande à l'équipe data.gouv.fr**](https://support.data.gouv.fr/collectivite-territoriale/certification)
 
 Cette certification permet notamment de bénéficier d’un meilleur classement dans les résultats du moteur de recherche de la plateforme. La certification d’une organisation n’emporte pas la certification des Jeux de données qu’elle met à disposition.
 
