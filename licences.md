@@ -54,7 +54,7 @@ La deuxième partie de cette page dresse la liste des licences spéciales homolo
 
 Les administrations souhaitant recourir à une licence ne figurant pas dans le paragraphe précédent doivent auparavant en obtenir l’homologation dans les conditions prévues à l’[article D.323-2-2](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000034504993&cidTexte=LEGITEXT000031366350&dateTexte=29991231) du CRPA.
 
-Pour être prononcée, une homologation doit suivre une procédure particulière. L’administration (services de l’État, collectivité, établissement public…) doit pour cela contacter la mission Etalab (homologation.licence@data.gouv.fr).
+Pour être prononcée, une homologation doit suivre une procédure particulière. L’administration (services de l’État, collectivité, établissement public…) doit pour cela [**contacter la mission Etalab**](https://support.data.gouv.fr/administration-centrale/licence) .
 
 La demande d’homologation doit comporter :
 
