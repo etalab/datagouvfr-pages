@@ -39,7 +39,8 @@ datasets:
 ## Caractéristiques de l'emploi
 
 - [L’emploi salarié](https://www.data.gouv.fr/fr/datasets/emploi-salarie-572158/)
-- [Auto-entrepreneurs](https://www.data.gouv.fr/fr/datasets/auto-entrepreneurs-par-secteur-dactivite/ et https://www.data.gouv.fr/fr/datasets/auto-entrepreneurs-par-departement/)
+- [Auto-entrepreneurs par secteur d'activité](https://www.data.gouv.fr/fr/datasets/auto-entrepreneurs-par-secteur-dactivite/)
+- [Auto-entrepreneurs par département](https://www.data.gouv.fr/fr/datasets/auto-entrepreneurs-par-departement/)
 - [Masse salariale et assiette chômage partiel mensuelles du secteur privé](https://www.data.gouv.fr/fr/datasets/masse-salariale-et-assiette-chomage-partiel-mensuelles-du-secteur-prive/)
 - [Effectifs salariés et masse salariale du secteur privé](https://www.data.gouv.fr/fr/datasets/effectifs-salaries-et-masse-salariale-du-secteur-prive-par-departement-x-grand-secteur/)
 - [Taux d'impayés mensuels - entreprises de 10 salariés ou plus](https://www.data.gouv.fr/fr/datasets/taux-dimpayes-mensuels-entreprises-de-10-salaries-ou-plus-metropole/)
