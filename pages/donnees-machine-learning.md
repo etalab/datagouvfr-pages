@@ -144,3 +144,8 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
 *Ce jeu de données présente les voeux de poursuite d’études et de réorientation dans l’enseignement supérieur ainsi que les propositions des établissements pour chaque formation — hors apprentissage — à la fin du processus d’affectation de la plateforme Parcoursup pour la session 2020*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/1d916b7c-bd4c-4951-845a-70f7ad7c17db.html)
   - [Réutilisation data.gouv.fr](/reuses/classifions-parcoursup/)
+
+### Traitement automatique du langage
+
+[PIAF]( /datasets/piaf-le-dataset-francophone-de-questions-reponses/) un jeu de données de questions réponses francophones
+  - [Réutilisation data.gouv.fr]( /reuses/modele-de-questions-reponses-francophone/)
