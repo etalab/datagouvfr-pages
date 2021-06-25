@@ -44,14 +44,14 @@ datasets:
 
 ## Élections Municipales
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 - **Élections municipales 2020** :
-  -  [Municipales 2020  - Résultats du second tour](https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/)
-  -  [Liste des candidatures au second tour](https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-second-tour/)
-  -  [Liste des candidats élus au 1er tour et liste des communes entièrement pourvues](https://www.data.gouv.fr/fr/datasets/election-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues/)
-  -  [Candidatures au 1er tour](https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-1er-tour/)
-  -  [Résultats du 1er tour](https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-resultats/)
+  -  [Municipales 2020  - Résultats du second tour](/datasets/municipales-2020-resultats-2nd-tour/)
+  -  [Liste des candidatures au second tour](/datasets/elections-municipales-2020-candidatures-au-second-tour/)
+  -  [Liste des candidats élus au 1er tour et liste des communes entièrement pourvues](/datasets/election-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues/)
+  -  [Candidatures au 1er tour](/datasets/elections-municipales-2020-candidatures-au-1er-tour/)
+  -  [Résultats du 1er tour](/datasets/elections-municipales-2020-resultats/)
 
 
 -   **Élections municipales partielles des 14 et 21 juin 2015** :
@@ -113,7 +113,7 @@ datasets:
 
 ## Élections Européennes
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 -   **Élections européennes 1994** :
     - Résultats 1e et 2nd tours: [par communes](http://static.data.gouv.fr/8e/086e01daf0bd7bc346d85f623f2c4a42e28a7f3909ae9cc45db464b76b0626.xls)
@@ -142,20 +142,20 @@ datasets:
     - Résultats 1e et 2nd tours: par circonscriptions européennes, régions, départements, circonscriptions législatives, cantons et liste des élus [provisoires](https://www.data.gouv.fr/storage/f/2014-05-26T14-49-22/euro-2014-resultats.xlsx) et [validés](https://www.data.gouv.fr/storage/f/2014-05-30T10-34-25/euro-2014-resultats-c.xlsx)
 
 - **Élections européennes 2019** :
-    -   [Listes des candidats](https://www.data.gouv.fr/fr/datasets/elections-europeennes-du-26-mai-2019-les-candidatures-enregistrees/).
-    -   [Résultats des élections européennes 2019](https://www.data.gouv.fr/fr/datasets/resultats-des-elections-europeennes-2019/).
+    -   [Listes des candidats](/datasets/elections-europeennes-du-26-mai-2019-les-candidatures-enregistrees/).
+    -   [Résultats des élections européennes 2019](/datasets/resultats-des-elections-europeennes-2019/).
 
 ## Élections législatives
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 - **Élections législatives des 11 et 18 juin 2017** :
-    - [Liste des candidats](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-liste-des-candidats-du-1er-tour/)
-    - Résultats 1er tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/r/80cb1309-9147-4bae-b6e2-79877d549b50)
-    - Résultats 1er tour : [par communes](https://www.data.gouv.fr/fr/datasets/r/7b613086-b5f5-4745-82e8-11b7397f9334)
-    - Résultats 1er tour : [par régions, départements, circonscriptions législatives, cantons et liste des élus à l’issue de l’élection](https://www.data.gouv.fr/fr/datasets/r/3eb503cd-49cf-4e04-9efd-7262580f7fc7)
-    - Résultats 2e tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/5948d371c751df471327bc4a)
-    - Résultats 2e tour : [par communes](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour-par-communes/)
-    - Résultats 2e tour : [par régions, départements, circonscriptions législatives, cantons et liste des élus à l’issue de l’élection](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour/)
+    - [Liste des candidats](/datasets/elections-legislatives-des-11-et-18-juin-2017-liste-des-candidats-du-1er-tour/)
+    - Résultats 1er tour : [par bureaux de vote](/datasets/r/80cb1309-9147-4bae-b6e2-79877d549b50)
+    - Résultats 1er tour : [par communes](/datasets/r/7b613086-b5f5-4745-82e8-11b7397f9334)
+    - Résultats 1er tour : [par régions, départements, circonscriptions législatives, cantons et liste des élus à l’issue de l’élection](/datasets/r/3eb503cd-49cf-4e04-9efd-7262580f7fc7)
+    - Résultats 2e tour : [par bureaux de vote](/datasets/5948d371c751df471327bc4a)
+    - Résultats 2e tour : [par communes](/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour-par-communes/)
+    - Résultats 2e tour : [par régions, départements, circonscriptions législatives, cantons et liste des élus à l’issue de l’élection](/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour/)
 
 
 - **Élections législatives partielles 2016** :
@@ -193,7 +193,7 @@ datasets:
     - Résultats 1er et 2nd tours : [par communes](http://static.data.gouv.fr/fe/23cb194d0e91dc35947f0fe5eee79d42c144079b0aa93ad7b465335354c040.xls)
     - Résultats 1er et 2nd tours : [par régions, départements, circonscriptions législatives, cantons et liste des élus à l’issue de l’élection](http://static.data.gouv.fr/4d/31c587f56b293e3b48c7ba2951fdbe09c4f5396317e0793a5e3ac33b396e22.xls)
 
-### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
+### Données du Centre de données socio-politiques de [Sciences Po](/organizations/sciences-po/)
 
 
 - **Élections Législatives 1958** :
@@ -302,7 +302,7 @@ datasets:
 
 ## Élections présidentielles
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 - **Élections présidentielles 2017** :
 
@@ -347,7 +347,7 @@ datasets:
      - Vote des Français établis hors de France : [Résultats 1er tour](http://static.data.gouv.fr/cb/a1ed09011e8d34adabb3085d1d78771bcad61eec8f07ba1956cb2c7fbddc24.csv)
     - Vote des Français établis hors de France : [Résultats 2nd tour](http://static.data.gouv.fr/07/a8f04b7b7798ad41dd89423d15c93be87cd4b9988d7f558f4883f29ff01af0.csv)
 
-### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
+### Données du Centre de données socio-politiques de [Sciences Po](/organizations/sciences-po/)
 
 - **Élections présidentielles 2012** :
      - Résultats 1er tour : [par circonscriptions législatives](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183733/cdsp_presi2012t1_circ.csv)
@@ -417,7 +417,7 @@ datasets:
 
 ## Élections Sénatoriales
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 -   **Élections sénatoriales 1992** :
     -   Résultats 1er et 2nd tours : [Résultats du scrutin proportionnel et liste des élus](http://static.data.gouv.fr/12/b5c4a60f1fcddaefb3de0880e1a1e231d5a2928e63e1203036572ba332fa95.xls)
@@ -438,15 +438,15 @@ datasets:
 -   **Élections sénatoriales partielles du 6 septembre 2015 dans les départements du Cantal et du Gers** :
     -   Résultats 1er et 2nd tours : [Résultats du scrutin proportionnel et liste des élus](https://www.data.gouv.fr/s/resources/resultats-des-elections-senatoriales-partielles-du-6-septembre-2015-cantal-gers/20150908-114758/senatoriales_partielles_6_sept_2015.xlsx)
 -   **Élections sénatoriales 2017** :
-    -   [Liste des candidats](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-du-24-septembre-2017-liste-des-candidats/)
-    -   [Résultats du scrutin majoritaire, tours 1 et 2, scrutin proportionnel et liste des élus](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-2017-resultats/)
+    -   [Liste des candidats](/datasets/elections-senatoriales-du-24-septembre-2017-liste-des-candidats/)
+    -   [Résultats du scrutin majoritaire, tours 1 et 2, scrutin proportionnel et liste des élus](/datasets/elections-senatoriales-2017-resultats/)
 -   **Élections sénatoriales 2020** :
-    -   [Candidatures au premier tour](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-candidatures-au-t1/)
-    -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-resultats/)
+    -   [Candidatures au premier tour](/datasets/senatoriales-2020-candidatures-au-t1/)
+    -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](/datasets/senatoriales-2020-resultats/)
 
 ##Élections régionales
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 - **Élections régionales 2015** (et de l’Assemblée de Corse, des Assemblées de Guyanes et de Martinique) :
     - Résultats 1er tour : [par bureaux de vote](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-resultats-par-bureaux-de-vote-tour-1/20151210-082528/RG15_Bvot_T1.txt)
@@ -472,7 +472,7 @@ datasets:
     - Résultats 1er et 2nd tours : [par régions et départements](http://static.data.gouv.fr/0d/899afa4aedca3c4077239ef7c346de3e38c9acbc1ee2adcff3425251e531ca.xls)
 
 
-### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
+### Données du Centre de données socio-politiques de [Sciences Po](/organizations/sciences-po/)
 
 - **Élections régionales 2010** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) :
     - Résultats 1er tour : [par circonscriptions législatives](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160603/cdsp_regio2010t1_circ.csv)
@@ -505,7 +505,7 @@ datasets:
 
 ## Élections Départementales
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 -   **Élections départementales 2015** :
     -   Candidatures au 1er tour : [Fichier consolidé](https://www.data.gouv.fr/s/resources/elections-departementales-2015-candidatures-1er-tour/community/20150309-124441/Dep_15_Candidatures_T1_c_09_03_2015.xlsx)
@@ -525,12 +525,12 @@ datasets:
 ## Élections métropolitaines
 
 - **Élections à la Métropole de Lyon du 2020**
-  - [Résultats du premier tour](https://www.data.gouv.fr/fr/datasets/resultats-du-premier-tour-des-elections-a-la-metropole-de-lyon-15-mars-2020/)
-  - [Résultats du second tour](https://www.data.gouv.fr/fr/datasets/resultats-du-second-tour-des-elections-a-la-metropole-de-lyon-28-juin-2020/)
+  - [Résultats du premier tour](/datasets/resultats-du-premier-tour-des-elections-a-la-metropole-de-lyon-15-mars-2020/)
+  - [Résultats du second tour](/datasets/resultats-du-second-tour-des-elections-a-la-metropole-de-lyon-28-juin-2020/)
 
 ## Élections cantonales
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 -   **Élections cantonales 1992** :
     -   Résultats tours 1 et 2 : [par communes](http://static.data.gouv.fr/6a/4fe591fdd19a1235dc780c13d61442e072972f8c3bf2aeb44ec62aab3ac59b.xls)
@@ -568,7 +568,7 @@ datasets:
 -   **Autre** :
     -   [Contours des cantons électoraux département en 2015](https://www.data.gouv.fr/s/resources/contours-des-cantons-electoraux-departementaux-2015/20150220-161605/Cartes_cantons_2015.zip)
 
-### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
+### Données du Centre de données socio-politiques de [Sciences Po](/organizations/sciences-po/)
 
 
 -   **Élections cantonales 1988** :
@@ -629,7 +629,7 @@ datasets:
     
 ## Référendums et  Consultations
 
-### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
+### Données du [Ministère de l’Intérieur](/organizations/ministere-de-l-interieur/)
 
 -   **Référendum de 1992** :
     -   Résultats : [par communes](http://static.data.gouv.fr/58/b4aad8b8f738ebb48fa31ca00825c452244406ee8ae53831ef398e554852ca.xls)
@@ -649,10 +649,10 @@ datasets:
     -   Résultats : [par régions, départements, circonscriptions législatives et cantons](http://static.data.gouv.fr/5b/cb5f907d61ecd1036720dd4be906ddb46431e90a88e3259b145759eb0bfdec.xls)
 
 -   **Consultation du 26 juin 2016 des électeurs des communes de la Loire-Atlantique sur le projet de transfert de l’aéroport de Nantes-Atlantique sur la commune de Notre-Dame-des-Landes** :
-    -   Résultats : [Résultats définitifs de la consultation validés par la Commission de recensement](https://www.data.gouv.fr/fr/datasets/r/b47a8e2b-4e93-4016-902f-ecd368dd5924)
+    -   Résultats : [Résultats définitifs de la consultation validés par la Commission de recensement](/datasets/r/b47a8e2b-4e93-4016-902f-ecd368dd5924)
     
 -  **Consultation des électeurs de la Nouvelle-Calédonie du 4 octobre 2020**
-   -   [Résultats par bureau de vote](https://www.data.gouv.fr/fr/datasets/consultation-des-electeurs-de-la-nouvelle-caledonie-du-4-octobre-2020/)
+   -   [Résultats par bureau de vote](/datasets/consultation-des-electeurs-de-la-nouvelle-caledonie-du-4-octobre-2020/)
 
 ## Ressources/ Documentations
 
