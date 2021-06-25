@@ -25,15 +25,15 @@ Le service public de la donnée créé par [l’Article 14 de la loi pour une R�
 ## Les données de référence
 À ce jour, neuf jeux de données, qui couvrent un large champ thématique ont été identifiés comme des données de référence.
 
-- [Base Adresse Nationale (BAN)](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/)
-- [Base Sirene des entreprises et de leurs établissements (SIREN, SIRET)](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
-- [Code Officiel Géographique (COG)](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/)
-- [Plan Cadastral Informatisé](https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/)
-- [Registre parcellaire graphique (RPG) : contours des parcelles et îlots culturaux et leur groupe de cultures majoritaire](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/)
-- [Référentiel de l'organisation administrative de l'Etat](https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/)
-- [Référentiel à grande échelle (RGE)](https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/)
-- [Répertoire National des Associations (RNA)](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/)
-- [Répertoire Opérationnel des Métiers et des Emplois (ROME)](https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/)
+- [Base Adresse Nationale (BAN)](/datasets/base-adresse-nationale/)
+- [Base Sirene des entreprises et de leurs établissements (SIREN, SIRET)](/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
+- [Code Officiel Géographique (COG)](/datasets/code-officiel-geographique-cog/)
+- [Plan Cadastral Informatisé](/datasets/plan-cadastral-informatise/)
+- [Registre parcellaire graphique (RPG) : contours des parcelles et îlots culturaux et leur groupe de cultures majoritaire](/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/)
+- [Référentiel de l'organisation administrative de l'Etat](/datasets/referentiel-de-lorganisation-administrative-de-letat/)
+- [Référentiel à grande échelle (RGE)](/datasets/referentiel-a-grande-echelle-rge/)
+- [Répertoire National des Associations (RNA)](/datasets/repertoire-national-des-associations/)
+- [Répertoire Opérationnel des Métiers et des Emplois (ROME)](/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/)
 
 ## L’organisation du service public de la donnée
 Elle est déterminée par le décret d’application [2017-331](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034194946&categorieLien=id) du 14 mars 2017 relatif au service public de mise à disposition des données de référence.
