@@ -32,7 +32,7 @@ datasets:
 
 Cette page a pour vocation de référencer les principaux jeux de données qui se prêtent bien à l’apprentissage automatique (*Machine Learning*) disponibles sur data.gouv.fr. Elle n’est pas exhaustive et est ouverte aux contributions.
 
-> Pour en savoir plus sur le contexte dans lequel s’inscrit ce catalogue et sur sa constuction vous pouvez lire [l’article dédié](https://www.data.gouv.fr/fr/posts/les-donnees-ouvertes-pour-lapprentissage-automatique-machine-learning). 
+> Pour en savoir plus sur le contexte dans lequel s’inscrit ce catalogue et sur sa construction vous pouvez lire [l’article dédié](https://www.data.gouv.fr/fr/posts/les-donnees-ouvertes-pour-lapprentissage-automatique-machine-learning). 
 
 Nous proposons ici un **catalogue des jeux de données identifiés comme exploitables par des algorithmes d’apprentissage automatique regroupés par tâche.**
 Chaque jeu est accompagné : 
@@ -144,3 +144,8 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
 *Ce jeu de données présente les voeux de poursuite d’études et de réorientation dans l’enseignement supérieur ainsi que les propositions des établissements pour chaque formation — hors apprentissage — à la fin du processus d’affectation de la plateforme Parcoursup pour la session 2020*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/1d916b7c-bd4c-4951-845a-70f7ad7c17db.html)
   - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/classifions-parcoursup/)
+
+### Traitement automatique du langage
+
+[PIAF](https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/) un jeu de données de questions réponses francophones
+  - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/modele-de-questions-reponses-francophone/)
