@@ -52,7 +52,22 @@ datasets:
 
 # Les données relatives au logement et à l'urbanisme
 
-> Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et publie cet inventaire en donnée ouverte. Plus de xxx bases de données de xxx gestionnaires ont été recensés. Cette page présente une sélection non exhaustive des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr.
+> Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et publie cet inventaire en donnée ouverte. Plus de xxx bases de données de xxx gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
+
+
+Ces jeux de données sont gérés par diverses administrations françaises, et ont un périmètre national. Ils sont présentés en 6 catégories :
+
+-	**Situation, caractéristiques et performances du logement** : jeux de données présentant une photographie du logement en tant que bâtiment, sur plusieurs thèmes : cadastre, performances énergétiques, valeur, etc. 
+-	**Coût du logement** : informations sur les loyers sur l’ensemble du territoire national
+-	**Financement du logement** : données sur les aides disponibles, sur les aides accordées, sur le budget des politiques de logements, etc.
+-	**Aménagement du territoire** : projets d'aménagement urbains, politiques d’aménagement du territoire, …
+-	**Urbanisme au sens large** : informations descriptives sur l’occupation des sols.
+-	**Travaux, gestes de rénovation et construction** : Permis de construire, travaux de Rénovation, …
+
+Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant de manière plus détaillée les données téléchargeables. Celle-ci est disponible en cliquant sur le lien correspondant. 
+
+Sont ensuite listés les noms des principales organisations gestionnaires des données relatives au logement et à l’urbanisme. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des informations ou publications construites sur la base des jeux de données listés ci-dessous. 
+
 
 ## Situation, caractéristiques et performances du logement
 
@@ -115,7 +130,13 @@ datasets:
   - Le fichier présente, par région, les surfaces moyennes des logements sociaux réhabilités, leur prix de revient moyen ainsi que la structure du financement (poids des fonds propres, prêts CDC, autres prêts, subventions) et du coût de ces logement sociaux (poids du coût des travaux et autres coûts).
 
 - **[Compte satellite du logement CSL](/datasets/compte-satellite-du-logement/)**
-  - Synthétise un grand nombre de sources de données afin de dresser un bilan comptable complet et structuré des dépenses de logement de l'ensemble des acteurs
+  - Synthétise un grand nombre de sources de données afin de dresser un bilan comptable complet et structuré des dépenses de logement de l'ensemble des acteurs.
+  
+- **[Logements sociaux et bailleurs par région](/datasets/logements-sociaux-et-bailleurs-par-region/)**
+  - Le jeu de données présente, par région, le nombre de logements sociaux et le nombre de bailleurs gérant ces logements dans le département. Il indique également la répartition des logements sociaux par type d'opérateurs (OPH, ESH, SEM, autres).
+    
+- **[Logements sociaux et bailleurs par département](https://www.data.gouv.fr/fr/datasets/logements-sociaux-et-bailleurs-par-departement/)**
+  - Le jeu de données présente, par département, le nombre de logements sociaux et le nombre de bailleurs gérant ces logements dans le département. Il indique également la répartition des logements sociaux par type d'opérateurs (OPH, ESH, SEM, autres).
 
 ## Aménagement du territoire
 
@@ -148,12 +169,6 @@ datasets:
 
 - **[Structures d'innovation sur le territoire (non exhaustif)](/datasets/structures-dinnovation-sur-le-territoire-non-exhaustif-1/)**
   - Recensement des structures d'innovation ouverte sur l'ensemble du territoire français, travaillant sur des thématiques ayant un impact territorial fort et dans les secteurs stratégiques de la Banque des Territoires.
-
-- **[Logements sociaux et bailleurs par région](/datasets/logements-sociaux-et-bailleurs-par-region/)**
-  - Le jeu de données présente, par région, le nombre de logements sociaux et le nombre de bailleurs gérant ces logements dans le département. Il indique également la répartition des logements sociaux par type d'opérateurs (OPH, ESH, SEM, autres).
-
-- **[Logements sociaux et bailleurs par département](/datasets/logements-sociaux-et-bailleurs-par-departement/)**
-  - Le jeu de données présente, par département, le nombre de logements sociaux et le nombre de bailleurs gérant ces logements dans le département. Il indique également la répartition des logements sociaux par type d'opérateurs (OPH, ESH, SEM, autres).
 
 - **[Données sur mise en œuvre des PNRU](/datasets/lagence-nationale-pour-la-renovation-urbaine-anru-et-la-mise-en-oeuvre-des-programmes-de-renouvellement-urbain/#_)**
   - Jeux de données sur les caractéristiques et déroulements des politiques nationales de renouvellement urbain
