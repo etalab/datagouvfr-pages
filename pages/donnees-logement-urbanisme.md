@@ -9,6 +9,7 @@ menu:
 reuses:
   - 
 datasets:
+  - inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme
   - energie-et-patrimoine-communal-5-batiments
   - diagnostics-de-performance-energetique-pour-les-logements-par-habitation
   - population
@@ -52,8 +53,7 @@ datasets:
 
 # Les données relatives au logement et à l'urbanisme
 
-> Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et publie cet inventaire en donnée ouverte. Plus de xxx bases de données de xxx gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
-
+Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et [publie cet inventaire en donnée ouverte](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 135 bases de données de 43 gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
 Ces jeux de données sont gérés par diverses administrations françaises, et ont un périmètre national. Ils sont présentés en 6 catégories :
 
@@ -64,7 +64,7 @@ Ces jeux de données sont gérés par diverses administrations françaises, et o
 -	**Urbanisme au sens large** : informations descriptives sur l’occupation des sols.
 -	**Travaux, gestes de rénovation et construction** : Permis de construire, travaux de Rénovation, …
 
-Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant de manière plus détaillée les données téléchargeables. Celle-ci est disponible en cliquant sur le lien correspondant. 
+Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant de manière plus détaillée les données téléchargeables.
 
 Sont ensuite listés les noms des principales organisations gestionnaires des données relatives au logement et à l’urbanisme. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des informations ou publications construites sur la base des jeux de données listés ci-dessous. 
 
@@ -208,13 +208,12 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
     élabore, anime et évalue les politiques :
       - de l'urbanisme, de la construction, du logement (via la DHUP)
       - des paysages, de la biodiversité, de l'eau et des substances minérales non énergétiques (via le DEB)
-
-      - [**Direction de l'habitat, de l'urbanisme et des paysages (DHUP)**](https://immobilier-etat.gouv.fr/pages/direction-lhabitat-lurbanisme-paysages-dhup): principal gestionnaire de bases de données sur la thématique du logement. La DHUP doit répondre aux besoins en logement et en hébergement des citoyens et notamment contribuer à programmer la production de logements à la bonne échelle du territoire national. Elle vise aussi à améliorer la gestion de l'offre de logements existante. Principales bases gérées par la DHUP :
-        - Enquête nationale DGALN - Ecoprêts logements à taux zéro - Eco-PTZ
-        - Base de données PAS (prêt à l'accession sociale)
-        - Annuaire des diagnostiqueurs immobiliers (ADI)
-        - Enquête nationale DGALN - prêts logement à taux zéro - PTZ
-        - Base des ÉcoQuartiers (LOAD)
+  - [**Direction de l'habitat, de l'urbanisme et des paysages (DHUP)**](https://immobilier-etat.gouv.fr/pages/direction-lhabitat-lurbanisme-paysages-dhup): principal gestionnaire de bases de données sur la thématique du logement. La DHUP doit répondre aux besoins en logement et en hébergement des citoyens et notamment contribuer à programmer la production de logements à la bonne échelle du territoire national. Elle vise aussi à améliorer la gestion de l'offre de logements existante. Principales bases gérées par la DHUP :
+      - Enquête nationale DGALN - Ecoprêts logements à taux zéro - Eco-PTZ
+      - Base de données PAS (prêt à l'accession sociale)
+      - Annuaire des diagnostiqueurs immobiliers (ADI)
+      - Enquête nationale DGALN - prêts logement à taux zéro - PTZ
+      - Base des ÉcoQuartiers (LOAD)
 
 - [**Agence de la transition écologique (ADEME)**](/organizations/ademe/): suscite, anime, coordonne, facilite ou réalise des opérations de protection de l'environnement et la maîtrise de l'énergie. L'Ademe réalise un important travail systématique d'ouverture de ses données. Il s'agit donc d'un des principaux fournisseurs de jeux de données à destination de data.gouv.fr. Principales bases gérées par l'ADEME :
   - Enquête TREMI 2017
@@ -233,7 +232,7 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
   - Contrats urbains de cohésion sociale (Cucs)
   - Communes sélectionnées pour le programme Petites villes de demain.
 
-- [**Caisse des dépôts et consignations (CDC) **](/organizations/caisse-des-depots-1/): institution financière publique qui exerce des activités d'intérêt général comme la gestion d'une partie de l'épargne (Livrets A, LDDS) et le financement de projets publics et privés. Elle est notamment composée d'une branche CDC Habitat ayant un rôle de bailleur. Toutes les données ouvrables gérées par la CDC sont déjà publiées en Open Data. Principales bases gérées par la CDC :
+- [**Caisse des dépôts et consignations (CDC)**](/organizations/caisse-des-depots-1/): institution financière publique qui exerce des activités d'intérêt général comme la gestion d'une partie de l'épargne (Livrets A, LDDS) et le financement de projets publics et privés. Elle est notamment composée d'une branche CDC Habitat ayant un rôle de bailleur. Toutes les données ouvrables gérées par la CDC sont déjà publiées en Open Data. Principales bases gérées par la CDC :
   - Structures d'innovation sur le territoire (non exhaustif)
   - Plans de financement (ressources) des logements sociaux par département 2016-2018
   - Plan de financement (emplois) des logements sociaux par région 2017-2019
