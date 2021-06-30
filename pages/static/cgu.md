@@ -1,13 +1,3 @@
----
-title: Conditions générales d'utilisations
-keywords:
-  - cgu
-  - terms
-description: Conditions générales d'utilisations
-menu:
-  - footer
----
-
 # Conditions d’utilisation
 
 [Data.gouv.fr][] est la plateforme ouverte des données publiques du Gouvernement français.
