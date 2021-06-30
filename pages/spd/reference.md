@@ -6,7 +6,7 @@ keywords:
 description: Service Public de la donnée de référence, des données sur lesquelles vous pouvez compter.
 menu:
   - footer
-  
+
 datasets:
   - base-adresse-nationale
   - base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret
@@ -38,20 +38,20 @@ Le service public de la donnée créé par [l’Article 14 de la loi pour une R�
 ## L’organisation du service public de la donnée
 Elle est déterminée par le décret d’application [2017-331](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034194946&categorieLien=id) du 14 mars 2017 relatif au service public de mise à disposition des données de référence.
 
-**Les producteurs** produisent la donnée de référence et documentent les métadonnées.  
-Ils traitent les remontées des utilisateurs ou le cas échéant, orientent les utilisateurs vers le service compétent pour traiter ces demandes.  
-Ils prennent des engagements sur la mise à jour des données.  
+**Les producteurs** produisent la donnée de référence et documentent les métadonnées.
+Ils traitent les remontées des utilisateurs ou le cas échéant, orientent les utilisateurs vers le service compétent pour traiter ces demandes.
+Ils prennent des engagements sur la mise à jour des données.
 Ils désignent les diffuseurs pour chacun des jeux de données de référence.
 
-**Les diffuseurs** mettent à disposition les données avec un haut niveau de qualité.  
+**Les diffuseurs** mettent à disposition les données avec un haut niveau de qualité.
 Ils s’engagent sur des niveaux de performance et de disponibilité.
 
-**Les utilisateurs** utilisent les données de référence pour produire de nouveaux services et créer de la valeur économique et sociale.  
+**Les utilisateurs** utilisent les données de référence pour produire de nouveaux services et créer de la valeur économique et sociale.
 Ils participent à la montée en qualité des données de référence (signalement des erreurs, propositions d’amélioration).
 
-**La mission Etalab**, en charge du portail data.gouv.fr recense l’ensemble des jeux de données de référence.  
-Elle gère le service public de la donnée en lien avec les producteurs.  
-Elle anime le dispositif et en assure la promotion auprès des utilisateurs.  
+**La mission Etalab**, en charge du portail data.gouv.fr recense l’ensemble des jeux de données de référence.
+Elle gère le service public de la donnée en lien avec les producteurs.
+Elle anime le dispositif et en assure la promotion auprès des utilisateurs.
 Elle développe des outils mutualisables, notamment sur la montée en qualité des données.
 
 Par ailleurs, en cas de défaillance des diffuseurs, ou de non-respect des engagements notamment en matière de performance et de disponibilité, la mission Etalab est habilitée à se substituer au diffuseur désigné par le producteur.

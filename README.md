@@ -10,3 +10,5 @@ Pour plus d'informations techniques sur les pages inventaire, consulter [cette p
 - [Les données des élections](https://www.data.gouv.fr/fr/pages/donnees-des-elections)
 - [Les données relatives aux associations et aux fondations](https://www.data.gouv.fr/fr/pages/donnees-associations-fondations)
 - [Les données relatives aux comptes publics](https://www.data.gouv.fr/fr/pages/donnees-comptes-publics)
+
+:warning: ne pas publier de pages dans un sous-dossier nommé `pages/static`.
