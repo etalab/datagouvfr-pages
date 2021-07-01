@@ -53,9 +53,9 @@ datasets:
 
 # Les données relatives au logement et à l'urbanisme
 
-Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et [publie cet inventaire en donnée ouverte](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 135 bases de données de 43 gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
+Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et [publie cet inventaire en donnée ouverte](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 135 bases de données de 43 gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
-Ces jeux de données sont gérés par diverses administrations françaises, et ont un périmètre national. Ils sont présentés en 6 catégories :
+Ces jeux de données sont présentés en 6 catégories :
 
 -	**Situation, caractéristiques et performances du logement** : jeux de données présentant une photographie du logement en tant que bâtiment, sur plusieurs thèmes : cadastre, performances énergétiques, valeur, etc. 
 -	**Coût du logement** : informations sur les loyers sur l’ensemble du territoire national
@@ -67,7 +67,6 @@ Ces jeux de données sont gérés par diverses administrations françaises, et o
 Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant de manière plus détaillée les données téléchargeables.
 
 Sont ensuite listés les noms des principales organisations gestionnaires des données relatives au logement et à l’urbanisme. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des informations ou publications construites sur la base des jeux de données listés ci-dessous. 
-
 
 ## Situation, caractéristiques et performances du logement
 
