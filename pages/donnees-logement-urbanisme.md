@@ -2,7 +2,8 @@
 title: Les données relatives au logement et à l'urbanisme
 keywords:
   - inventaire
-  - emploi
+  - logement
+  - urbanisme
 description: Les jeux de données relatifs au logement et à l'urbanisme en France référencés sur data.gouv.fr
 menu:
   - footer
