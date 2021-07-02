@@ -2,7 +2,7 @@
 
 [Data.gouv.fr][] s'engage à rendre son site internet accessible conformément à l'article 47 de la loi n°2005-102 du 11 février 2005.
 
-A cette fin, il met en œuvre la stratégie et l'action suivante: la réalisation d'un audit d'accessibilité à la fin de l'année 2021.
+A cette fin, il met en œuvre la stratégie et l'action suivante: la réalisation d'un audit d'accessibilité avant la fin de l'année 2021.
 
 Cette déclaration d'accessibilité s'applique au site internet [data.gouv.fr]().
 
