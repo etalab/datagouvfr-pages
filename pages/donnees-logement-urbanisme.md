@@ -45,7 +45,7 @@ datasets:
   - lagence-nationale-pour-la-renovation-urbaine-anru-et-la-mise-en-oeuvre-des-programmes-de-renouvellement-urbain
   - referentiel-a-grande-echelle-rge
   - corine-land-cover-occupation-des-sols-en-france
-  - base-merimee-1
+  - immeubles-proteges-au-titre-des-monuments-historiques-2
   - base-des-permis-de-construire-et-autres-autorisations-durbanisme-sitadel
   - enquete-tremi-2017
   - couts-des-travaux-de-renovation-ecs
@@ -183,7 +183,7 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 
   - Inventaire biophysique de l'occupation des terres produit dans le cadre du programme européen d'observation de la terre Copernicus (39 États européens)
 
-- **[Mérimée](/datasets/base-merimee-1/)**
+- **[Mérimée](/datasets/immeubles-proteges-au-titre-des-monuments-historiques-2/)**
   - Base de données du patrimoine monumental français de la Préhistoire à nos jours
 
 ## Travaux, gestes de rénovation et construction
