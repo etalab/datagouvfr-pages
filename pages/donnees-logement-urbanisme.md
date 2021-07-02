@@ -53,7 +53,8 @@ datasets:
 
 # Les données relatives au logement et à l'urbanisme
 
-Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existants dans le domaine du logement et de l'urbanisme à l'échelle nationale, et [publie cet inventaire en donnée ouverte](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 135 bases de données de 43 gestionnaires ont été recensés. Cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
+Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existantes dans le domaine du logement et de l'urbanisme, et [publie cet inventaire en open data](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/. 135 bases de données de 43 gestionnaires ont été recensés.
+Pour faciliter la découverte des données, cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
 Ces jeux de données sont présentés en 6 catégories :
 
