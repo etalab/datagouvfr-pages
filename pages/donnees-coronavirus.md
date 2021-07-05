@@ -43,6 +43,8 @@ datasets:
   - donnees-vaccination-par-categorie-dinjecteur-hors-centres-de-vaccination-et-etablissements-de-sante
   - donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement
   - donnees-vaccination-par-pathologie-et-departement
+  - donnees-de-vaccination-par-epci
+  - donnees-de-vaccination-par-commune-lyon-marseille-paris
   - donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19
   - donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19
   - donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19
@@ -136,8 +138,10 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 - [Lieux de vaccination Covid-19 (pharmacies) - Santé.fr](https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-covid-19-pharmacies-sante-fr/)
 - [Données vaccination par lieu de vaccination](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-lieu-de-vaccination/)
 - [Données vaccination par catégorie d'injecteur, hors centres de vaccination et établissements de santé](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-categorie-dinjecteur-hors-centres-de-vaccination-et-etablissements-de-sante/)
-- [Données vaccination par tranche d'âge, type de vaccin et département](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement/)
-- [Données vaccination par pathologie et département](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-pathologie-et-departement/)
+- [Données vaccination par tranche d'âge, type de vaccin et département / région](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement/)
+- [Données vaccination par pathologie et département / région](https://www.data.gouv.fr/fr/datasets/donnees-vaccination-par-pathologie-et-departement/)
+- [Données de vaccination par EPCI](https://www.data.gouv.fr/fr/datasets/donnees-de-vaccination-par-epci/)
+- [Données de vaccination par commune (Lyon, Marseille, Paris)](https://www.data.gouv.fr/fr/datasets/donnees-de-vaccination-par-commune-lyon-marseille-paris/)
 - [Données relatives aux stocks des doses de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/)
 - [Données relatives aux livraisons de vaccins contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19/)
 - [Données des rendez-vous pris dans des centres de vaccination contre la COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19/)
