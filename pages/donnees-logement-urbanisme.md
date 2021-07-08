@@ -246,7 +246,7 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 ## Autres producteurs et gestionnaires de données sur le thème logement et urbanisme
 
 - Au sein du [Ministère de la Transiton écologique](/organizations/ministere-de-la-transition-ecologique/) :
-  - [Service de la donnée et des études statistiques (SDES) du Ministère de la Transiton écologique](https://www.statistiques.developpement-durable.gouv.fr/qui-sommes-nous)
+  - [Services des données et études statistiques (SDES) du Ministère de la Transiton écologique](https://www.statistiques.developpement-durable.gouv.fr/qui-sommes-nous)
   - [Département de l'eau et de la biodiversité (DEB)](https://www.ecologie.gouv.fr/direction-generale-lamenagement-du-logement-et-nature-dgaln)
   - [Conseil général de l'environnement et du développement (CGEDD)](http://www.cgedd.developpement-durable.gouv.fr/)
 
