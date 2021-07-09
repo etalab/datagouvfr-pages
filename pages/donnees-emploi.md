@@ -3,6 +3,7 @@ title: Les données relatives à l'emploi
 keywords:
   - inventaire
   - emploi
+  - travail
 description: Les jeux de données relatifs à l'emploi en France référencés sur data.gouv.fr
 menu:
   - footer
@@ -32,7 +33,7 @@ datasets:
 Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existantes dans le domaine de l'emploi, et [publie cet inventaire en open data](/datasets/inventaire-des-bases-de-donnees-relatives-a-lemploi/). 161 bases de données de 26 gestionnaires ont été recensés.
 Pour faciliter la découverte des données, cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
-Ces jeux de données sont présentés en 6 catégories :
+Ces jeux de données sont présentés en 3 catégories :
 
 - **Données sur le marché du travail** : jeux de données présentant une photographie du marché du travail, sur plusieurs thèmes : chômage et demandeurs d'emploi, retraite, activité, etc.
 - **Données sur les caractéristiques de l'emploi du travailleur** : informations sur le régime du travailleur, les secteurs d'activités, les contrats, les régimes, les salaires, etc.
@@ -42,7 +43,7 @@ Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gou
 
 Sont ensuite listés les noms des principales organisations gestionnaires des données relatives à l'emploi. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des informations ou publications construites sur la base des jeux de données listés ci-dessous. 
 
-##Données sur le marché du travail
+## Données sur le marché du travail
 
 ### Données sur le chômage et les demandeurs d'emploi
 
