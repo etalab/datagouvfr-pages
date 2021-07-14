@@ -447,7 +447,15 @@ datasets:
 ##Élections régionales
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
-
+- **Élections régionales 2021** (et de l’Assemblée de Corse, des Assemblées de Guyanes et de Martinique) :
+    - Résultats 1er tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/r/52c3e6f1-2faa-4295-9f76-5b0e9cb9f7b0)
+    - Résultats 1er tour : [par communes](https://www.data.gouv.fr/fr/datasets/r/3bbb1bd2-8c7c-44c3-b7f0-2bbe3a1d4d7c)
+    - Résultats 1er tour : [par régions](https://www.data.gouv.fr/fr/datasets/r/434b2cac-11e0-43c0-a054-ba1a6a298c3e)
+    - Résultats 1er tour : [par départements](https://www.data.gouv.fr/fr/datasets/r/8f05fd39-c5bf-4c08-87ff-5cc38d1946d5)
+    - Résultats 2e tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/r/75221ab0-2066-4a11-bc42-b0f76d201dfe)
+    - Résultats 2e tour : [par communes](https://www.data.gouv.fr/fr/datasets/r/761c77dc-bdc5-47f8-8e9c-b6bee2cdfc00)
+    - Résultats 2e tour : [par départements](https://www.data.gouv.fr/fr/datasets/r/643f4559-fa83-4875-ae07-8a32b9d3a870)
+    - Résultats 2e tour : [par régions](https://www.data.gouv.fr/fr/datasets/r/7d358cc5-059e-499d-944e-ec1942fabbe5)
 - **Élections régionales 2015** (et de l’Assemblée de Corse, des Assemblées de Guyanes et de Martinique) :
     - Résultats 1er tour : [par bureaux de vote](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-resultats-par-bureaux-de-vote-tour-1/20151210-082528/RG15_Bvot_T1.txt)
     - Résultats 1er tour : [par communes](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-par-communes-resultats-tour-1-1/20160121-102246/Reg_15_Resultats_Communes_T1_c.xlsx)
