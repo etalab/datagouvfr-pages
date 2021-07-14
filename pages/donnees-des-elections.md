@@ -507,6 +507,17 @@ datasets:
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
+-   **Élections départementales 2021** : 
+    -   [Candidatures au 1er tour](https://www.data.gouv.fr/fr/datasets/elections-departementales-2021-candidatures-au-1er-tour/)
+    -   [Candidatures au 2e tour](https://www.data.gouv.fr/fr/datasets/elections-departementales-2021-candidatures-au-2eme-tour/)
+    -   Résultats 1er tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/r/57370a9b-7fa1-465c-a051-c984fc21321f)
+    -   Résultats 1er tour : [par communes](https://www.data.gouv.fr/fr/datasets/r/f659a06c-c8a2-4226-aa85-2607abe2c1e1)
+    -   Résultats 1er tour : [par cantons](https://www.data.gouv.fr/fr/datasets/r/c8f7a652-52b7-4d6c-897c-c556d975c608)
+    -   Résultats 1er tour : [par départements](https://www.data.gouv.fr/fr/datasets/r/5892256d-e17a-4a78-9aeb-96a4d8047952)
+    -   Résultats 2e tour : [par bureaux de vote](https://www.data.gouv.fr/fr/datasets/r/b34b36d9-e416-4144-8384-d101b140afaf)
+    -   Résultats 2e tour : [par communes](https://www.data.gouv.fr/fr/datasets/r/8448e5be-9bb6-4714-82cc-0be256084aa3)
+    -   Résultats 2e tour : [par cantons](https://www.data.gouv.fr/fr/datasets/r/4496349a-81b5-4d96-8dd6-1640e17c2a32)
+    -   Résultats 2e tour : [par départements](https://www.data.gouv.fr/fr/datasets/r/b219b2fa-1435-44fa-9507-5330cf69341d)
 -   **Élections départementales 2015** :
     -   Candidatures au 1er tour : [Fichier consolidé](https://www.data.gouv.fr/s/resources/elections-departementales-2015-candidatures-1er-tour/community/20150309-124441/Dep_15_Candidatures_T1_c_09_03_2015.xlsx)
     -   Candidatures au 2nd tour : [Fichier consolidé](https://www.data.gouv.fr/s/resources/elections-departementales-2015-candidatures-2eme-tour/20150325-111447/Dep_15_Candidatures_T2.xlsx)
