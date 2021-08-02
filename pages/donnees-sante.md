@@ -32,6 +32,8 @@ datasets:
 
 # Les données relatives à la santé
 
+> Un inventaire spécifique sur **les données relatives à la COVID-19** **[est disponible ici](/pages/donnees-coronavirus/)**.
+
 Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existantes dans le domaine de la santé, et [publie cet inventaire en open data](/datasets/inventaire-des-bases-de-donnees-relatives-a-la-sante/). 172 bases de données de 79 gestionnaires ont été recensés.
 Pour faciliter la découverte des données, cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
