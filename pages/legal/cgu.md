@@ -132,9 +132,9 @@ Les discussions ont vocation à porter sur le Jeu de données publié. Les Contr
 
 Les Contributeurs publiant un commentaire dans une discussion cèdent leurs droits de propriété intellectuelle sur ceux-ci de façon non exclusive, à titre gracieux, pour le monde entier, pour toute la durée de ces droits.
 
-### Utilisation de contact [info@data.gouv.fr](mailto:info@data.gouv.fr)
+### Utilisation du formulaire de contact support.data.gouv.fr
 
-L’adresse de contact permet de contacter Etalab et n’a pas pour objet de recevoir des demandes relatives à la situation individuelle d’un usager dans ses relations avec une Autorité administrative. Elle n’est pas non plus un moyen direct de contacter un Contributeur. Les Contributeurs peuvent être contactés via le formulaire de contact sur la page du Jeu de données concerné.
+Le formulaire de contact permet de contacter Etalab et n’a pas pour objet de recevoir des demandes relatives à la situation individuelle d’un usager dans ses relations avec une Autorité administrative. Elle n’est pas non plus un moyen direct de contacter un Contributeur. Les Contributeurs peuvent être contactés via le formulaire de contact sur la page du Jeu de données concerné.
 
 ## Engagements et responsabilités d’Etalab
 
