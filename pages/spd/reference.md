@@ -20,7 +20,7 @@ datasets:
 ---
 
 # Service public de la donnée : des données sur lesquelles vous pouvez compter
-Le service public de la donnée créé par [l’Article 14 de la loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746&idArticle=JORFARTI000033203033&categorieLien=cid) vise à mettre à disposition, en vue de faciliter leur réutilisation, les jeux de données de référence qui présentent le plus fort impact économique et social. Il s’adresse principalement aux entreprises et aux administrations pour qui la disponibilité d’une donnée de qualité est critique. Les producteurs et les diffuseurs prennent des engagements auprès de ces utilisateurs. La mission Etalab est chargée de la mise en oeuvre et de la gouvernance de ce nouveau service public. Elle référence l’ensemble des données concernées sur cette page.
+Le service public de la donnée créé par [l’Article 14 de la loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746&idArticle=JORFARTI000033203033&categorieLien=cid) vise à mettre à disposition, en vue de faciliter leur réutilisation, les jeux de données de référence qui présentent le plus fort impact économique et social. Il s’adresse principalement aux entreprises et aux administrations pour qui la disponibilité d’une donnée de qualité est critique. Les producteurs et les diffuseurs prennent des engagements auprès de ces utilisateurs. Le département Etalab de la Direction interministérielle du numérique est chargé de la mise en oeuvre et de la gouvernance de ce service public. Il référence l’ensemble des données concernées sur cette page.
 
 ## Les données de référence
 À ce jour, neuf jeux de données, qui couvrent un large champ thématique ont été identifiés comme des données de référence.
@@ -49,17 +49,17 @@ Ils s’engagent sur des niveaux de performance et de disponibilité.
 **Les utilisateurs** utilisent les données de référence pour produire de nouveaux services et créer de la valeur économique et sociale.
 Ils participent à la montée en qualité des données de référence (signalement des erreurs, propositions d’amélioration).
 
-**La mission Etalab**, en charge du portail data.gouv.fr recense l’ensemble des jeux de données de référence.
-Elle gère le service public de la donnée en lien avec les producteurs.
-Elle anime le dispositif et en assure la promotion auprès des utilisateurs.
-Elle développe des outils mutualisables, notamment sur la montée en qualité des données.
+**Le département Etalab**, en charge du portail data.gouv.fr recense l’ensemble des jeux de données de référence.
+Il gère le service public de la donnée en lien avec les producteurs.
+Il anime le dispositif et en assure la promotion auprès des utilisateurs.
+Il développe des outils mutualisables, notamment sur la montée en qualité des données.
 
-Par ailleurs, en cas de défaillance des diffuseurs, ou de non-respect des engagements notamment en matière de performance et de disponibilité, la mission Etalab est habilitée à se substituer au diffuseur désigné par le producteur.
+Par ailleurs, en cas de défaillance des diffuseurs, ou de non-respect des engagements notamment en matière de performance et de disponibilité, le département Etalab est habilité à se substituer au diffuseur désigné par le producteur.
 
 ## Les prochaines étapes
 Le service public de la donnée se construit progressivement, dans un mode itératif avec les producteurs et les utilisateurs. Chaque producteur doit publier ses engagements sur les conditions de la mise à disposition (documentation des données, fréquence de mise à jour, performance et disponibilité de la mise à disposition).
 
-La mission Etalab publiera sur ce site les indicateurs de disponibilité des données, et assurera plus généralement le suivi du respect de ces engagements.
+Le département Etalab publiera sur ce site les indicateurs de disponibilité des données, et assurera plus généralement le suivi du respect de ces engagements.
 
 ## Références
 -   [L’article L321-4 du Code des relations entre le public et les administrations](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000033205649&dateTexte=29990101&categorieLien=cid)
