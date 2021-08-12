@@ -6,14 +6,14 @@ Les pages sont écrites en [GitHub Flavored Markdown](https://github.github.com/
 Pour plus d'informations techniques sur les pages inventaire, consulter [cette pull request dans le dépôt de udata-gouvfr](https://github.com/etalab/udata-gouvfr/pull/483).
 
 ## Pages inventaire actuellement publiées
-- [Les données de référence (Service public de la donnée)](/pages/spd/reference/)
-- [Les données relatives au COVID-19](/pages/donnees-coronavirus)
-- [Les données relatives au logement et à l'urbanisme](/pages/donnees-logement-urbanisme)
-- [Les données relatives à l'emploi](/pages/donnees-emploi/)
-- [Les données des élections](/pages/donnees-des-elections)
-- [Les données relatives aux associations et aux fondations](/pages/donnees-associations-fondations)
-- [Les données relatives aux comptes publics](/pages/donnees-comptes-publics)
-- [Les données ouvertes pour l’apprentissage automatique (Machine Learning)](/pages/donnees-machine-learning)
+- [Les données de référence (Service public de la donnée)](/pages/spd/reference.md)
+- [Les données relatives au COVID-19](/pages/donnees-coronavirus.md)
+- [Les données relatives au logement et à l'urbanisme](/pages/donnees-logement-urbanisme.md)
+- [Les données relatives à l'emploi](/pages/donnees-emploi.md)
+- [Les données des élections](/pages/donnees-des-elections.md)
+- [Les données relatives aux associations et aux fondations](/pages/donnees-associations-fondations.md)
+- [Les données relatives aux comptes publics](/pages/donnees-comptes-publics.md)
+- [Les données ouvertes pour l’apprentissage automatique (Machine Learning)](/pages/donnees-machine-learning.md)
 
 ## Autres pages statiques
 - [Accessibilité](https://www.data.gouv.fr/fr/pages/legal/accessibility/)
