@@ -55,6 +55,6 @@ La [startup d'Etat](https://beta.gouv.fr/approche/) [Datagir](https://datagir.ad
 
 Ces exemples ne représentent qu'une infime partie de ce qu'il est possible de faire avec les données ouvertes. 
 
-Pour découvrir d'autres exemples vous pouvez consulter les [réutilisations publiées sur data.gouv.fr](https://www.data.gouv.fr/fr/reuses/) ainsi que suivre les [actualités de data.gouv.fr](https://www.data.gouv.fr/fr/posts/) !    
+Pour découvrir d'autres exemples vous pouvez consulter les [réutilisations publiées sur data.gouv.fr](https://www.data.gouv.fr/fr/reuses/) ainsi que suivre les [actualités de data.gouv.fr](https://www.data.gouv.fr/fr/posts/).   
 
 Nous vous invitons par ailleurs à [référencer votre usage des données ouvertes sur data.gouv.fr](https://guides.etalab.gouv.fr/reutilisation/#pourquoi-referencer-une-reutilisation). Mieux connaître ces usages nous aide à valoriser et développer l'open data !
