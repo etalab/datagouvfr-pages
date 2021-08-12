@@ -8,7 +8,7 @@ Ces données sont diffusées de manière structurée selon une licence ouverte g
 
 Les données ouvertes portent sur des sujets très divers. Il peut s’agir, par exemple, de données géographiques, financières, de transport, de santé publique ou encore d’environnement.
 
-[En savoir plus sur l'importance de l'open data.](data.gouv.fr/open_data)
+[En savoir plus sur l'importance de l'open data.](https://www.data.gouv.fr/fr/pages/about/opendata/)
 
 ## **Qu’est-ce que [data.gouv.fr](http://data.gouv.fr/) ?**
 
