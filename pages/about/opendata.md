@@ -21,7 +21,7 @@ La société civile s'empare de ces données pour les rendre plus intelligibles 
 
 Les données publiques sont un [outil essentiel au service de la gestion de crise et du pilotage des politiques publiques](https://www.etalab.gouv.fr/les-donnees-publiques-au-service-de-la-gestion-de-crise-et-du-pilotage-des-politiques-publiques). 
 
-La mise à disposition et la visualisation de très nombreuses [données relatives au coronavirus](https://www.data.gouv.fr/pages/donnees-coronavirus) permettent d’assurer la juste information du public et de faire acte de transparence sur les informations fondant les ~~prises de~~ décisions du gouvernement.
+La mise à disposition et la visualisation de très nombreuses [données relatives au coronavirus](https://www.data.gouv.fr/pages/donnees-coronavirus) permettent d’assurer la juste information du public et de faire acte de transparence sur les informations fondant les décisions du gouvernement.
 
 Ces données sont exploitées par l'[administration](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees) mais également [largement réutilisée](https://www.data.gouv.fr/fr/posts/retour-sur-les-activites-de-data-gouv-fr-en-2020/) par la société civile comme en atteste le succès de [CovidTracker](https://covidtracker.fr/). 
 
