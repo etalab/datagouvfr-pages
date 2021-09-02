@@ -108,10 +108,10 @@ datasets:
 - [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 
 **Données relatives aux décès (liés ou non au COVID-19)** 
-Fichier de l'ensemble des décès en France consolidé par l'INSEE qui reçoit des communes les décès enregistrés.
+⚠️ Fichier de l'ensemble des décès en France consolidé par l'INSEE qui reçoit des communes les décès enregistrés.
 Ce fichier rassemble donc des décès qui ne sont pas imputables au COVID-19. Néamoins ce dernier est très utile pour mesurer l'impact de l'épidémie notamment pour calculer la surmortalité liée à l'épidémie.  
 
-- [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
+- [Fichier des personnes décédées (ensemble des décès liés ou non au COVID-19)](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 
 **Indicateurs de suivi de l'épidémie** 
 
