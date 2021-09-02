@@ -107,7 +107,9 @@ datasets:
 - [Données de laboratoires pour le dépistage : Indicateurs sur les variants (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-indicateurs-sur-les-variants/)
 - [Sites de prélèvements pour les tests COVID](https://www.data.gouv.fr/fr/datasets/sites-de-prelevements-pour-les-tests-covid/)
 
-**Données relatives aux décès**
+**Données relatives aux décès (liés ou non au COVID-19)** 
+Fichier de l'ensemble des décès en France consolidé par l'INSEE qui reçoit des communes les décès enregistrés.
+Ce fichier rassemble donc des décès qui ne sont pas imputables au COVID-19. Néamoins ce dernier est très utile pour mesurer l'impact de l'épidémie notamment pour calculer la surmortalité liée à l'épidémie.  
 
 - [Fichier des personnes décédées](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/)
 
@@ -123,7 +125,7 @@ Les jeux des données suivants ont été mis à disposition durant la première 
 
 - [Données de certification électronique des décès associés au COVID-19 (CEPIDC)](https://www.data.gouv.fr/fr/datasets/donnees-de-certification-electronique-des-deces-associes-au-covid-19-cepidc/)
 - [Niveaux d'excès de mortalité standardisé durant l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/niveaux-dexces-de-mortalite-standardise-durant-lepidemie-de-covid-19/)
-- [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
+- [Nombre de décès quotidiens par département (ensemble des décès liés ou non au COVID-19)](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
 - [Part des patients COVID-19 dans les réanimations](https://www.data.gouv.fr/fr/datasets/indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations/)
 - [Transferts de patients atteints de COVID-19](https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/)
 - [Nombre de décès quotidiens par département](https://www.data.gouv.fr/fr/datasets/nombre-de-deces-quotidiens-par-departement/)
