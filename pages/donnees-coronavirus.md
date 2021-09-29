@@ -28,6 +28,7 @@ datasets:
   - indicateurs-de-suivi-de-lepidemie-de-covid-19
   - taux-dincidence-de-lepidemie-de-covid-19
   - donnees-de-la-carte-de-vigilance-covid-19
+  - covid-19-points-de-situation-nationaux
   - metriques-dutilisation-de-lapplication-tousanticovid
   - inclusions-hebdomadaires-dans-la-plateforme-de-telemedecine-covidom
   - description-des-alertes-dans-la-plateforme-de-telemedecine-covidom
@@ -176,6 +177,7 @@ Il est également possible de consulter les données sur [le tableau de bord des
 
 ## Données d'information
 
+- [Points de situation nationaux du ministère de l'Éducation nationale, de la Jeunesse et des Sports](https://www.data.gouv.fr/fr/datasets/covid-19-points-de-situation-nationaux/)
 - [Métriques d'utilisation de l'application TousAntiCovid](https://www.data.gouv.fr/fr/datasets/metriques-dutilisation-de-lapplication-tousanticovid/)
 - [Inclusions hebdomadaires dans la plateforme de télémédecine Covidom](https://www.data.gouv.fr/fr/datasets/inclusions-hebdomadaires-dans-la-plateforme-de-telemedecine-covidom/)
 - [Description des alertes dans la plateforme de télémédecine Covidom](https://www.data.gouv.fr/fr/datasets/description-des-alertes-dans-la-plateforme-de-telemedecine-covidom/)
