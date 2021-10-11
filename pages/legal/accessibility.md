@@ -8,15 +8,80 @@ Cette déclaration d'accessibilité s'applique au site internet [data.gouv.fr]()
 
 ## État de conformité
 
-Le site internet [data.gouv.fr]() n'est pas encore en conformité avec le référentiel général d'amélioration de l'accessibilité.
+Le site internet [data.gouv.fr]() est en conformité faible avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4.0 en raison des non-conformités et des dérogations énumérées ci-dessous.
 
 ## Résultat des tests
 
-L'audit de conformité est en attente de réalisation.
+L’audit de conformité réalisé par  Alter way révèle que :
+* 27,45 % des critères du RGAA version 4.0 sont respectés
+
+## Contenus non accessibles
+
+### Non-conformité
+
+* De nombreuses anomalies vont pénaliser les utilisateurs en situation de handicap, naviguant ou non à l’aide de technologies d’assistance.
+* Les non-conformités les plus bloquantes pour les utilisateurs concernent : 
+    * Des composants d’interface riches ne respectant pas les recommandations de structuration pour l’accessibilité;
+    * Des composants d’interface riches ne sont pas accessible au clavier ;
+    * Document pas structuré ;
+    * Plusieurs liens vides ;
+    * Rôle pas mis en place pour chaque région ;
+    * des contenus avec une structuration (titres et intertitres, paragraphes, listes) incorrecte, ou insuffisante pour une navigation efficace avec un lecteur d’écran;
+    * l’ordre de tabulation n’est pas traité correctement;
+    * Titre de la page n’est pas à jour par rapport aux contenus;
+    * De nombreux textes et éléments d’interface avec des contrastes insuffisants;
+    * Mauvaise utilisation des liens et des boutons ;
+    * Des balises ouvertes pas fermés au niveau de code etc.… ;
+    * Pdf pas compatible à l’accessibilité ;
+
 
 ## Établissement de cette déclaration d'accessibilité
 
-Cette déclaration a été établie le 01 juillet 2021.
+Cette déclaration a été établie le 01 juillet 2021. Elle a été mise à jour le 08 octobre 2021.
+
+### Technologies utilisées pour la réalisation de https://www.data.gouv.fr/fr/
+
+* HTML5
+* CSS
+* JavaScript
+
+### Environnement de test
+
+Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie par la base de référence du RGAA 4.0, avec les versions suivantes :
+* Agent utilisateur: Firefox  
+* Technologie d'assistance: NVDA 
+
+### Outils pour évaluer l’accessibilité
+
+* Wave
+* WCAG color contrast checker
+* Headings maps
+* web développer toolbar
+* PDF accessibility checker
+
+### Pages du site ayant fait l’objet de la vérification de conformité
+1. Accueil  : 
+https://www.data.gouv.fr/fr/
+2. Réutilisations : 
+https://www.data.gouv.fr/fr/reuses/
+3. Détails réutilisations & Zone commentaire : 
+https://www.data.gouv.fr/fr/reuses/evolution-des-immatriculations-et-radiations-des-societes/ 
+https://www.data.gouv.fr/fr/datasets/jeu-de-donnees-pour-audit-daccessibilite/
+4. Données : 
+https://www.data.gouv.fr/fr/datasets/
+5. Détails données : 
+https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
+6. Actualités : 
+https://www.data.gouv.fr/fr/posts/
+7. Organisation : 
+https://www.data.gouv.fr/fr/organizations/
+8. Détails organisation : 
+https://www.data.gouv.fr/fr/organizations/etalab/
+9. Détails actualités : 
+https://www.data.gouv.fr/fr/posts/suivi-des-sorties-decembre-2020/
+10. Page statique : 
+https://www.data.gouv.fr/fr/pages/donnees-des-elections 
+       
 
 ## Retour d'information et contact
 
