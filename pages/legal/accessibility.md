@@ -12,7 +12,15 @@ Le site internet [data.gouv.fr]() est en conformité faible avec le référentie
 
 ## Résultat des tests
 
-L’audit de conformité réalisé par Alter way révèle que :
+### Audit initial du 16/09/2021
+
+L’audit de conformité initial réalisé par Alter way révèlait que :
+* 27,45 % des critères du RGAA version 4.0 étaient respectés
+
+### Mise à jour du 12/10/2021
+
+Les critères 1.2, 12.6 and 13.3 du RGAA 4.0 ont été corrigés par l'équipe de développement.
+Après mise à jour, le taux de conformité actuel est de :
 * 33,33 % des critères du RGAA version 4.0 sont respectés
 
 ## Contenus non accessibles
@@ -25,7 +33,6 @@ L’audit de conformité réalisé par Alter way révèle que :
     * Des composants d’interface riches ne sont pas accessible au clavier ;
     * Document pas structuré ;
     * Plusieurs liens vides ;
-    * Rôle pas mis en place pour chaque région ;
     * des contenus avec une structuration (titres et intertitres, paragraphes, listes) incorrecte, ou insuffisante pour une navigation efficace avec un lecteur d’écran;
     * l’ordre de tabulation n’est pas traité correctement;
     * Titre de la page n’est pas à jour par rapport aux contenus;
