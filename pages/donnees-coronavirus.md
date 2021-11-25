@@ -34,6 +34,7 @@ datasets:
   - description-des-alertes-dans-la-plateforme-de-telemedecine-covidom
   - indicateurs-de-lactivite-epidemique-taux-dincidence-de-lepidemie-de-covid-19-par-metropole
   - indicateurs-de-lactivite-epidemique-part-des-patients-covid-19-dans-les-reanimations
+  - donnees-de-surveillance-de-la-covid-19-dans-les-etablissements-sociaux-et-medico-sociaux-esms
   - donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble
   - donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1
   - donnees-relatives-aux-personnes-presentant-des-comorbidites-vaccinees-contre-la-covid-19
@@ -117,6 +118,7 @@ Ce fichier rassemble donc des décès qui ne sont pas imputables au COVID-19. N�
 **Indicateurs de suivi de l'épidémie** 
 
 - [Indicateurs de suivi de l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/)
+- [Données de surveillance de la COVID-19 dans les Établissements Sociaux et Médico-Sociaux (ESMS)](https://www.data.gouv.fr/fr/datasets/donnees-de-surveillance-de-la-covid-19-dans-les-etablissements-sociaux-et-medico-sociaux-esms/)
 
 [**Vue d'ensemble des données relatives à l'épidemie**](https://www.data.gouv.fr/fr/datasets/synthese-des-indicateurs-de-suivi-de-lepidemie-covid-19/)
 
