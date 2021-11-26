@@ -91,7 +91,7 @@ https://www.data.gouv.fr/fr/pages/donnees-des-elections
 
 ## Retour d'information et contact
 
-Si vous n'arrivez pas à accéder à un contenu ou à un service, vous pouvez [nous contacter]() pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
+Si vous n'arrivez pas à accéder à un contenu ou à un service, vous pouvez [nous contacter](https://support.data.gouv.fr/) pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
 
 ## Voies de recours
 
@@ -101,15 +101,6 @@ Vous avez signalé au responsable du site internet un défaut d’accessibilité
 
 Les voies de recours sont les suivantes.
 
-* [Écrire un message au Défenseur des droits]()
-* [Contacter le délégué du Défenseur des droits dans votre région]()
+* [Écrire un message au Défenseur des droits](https://formulaire.defenseurdesdroits.fr/)
+* [Contacter le délégué du Défenseur des droits dans votre région](https://www.defenseurdesdroits.fr/saisir/delegues)
 * Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre) Défenseur des droits - Libre réponse 71120 75342 Paris CEDEX 07
-
-
-[Nous contacter]: support.data.gouv.fr
-
-[data.gouv.fr]: https://www.data.gouv.fr/
-
-[Écrire un message au Défenseur des droits]: https://formulaire.defenseurdesdroits.fr/
-
-[Contacter le délégué du Défenseur des droits dans votre région]: https://www.defenseurdesdroits.fr/saisir/delegues
