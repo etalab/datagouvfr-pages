@@ -1,6 +1,6 @@
 # Charte d’utilisation du domaine data.gouv.fr
 
-> Cette charte s'adresse aux service public dont le service est hebergé sous le sous domaine "data.gouv.fr" par exemple transport.data.gouv.fr ou recherche.data.gouv.fr
+> Cette charte s'adresse aux services publics dont le produit est hebergé sous le sous domaine *"data.gouv.fr"* par exemple transport.data.gouv.fr ou recherche.data.gouv.fr.
 
 La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décline en pratiques obligatoires et en pratiques recommandées. Des ressources seront mises à disposition des administrations afin d'approfondir les concepts mentionnés.
 
