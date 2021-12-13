@@ -31,7 +31,7 @@
 - **[Accéder aux données des transports](https://transport.data.gouv.fr/)**
   Le site [transport.data.gouv.fr](http://transport.data.gouv.fr/) permet de consulter et télécharger les données de mobilité.
 
-- **[Consulter et télécharger aux données des adresses](https://adresse.data.gouv.fr/)**
+- **[Consulter et télécharger les données des adresses](https://adresse.data.gouv.fr/)**
   [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) référence l’intégralité des adresses du territoire pour les rendre utilisables par toutes et tous.
 
 - **[Consulter, télécharger et intégrer facilement les données cadastrales](https://cadastre.data.gouv.fr/)**
