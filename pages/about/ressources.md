@@ -1,4 +1,4 @@
-## **En savoir plus sur [data.gouv.fr](http://data.gouv.fr/)**
+# **En savoir plus sur [data.gouv.fr](http://data.gouv.fr/)**
 
 - **[Qu’est-ce que data.gouv.fr ?](https://www.data.gouv.fr/fr/pages/about/a-propos/)**
   Découvrez à qui s’adresse [data.gouv.fr](http://data.gouv.fr/) et qui est derrière la plateforme.
@@ -6,7 +6,7 @@
 - **[À quoi sert l’open data ?](https://www.data.gouv.fr/fr/pages/about/opendata/)**
   En savoir plus sur les bénéfices de l’open data à travers des exemples emblématiques.
 
-## **Publier des données**
+# **Publier des données**
 - **[Utiliser la plateforme data.gouv.fr](https://doc.data.gouv.fr/)**
   Consulter la documentation pour vous aider dans votre parcours d’utilisation de la plateforme.
 
@@ -23,7 +23,7 @@
 - **[Découvrir les schémas de données](http://schema.data.gouv.fr/)**
   La plateforme [schema.data.gouv.fr](http://schema.data.gouv.fr/) référence l’ensemble des schémas de données et permet de consulter les jeux de données conformes.
 
-## **Réutiliser des données**
+# **Réutiliser des données**
 
 - **[Consulter et utiliser les API publiques](https://api.gouv.fr/)**
   La plateforme [api.gouv.fr](http://api.gouv.fr/) référence et permet de consulter et d’utiliser les API publiques.
@@ -40,7 +40,7 @@
 - **[Identifier et utiliser les jeux de données open data pour le Machine Learning](https://datascience.etalab.studio/dgml/)**
   Découvrez une sélection de jeux de données de [data.gouv.fr](http://data.gouv.fr/) qui se prêtent particulièrement bien à l’apprentissage automatique.
 
-## **Suivre l’actualité de l’open data**
+# **Suivre l’actualité de l’open data**
 
 - **[Suivre les ouvertures de données](https://ouverture.data.gouv.fr/)**
   [ouverture.data.gouv.fr](http://ouverture.data.gouv.fr/) permet de suivre les ouvertures programmées des données, codes sources et API publics.
