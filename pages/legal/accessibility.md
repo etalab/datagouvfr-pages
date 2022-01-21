@@ -20,8 +20,14 @@ L’audit de conformité initial réalisé par Alter way révèlait que :
 ### Mise à jour du 12/10/2021
 
 Les critères 1.2, 12.6 and 13.3 du RGAA 4.0 ont été corrigés par l'équipe de développement.
-Après mise à jour, le taux de conformité actuel est de :
+Après mise à jour, le taux de conformité à cette date est de :
 * 33,33 % des critères du RGAA version 4.0 sont respectés
+
+### Mise à jour du 21/01/2022
+
+Les critères 3.2, 3.3 et 10.7 du RGAA 4.0 ont été corrigés par l'équipe de développement.
+Après mise à jour, le taux de conformité à cetet date est de :
+* 39,21 % des critères du RGAA version 4.0 sont respectés
 
 ## Contenus non accessibles
 
