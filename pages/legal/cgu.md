@@ -2,7 +2,7 @@
 
 [Data.gouv.fr][] est la plateforme ouverte des données publiques du Gouvernement français.
 
-Elle est éditée et développée par la mission Etalab (ci-après, Etalab) de la Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+Elle est éditée et développée par le département Etalab (ci-après, Etalab) de la Direction interministérielle du numérique (DINUM).
 
 Toute utilisation de la plateforme [data.gouv.fr][] (ci-après, la Plateforme) est subordonnée au respect des présentes conditions générales d’utilisation (CGU).
 
@@ -194,7 +194,7 @@ La page de profil du Contributeur comprend ses prénom et nom et des éléments 
 
 L’historique de consultation de l’Utilisateur n’est jamais rendu public, ni communiqué à des tiers, en dehors des cas prévus par la loi.
 
-En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’utilisateur dispose d’un droit d’accès, de rectification et d’opposition auprès d’Etalab. Ce droit s’exerce par courriel adressé à [contact@data.gouv.fr](mailto:contact@data.gouv.fr) ou par voie postale à Mission Etalab, 20 avenue de Ségur, 75334 PARIS Cedex 07.
+En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’utilisateur dispose d’un droit d’accès, de rectification et d’opposition auprès d’Etalab. Ce droit s’exerce par courriel adressé à [contact@data.gouv.fr](mailto:contact@data.gouv.fr) ou par voie postale à Département Etalab, 20 avenue de Ségur, 75334 PARIS Cedex 07.
 
 La Plateforme a été déclarée à la Commission nationale de l’informatique et des libertés (CNIL) sous le numéro : eRa0876341t.
 
@@ -214,11 +214,11 @@ Les textes d’organisation d’Etalab.
 
 ### Editeur
 
-Mission Etalab, Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+Département Etalab, Direction interministérielle du numérique (DINUM).
 
 ### Directrice de la publication
 
-M<sup>me</sup> Laure LUCCHESI, cheffe de la mission Etalab, Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+M<sup>me</sup> Laure LUCCHESI, cheffe du département Etalab, Direction interministérielle du numérique (DINUM).
 
 ### Prestataire d’hébergement
 
