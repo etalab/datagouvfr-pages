@@ -47,7 +47,8 @@ La deuxième partie de cette page dresse la liste des licences spéciales homolo
 | [GNU Affero General Public License v3.0 or later](https://spdx.org/licenses/AGPL-3.0-or-later.html#licenseText) | `AGPL-3.0-or-later` |
 | [Mozilla Public License 2.0](https://spdx.org/licenses/MPL-2.0.html#licenseText)                                | `MPL-2.0`           |
 | [Eclipse Public License 2.0](https://spdx.org/licenses/EPL-2.0.html#licenseText)                                | `EPL-2.0`           |
-| [European Union Public License 2.0](https://spdx.org/licenses/EUPL-1.2.html#licenseText)                        | `EUPL-2.0`          |
+| [European Union Public License 1.2](https://spdx.org/licenses/EUPL-1.2.html#licenseText)                        | `EUPL-1.2`          |
+
 
  Il est précisé que l’obligation faite aux administrations de choisir parmi ces licences ne vaut que lorsque les administrations peuvent établir une licence de réutilisation. En particulier, les administrations participant à un projet déjà initié sous une licence déjà imposée ont bien entendu la faculté de contribuer au projet sous cette licence ([plus de détails](https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret)). 
  
