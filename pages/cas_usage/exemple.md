@@ -2,6 +2,8 @@ Ceci est un exemple
 
 ![gif](https://github.com/etalab/datagouvfr-pages/blob/master/pages/cas_usage/test_gif.gif)
 
+![test_gif](https://user-images.githubusercontent.com/60264344/156791732-447d3d2d-353e-4044-9438-4f21c4bf59f2.gif)
+
 
 ![COVER linkedin 001](https://static.data.gouv.fr/images/bf/8b55f047f346b1b884d024be2f3b9f.jpeg)
 
