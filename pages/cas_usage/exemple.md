@@ -1,6 +1,6 @@
 Ceci est un exemple
 
-![gif](https://github.com/etalab/datagouvfr-pages/cas_usage/master/pages/about/test_gif.gif?raw=true)
+![gif](https://github.com/etalab/datagouvfr-pages/blob/master/pages/cas_usage/test_gif.gif)
 
 
 ![COVER linkedin 001](https://static.data.gouv.fr/images/bf/8b55f047f346b1b884d024be2f3b9f.jpeg)
