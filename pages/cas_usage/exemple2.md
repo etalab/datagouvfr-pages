@@ -1,5 +1,5 @@
 ---
-title: Les données relatives aux élections
+title: Les données relatives aux élections2
 keywords:
   - élections
   - électorales
@@ -38,10 +38,8 @@ datasets:
   - elections-senatoriales-du-24-septembre-2017-liste-des-candidats
 ---
 
-![Frame 25 (1)](https://user-images.githubusercontent.com/60264344/156802826-b3f6dd44-f493-4ef0-b08d-e1cd39d21f06.png)
+![Frame 25 (2)](https://user-images.githubusercontent.com/60264344/156803532-8d6efbbb-0d1a-4345-a4ca-adcbf6ea56cf.png)
 
-
-# Les données relatives aux élections et aux référendums
 
 > Cette page a pour vocation de référencer les principaux jeux de données relatifs aux élections et aux référendums disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/edit/master/pages/donnees-des-elections.md). 
 
