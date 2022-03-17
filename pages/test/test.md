@@ -1,46 +1,31 @@
+   <p><i>Avant de nous contacter, nous vous invitons à consulter la documentation technique de data.gouv.fr</a>
+        ainsi que les guides d'Etalab : </i></p>
+   <div style="display: flex; gap: 15px; margin-bottom: 30px;">
+
+        <div class="fr-card fr-card--horizontal fr-enlarge-link" style="flex: 1;">
+            <div class="fr-card__body">
+
+             <h4 class="fr-card__title">
+                <a href="https://guides.etalab.gouv.fr/" class="fr-card__link">Les guides d’Etalab sur l’open data 📚</a>
+            </h4>
+            <p class="fr-card__desc">Les guides d'Etalab sur l'open data visent à vous accompagner dans votre démarche d’ouverture et d’exploitation des données publiques.</p>
+            <p class="fr-card__detail">Apprendre les bonnes pratiques de l’open data.</p>
+            </div>
+        </div>
+
+
+        <div class="fr-card fr-card--horizontal fr-enlarge-link" style="flex: 1;">
+            <div class="fr-card__body">
+
+            <h4 class="fr-card__title">
+                <a href="https://doc.data.gouv.fr/" class="fr-card__link">La documentation de data.gouv.fr ⚙️</a>
+            </h4>
+            <p class="fr-card__desc">Consulter la documentation pour vous aider dans votre parcours d’utilisation de la plateforme, savoir comment moissoner votre plateforme ou encore utiliser l'API.</p>
+            <p class="fr-card__detail">Savoir comment utiliser la plateforme data.gouv.fr.</p>
+            </div>
+        </div>
+    </div>
+
 <h4> Vous avez une question sur une procédure administrative ? </h4>
 <p>Notre support n'est pas en mesure de vous aider sur ces sujets.
 Vous pouvez vous référer au site <a href="https://doc.data.gouv.fr/" target="_blank"> Service-Public.fr</a>.</p>
-
-<h4> Vous avez une question sur un jeu de données en particulier ? </h4>
-<p>Notre équipe n'est pas en charge de la production des données publiées sur la plateforme.<br/>
-Adressez vous directement au producteur dans l'espace de discussion en bas de page du jeu de donnée.
-<a href="https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/#discussion-604e44bcf9fac775bbc0aeca" target="_blank"> Voir un exemple </a>.</p>
-
-<p><strong> Questions les plus fréquentes : </p></strong>
-<ul class="fr-accordions-group">
-   <li>
-       <section class="fr-accordion">
-           <h3 class="fr-accordion__title">
-               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-1">Vous avez une question sur la base SIRENE ?</button>
-           </h3>
-           <div class="fr-collapse" id="accordion-1">
-               <br/>
-               <p>Si vous rechercher votre numéro SIRET ou SIREN vous pouvez vous rendre sur le site <a href="https://annuaire-entreprises.data.gouv.fr/" target="_blank"> Annuaire des Entreprises</a>.
-               <br/>Si vous souhaitez rendre privées les données de votre entreprise,
-                vous devez en <a href="https://statut-diffusion-sirene.insee.fr/" target="_blank"> faire la demande auprès de l'INSEE </a> qui publie ces données dans le répertoire SIRENE.</p>
-           </div>
-       </section>
-   </li>
-
-   <div class="fr-col-12 fr-col-md-3">
-  <div class="fr-card fr-enlarge-link">
-    <div class="fr-card__body">
-      <h2 class="fr-card__title">
-        <a class="fr-card__link" href="{{ startup.url }}" >{{ startup.title | strip_html }}</a>
-      </h2>
-      {%- if startup.sponsors -%}
-      <p class="fr-card__detail" style="z-index: 10;position: relative;">
-      {%- for sponsorId in startup.sponsors -%}
-        {% assign sponsor = site.organisations | where: 'id', sponsorId | first %}
-        {% if forloop.index > 1 %} / {% endif %}<abbr title="{{sponsor.name}}">{{sponsor.acronym}}</abbr>
-      {%- endfor -%}
-      </p>
-      {%- endif -%}
-      <p class="fr-card__desc">{{ startup.mission | strip_html }}</p>
-    </div>
-    <div class="fr-card__img">
-      {% include screenshot.html startup=startup force=true %}
-    </div>
-  </div>
-</div>
