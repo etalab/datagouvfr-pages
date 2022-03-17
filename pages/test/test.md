@@ -1,7 +1,5 @@
    <p><i>Avant de nous contacter, nous vous invitons à consulter la <a href="doc.data.gouv.fr/">documentation technique de data.gouv.fr</a>
         ainsi que les guides d'Etalab : </i></p>
-
-        
    <div style="display: flex; gap: 15px; margin-bottom: 30px;">
         <div class="fr-card fr-card--horizontal fr-enlarge-link" style="flex: 1;">
             <div class="fr-card__body">
@@ -14,7 +12,6 @@
         </div>
         <div class="fr-card fr-card--horizontal fr-enlarge-link" style="flex: 1;">
             <div class="fr-card__body">
-
             <h4 class="fr-card__title">
                 <a href="https://doc.data.gouv.fr/" class="fr-card__link">La documentation de data.gouv.fr ⚙️</a>
             </h4>
