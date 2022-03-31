@@ -26,8 +26,14 @@ Après mise à jour, le taux de conformité à cette date est de :
 ### Mise à jour du 21/01/2022
 
 Les critères 3.2, 3.3 et 10.7 du RGAA 4.0 ont été corrigés par l'équipe de développement.
-Après mise à jour, le taux de conformité à cetet date est de :
+Après mise à jour, le taux de conformité à cette date est de :
 * 39,21 % des critères du RGAA version 4.0 sont respectés
+
+### Mise à jour du 31/03/2022
+
+Les critères 1.8, 2.1, 8.7, 10.5 du RGAA 4.0 ont été corrigés par l'équipe de développement.
+Après mise à jour, le taux de conformité à cette date est de :
+* 44.90 % des critères du RGAA version 4.0 sont respectés
 
 ## Contenus non accessibles
 
