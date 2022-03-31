@@ -37,9 +37,7 @@ datasets:
   - elections-senatoriales-2017-resultats
   - elections-senatoriales-du-24-septembre-2017-liste-des-candidats
 ---
-![Exemple 6](https://user-images.githubusercontent.com/60264344/161158813-03c87ac2-54b4-4765-ad46-9f1732d5e713.png)
-
-# Les données relatives aux élections et aux référendums
+![Exemple 7](https://user-images.githubusercontent.com/60264344/161159294-dd8d1189-e8fc-4f0c-be5d-02ccd3d4aba0.png)
 
 > Cette page a pour vocation de référencer les principaux jeux de données relatifs aux élections et aux référendums disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/edit/master/pages/donnees-des-elections.md). 
 
