@@ -15,7 +15,7 @@ Usage metrics are basically download counts and views counts for various objects
 
 In udata 3, we introduced InfluxDB to act as an aggregator between Matomo (`udata-piwik`) and `udata`. This interface is handled by [udata-metrics](https://github.com/opendatateam/udata-metrics). The process is two stepped:
 1. udata periodically requests Matomo stats for a given time period for datasets, reuses, resources... ; tries to map it to database objects and then send a count for this time period to InfluxDB
-2. udata periodically request InfluxDB for an aggregated stats count overtime for each object in the database and enriches the `metrics` attributes with it
+2. udata periodically requests InfluxDB for an aggregated stats count overtime for each object in the database and enriches the `metrics` attributes with it
 
 This refactoring allowed us to be more precise on our stats count, making the connection with Matomo less brittle and getting rid of the `metrics` collection that was growing huge in our database. Plus we got rid of some technical debt. We also had in mind to use the InfluxDB database for more features: time-based statistics on udata, external dashboard...
 
