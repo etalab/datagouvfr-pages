@@ -47,3 +47,7 @@ We believe this will ultimately lead to an easier way to maintain product, allow
 This is the road to udata 3. We don’t have a release date yet and there are a lot of corner cases yet to be handled. The 3.0 release will probably still have some entanglement between the core part and the theme part but we plan to iterate on that in the 3.x series.
 
 We hope this has given you at least an insight into the future of udata, which will keep powering data.gouv.fr for the foreseeable future. We’d also love to hear from you if you some insights as a udata user.
+
+ ### *Interact with the community*
+
+ If you're interested in udata 3, you can join the community to discuss architectural changes or get started with udata 3 at https://github.com/opendatateam/udata/discussions/2723.

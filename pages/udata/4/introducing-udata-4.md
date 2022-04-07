@@ -91,6 +91,8 @@ Since then, we are happy to have had renewed contacts with some udata users, mai
 
 We heard this and we will try to produce more documentation and give more visibility on our technical choices, hence this post. We also [revamped our main documentation](https://udata.readthedocs.io/en/stable/) quite a bit. A much needed [focus on the new metrics (Matomo) collection system](https://www.data.gouv.fr/fr/pages/udata/3/udata-3-usage-metrics-explained) has been written too.
 
+ If you're interested in udata 4, you can join the community to discuss architectural changes or get started with udata 4 at https://github.com/opendatateam/udata/discussions/2724.
+
 **We believe we need a vibrant and responsive community in order for those efforts to be successful.** It can be pretty frustrating producing those efforts in the dark.
 
 **That's why we need your help!** Our first step is opening Github discussions on the udata project. If you're using or are interested in udata, **[please come and comment on this discussion](https://github.com/opendatateam/udata/discussions/2721)**. Tell us how you're using it, what you're expecting from the community and are willing to give back... Also feel free to [open a new discussion](https://github.com/opendatateam/udata/discussions/new) if you want to reach out for something broader than a specific udata technical issue (plugins, governance, migration, installation...).
