@@ -61,6 +61,12 @@ Le service public de la donnée se construit progressivement, dans un mode itér
 
 Le département Etalab publiera sur ce site les indicateurs de disponibilité des données, et assurera plus généralement le suivi du respect de ces engagements.
 
+## Découvrez des exemples d'utilisation du SPD
+
+Les données du Service public de la donnée sont des données de références indispensables à de nombreuses applications qu'elles soient publiques ou privées. 
+Vous trouverez sur [ce jeu de donnée](https://www.data.gouv.fr/fr/datasets/exemples-dexploitation-des-donnees-de-reference-du-service-public-de-la-donnee-spd/) une liste d'exemples d'exploitation non exhaustive qui vise à illustrer une partie de la diversité des cas d'usages. 
+
+
 ## Références
 -   [L’article L321-4 du Code des relations entre le public et les administrations](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350&idArticle=LEGIARTI000033205649&dateTexte=29990101&categorieLien=cid)
 -   [Le décret d’application 2017-331 du 14 mars 2017 relatif au service public de mise à disposition des données de référence](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034194946&categorieLien=id)
