@@ -55,7 +55,7 @@ datasets:
 
 # Les données relatives au logement et à l'urbanisme
 
-Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existantes dans le domaine du logement et de l'urbanisme, et [publie cet inventaire en open data](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 135 bases de données de 43 gestionnaires ont été recensés.
+Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus complet possible des bases et jeux de données publiques existantes dans le domaine du logement et de l'urbanisme, et [publie cet inventaire en open data](/datasets/inventaire-des-bases-de-donnees-relatives-au-logement-et-a-lurbanisme/). 136 bases de données de 44 gestionnaires ont été recensés.
 Pour faciliter la découverte des données, cette page présente une sélection des principales bases qui sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas exhaustive et est ouverte aux contributions.
 
 Ces jeux de données sont présentés en 6 catégories :
@@ -97,7 +97,7 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 - **[Annuaire des diagnostiqueurs immobiliers (ADI)](/datasets/annuaire-des-diagnostiqueurs-immobiliers/)**
   - Met à disposition du grand public la liste des personnes habilitées pour établir des diagnostics immobiliers (diagnostiqueurs immobiliers). Cet annuaire est alimenté par les organismes de certification qui fournissent la liste des diagnostiqueurs qu'ils ont certifiés.
 
-- **[Base de donnée nationale des bâtiments - version 0.6 (BDNB)](datasets/base-de-donnee-nationale-des-batiments-version-0-6/)**
+- **[Base de donnée nationale des bâtiments (BDNB)](/datasets/base-de-donnee-nationale-des-batiments-version-0-6/)**
   - Cartographie du parc de bâtiments existants, construite par croisement géospatial d’une vingtaine de base de données issues d’organismes publics. Structurée à la maille « bâtiment », elle contient une carte d’identité pour chacun des 20 millions de bâtiments, résidentiels ou tertiaires.
 
 ## Coût du logement
@@ -267,4 +267,5 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 - [Agence Nationale de l'habitat (ANAH)](https://www.anah.fr/)
 
 - [Bureau de recherches géologiques et minières (BRGM)](https://www.brgm.fr/fr)
+
 - [Centre Scientifique et Technique du Batiment (CSTB)](https://www.cstb.fr)
