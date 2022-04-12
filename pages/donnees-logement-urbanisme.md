@@ -50,6 +50,7 @@ datasets:
   - enquete-tremi-2017
   - couts-des-travaux-de-renovation-ecs
   - espaces-conseil-faire
+  - base-de-donnee-nationale-des-batiments-version-0-6
 ---
 
 # Les données relatives au logement et à l'urbanisme
@@ -95,6 +96,9 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 
 - **[Annuaire des diagnostiqueurs immobiliers (ADI)](/datasets/annuaire-des-diagnostiqueurs-immobiliers/)**
   - Met à disposition du grand public la liste des personnes habilitées pour établir des diagnostics immobiliers (diagnostiqueurs immobiliers). Cet annuaire est alimenté par les organismes de certification qui fournissent la liste des diagnostiqueurs qu'ils ont certifiés.
+
+- **[Base de donnée nationale des bâtiments - version 0.6 (BDNB)](datasets/base-de-donnee-nationale-des-batiments-version-0-6/)**
+  - Cartographie du parc de bâtiments existants, construite par croisement géospatial d’une vingtaine de base de données issues d’organismes publics. Structurée à la maille « bâtiment », elle contient une carte d’identité pour chacun des 20 millions de bâtiments, résidentiels ou tertiaires.
 
 ## Coût du logement
 
@@ -263,3 +267,4 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 - [Agence Nationale de l'habitat (ANAH)](https://www.anah.fr/)
 
 - [Bureau de recherches géologiques et minières (BRGM)](https://www.brgm.fr/fr)
+- [Centre Scientifique et Technique du Batiment (CSTB)](https://www.cstb.fr)
