@@ -43,56 +43,46 @@ Généralement des zonages sont dérivés de zonage communaux
 - Militaires: Zone de défense et de sécurité
 - Écoles: académie et zone vacances
     - Contours géographiques des académies [http://www.data.gouv.fr/fr/datasets/contours-geographiques-des-academies/](http://www.data.gouv.fr/fr/datasets/contours-geographiques-des-academies/)
-- Zonages liés à des actions (ANCT)
+- Zonages liés à des actions, principalement ANCT (Agence Nationale de Cohésion des Territoires)
     - Zones de revitalisation rurale (ZRR) [http://www.data.gouv.fr/fr/datasets/zone-de-revitalisation-rurale-zrr-30382904/](http://www.data.gouv.fr/fr/datasets/zone-de-revitalisation-rurale-zrr-30382904/)
-    - Aides à finalité régionale (AFR)
-    - Communes classées en zone de montagne [https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/](https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/)
-    - Communes classées en Périmètre de massif
-    - Programme Territoires d'industrie
-    - communes bénéficiant du plan Action Cœur de Ville (ACV) [http://www.data.gouv.fr/fr/datasets/programme-action-coeur-de-ville/](http://www.data.gouv.fr/fr/datasets/programme-action-coeur-de-ville/)
-    - communes classées en Loi Littoral
-    - communes classées en Périmètres des parcs naturels régionaux (PNR)
-    - communes classées en Parcs Nationaux
-    - zones de revitalisation des commerces en milieu rural (*ZORCOMIR)*
-    - communes en zone de restructuration de défense (ZRD)
-    - Zones urbaines sensibles (ZUS) [http://www.data.gouv.fr/fr/datasets/zones-urbaines-sensibles-zus/](http://www.data.gouv.fr/fr/datasets/zones-urbaines-sensibles-zus/)
-    - Zones Franches Urbaines (ZFU)
-    - Établissements Publics de Coopération Intercommunale (EPCI) Voir AdminExpress pour les données récentes. Pour reconstituer les données EPCI, utiliser les données DGCL qui donnent la composition communale des EPCI depuis 1999 [https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre](https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre)
-    - Établissement public territorial (EPT)
-    - Pays et Pôles d'Équilibre Territoriaux et Ruraux (PETR)
-    - Départements
-    - Régions
-    - Anciennes Régions
-    - Zone d'emploi (2020)
-    - Bassin de vie (2012)
-    - Canton-ou-ville
-    - Arrondissement Disponibles dans Admin Express
-    - Unité urbaine (2020)
-    - Aire d'attraction des villes (2020)
-    - Pôle / couronne des AAV (2020)
-    - Zonage en AAV (2020) dép.
-    - Métropole / Dom
-    - Académie
-    - Périmètre des cours d'appel
-    - Périmètre des tribunaux judiciaires
-    - Périmètre des tribunaux de proximité
-    - Programme Petites villes de demain [http://www.data.gouv.fr/fr/datasets/programme-petites-villes-de-demain/](http://www.data.gouv.fr/fr/datasets/programme-petites-villes-de-demain/)
-    - CRTE
+    - Aides à finalité régionale (AFR) (en cours de validation pour la période)
+    - [Communes classées en zone de montagne](https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/)
+    - [Communes classées en Périmètre de massif](https://www.observatoire-des-territoires.gouv.fr/kiosque/zonage-les-zones-de-perimetre-de-massifs)
+    - [Programme Territoires d'industrie](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-territoires-dindustrie-0)
+    - [communes bénéficiant du plan Action Cœur de Ville (ACV)](http://www.data.gouv.fr/fr/datasets/programme-action-coeur-de-ville/)
+    - [communes classées en Loi Littoral](https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-loi-littoral)
+    - communes classées en Périmètres des parcs naturels régionaux (PNR): voir [les zonages des PNR](https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pnr)
+    - communes classées en Parcs Nationaux: voir [les zonages des PN](https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pn)
+    - [zones de revitalisation des commerces en milieu rural (*ZORCOMIR)*](https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-zone-de-revitalisation-des-commerces-en-milieu-rural-zorcomir)
+    - [Zones urbaines sensibles (ZUS)](http://www.data.gouv.fr/fr/datasets/zones-urbaines-sensibles-zus/)
+    - Établissements Publics de Coopération Intercommunale (EPCI) Voir AdminExpress pour les données récentes. Pour reconstituer les données EPCI, utiliser les données DGCL qui donnent la [composition communale des EPCI depuis 1999](https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre) ou bien [la BANATIC (Base nationale sur les intercommunalités)](https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/)
+    - Établissements publics territoriaux (EPT). Ils composent la Métropole du Grand Paris et sont disponibles sur [le portail de l'APUR](https://opendata.apur.org/datasets/Apur::etablissements-publics-territoriaux-metropole-du-grand-paris/explore?location=48.828504%2C2.379750%2C10.99)
+    - Pays et Pôles d'Équilibre Territoriaux et Ruraux (PETR). Ils sont renseignés dans [la BANATIC (Base nationale sur les intercommunalités)](https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/)
+    - Départements: disponibles dans Admin Express
+    - Régions: disponibles dans Admin Express
+    - [Anciennes Régions](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-anciennes-regions-1972)
+    - [Zone d'emploi (2020)](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-zones-demploi-2020)
+    - [Bassin de vie (2012)](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-bassins-de-vie-2012)
+    - [Canton-ou-ville (appelé pseudo-canton)](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-pseudo-cantons)
+    - Arrondissement: disponibles dans Admin Express
+    - [Unité urbaine (2020)](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-unites-urbaines-2020)
+    - [Aire d'attraction des villes (2020)](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-aires-dattraction-des-villes-2020)
+    - [Pôle / couronne des AAV (2020)](https://www.observatoire-des-territoires.gouv.fr/typologie-du-zonage-en-aires-dattraction-des-villes-aav-2020-0)
+    - [Périmètre des cours d'appel](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-cours-dappel)
+    - [Périmètre des tribunaux judiciaires](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-tribunaux-judiciaires)
+    - [Périmètre des tribunaux de proximité](https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-tribunaux-de-proximite-ou-poles-de-proximite-de-tribunaux-judiciaires)
+    - [Programme Petites villes de demain](http://www.data.gouv.fr/fr/datasets/programme-petites-villes-de-demain/)
+    - [CRTE](https://www.data.gouv.fr/fr/datasets/contrat-de-relance-et-de-transition-ecologique/)
+    - [Quartiers prioritaires politique de la ville (QPV)](http://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/)
 
-Concernant la Politique de la Ville et les quartiers Politique de la Ville rendez-vous sur le site du SIG Ville
-
-Quartiers prioritaires politique de la ville (QPV) [http://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/](http://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/)
-
-- INSEE Base des flux de mobilité [https://www.insee.fr/fr/information/2383370](https://www.insee.fr/fr/information/2383370)
-    - [Mobilités professionnelles](https://www.insee.fr/fr/information/2383337) : déplacements domicile-travail
-    - [Mobilités scolaires](https://www.insee.fr/fr/information/2383343) : déplacements domicile-études
-    - [Migrations résidentielles](https://www.insee.fr/fr/information/2383331) : commune de résidence / commune de résidence antérieure
 
 **Données intracommunales et carroyées haute-résolution**
 
-- IRIS [https://www.data.gouv.fr/fr/datasets/contours-iris/](https://www.data.gouv.fr/fr/datasets/contours-iris/)
+- IRIS: Il existe deux produits
+  - [Contour IRIS](https://www.data.gouv.fr/fr/datasets/contours-iris/) adapté pour représenter sur une carte car simplifiée
+  - [IRIS GE comme Grande Échelle](https://geoservices.ign.fr/irisge) adapté pour dénombrer dans quel IRIS un habitation est par exemple car la donnée a une plus grande précision
 - Bureaux de vote: pas de renseignement national. Au cas par cas, mis à disposition par la commune. Repris dans OpenStreetMap
-- Quartiers (cas par cas)
+- Quartiers (cas par cas): soit disponible sur des portails OpenData soit sur OpenStreetMap
 - Données carroyées 200m [https://www.insee.fr/fr/statistiques/6215138?sommaire=6215217](https://www.insee.fr/fr/statistiques/6215138?sommaire=6215217)
 
 **Données statistiques à associer aux communes ou aux iris (ne contient pas de géographie)**
@@ -108,12 +98,13 @@ Quartiers prioritaires politique de la ville (QPV) [http://www.data.gouv.fr/fr/d
 
 # **Transports/mobilités**
 
-**TODO: redispatcher par moyens de transports**
+- Le Point d'Accès National (PAN) aux données ouvertes de transport [https://transport.data.gouv.fr](https://transport.data.gouv.fr/). Il concerne tous les types de transports ainsi que certains aspects de mobilité comme le covoiturage.
 
-- Le Point d'Accès National (PAN) aux données ouvertes de transport [https://transport.data.gouv.fr](https://transport.data.gouv.fr/)
-    - Aires de covoiturage en France [https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage/](https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage/)
-    - Zones à faibles émissions [https://transport.data.gouv.fr/datasets?type=low-emission-zones](https://transport.data.gouv.fr/datasets?type=low-emission-zones)
-    - Base Nationale des Lieux de Stationnement [https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/](https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/)
+## Voiture
+
+- Aires de covoiturage en France [https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage/](https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage/)
+- Zones à faibles émissions [https://transport.data.gouv.fr/datasets?type=low-emission-zones](https://transport.data.gouv.fr/datasets?type=low-emission-zones)
+- Base Nationale des Lieux de Stationnement [https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/](https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/)
 - Bases de données annuelles des accidents corporels de la circulation routière - Années de 2005 à 2020 [http://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2020/](http://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2020/)
 - Accidents de vélo [https://www.data.gouv.fr/fr/datasets/accidents-de-velo/](https://www.data.gouv.fr/fr/datasets/accidents-de-velo/) (dérivée des bases de données annuelles des accidents corporels de la circulation routière ci-dessus)
 - Trafic moyen journalier annuel sur le réseau routier national [https://www.data.gouv.fr/fr/datasets/trafic-moyen-journalier-annuel-sur-le-reseau-routier-national/](https://www.data.gouv.fr/fr/datasets/trafic-moyen-journalier-annuel-sur-le-reseau-routier-national/)
@@ -124,13 +115,23 @@ Quartiers prioritaires politique de la ville (QPV) [http://www.data.gouv.fr/fr/d
 - Fichier consolidé des Bornes de Recharge pour Véhicules Électriques [http://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/](http://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)
 - Radars automatiques [http://www.data.gouv.fr/fr/datasets/radars-automatiques/](http://www.data.gouv.fr/fr/datasets/radars-automatiques/)
 
-Ferroviaire
+## Transport ferroviaire
 
 - Liste des gares [https://www.data.gouv.fr/fr/datasets/liste-des-gares/](https://www.data.gouv.fr/fr/datasets/liste-des-gares/)
 - Gares ferroviaires de tous types, exploitées ou non [http://www.data.gouv.fr/fr/datasets/gares-ferroviaires-de-tous-types-exploitees-ou-non/](http://www.data.gouv.fr/fr/datasets/gares-ferroviaires-de-tous-types-exploitees-ou-non/)
 - Positions géographiques des stations du réseau RATP [http://www.data.gouv.fr/fr/datasets/positions-geographiques-des-stations-du-reseau-ratp-ratp/](http://www.data.gouv.fr/fr/datasets/positions-geographiques-des-stations-du-reseau-ratp-ratp/) (voir aussi [https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf-data-generalisee/](https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf-data-generalisee/))
+
+## Transport aérien
+
 - Aéroports français [http://www.data.gouv.fr/fr/datasets/aeroports-francais-coordonnees-geographiques/](http://www.data.gouv.fr/fr/datasets/aeroports-francais-coordonnees-geographiques/)
 - Données d'espace aérien de la base aéronautique du SIA [https://www.data.gouv.fr/fr/datasets/donnees-despace-aerien-de-la-base-aeronautique-du-sia/](https://www.data.gouv.fr/fr/datasets/donnees-despace-aerien-de-la-base-aeronautique-du-sia/)
+
+## Mobilité
+
+- INSEE Base des flux de mobilité [https://www.insee.fr/fr/information/2383370](https://www.insee.fr/fr/information/2383370)
+    - [Mobilités professionnelles](https://www.insee.fr/fr/information/2383337) : déplacements domicile-travail
+    - [Mobilités scolaires](https://www.insee.fr/fr/information/2383343) : déplacements domicile-études
+    - [Migrations résidentielles](https://www.insee.fr/fr/information/2383331) : commune de résidence / commune de résidence antérieure
 
 # **Annuaires/référentiels**
 
@@ -181,7 +182,7 @@ Ferroviaire
 - DVF+ open-data (version géolocalisée produite par le Cerema) [https://www.data.gouv.fr/fr/datasets/dvf-open-data/](https://www.data.gouv.fr/fr/datasets/dvf-open-data/)
 - "Carte des loyers" - Indicateurs de loyers d'annonce par commune en 2018 [https://www.data.gouv.fr/fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2018/](https://www.data.gouv.fr/fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2018/)
 - Sitadel [http://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-et-autres-autorisations-durbanisme-sitadel/](http://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-et-autres-autorisations-durbanisme-sitadel/)
-- Logements vacants du parc privé par ancienneté de vacance, par commune et par EPCI	[http://www.data.gouv.fr/fr/datasets/logements-vacants-du-parc-prive-par-anciennete-de-vacance-par-commune-et-par-epci/](http://www.data.gouv.fr/fr/datasets/logements-vacants-du-parc-prive-par-anciennete-de-vacance-par-commune-et-par-epci/)
+- Logements vacants du parc privé par ancienneté de vacance, par commune et par EPCI    [http://www.data.gouv.fr/fr/datasets/logements-vacants-du-parc-prive-par-anciennete-de-vacance-par-commune-et-par-epci/](http://www.data.gouv.fr/fr/datasets/logements-vacants-du-parc-prive-par-anciennete-de-vacance-par-commune-et-par-epci/)
 - Prix moyen au m² des ventes de maisons et d'appartements par commune en 2017 [http://www.data.gouv.fr/fr/datasets/prix-moyen-au-m2-des-ventes-de-maisons-et-dappartements-par-commune-en-2017/](http://www.data.gouv.fr/fr/datasets/prix-moyen-au-m2-des-ventes-de-maisons-et-dappartements-par-commune-en-2017/)
 - Répertoire des logements locatifs des bailleurs sociaux [http://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/](http://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/) (rapportable à la commune)
 - Annuaire des diagnostiqueurs immobiliers [http://www.data.gouv.fr/fr/datasets/annuaire-des-diagnostiqueurs-immobiliers/](http://www.data.gouv.fr/fr/datasets/annuaire-des-diagnostiqueurs-immobiliers/) (via géocodage)
@@ -287,5 +288,3 @@ Dispatcher entre droits/justice et sécurité
 - Natural Earth Data [https://www.naturalearthdata.com/downloads/](https://www.naturalearthdata.com/downloads/) (pays, principales villes, rivières, lacs, fond de plan raster altimétrie/bathymétrie)
 - Données bathymétriques [https://www.gebco.net/data_and_products/gridded_bathymetry_data/](https://www.gebco.net/data_and_products/gridded_bathymetry_data/)
 - Speedtest by Ookla Global Fixed and Mobile Network Performance Maps [https://registry.opendata.aws/speedtest-global-performance/](https://registry.opendata.aws/speedtest-global-performance/)
-
-
