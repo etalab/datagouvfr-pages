@@ -1,6 +1,9 @@
 # Données à composantes géographiques
 
-Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur [data.gouv.fr](http://data.gouv.fr/). Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md).
+Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur [data.gouv.fr](http://data.gouv.fr/). Celle-ci n'est pas exhaustive et est [ouverte aux contributions](https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md).
+
+Lien vers https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel/
+pour parler du SPD
 
 # Données limites administratives
 
@@ -8,7 +11,7 @@ Les données à composantes géographiques sont souvent indispensables pour réa
 
 Le Code Officiel Géographique (COG). C’est une donnée pivot qui permet de rattacher les données à d’autres jeux de données, à des données géographiques ou de faire des calculs à des niveaux administratifs issus d’une combinaison de communes.
 
-- Code officiel géographique [https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) avec les données sous forme JSON dans le cadre de l’API Découpage Administratif [https://github.com/etalab/decoupage-administratif#via-des-urls](https://github.com/etalab/decoupage-administratif#via-des-urls) (**SPD**)
+- [Code officiel géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) avec les données sous forme JSON dans le cadre de l’API Découpage Administratif [https://github.com/etalab/decoupage-administratif#via-des-urls](https://github.com/etalab/decoupage-administratif#via-des-urls) (**SPD**)
 
 ### ***Données IGN***
 
