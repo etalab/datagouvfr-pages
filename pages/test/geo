@@ -1,0 +1,48 @@
+---
+title: Ceci est un exemple
+keywords:
+  - geo
+  - adresses
+  - SIG
+  - geomatique
+  - geographie
+  - cartographie
+description: Ceci est la description
+content_type: html
+---
+<div style="display:flex;">
+    <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
+        <div class="fr-sidemenu__inner">
+            <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
+            <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                <div class="fr-sidemenu__title">Titre de rubrique</div>
+                <ul class="fr-sidemenu__list">
+                    <li class="fr-sidemenu__item fr-sidemenu__item--active">
+                        <a class="fr-sidemenu__link" href="#" target="_self" aria-current="page">Accès direct</a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+                    </li>
+                <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#" target="_self">Accès direct</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+       
+      <div class="fr-callout fr-fi-information-line fr-my-6w">
+            <p class="fr-callout__title">Titre mise en avant</p>
+            <p class="fr-callout__text">
+                Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur data.gouv.fr. Celle-ci n'est pas exhaustive et est ouverte aux contributions.
+            </p>
