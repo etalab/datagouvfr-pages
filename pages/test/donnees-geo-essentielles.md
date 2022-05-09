@@ -6,13 +6,13 @@ Un certains nombre de ces données font office de référentiel qui servent de p
 
 # Données limites administratives
 
-## **Données communales** :
+## **Données communales**
 
 Le Code Officiel Géographique (COG). C’est une donnée pivot qui permet de rattacher les données à d’autres jeux de données, à des données géographiques ou de faire des calculs à des niveaux administratifs issus d’une combinaison de communes.
 
 - [Code officiel géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) avec les données sous forme JSON dans le cadre de <a href="https://github.com/etalab/decoupage-administratif#via-des-urls" target="_blank">l’API Découpage Administratif</a> (**SPD**)
 
-### ***Données IGN***
+### *Données IGN*
 
 - [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/): données communales à partir de 2017 jusqu’à nos jours. Les versions récentes intègrent les EPCI
 - [Geofla](https://www.data.gouv.fr/fr/datasets/geofla-r/): données communales, cantonales et départementales en 1997, 2002 puis régulièrement de 2010 à 2016 régulièrement 
@@ -25,7 +25,7 @@ Ces données font partie du SPD via le RGE (Référentiel à Grande Échelle)
 
 Pour ne pas avoir à gérer les DOM/TOM du fait de l’éloignement, lorsqu'on produit des cartes France entière, il existe une [version de données avec les Contours des communes de France simplifié, avec régions et département d'outre-mer rapprochés](https://www.data.gouv.fr/fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/)
 
-### ***Données OpenStreetMap***
+### *Données OpenStreetMap*
 
 Pour les données communales, celle-ci ont tracées depuis un fond raster communal de la direction générale des Finances publiques (DGFiP) comme cet article <a href="http://prev.openstreetmap.fr/36680-communes" target="_blank">"Achèvement du tracé collaboratif des limites communales françaises dans OpenStreetMap"</a> le retrace.
 
@@ -34,16 +34,15 @@ Pour les données communales, celle-ci ont tracées depuis un fond raster commun
 ## **Données postales**
 
 - [Base officielle des codes postaux](https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/) de La Poste. Comme la donnée n'est qu'à date courante, il est possible d'avoir <a href="http://files.opendatarchives.fr/datanova.laposte.fr/archives/laposte_hexasmal/" target="_blank">les mêmes données archivées plus anciennes sur OpenDatarchives</a>
-
 - Fond de carte des codes postaux [https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/](https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/)
 
-### **Dérivées ou dérivables des données communales générales :**
+## **Données dérivées ou dérivables des données communales générales**
 
 Généralement des zonages sont dérivés de zonage communaux
 
 - Militaires:
   - [zone de défense et de sécurité](https://www.data.gouv.fr/fr/datasets/zones-de-defense-et-de-securite-2016/)
-- Écoles: académie et zone vacances
+- Écoles: académie et zones de vacances
     - [Contours géographiques des académies](https://www.data.gouv.fr/fr/datasets/contours-geographiques-des-academies/)
 - Zonages liés à des actions, principalement ANCT (Agence Nationale de Cohésion des Territoires)
     - [Zones de revitalisation rurale (ZRR)](https://www.data.gouv.fr/fr/datasets/zone-de-revitalisation-rurale-zrr-30382904/)
@@ -74,7 +73,7 @@ Généralement des zonages sont dérivés de zonage communaux
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-tribunaux-judiciaires" target="_blank">Périmètre des tribunaux judiciaires</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-tribunaux-de-proximite-ou-poles-de-proximite-de-tribunaux-judiciaires" target="_blank">Périmètre des tribunaux de proximité</a>
     - [Programme Petites villes de demain](https://www.data.gouv.fr/fr/datasets/programme-petites-villes-de-demain/)
-    - [CRTE](https://www.data.gouv.fr/fr/datasets/contrat-de-relance-et-de-transition-ecologique/)
+    - [CRTE (Contrat de Relance et de Transition Ecologique)](https://www.data.gouv.fr/fr/datasets/contrat-de-relance-et-de-transition-ecologique/)
     - [Quartiers prioritaires politique de la ville (QPV)](https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/)
 
 
@@ -238,14 +237,14 @@ Dispatcher entre droits/justice et sécurité
 - [Géo'DAE - Base Nationale des Défibrillateurs](https://www.data.gouv.fr/fr/datasets/geodae-base-nationale-des-defibrillateurs/)
 - [Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/) (API sans archivage). Voir [ce jeu de données](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/#resource-6c6484fe-7024-452a-a156-b2effbaad598-title) pour une version avec historique et coordonnées.
 
-## Agriculture
+# Agriculture
 
 - [Registre parcellaire graphique (RPG)](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/) : contours des parcelles et îlots culturaux et leur groupe de cultures majoritaire (**SPD**)
 - [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/)
 - [Agriculture biologique 2008-2011 - nombre d'opérateurs engagés en agriculture biologique](https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-nombre-d-operateurs-engages-en-agriculture-biologique-30378896/) (information rapportable à une région ou un département)
 - [Délimitation Parcellaire des AOC Viticoles de l'INAO](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/)
 
-## Patrimoine/culture/tourisme/sports
+# Patrimoine/culture/tourisme/sports
 
 - [Immeubles protégés au titre des Monuments Historiques](https://www.data.gouv.fr/fr/datasets/immeubles-proteges-au-titre-des-monuments-historiques-2/)
 - [Liste et localisation des Musées de France](https://www.data.gouv.fr/fr/datasets/liste-et-localisation-des-musees-de-france/)
@@ -258,7 +257,7 @@ Dispatcher entre droits/justice et sécurité
 - [Localisation des sites de fouille archéologiques de l'Inrap](https://www.data.gouv.fr/fr/datasets/localisation-des-sites-de-fouille-archeologiques-de-l-inrap-576210/)
 - [Données géocodées issues du recensement des licences et clubs auprès des fédérations sportives agréées par le ministère chargé des sports](https://www.data.gouv.fr/fr/datasets/donnees-geocodees-issues-du-recensement-des-licences-et-clubs-aupres-des-federations-sportives-agreees-par-le-ministere-charge-des-sports/)
 
-## POIs
+# POIs
 
 - [Recensement des équipements sportifs, espaces et sites de pratiques](https://www.data.gouv.fr/fr/datasets/recensement-des-equipements-sportifs-espaces-et-sites-de-pratiques/) (soit à géocoder soit pour avoir les informations à la commune)
 - [Base permanente des équipements](https://www.data.gouv.fr/fr/datasets/base-permanente-des-equipements-1/)
