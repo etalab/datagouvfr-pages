@@ -265,7 +265,7 @@ Dispatcher entre droits/justice et sécurité
 - [Adresses des débits de tabac](https://www.data.gouv.fr/fr/datasets/adresses-des-debits-de-tabac/)
 - [Liste des structures France services](https://www.data.gouv.fr/fr/datasets/62503e25bc0f6370f4a651ce/)
 
-# Fonds de plan:
+# Fonds de plan
 
 ## Niveau France
 
