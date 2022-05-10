@@ -73,7 +73,7 @@ with open('donnees-geo-essentielles.md', 'r') as input_file:
 html_tree = markdown_renderer_with_toc_directive(content)
 content_resulting = []
 
-directives_tags = """"---
+directives_tags = """---
 title: Ceci est un exemple
 keywords:
   - geo
