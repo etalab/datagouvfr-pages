@@ -91,9 +91,27 @@ content_resulting.append(directives_tags)
 
 title = "Les données à composante géographique"
 illustration_url = "https://user-images.githubusercontent.com/60264344/163353375-68ccb015-b845-4675-8ae7-35497aa2f5b8.svg"
-basic_description = """Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses.
-Sont référencées ici les principaux jeux de données disponibles sur data.gouv.fr ainsi que certaines autre sources de données.
-Celle-ci n'est pas exhaustive et est ouverte aux contributions."""
+basic_description = """<p>
+          Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur
+          <a href="http://data.gouv.fr/">
+            data.gouv.fr
+          </a>
+          . Celle-ci n'est pas exhaustive et est
+          <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md" target="_blank">
+            ouverte aux contributions
+          </a>
+          .
+        </p>
+        <p>
+          Un certains nombre de ces données font office de référentiel qui servent de pivot avec d'autres jeux de données. Elles font parties
+          <a href="https://www.data.gouv.fr/fr/pages/spd/reference/">
+            du SPD (Service Public de la Donnée)
+          </a>
+          . Voir aussi
+          <a href="https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel/" target="_blank">
+            cet article sur comment lier des données à un référentiel
+          </a>
+        </p>"""
 
 levels_to_inf_3 = [i for i in extract_toc_items(markdown_renderer_with_toc_directive, content) if i[2] < 3]
 left_menu = render_toc_ul(levels_to_inf_3)
