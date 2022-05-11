@@ -1,9 +1,3 @@
-# Données à composantes géographiques
-
-Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur [data.gouv.fr](http://data.gouv.fr/). Celle-ci n'est pas exhaustive et est <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-coronavirus.md" target="_blank">ouverte aux contributions</a>.
-
-Un certains nombre de ces données font office de référentiel qui servent de pivot avec d'autres jeux de données. Elles font parties [du SPD (Service Public de la Donnée)](https://www.data.gouv.fr/fr/pages/spd/reference/). Voir aussi <a href="https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel/" target="_blank">cet article sur comment lier des données à un référentiel</a>
-
 # Données limites administratives
 
 ## **Données communales**
