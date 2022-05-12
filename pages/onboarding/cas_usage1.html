@@ -19,12 +19,12 @@ content_type: html
  
 	<section class="section-blue section-main">
 		<div class="fr-container">
-			<div class="fr-grid-row fr-grid-row--gutters fr-pt-6w">
+			<div class="fr-grid-row fr-grid-row--gutters fr-mt-6w">
 				<div>
 					<h1>Nos Villes Vertes : Connaître le patrimoine arboré des communes françaises</h1>
 				<div class="fr-col-12">
 				  <div class="fr-highlight">
-				<p class="fr-my-3w">Ceci est un exemple de cas d’usage selectionné par notre équipe.
+				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.
 				</p>
 				</div>
 				  </div>
@@ -35,9 +35,9 @@ content_type: html
 		</br>
 	
 	<div style="display:flex;">
-		<nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral">
+		<nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="min-width:310px;">
 			<div class="fr-sidemenu__inner">
-				<button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
+				<button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">Dans cette rubrique</button>
 				<img src="https://user-images.githubusercontent.com/72090652/167587283-a84a3595-b113-4992-8828-1ac92cff9a9b.svg" alt="Illustration de Nos Villes Vertes" class="hidden-mobile">
 				<div class="fr-collapse" id="fr-sidemenu-wrapper">
 					<ul class="fr-sidemenu__list">
@@ -77,11 +77,13 @@ content_type: html
 	<div class="fr-grid-row fr-grid-row--gutters">
         <div class="fr-col-12" id="données">
 			<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
+			<div class="markdown">
 			<ul>
 				<li><b>Référentiel à Grande Echelle</b> : données ortophotographiques, topographiques et altimétriques du territoire français</li>
 				<li><b>Données CORINE Land Cover</b> : base de données européenne sur l’occupation des sols</li>
 				<li><b>Données statistiques sur la population française</b></li>
 			</ul>
+			</div>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
@@ -104,7 +106,7 @@ content_type: html
 			<p>Ces données sont représentées sous la forme de <b>tableaux de bord</b> pour chaque ville française avec : </p>
 		
 			<div style="display: flex; gap: 15px; margin-bottom: 60px; flex-wrap: wrap;">
-				<div class="fr-tile" style="flex: 1; min-width: 250px; min-height: 200px">
+				<div class="fr-tile" style="flex: 1; min-width: 250px; min-height: 220px">
 					<div class="fr-tile__body">
 						<h4 class="fr-tile__title">
 							Une cartographie de la végétation arborée
@@ -114,7 +116,7 @@ content_type: html
 						<img src="https://user-images.githubusercontent.com/72090652/167409653-e2bd94f3-2876-499c-bcb8-0b516edc612f.svg" alt="">
 					</div>
 				</div>
-				<div class="fr-tile" style="flex: 1; min-width: 250px; min-height: 200px">
+				<div class="fr-tile" style="flex: 1; min-width: 250px; min-height: 220px">
 					<div class="fr-tile__body">
 						<h4 class="fr-tile__title">
 							Des indicateurs simples
@@ -125,7 +127,7 @@ content_type: html
 						<img src="https://user-images.githubusercontent.com/72090652/167409677-42dedb8b-270e-4fa5-9e5b-22c3cc04e290.svg" alt="">
 					</div>
 				</div>
-				<div class="fr-tile" style="flex: 1; min-width: 250px;  min-height: 200px">
+				<div class="fr-tile" style="flex: 1; min-width: 250px;  min-height: 220px">
 					<div class="fr-tile__body">
 						<h4 class="fr-tile__title">
 							Des visualisations de données
@@ -156,22 +158,28 @@ content_type: html
 		<div class="fr-col-12" id="impact">
 			<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
 			<p>L’exploitation du Référentiel à Grande Echelle permet de produire des données :</p>
+			<div style="markdown">
 			<ul>
 				<li><b>objectives</b>, fruit de l’observation factuelle d’une photographie</li>
 				<li><b>homogènes</b>, toutes les photographies respectant les mêmes caractéristiques</li>
 				<li><b>précises et complètes</b>, couvrant le patrimoine arboré des milieux publics et privés</li>
 			</ul>
+			</div>
 			<h3>Pour les citoyens</h3>
+			<div style="markdown">
 			<ul>
 				<li>Une <b>meilleure connaissance</b> de la végétation de leur territoire</li>
 				<li>Des données factuelles pour appuyer un projet d’aménagement</li>
 			</ul>
+			</div>
 			<h3>Pour les collectivités territoriales</h3>
+			<div style="markdown">
 			<ul>
 				<li>Une <b>vision plus complète</b> de la végétation du territoire</li>
 				<li>Un premier outil d’aide à la décision pour <b>initier/penser les politiques de végétalisation</b></li>
 				<li>La <b>découverte de l’existence de ce type de données</b> et de la possibilité d’y accéder à un niveau adapté à leurs besoins, pour approfondir leurs politiques d’aménagement (en sollicitant les services de Kermap)</li>
 			</ul>
+			</div>
 		</div>
 	</div>
 
@@ -194,7 +202,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167109066-801f5e4f-6eb6-4da7-9368-5cfaeeb88505.svg" alt="Image de l'application BeeGIS">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819329-c5658ae4-107f-40b9-a318-24f3fe1542c8.svg" alt="Image de l'application BeeGIS">
 					</div>
 				</div>
 			</div>
@@ -210,7 +218,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167108955-0e170578-9922-4fd1-9861-0a3922080460.svg" alt="Image de l'application Nos Villes Vertes">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819152-c6294cd6-f696-41f2-9b42-e5a6bf935996.svg" alt="Image de l'application Nos Villes Vertes">
 					</div>
 				</div>
 			</div>
@@ -226,7 +234,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167108918-8049b699-16c4-454d-b536-99a9618d9d07.svg" alt="Logo de Signaux Faibles">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858618-9f6c15be-8733-4faa-b1dc-68d91c8561b9.svg" alt="Logo de Signaux Faibles">
 					</div>
 				</div>
 			</div>
@@ -242,7 +250,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167108995-cab8ccb1-7a53-49a0-b995-19007312597d.svg" alt="Image de l'application ERRIAL">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858645-ff0f2e8e-5419-40f1-9b66-470d8e096b5e.svg" alt="Image de l'application ERRIAL">
 					</div>
 				</div>
 			</div>
@@ -258,7 +266,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167109023-2dbd0a97-168c-41a4-8ada-c752a46e743a.svg" alt="Exemples d'écrans d'Ekylibre">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858667-38f281aa-22bc-4235-99b3-aaac77506666.svg" alt="Exemples d'écrans d'Ekylibre">
 					</div>
 				</div>
 			</div>
@@ -274,7 +282,7 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167109046-cfc72530-d252-4210-81e0-0fbb743a76bb.svg" alt="Page d'accueil de DiagOriente">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819298-98e7477f-6086-4a1a-9034-04d8685e5e0b.svg" alt="Page d'accueil de DiagOriente">
 					</div>
 				</div>
 			</div>
@@ -306,14 +314,13 @@ content_type: html
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://static.data.gouv.fr/images/a7/da2f330fcd44b5a66b8d2d23a8d8e7.png" alt="Illustration de l'application DVF">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819270-313f2256-18a4-4dd7-842e-e7d45df5d0de.svg" alt="Illustration de l'application DVF">
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-	<div class="fr-col-12" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+	<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
     	<h4>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h4>
     	<p style="margin-bottom: unset;">
     	<a class="fr-btn" href="https://www.data.gouv.fr/fr/login" style="margin-right: 19px;">Publiez des données</a>
