@@ -42,13 +42,13 @@ Généralement des zonages sont dérivés de zonage communaux
     - [Zones de revitalisation rurale (ZRR)](https://www.data.gouv.fr/fr/datasets/zone-de-revitalisation-rurale-zrr-30382904/)
     - Aides à finalité régionale (AFR) (en cours de validation pour la période, non disponible pour le moment)
     - [Communes classées en zone de montagne](https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/)
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/kiosque/zonage-les-zones-de-perimetre-de-massifs" href="_blank">Communes classées en Périmètre de massif</a>
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-territoires-dindustrie-0" href="_blank">Programme Territoires d'industrie</a>
+    - <a href="https://www.observatoire-des-territoires.gouv.fr/kiosque/zonage-les-zones-de-perimetre-de-massifs" target="_blank">Communes classées en Périmètre de massif</a>
+    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-territoires-dindustrie-0" target="_blank">Programme Territoires d'industrie</a>
     - [Communes bénéficiant du plan Action Cœur de Ville (ACV)](https://www.data.gouv.fr/fr/datasets/programme-action-coeur-de-ville/)
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-loi-littoral" href="_blank">Communes classées en Loi Littoral</a>
-    - Communes classées en Périmètres des parcs naturels régionaux (PNR): voir <a href="https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pnr" href="_blank">les zonages des PNR</a>
-    - Communes classées en Parcs Nationaux: voir <a href="https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pn" href="_blank">les zonages des PN</a>
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-zone-de-revitalisation-des-commerces-en-milieu-rural-zorcomir" href="_blank">zones de revitalisation des commerces en milieu rural (*ZORCOMIR)*]()
+    - <a href="https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-loi-littoral" target="_blank">Communes classées en Loi Littoral</a>
+    - Communes classées en Périmètres des parcs naturels régionaux (PNR): voir <a href="https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pnr" target="_blank">les zonages des PNR</a>
+    - Communes classées en Parcs Nationaux: voir <a href="https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/ep/pn" target="_blank">les zonages des PN</a>
+    - <a href="https://www.observatoire-des-territoires.gouv.fr/classement-des-communes-en-zone-de-revitalisation-des-commerces-en-milieu-rural-zorcomir" target="_blank">zones de revitalisation des commerces en milieu rural (ZORCOMIR)</a>
     - [Zones urbaines sensibles (ZUS)](https://www.data.gouv.fr/fr/datasets/zones-urbaines-sensibles-zus/)
     - Établissements Publics de Coopération Intercommunale (EPCI) Voir [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/) pour les données récentes. Pour reconstituer les données EPCI, utiliser les données DGCL qui donnent la <a href="https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre" target="_blank">composition communale des EPCI depuis 1999</a> ou bien [la BANATIC (Base nationale sur les intercommunalités)](https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/)
     - Établissements publics territoriaux (EPT). Ils composent la Métropole du Grand Paris et sont disponibles sur <a href="https://opendata.apur.org/datasets/Apur::etablissements-publics-territoriaux-metropole-du-grand-paris/explore?location=48.828504%2C2.379750%2C10.99" target="_blank">le portail de l'APUR</a>
