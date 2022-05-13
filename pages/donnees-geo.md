@@ -252,6 +252,7 @@ Dispatcher entre droits/justice et sécurité
 - [Zones Touristiques Internationales](https://www.data.gouv.fr/fr/datasets/zones-touristiques-internationales/)
 - [Localisation des sites de fouille archéologiques de l'Inrap](https://www.data.gouv.fr/fr/datasets/localisation-des-sites-de-fouille-archeologiques-de-l-inrap-576210/)
 - [Données géocodées issues du recensement des licences et clubs auprès des fédérations sportives agréées par le ministère chargé des sports](https://www.data.gouv.fr/fr/datasets/donnees-geocodees-issues-du-recensement-des-licences-et-clubs-aupres-des-federations-sportives-agreees-par-le-ministere-charge-des-sports/)
+- [Base des lieux et équipements culturels (Basilic)](https://www.data.gouv.fr/fr/datasets/base-des-lieux-et-equipements-culturels-basilic/)
 
 # POIs
 
