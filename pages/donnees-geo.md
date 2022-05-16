@@ -32,7 +32,7 @@ Pour les données communales, celle-ci ont tracées depuis un fond raster commun
 
 ## **Données dérivées ou dérivables des données communales générales**
 
-Généralement des zonages sont dérivés de zonage communaux
+Généralement des zonages sont dérivés de zonage communaux. Voici une liste ci-dessous. Vous pouvez pour certains zonages passer par la <a href="https://www.insee.fr/fr/information/2028028" target="_blank">"Table d’appartenance géographique des communes et tables de passage" de l'INSEE</a>
 
 - Militaires:
   - [zone de défense et de sécurité](https://www.data.gouv.fr/fr/datasets/zones-de-defense-et-de-securite-2016/)
@@ -56,12 +56,12 @@ Généralement des zonages sont dérivés de zonage communaux
     - Départements: disponibles dans [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/)
     - Régions: disponibles dans [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/)
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-anciennes-regions-1972" target="_blank">Anciennes Régions</a>
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-zones-demploi-2020" target="_blank">Zone d'emploi (2020)</a>
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-bassins-de-vie-2012" target="_blank">Bassin de vie (2012)</a>
+    - <a href="https://www.insee.fr/fr/information/4652957" target="_blank">Zone d'emploi (2020)</a>
+    - <a href="https://www.insee.fr/fr/information/2115016" target="_blank">Bassin de vie (2012)</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-pseudo-cantons" target="_blank">Canton-ou-ville (appelé pseudo-canton)</a>
     - Arrondissement: disponibles dans [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/)
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-unites-urbaines-2020" target="_blank">Unité urbaine (2020)</a>
-    - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-aires-dattraction-des-villes-2020" target="_blank">Aire d'attraction des villes (2020)</a>
+    - <a href="https://www.insee.fr/fr/information/4802589" target="_blank">Unité urbaine (2020)</a>
+    - <a href="https://www.insee.fr/fr/information/4803954" target="_blank">Aire d'attraction des villes (2020)</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/typologie-du-zonage-en-aires-dattraction-des-villes-aav-2020-0" target="_blank">Pôle / couronne des AAV (2020)</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-cours-dappel" target="_blank">Périmètre des cours d'appel</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-ressorts-des-tribunaux-judiciaires" target="_blank">Périmètre des tribunaux judiciaires</a>
