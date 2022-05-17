@@ -1,11 +1,11 @@
 ---
-title: Cas d'usage "Nos Villes Vertes"
+title: Cas d'usage "La prise d'appel des secours"
 keywords:
   - Publier
   - Producteurs
   - Open data
   - Ouverture
-description: Page de cas d'uusage
+description: Page de cas d'usage
 content_type: html
 ---
 
@@ -22,14 +22,15 @@ content_type: html
 			<div class="fr-grid-row fr-grid-row--gutters fr-mt-6w">
 				<div>
 					<h1>La prise d'appel des secours : Localiser précisément les interventions des pompiers</h1>
+				</div>
 				<div class="fr-col-12">
-				  <div class="fr-highlight">
+				  <div class="fr-highlight fr-mb-3w">
 				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.
 				</p>
-				</div>
 				  </div>
+				</div>
 			</div>
-
+			
 		<br>	
 		</br>
 	
@@ -37,7 +38,7 @@ content_type: html
 		<nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="min-width:310px;">
 			<div class="fr-sidemenu__inner">
 				<button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">Dans cette rubrique</button>
-				<img src="https://user-images.githubusercontent.com/72090652/167587283-a84a3595-b113-4992-8828-1ac92cff9a9b.svg" alt="Illustration de Nos Villes Vertes" class="hidden-mobile fr-responsive-img">
+				<img src="https://user-images.githubusercontent.com/72090652/168682879-eeab7006-cd74-450f-ad46-596ad2639c41.svg" alt="Illustration pompier et écran" class="hidden-mobile fr-responsive-img">
 				<div class="fr-collapse" id="fr-sidemenu-wrapper">
 					<ul class="fr-sidemenu__list">
 						<li class="fr-sidemenu__item fr-sidemenu__item--active">
@@ -82,7 +83,7 @@ content_type: html
 			<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
 			<div class="markdown">
 			<ul>
-				<li><b><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">Base Adresse Nationale</b></a></li>
+				<li><b><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">Base Adresse Nationale (BAN)</b></a></li>
 			</ul>
 			</div>
 		</div>
@@ -90,26 +91,28 @@ content_type: html
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="réutilisateur">
 			<h2>Réutilisateur <span class="fr-fi-user-fill" aria-hidden="true"></span></h2>
-			<p>Le Service départemental d’incendie et de secours des Pyrénées Atlantiques (<a href="https://www.sdis64.fr/"><b>SDIS64</b></a>) est en charge de l’analyse des risques et de la mise en place des moyens de secours dans le département.</p>
+			<p>Cette démarche a été développée par le Service départemental d’incendie et de secours des Pyrénées Atlantiques (<a href="https://www.sdis64.fr/"><b>SDIS64</b></a>). Celui-ci est en charge de l’analyse des risques et de la mise en place des moyens de secours dans le département.</p>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="problématique">
 			<h2>Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
-			<p>Le SDIS64 s’est saisi d’une problématique critique : le <b>manque de précision relatif à la localisation des interventions des secours</b>. Chaque intervention (secours d’urgence, incendies, etc.) est déclenchée suite à un traitement et une affectation de l’alerte à un Centre d’Incendie et de Secours par le Centre de Traitement de l’Alerte (CTA). Pour chaque appel au 18 qualifié, l’opérateur du CTA localisait une intervention sur une section de voie - appelée tronçon -, en le sélectionnant manuellement dans une liste proposée par le logiciel d’alerte. La plupart des tronçons sont identifiés par un numéro de début et de fin, mais pas tous : il était donc parfois difficile pour l’opérateur de choisir le bon tronçon. Dans les deux cas, les secours étaient envoyés en début de tronçon sélectionné pour chercher le lieu précis sur le terrain, <b>allongeant ainsi leurs délais d’arrivée</b>.</p>
-			<p>Le SDIS64 propose d’utiliser les données adresses issues de la BAN pour <b>localiser les interventions sur le lieu précis et permettre aux secours d’arriver rapidement au bon endroit</b>.</p>
+			<p>Le SDIS64 s’est saisi d’une problématique critique : le <b>manque de précision relatif à la localisation des interventions des secours</b>.</p>
+			<p>Chaque intervention (secours d’urgence, incendies, etc.) est déclenchée suite à un traitement et une affectation de l’alerte à un Centre d’Incendie et de Secours par le Centre de Traitement de l’Alerte (CTA). Pour chaque appel au 18 qualifié, l’opérateur du CTA localisait une intervention sur une section de voie - appelée tronçon -, en le sélectionnant manuellement dans une liste proposée par le logiciel d’alerte. La plupart des tronçons sont identifiés par un numéro de début et de fin, mais pas tous : il était donc parfois difficile pour l’opérateur de choisir le bon tronçon.</p>
+			<p>Dans les deux cas, les secours étaient envoyés en début de tronçon sélectionné pour chercher le lieu précis sur le terrain, <b>allongeant ainsi leurs délais d’arrivée</b>.</p>
+			<p>Le SDIS64 propose d’utiliser les données adresses issues de la Base Adresse Nationale pour <b>localiser les interventions sur le lieu précis et permettre aux secours d’arriver rapidement au bon endroit</b>.</p>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="solution">
 			<h2>Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
-			<p>Les données de la BAN ont été intégrées dans le logiciel d’alerte après :</p>
-            <div style="markdown">
+			<p>Les données de la Base Adresse Nationale ont été intégrées dans le logiciel d’alerte après :</p>
+            <div class="markdown">
                 <ul>
-                    <li>Jointure entre la base des voies et de tronçons (SDIS64) et la Base Adresse Nationale (BAN)</li>
-                    <li>Rapprochement géographique des points adresses de la BAN sur les voies</li>
+                    <li>Jointure entre la base des voies et de tronçons (SDIS64) et la Base Adresse Nationale</li>
+                    <li>Rapprochement géographique des points adresses de la Base Adresse Nationale sur les voies</li>
                 </ul>
-			<p>Les opérateurs du CTA peuvent désormais saisir textuellement une adresse dans le logiciel, qui, si elle figure dans la BAN, permet :</p>
+			<p>Les opérateurs du Centre de Traitement de l'Alerte peuvent désormais saisir textuellement une adresse dans le logiciel, qui, si elle figure dans la Base Adresse Nationale, permet :</p>
 		
 			<div style="display: flex; gap: 15px; margin-bottom: 60px; flex-wrap: wrap;">
 				<div class="fr-tile" style="flex: 1; min-width: 250px; min-height: 220px">
@@ -144,43 +147,44 @@ content_type: html
 					</div>
 				</div>
 			</div>
-
-		<figure class="fr-quote fr-quote--column">
-			<blockquote>
-				<p>« Il faut utiliser la BAN afin qu’elle devienne la base unique de référence de l’adresse en France. Arrêtons d’avoir chacun sa base dans son coin, les éditeurs de GPS, les agglomérations, les fournisseurs d’énergie ou de la fibre, la Poste, etc. »</p>
-			</blockquote>
-			<figcaption>
-				<p class="fr-quote__author">Adrien Carpentier, chef du service SIG du SDIS64</p>
-				<div class="fr-quote__image">
-					<img src="https://user-images.githubusercontent.com/72090652/167412478-7e326ea6-f521-4cce-a219-8281e9bc29d7.svg" class="fr-responsive-img" alt="" />
-				</div>
-			</figcaption>
-		</figure>
 		</div>
 	</div>
 
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="impact">
 			<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
-			<p>Environ ½ des interventions du SDIS64 semblent désormais localisées avec le point adresse, d’après l’observation du bulletin quotidien du CTA.</p>
+			<p>Environ ½ des interventions du SDIS64 semblent désormais localisées avec le point adresse, d’après l’observation du bulletin quotidien du Centre de Traitement de l'Alerte.</p>
             <h3>Pour les pompiers</h3>
             <p>La localisation des interventions sur le point adresse, plus précise, permet :</p>
-			<div style="markdown">
+			<div class="markdown">
 			<ul>
 				<li><b>l’utilisation de l’itinéraire le plus adapté</b></li>
 				<li><b>la diminution du temps de recherche sur le terrain</b></li>
 			</ul>
 			</div>
-            <p>Et donc la <b>réduction de leurs délais d’arrivée.</b></p>
+            <p>Et donc la <b>réduction des délais d’arrivée.</b></p>
 		</div>
 	</div>
 
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="enseignements">
 			<h2>Enseignements <span class="fr-fi-eye-fill" aria-hidden="true"></span></h2>
-			<p>80 à 90% de la BAN est de qualité, et peut être utilisée de manière relativement simple.</p>
-			<p>La réutilisation de la BAN et la mise en place d’un cercle vertueux permettent d’améliorer les données : lorsque le SDIS64 constate des divergences d’adresse entre la BAN, le panneau et leur base, il fait remonter un signalement aux communes. Celles-ci tranchent, corrigent, etc. et font remonter les modifications dans la BAN afin que tous les réutilisateurs puissent bénéficier de données mises à jour.</p>
-			<p>Pour instaurer ce cercle vertueux, il est nécessaire que toutes les communes créent leurs bases adresses locales pour être intégrées dans la BAN, et continuent à les faire vivre avec des mises à jour.</p>
+			<p><b>80 à 90% de la Base Adresse Nationale est de qualité</b>, et peut être utilisée de manière relativement simple.</p>
+			<p>La réutilisation de la Base Adresse Nationale et la mise en place d’un cercle vertueux permettent d’<b>améliorer les données</b> : lorsque le SDIS64 constate des divergences d’adresse entre la Base Adresse Nationale, le panneau et leur base, il fait remonter un signalement aux communes. Celles-ci tranchent, corrigent, etc. et font remonter les modifications dans la Base Adresse Nationale afin que tous les réutilisateurs puissent bénéficier de données mises à jour.</p>
+			<p>Pour instaurer ce cercle vertueux, il est nécessaire que <b>toutes les communes créent leurs bases adresses locales</b> pour être intégrées dans la Base Adresse Nationale, et continuent à les faire vivre avec des mises à jour.</p>
+		
+			<figure class="fr-quote fr-quote--column fr-mt-6w">
+				<blockquote>
+					<p>« Il faut utiliser la Base Adresse Nationale afin qu’elle devienne la base unique de référence de l’adresse en France. Arrêtons d’avoir chacun sa base dans son coin, les éditeurs de GPS, les agglomérations, les fournisseurs d’énergie ou de la fibre, la Poste, etc. »</p>
+				</blockquote>
+				<figcaption>
+					<p class="fr-quote__author">Adrien Carpentier, chef du service SIG du SDIS64</p>
+					<div class="fr-quote__image">
+						<img src="https://user-images.githubusercontent.com/72090652/167412478-7e326ea6-f521-4cce-a219-8281e9bc29d7.svg" class="fr-responsive-img" alt="" />
+					</div>
+				</figcaption>
+			</figure>
+			</div>
 		</div>
 	</div>
 
@@ -337,8 +341,9 @@ content_type: html
 
 	</section>
 
-
-</div>
+	<script type="text/javascript">
+		document.querySelector('.container.py-lg').classList.remove('container')
+	</script>
 
 
     <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
