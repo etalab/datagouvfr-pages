@@ -22,12 +22,13 @@ content_type: html
 			<div class="fr-grid-row fr-grid-row--gutters fr-mt-6w">
 				<div>
 					<h1>Ekylibre : Gérer simplement une exploitation agricole</h1>
+				</div>
 				<div class="fr-col-12">
-				  <div class="fr-highlight">
+				  <div class="fr-highlight fr-mb-3w">
 				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.
 				</p>
-				</div>
 				  </div>
+				</div>
 				<a class="fr-link fr-fi-arrow-right-line fr-link--icon-left" href="https://ekylibre.com/"><b>Accéder à Ekylibre</b></a>
 			</div>
 
@@ -83,10 +84,9 @@ content_type: html
 			<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
 			<div class="markdown">
 			<ul>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/"><b>Référentiel à Grande Echelle</b></a> : données ortophotographiques, topographiques et altimétriques du territoire français</li>
-                <li><a href="https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"><b>Registre parcellaire graphique</b></a> : base de données géographiques sur les parcelles agricoles</li>
+				<li><a href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/"><b>Référentiel à Grande Echelle (RGE)</b></a> : données ortophotographiques, topographiques et altimétriques du territoire français</li>
+                <li><a href="https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"><b>Registre parcellaire graphique (RPG)</b></a> : base de données géographiques sur les parcelles agricoles</li>
                 <li><a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/"><b>Base Sirene des entreprises et de leurs établissements</b></a> : données sur les entreprises françaises</li>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/"><b>BD Topo</b></a> : base de données décrivant les éléments et infrastructures du territoire</li>
 				<li><a href="https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/"><b>Données E-Phy</b></a> : catalogue des produits phytopharmaceutiques et de leurs usages, des matières fertilisantes et des supports de culture autorisés en France</li>
                 <li><a href="https://www.data.gouv.fr/fr/datasets/doses-de-reference-indicateur-de-frequence-de-traitements-phytosanitaires/"><b>Indicateurs de fréquence de traitements phytosanitaires</b></a></li>
                 <li><b>etc.</b></li>
@@ -104,19 +104,19 @@ content_type: html
 		<div class="fr-col-12" id="problématique">
 			<h2>Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
 			<p>Ekylibre s’attaque à la <b>charge administrative importante</b> que requiert la gestion d’une exploitation agricole. En effet, les agriculteurs doivent aujourd’hui consacrer en moyenne 7 heures par semaine à des tâches administratives (édition de documents réglementaires, saisies de travaux au champ, gestion de trésorerie, etc.).</p>
-			<p>Ekylibre a conçu un outil qui intègre des données ouvertes de référence (RPG, Base Sirene, RGE, etc.) pour <b>automatiser ou faciliter un certain nombre de tâches de gestion</b>.</p>
+			<p>Ekylibre a conçu un outil qui intègre des données ouvertes de référence (Registre parcellaire graphique, Base Sirene, Référentiel à grande échelle, etc.) pour <b>automatiser ou faciliter un certain nombre de tâches de gestion</b>.</p>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="solution">
 			<h2>Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
-			<p>Une application open source où :</p>
-            <div style="markdown">
+			<p>Une application open source où par exemple :</p>
+            <div class="markdown">
                 <ul>
                     <li>le dossier de l’agriculteur est complété automatiquement (nom, prénom, adresse, etc.) grâce aux données de la Base Sirene</li>
-                    <li>les parcelles de l’exploitation sont cartographiées facilement, en sélectionnant précisément ses zones cultivables à partir du RPG</li>
-                    <li>sont récupérées les données hydrographiques (BD Topo) pour informer les agriculteurs des zones à exclure dans l’utilisation de certains produits</li>
-                    <li>sont proposées toutes les informations relatives aux produits phytosanitaires lorsque sont saisies des interventions sur une exploitation</li>
+                    <li>les parcelles de l’exploitation sont cartographiées facilement, en sélectionnant précisément les zones cultivables à partir du Registre parcellaire graphique</li>
+                    <li>sont récupérées des données hydrographiques (Référentiel à grande échelle) pour informer les agriculteurs des zones à exclure dans l’utilisation de certains produits</li>
+                    <li>sont proposées toutes les informations relatives aux produits phytosanitaires lors de la saisie d'une intervention sur une exploitation (données E-phy)</li>
                 </ul>
             </div>
 			<p>pour offrir :</p>
@@ -158,7 +158,7 @@ content_type: html
 
 		<figure class="fr-quote fr-quote--column">
 			<blockquote>
-				<p>« Les agriculteurs peuvent désormais créer un compte en saisissant le moins de données possibles, grâce à un rapatriement automatique de données ouvertes de référence. Auparavant, c’était très lourd et il s’agissait d’un frein énorme à l’usage de solutions numériques par les agriculteurs. Plus largement, elles permettent de réduire la saisie manuelle. »</p>
+				<p>« Les agriculteurs peuvent désormais créer un compte en saisissant le moins de données possibles, grâce à un rapatriement automatique de données ouvertes de référence. Auparavant, c’était très lourd et il s’agissait d’un frein énorme à l’usage de solutions numériques par les agriculteurs. »</p>
 			</blockquote>
 			<figcaption>
 				<p class="fr-quote__author">David Joulin, co-fondateur d’Ekylibre</p>
@@ -173,8 +173,8 @@ content_type: html
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="impact">
 			<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
-			<p>Grâce à Ekylibre et la gestion automatisée des données, les agriculteurs :</p>
-			<div style="markdown">
+			<p>Grâce à Ekylibre et la gestion automatisée des données, les <b>agriculteurs</b> :</p>
+			<div class="markdown">
 			<ul>
 				<li>voient leur <b>charge administrative réduite</b></li>
 				<li>respectent plus facilement les <b>exigences réglementaires</b></li>
@@ -183,7 +183,7 @@ content_type: html
 			</ul>
 			</div>
 			<h3>Chiffres clés</h3>
-			<div style="markdown">
+			<div class="markdown">
 			<ul>
 				<li><b>5 000+</b> agriculteurs</li>
 				<li><b>131 heures</b> par an économisées à la gestion (en moyenne)</li>
@@ -353,8 +353,9 @@ content_type: html
 
 	</section>
 
-
-</div>
+	<script type="text/javascript">
+		document.querySelector('.container.py-lg').classList.remove('container')
+	</script>
 
 
     <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
