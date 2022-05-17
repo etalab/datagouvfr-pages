@@ -22,15 +22,16 @@ content_type: html
 			<div class="fr-grid-row fr-grid-row--gutters fr-mt-6w">
 				<div>
 					<h1>BeeGIS : Estimer les ressources florales autour des ruchers</h1>
+				</div>
 				<div class="fr-col-12">
-				  <div class="fr-highlight">
+				  <div class="fr-highlight fr-mb-3w">
 				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.
 				</p>
-				</div>
 				  </div>
+				</div>
 				<a class="fr-link fr-fi-arrow-right-line fr-link--icon-left" href="https://appli.itsap.asso.fr/app/01-beegis/"><b>Accéder à BeeGIS</b></a>
 			</div>
-
+			
 		<br>	
 		</br>
 	
@@ -79,10 +80,10 @@ content_type: html
 			<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
 			<div class="markdown">
 			<ul>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"><b>Registre parcellaire graphique</b></a> : base de données géographiques sur les parcelles agricoles</li>
+				<li><a href="https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"><b>Registre parcellaire graphique (RPG)</b></a> : base de données géographiques sur les parcelles agricoles</li>
 				<li><a href="https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/"><b>Données sur les parcelles en agriculture biologique</b></a></li>
 				<li><a href="https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/"><b>Données CORINE Land Cover</b></a> : base de données européenne sur l'occupation des sols</li>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/bd-foret-r/"><b>BD Forêt</b></a>: base de données de référence pour les espaces forestiers et les milieux semi-naturels</li>
+				<li><a href="https://www.data.gouv.fr/fr/datasets/bd-foret-r/"><b>BD Forêt</b></a> : base de données de référence pour les espaces forestiers et les milieux semi-naturels</li>
 				<li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/"><b>BD Topo</b></a> : base de données des éléments et infrastructures du territoire</li>
 			</ul>
 			</div>
@@ -91,20 +92,20 @@ content_type: html
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="réutilisateur">
 			<h2>Réutilisateur <span class="fr-fi-user-fill" aria-hidden="true"></span></h2>
-			<p>L’Institut technique et scientifique de l’apiculture et de la pollinisation (<a href="https://itsap.asso.fr/"><b>ITSAP</b></a>) concourt au développement de la filière apicole à travers l’expérimentation, la recherche appliquée, la formation, etc.</p>
+			<p>BeeGIS a été conçu par l’Institut technique et scientifique de l’apiculture et de la pollinisation (<a href="https://itsap.asso.fr/"><b>ITSAP</b></a>). Ce dernier concourt au développement de la filière apicole à travers l’expérimentation, la recherche appliquée, la formation, etc.</p>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="problématique">
 			<h2>Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
 			<p>BeeGIS entend résoudre un problème récurrent chez les apiculteurs : le <b>manque de connaissance sur les ressources florales à la disposition de leurs abeilles</b> autour des ruchers. Jusqu’alors, ils ne disposaient que d’informations incomplètes, recoupant des investigations réalisées à pied, sur Géoportail ou sur Google Earth.</p>
-			<p>BeeGIS propose de recouper le RPG avec d’autres données ouvertes d’occupation du sol pour une aire de butinage donnée, afin de permettre aux apiculteurs d’<b>analyser simplement les ressources disponibles autour de différents ruchers</b>.</p>
+			<p>BeeGIS propose de recouper le Registre parcellaire graphique avec d’autres données ouvertes d’occupation du sol pour une aire de butinage donnée, afin de permettre aux apiculteurs d’<b>analyser simplement les ressources disponibles autour de différents ruchers</b>.</p>
 		</div>
 	</div>
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="solution">
 			<h2>Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
-			<p>Le RPG constitue l’une des couches géographiques principales d’une application qui propose :</p>
+			<p>Le Registre parcellaire graphique et d'autres données ouvertes d'occupation du sol constituent les couches géographiques d’une application qui propose :</p>
 		
 			<div style="display: flex; gap: 100px; margin-bottom: 60px; flex-wrap: wrap;">
 				<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
@@ -148,15 +149,17 @@ content_type: html
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="impact">
 			<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
-			<p>La mobilisation de plusieurs jeux de données relatifs à l’occupation du sol, en complément du RPG, permet d’avoir une <b>vision complète de l’environnement d’un rucher</b> : cultures agricoles, zones forestières, zones humides, tissu urbain, etc.</p>
-			<p>L’intégration des données historiques du RPG (2010-2020) permet aux apiculteurs d’<b>anticiper la succession de cultures agricoles</b> associée à une aire de butinage : les évolutions passées présagent les rotations futures.</p>
+			<p>La mobilisation de plusieurs jeux de données relatifs à l’occupation du sol, au premier rang desquels le Registre parcellaire graphique, permet d’avoir une <b>vision complète de l’environnement d’un rucher</b> : cultures agricoles, zones forestières, zones humides, tissu urbain, etc.</p>
+			<p>L’intégration des données historiques du Registre parcellaire graphique (2010-2020) permet aux apiculteurs d’<b>anticiper la succession de cultures agricoles</b> associée à une aire de butinage : les évolutions passées présagent les rotations futures.</p>
 			<p>Les apiculteurs :</p>
-			<div style="markdown">
+			<div class="markdown">
 			<ul>
 				<li>développent une <b>meilleure connaissance des zones</b> où butinent leurs abeilles</li>
 				<li><b>évaluent et comparent les emplacements de rucher</b> à leur disposition pour choisir le plus adapté en fonction de la colonie ou du type de production (bio)</li>
 			</ul>
 			</div>
+		</div>
+	</div>
 
 	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12" id="exemples">
@@ -311,8 +314,9 @@ content_type: html
 
 	</section>
 
-
-</div>
+	<script type="text/javascript">
+		document.querySelector('.container.py-lg').classList.remove('container')
+	</script>
 
 
     <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
