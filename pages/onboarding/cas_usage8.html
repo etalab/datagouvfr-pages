@@ -9,319 +9,222 @@ description: Page de cas d'usage
 content_type: html
 ---
 
-<!doctype html>
-<html lang="fr" data-fr-scheme="system">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="dsfr.min.css">
-  
- 
-	<section class="section-blue section-main">
-		<div class="fr-container">
-			<div class="fr-grid-row fr-grid-row--gutters fr-mt-6w">
-				<div>
-					<h1>Explorateur de données de valeur foncière : Connaître les prix des biens immobiliers</h1>
-				</div>
-				<div class="fr-col-12">
-				  <div class="fr-highlight fr-mb-3w">
-				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.
-				</p>
-				  </div>
-				</div>
-				<a class="fr-link fr-fi-arrow-right-line fr-link--icon-left" href="https://app.dvf.etalab.gouv.fr/"><b>Accéder à l'Explorateur de données de valeur foncière</b></a>
-			</div>
-			
-		<br>	
-		</br>
-	
-	<div style="display:flex;">
-		<nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="min-width:310px;">
-			<div class="fr-sidemenu__inner">
-				<button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">Dans cette rubrique</button>
-				<img src="https://user-images.githubusercontent.com/72090652/167863583-f233cdce-72c7-4875-8997-49d429e8d1b9.svg" alt="Illustration de DVF" class="hidden-mobile fr-responsive-img">
-				<div class="fr-collapse" id="fr-sidemenu-wrapper">
-					<ul class="fr-sidemenu__list">
-						<li class="fr-sidemenu__item fr-sidemenu__item--active">
-							<a class="fr-sidemenu__link" href="#" target="_self" aria-current="page"></a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#données" target="_self">1. Données ouvertes utilisées
-							</a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">2. Réutilisateur
-							</a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#problématique" target="_self">3. Problématique et proposition de valeur
-							</a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#solution" target="_self">4. Solution
-							</a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#impact" target="_self">5. Impact
-							</a>
-						</li>
-                        <li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#enseignements" target="_self">6. Enseignements
-							</a>
-						</li>
-						<li class="fr-sidemenu__item">
-							<a class="fr-sidemenu__link" href="#exemples" target="_self">7. Plus d'exemples
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<section class="section-blue section-main">
+	<div class="fr-container">
 		<div>
-
-	<div class="fr-grid-row fr-grid-row--gutters">
-        <div class="fr-col-12" id="données">
-			<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
-			<div class="markdown">
-			<ul>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/"><b>Plan Cadastral Informatisé (PCI)</b></a> : données issues du plan cadastral (parcelles, sections, bâti et éléments d’habillage)</li>
-				<li><a href="https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/"><b>Demandes de valeurs foncières</b></a> : données sur les transactions immobilières et foncières effectuées en France au cours des 5 dernières années</li>
-			</ul>
+				<h1>Explorateur de données de valeur foncière : Connaître les prix des biens immobiliers</h1>
+				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
 			</div>
-		</div>
-	</div>
-	<div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="réutilisateur">
-			<h2>Réutilisateur <span class="fr-fi-user-fill" aria-hidden="true"></span></h2>
-			<p><a href="https://www.etalab.gouv.fr/"><b>Etalab</b></a> est un service du Premier ministre chargé notamment de coordonner la conception et la mise en œuvre de la stratégie de l’Etat dans le domaine de la donnée.</p>
-		</div>
-	</div>
-	<div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="problématique">
-			<h2>Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
-			<p>L’outil répond à une problématique identifiée lors de l’ouverture de la base « Demande de valeurs foncières » : les données, diffusées en open data pour favoriser la transparence des marchés fonciers et immobiliers, restaient <b>difficilement manipulables et accessibles par le grand public</b>. Or, 72% des français souhaitent connaître les prix de vente des biens de leur quartier.</p>
-			<p>L’outil propose de cartographier la base « Demandes de valeurs foncières » à l’aide du Plan Cadastral Informatisé pour <b>permettre de trouver facilement des informations claires sur les biens vendus</b> et ainsi les rendre accessibles à tous.</p>
-		</div>
-	</div>
-	<div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="solution">
-			<h2>Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
-			<p>Une carte interactive qui affiche :</p>
-		
-			<div style="display: flex; gap: 100px; margin-bottom: 60px; flex-wrap: wrap;">
-				<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
-					<div class="fr-tile__body">
-						<h4 class="fr-tile__title">
-							La liste des transactions immobilières et foncières associées à une zone – parcelle cadastrale – donnée
-						</h4>
-						<p class="fr-tile__desc">Appartements, maisons, parcelles, exploitations, etc.</p>
+			<div class="fr-col-12">
+			<a class="fr-link fr-fi-arrow-right-line fr-link--icon-left fr-mb-4w" href="https://app.dvf.etalab.gouv.fr"><b>Accéder à l'Explorateur de données de valeur foncière</b></a>
+			</div>
+
+
+			<div class="fr-grid-row">
+				<div class="fr-col-12 fr-col-md-4">
+					  <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="min-width:230px;">
+						<div class="fr-sidemenu__inner">
+						  <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">
+							Dans cette rubrique
+						  </button>
+						  <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="https://user-images.githubusercontent.com/72090652/168032576-627cfc1f-34fe-4801-be4d-28a707bf5702.svg" alt="Illustration de Nos Villes Vertes" class=""hidde,-mobile fr-responsive-img">
+						  <div class="fr-collapse" id="fr-sidemenu-wrapper">
+							<ul class="fr-sidemenu__list">
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#toc_12" target="_self">
+								  1. Données ouvertes utilisées
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#toc_13" target="_self">
+								  2. Réutilisateurs
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#toc_14" target="_self">
+								  3. Problématique et proposition de valeur
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#toc_15" target="_self">
+								  4. Solution
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#toc_16" target="_self">
+								  5. Impact
+								</a>
+							  </li>
+							</ul>
+						  </div>
+						</div>
+					  </nav>
 					</div>
-					<div class="fr-tile__img">
-						<img src="https://user-images.githubusercontent.com/72090652/168783776-f25ee680-9af2-4aa9-95eb-97e70cde91ef.svg" alt="">
+					<div class="fr-col-12 fr-col-md-8 markdown">
+	
+						<h2>Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
+						<div class="markdown">
+						<ul>
+							<li><a href="https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/"><b>Plan Cadastral Informatisé (PCI)</b></a> : données issues du plan cadastral (parcelles, sections, bâti et éléments d’habillage)</li>
+							<li><a href="https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/"><b>Demandes de valeurs foncières</b></a> : données sur les transactions immobilières et foncières effectuées en France au cours des 5 dernières années</li>
+						</ul>
+						</div>
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="réutilisateur">
+						<h2>Réutilisateur <span class="fr-fi-user-fill" aria-hidden="true"></span></h2>
+						<p><a href="https://www.etalab.gouv.fr/"><b>Etalab</b></a> est un service du Premier ministre chargé notamment de coordonner la conception et la mise en œuvre de la stratégie de l’Etat dans le domaine de la donnée.</p>
 					</div>
 				</div>
-				<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
-					<div class="fr-tile__body">
-						<h4 class="fr-tile__title">
-							Des informations détaillées pour chaque transaction
-						</h4>
-						<p class="fr-tile__desc">Prix de vente, date de la transaction, adresse, descriptif du bien </p>
-					</div>
-					<div class="fr-tile__img">
-						<img src="https://user-images.githubusercontent.com/72090652/168783794-a53a6d59-bd4b-4284-b68b-499ebb623d7b.svg" alt="">
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="problématique">
+						<h2>Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
+						<p>L’outil répond à une problématique identifiée lors de l’ouverture de la base « Demande de valeurs foncières » : les données, diffusées en open data pour favoriser la transparence des marchés fonciers et immobiliers, restaient <b>difficilement manipulables et accessibles par le grand public</b>. Or, 72% des français souhaitent connaître les prix de vente des biens de leur quartier.</p>
+						<p>L’outil propose de cartographier la base « Demandes de valeurs foncières » à l’aide du Plan Cadastral Informatisé pour <b>permettre de trouver facilement des informations claires sur les biens vendus</b> et ainsi les rendre accessibles à tous.</p>
 					</div>
 				</div>
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="solution">
+						<h2>Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
+						<p>Une carte interactive qui affiche :</p>
+					
+						<div style="display: flex; gap: 100px; margin-bottom: 60px; flex-wrap: wrap;">
+							<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
+								<div class="fr-tile__body">
+									<h4 class="fr-tile__title">
+										La liste des transactions immobilières et foncières associées à une zone – parcelle cadastrale – donnée
+									</h4>
+									<p class="fr-tile__desc">Appartements, maisons, parcelles, exploitations, etc.</p>
+								</div>
+								<div class="fr-tile__img">
+									<img src="https://user-images.githubusercontent.com/72090652/168783776-f25ee680-9af2-4aa9-95eb-97e70cde91ef.svg" alt="">
+								</div>
+							</div>
+							<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
+								<div class="fr-tile__body">
+									<h4 class="fr-tile__title">
+										Des informations détaillées pour chaque transaction
+									</h4>
+									<p class="fr-tile__desc">Prix de vente, date de la transaction, adresse, descriptif du bien </p>
+								</div>
+								<div class="fr-tile__img">
+									<img src="https://user-images.githubusercontent.com/72090652/168783794-a53a6d59-bd4b-4284-b68b-499ebb623d7b.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<p>Le code de l’application est en <a href="https://github.com/etalab/DVF-app"><b>open source</b></a>.</p>
+					</div>
+				</div>
+			
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="impact">
+						<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
+						<div class="markdown">
+						<ul>
+							<li><b>Les acheteurs et vendeurs</b> peuvent <b>mieux évaluer la valeur d’un bien immobilier</b>, en se rapportant à la valeur foncière de biens similaires, et ainsi prendre des décisions plus éclairées.</li>
+							<li><b>Les notaires et agences immobilières</b> peuvent mieux conseiller leurs clients et notamment <b>fixer des prix de vente plus justes et cohérents</b>.</li>
+							<li><b>Tout citoyen</b> peut <b>s’informer sur le prix de vente</b> d’un logement ou d’un terrain.</li>
+						</ul>
+						</div>
+						<h3>Chiffres clés</h3>
+						<div class="markdown">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="enseignements">
+						<h2>Enseignements <span class="fr-fi-eye-fill" aria-hidden="true"></span></h2>
+						<p><b>L’ouverture de son travail permet de <a href="https://www.etalab.gouv.fr/questions-ouvertes-conversation-marion-paclot-ouverture-code/">recevoir des conseils et des contributions extérieures</b></a>, notamment sous la forme de pull requests, c’est-à-dire des demandes de modification effectuées directement sur GitHub. Pour l’Explorateur de données de valeur foncière, des améliorations et des fonctionnalités proposées par d’autres développeurs ont ainsi été intégrées.</p>
+					</div>
+				</div>
+				<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+					<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+					<p style="margin-bottom: unset;">
+					<a class="fr-btn" href="https://www.data.gouv.fr/fr/login" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+					<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://support.data.gouv.fr/collectivite-territoriale">Utilisez des données</a>
+					</p>
+				</div>
 			</div>
-            <p>Le code de l’application est en <a href="https://github.com/etalab/DVF-app"><b>open source</b></a>.</p>
+
+
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="exemples">
+						<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+					</div>
+				</div>
+			
+			
+<div class="fr-grid-row fr-grid-row--gutters">
+	<div class="fr-col-12 fr-col-md-3">
+		<div class="fr-card fr-card--sm fr-enlarge-link">
+			<div class="fr-card__body">
+				<h4 class="fr-card__title">
+					<a href="#" class="fr-card__link">Localiser précisément les interventions</a>
+				</h4>
+				<p class="fr-card__desc"></p>
+				<p class="fr-card__detail">La prise d'appel des secours</p>
+			</div>
+			<div class="fr-card__header">
+				<div class="fr-card__img">
+					<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169091685-1cacf63e-df5e-44d8-9f68-1f84af96a8e1.svg" alt="Illustration d'un coeur">
+				</div>
+			</div>
 		</div>
 	</div>
-
-	<div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="impact">
-			<h2>Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
-			<div class="markdown">
-			<ul>
-				<li><b>Les acheteurs et vendeurs</b> peuvent <b>mieux évaluer la valeur d’un bien immobilier</b>, en se rapportant à la valeur foncière de biens similaires, et ainsi prendre des décisions plus éclairées.</li>
-				<li><b>Les notaires et agences immobilières</b> peuvent mieux conseiller leurs clients et notamment <b>fixer des prix de vente plus justes et cohérents</b>.</li>
-                <li><b>Tout citoyen</b> peut <b>s’informer sur le prix de vente</b> d’un logement ou d’un terrain.</li>
-			</ul>
-			</div>
-            <h3>Chiffres clés</h3>
-            <div class="markdown">
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-            </div>
-        </div>
-    </div>
-    <div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="enseignements">
-			<h2>Enseignements <span class="fr-fi-eye-fill" aria-hidden="true"></span></h2>
-			<p><b>L’ouverture de son travail permet de <a href="https://www.etalab.gouv.fr/questions-ouvertes-conversation-marion-paclot-ouverture-code/">recevoir des conseils et des contributions extérieures</b></a>, notamment sous la forme de pull requests, c’est-à-dire des demandes de modification effectuées directement sur GitHub. Pour l’Explorateur de données de valeur foncière, des améliorations et des fonctionnalités proposées par d’autres développeurs ont ainsi été intégrées.</p>
-        </div>
-    </div>
-
-	<div class="fr-grid-row fr-grid-row--gutters">
-		<div class="fr-col-12" id="exemples">
-			<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-		</div>
-	</div>
-
-
-	<div class="fr-grid-row fr-grid-row--gutters">
 		<div class="fr-col-12 fr-col-md-3">
 			<div class="fr-card fr-card--sm fr-enlarge-link">
 				<div class="fr-card__body">
 					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Estimer les ressources florales autour des ruchers</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">BeeGIS</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819329-c5658ae4-107f-40b9-a318-24f3fe1542c8.svg" alt="Image de l'application BeeGIS">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Connaître le patrimoine arboré des communes françaises</a>
+						<a href="#" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
 					</h4>
 					<p class="fr-card__desc"></p>
 					<p class="fr-card__detail">Nos Villes Vertes</p>
 				</div>
 				<div class="fr-card__header">
 					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819152-c6294cd6-f696-41f2-9b42-e5a6bf935996.svg" alt="Image de l'application Nos Villes Vertes">
+						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169369846-a5b61a66-a021-4650-a94c-e827f5d3c70e.svg" alt="Illustration d'une rue avec des arbres">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Identifier les entreprises en difficulté le plus tôt possible</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">Signaux Faibles</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858618-9f6c15be-8733-4faa-b1dc-68d91c8561b9.svg" alt="Logo de Signaux Faibles">
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h4 class="fr-card__title">
+							<a href="#" class="fr-card__link">Identifier les entreprises en difficulté</a>
+						</h4>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">Signaux Faibles</p>
+					</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371649-4b614096-0c75-453f-a2ca-06b18479ac27.svg" alt="Illustration d'imeuble de bureau">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Réaliser l'état des risques associé à un bien immobilier</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">ERRIAL</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858645-ff0f2e8e-5419-40f1-9b66-470d8e096b5e.svg" alt="Image de l'application ERRIAL">
+				<div class="fr-col-12 fr-col-md-3">
+					<div class="fr-card fr-card--sm fr-enlarge-link">
+						<div class="fr-card__body">
+							<h4 class="fr-card__title">
+								<a href="#" class="fr-card__link">Connaître le prix de vente des biens immobiliers</a>
+							</h4>
+							<p class="fr-card__desc"></p>
+							<p class="fr-card__detail">Données de valeur foncière (DVF)</p>
+						</div>
+						<div class="fr-card__header">
+							<div class="fr-card__img">
+								<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371648-5aab4bd4-5ac0-44f8-ac37-b345c034c7ff.svg" alt="Illustration d'une maison">
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Gérer simplement une exploitation agricole</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">Ekylibre</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167858667-38f281aa-22bc-4235-99b3-aaac77506666.svg" alt="Exemples d'écrans d'Ekylibre">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Proposer aux jeunes un parcours d'orientation professionnelle adapté</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">DiagOriente</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819298-98e7477f-6086-4a1a-9034-04d8685e5e0b.svg" alt="Page d'accueil de DiagOriente">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Localiser précisément les interventions des pompiers</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">La prise d'appel des secours</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167108940-092f5b0b-430e-4651-b5b4-e72755da67cb.svg" alt="Pompier qui regarde un écran">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="fr-col-12 fr-col-md-3">
-			<div class="fr-card fr-card--sm fr-enlarge-link">
-				<div class="fr-card__body">
-					<h4 class="fr-card__title">
-						<a href="#" class="fr-card__link">Connaître le prix des biens immobiliers</a>
-					</h4>
-					<p class="fr-card__desc"></p>
-					<p class="fr-card__detail">Explorateur de données de valeur foncière (DVF)</p>
-				</div>
-				<div class="fr-card__header">
-					<div class="fr-card__img">
-						<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/167819270-313f2256-18a4-4dd7-842e-e7d45df5d0de.svg" alt="Illustration de l'application DVF">
-					</div>
-				</div>
-			</div>
-		</div>
-
-	<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-    	<h4>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h4>
-    	<p style="margin-bottom: unset;">
-    	<a class="fr-btn" href="https://www.data.gouv.fr/fr/login" style="margin-right: 19px;">Publiez des données</a>
-    	<a 
-        	style="background-color: white"
-        	class="fr-btn fr-btn--secondary" 
-        	href="https://support.data.gouv.fr/collectivite-territoriale"
-    	>
-        	Utilisez des données
-    	</a>
-    	</p>
 	</div>
-
 	</section>
 
 	<script type="text/javascript">
 		document.querySelector('.container.py-lg').classList.remove('container')
 	</script>
-
-
-    <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
-    <script type="module" src="dsfr/dsfr.module.min.js"></script>
-    <script type="text/javascript" nomodule src="dsfr/dsfr.nomodule.min.js"></script>
-  </body>
-</html>
