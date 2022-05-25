@@ -23,3 +23,4 @@ Retrouvez ici une sélection de jeux de données clés regroupés par sujet :
 - [Les données relatives aux associations et aux fondations](/pages/donnees-associations-fondations)
 - [Les données relatives aux comptes publics](/pages/donnees-comptes-publics)
 - [Les données ouvertes pour l’apprentissage automatique (Machine Learning)](/pages/donnees-machine-learning)
+- [Les données à composante géographique](/pages/donnees-geographiques)

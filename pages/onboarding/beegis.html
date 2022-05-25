@@ -1,0 +1,212 @@
+---
+title: Cas d'usage "BeeGIS"
+keywords:
+  - Publier
+  - Producteurs
+  - Open data
+  - Ouverture
+description: Page de cas d'usage
+content_type: html
+---
+
+<section class="section-blue section-main">
+	<div class="fr-container">
+		<div>
+				<h1>BeeGIS : Estimer les ressources florales autour des ruches</h1>
+				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+			</div>
+			<div class="fr-col-12">
+			<a class="fr-link fr-fi-arrow-right-line fr-link--icon-left fr-mb-4w" href="https://appli.itsap.asso.fr/app/01-beegis/"><b>Accéder à BeeGIS</b></a>
+			</div>
+
+
+			<div class="fr-grid-row">
+				<div class="fr-col-12 fr-col-md-4">
+					  <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="max-width:350px;">
+						<div class="fr-sidemenu__inner">
+						  <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">
+							Dans cette rubrique
+						  </button>
+						  <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="https://user-images.githubusercontent.com/72090652/169808324-d1068453-a389-49b3-9672-f06c9951e577.svg" alt="Illustration d'un arbre" class=""hidde,-mobile fr-responsive-img">
+						  <div class="fr-collapse" id="fr-sidemenu-wrapper">
+							<ul class="fr-sidemenu__list">
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#données" target="_self">
+								  1. Données ouvertes utilisées
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+								  2. Réutilisateur
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#problématique" target="_self">
+								  3. Problématique et proposition de valeur
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#solution" target="_self">
+								  4. Solution
+								</a>
+							  </li>
+							  <li class="fr-sidemenu__item">
+								<a class="fr-sidemenu__link" href="#impact" target="_self">
+								  5. Impact
+								</a>
+							  </li>
+							</ul>
+						  </div>
+						</div>
+					  </nav>
+					</div>
+					<div class="fr-col-12 fr-col-md-8 markdown">
+						<h2 id="données">Données ouvertes utilisées <span class="fr-fi-file-pdf-fill" aria-hidden="true"></span></h2>
+						<div class="markdown">
+						<ul>
+							<li><a href="https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/"><b>Registre parcellaire graphique (RPG)</b></a> : base de données géographiques sur les parcelles agricoles</li>
+				            <li><a href="https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/"><b>Données sur les parcelles en agriculture biologique</b></a></li>
+				            <li><a href="https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/"><b>Données CORINE Land Cover</b></a> : base de données européenne sur l'occupation des sols</li>
+				            <li><a href="https://www.data.gouv.fr/fr/datasets/bd-foret-r/"><b>BD Forêt</b></a> : base de données de référence pour les espaces forestiers et les milieux semi-naturels</li>
+				            <li><a href="https://www.data.gouv.fr/fr/datasets/bd-topo-r/"><b>BD Topo</b></a> : base de données des éléments et infrastructures du territoire</li>
+						</ul>
+						</div>
+						<h2 id="réutilisateur">Réutilisateur <span class="fr-fi-user-fill" aria-hidden="true"></span></h2>
+						<p>BeeGIS a été conçu par l’Institut technique et scientifique de l’apiculture et de la pollinisation (<a href="https://itsap.asso.fr/"><b>ITSAP</b></a>). Ce dernier concourt au développement de la filière apicole à travers l’expérimentation, la recherche appliquée, la formation, etc.</p>
+
+						<h2 id="problématique">Problématique et proposition de valeur <span class="fr-fi-search-fill" aria-hidden="true"></span></h2>
+						<p>BeeGIS entend résoudre un problème récurrent chez les apiculteurs : le <b>manque de connaissance sur les ressources florales à la disposition de leurs abeilles</b> autour des ruchers. Jusqu’alors, ils ne disposaient que d’informations incomplètes, recoupant des investigations réalisées à pied, sur Géoportail ou sur Google Earth.</p>
+			            <p>BeeGIS propose de recouper le Registre parcellaire graphique avec d’autres données ouvertes d’occupation du sol pour une aire de butinage donnée, afin de permettre aux apiculteurs d’<b>analyser simplement les ressources disponibles autour de différents ruchers</b>.</p>
+
+						<h2 id="solution">Solution <span class="fr-fi-edit-fill" aria-hidden="true"></span></h2>
+						<p>Le Registre parcellaire graphique et d'autres données ouvertes d'occupation du sol constituent les couches géographiques d’une application qui propose :</p>
+					
+						<div style="display: flex; gap: 60px; margin-bottom: 30px; flex-wrap: wrap;">
+                            <div class="fr-tile" style="flex: 1; min-width: 150px; min-height: 220px">
+                                <div class="fr-tile__body">
+                                    <h4 class="fr-tile__title">
+                                        Cartographie de l’environnement d’un rucher
+                                    </h4>
+                                </div>
+                                <div class="fr-tile__img">
+                                    <img src="https://user-images.githubusercontent.com/72090652/167825749-bf75359a-1969-436b-a09f-9b6b08d8a875.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="fr-tile" style="flex: 1; min-width: 150px; min-height: 220px">
+                                <div class="fr-tile__body">
+                                    <h4 class="fr-tile__title">
+                                        Visualisations de données
+                                    </h4>
+                                </div>
+                                <div class="fr-tile__img">
+                                    <img src="https://user-images.githubusercontent.com/72090652/167825874-dc5fa62a-8caf-4f5b-a591-bea5308925f1.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+			
+					<figure class="fr-quote">
+						<blockquote>
+							<p>« C’est comme cela que BeeGIS a commencé, parce que les données du Registre parcellaire graphique étaient ouvertes. »</p>
+						</blockquote>
+						<figcaption>
+							<p class="fr-quote__author fr-mb-4w">Alexandre Dangléant, Chargé d’analyse et de la thématique numérique à l’ITSAP</p>
+						</figcaption>
+					</figure>
+								
+						<h2 id="impact">Impact <span class="fr-fi-checkbox-circle-fill" aria-hidden="true"></span></h2>
+						<p>La mobilisation de plusieurs jeux de données relatifs à l’occupation du sol, au premier rang desquels le Registre parcellaire graphique, permet d’avoir une <b>vision complète de l’environnement d’un rucher</b> : cultures agricoles, zones forestières, zones humides, tissu urbain, etc.</p>
+			            <p>L’intégration des données historiques du Registre parcellaire graphique (2010-2020) permet aux apiculteurs d’<b>anticiper la succession de cultures agricoles</b> associée à une aire de butinage : les évolutions passées présagent les rotations futures.</p>
+			            <p>Les apiculteurs :</p>
+			            <div class="markdown">
+			                <ul>
+				                <li>développent une <b>meilleure connaissance des zones</b> où butinent leurs abeilles</li>
+				                <li><b>évaluent et comparent les emplacements de rucher</b> à leur disposition pour choisir le plus adapté en fonction de la colonie ou du type de production (bio)</li>
+			                </ul>
+			            </div>
+						<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+							<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+							<p style="margin-bottom: unset;">
+							<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+							<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="fr-grid-row fr-grid-row--gutters">
+					<div class="fr-col-12" id="exemples">
+						<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+					</div>
+				</div>
+			
+			
+<div class="fr-grid-row fr-grid-row--gutters">
+    <div class="fr-col-12 fr-col-md-3">
+        <div class="fr-card fr-card--sm fr-enlarge-link">
+            <div class="fr-card__body">
+                <h4 class="fr-card__title">
+                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
+                </h4>
+                <p class="fr-card__desc"></p>
+                <p class="fr-card__detail">Nos Villes Vertes</p>
+            </div>
+            <div class="fr-card__header">
+                <div class="fr-card__img">
+                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169369846-a5b61a66-a021-4650-a94c-e827f5d3c70e.svg" alt="Illustration d'une rue avec des arbres">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-12 fr-col-md-3">
+        <div class="fr-card fr-card--sm fr-enlarge-link">
+            <div class="fr-card__body">
+                <h4 class="fr-card__title">
+                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/" class="fr-card__link">Identifier les entreprises en difficulté</a>
+                </h4>
+                <p class="fr-card__desc"></p>
+                <p class="fr-card__detail">Signaux Faibles</p>
+            </div>
+            <div class="fr-card__header">
+                <div class="fr-card__img">
+                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371649-4b614096-0c75-453f-a2ca-06b18479ac27.svg" alt="Illustration d'imeuble de bureau">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-12 fr-col-md-3">
+        <div class="fr-card fr-card--sm fr-enlarge-link">
+            <div class="fr-card__body">
+                <h4 class="fr-card__title">
+                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/dvf/" class="fr-card__link">Connaître le prix de vente des biens immobiliers</a>
+                </h4>
+                <p class="fr-card__desc"></p>
+                <p class="fr-card__detail">Données de valeur foncière (DVF)</p>
+            </div>
+            <div class="fr-card__header">
+                <div class="fr-card__img">
+                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371648-5aab4bd4-5ac0-44f8-ac37-b345c034c7ff.svg" alt="Illustration d'une maison">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-12 fr-col-md-3">
+        <div class="fr-card fr-card--sm fr-enlarge-link">
+            <div class="fr-card__body">
+                <h4 class="fr-card__title">
+                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/" class="fr-card__link">Gérer simplement une exploitation agricole</a>
+                </h4>
+                <p class="fr-card__desc"></p>
+                <p class="fr-card__detail">Ekylibre</p>
+            </div>
+            <div class="fr-card__header">
+                <div class="fr-card__img">
+                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371641-155c1b88-18da-476a-a07b-25290f844d21.svg" alt="Illustration d'un tracteur">
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+
+	<script type="text/javascript">
+        document.querySelector('.container.py-lg').classList.remove('container')
+    </script>
