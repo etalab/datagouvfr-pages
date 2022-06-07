@@ -8,7 +8,7 @@ Cette déclaration d'accessibilité s'applique au site internet [data.gouv.fr]()
 
 ## État de conformité
 
-Le site internet [data.gouv.fr]() est en conformité faible avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4.0 en raison des non-conformités et des dérogations énumérées ci-dessous.
+Le site internet [data.gouv.fr]() est partiellement conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4.0 en raison des non-conformités et des dérogations énumérées ci-dessous.
 
 ## Résultat des tests
 
@@ -35,11 +35,18 @@ Les critères 1.8, 2.1, 8.7, 10.5 du RGAA 4.0 ont été corrigés par l'équipe 
 Après mise à jour, le taux de conformité à cette date est de :
 * 44.90 % des critères du RGAA version 4.0 sont respectés
 
+### Mise à jour du 07/06/2022
+
+Les critères 1.1, 7.3, 10.4, 10.9, 10.14, 11.10 du RGAA 4.0 ont été corrigés par l'équipe de développement.
+Le critère 5.4 est non applicable car les fonctions de prévisualisation sont hors périmètres (hors du site data.gouv.fr).
+Après mise à jour, le taux de conformité à cette date est de :
+* 58.33 % des critères du RGAA version 4.0 sont respectés
+
 ## Contenus non accessibles
 
 ### Non-conformité
 
-* De nombreuses anomalies vont pénaliser les utilisateurs en situation de handicap, naviguant ou non à l’aide de technologies d’assistance.
+* Plusieurs vont pénaliser les utilisateurs en situation de handicap, naviguant ou non à l’aide de technologies d’assistance.
 * Les non-conformités les plus bloquantes pour les utilisateurs concernent : 
     * Des composants d’interface riches ne respectant pas les recommandations de structuration pour l’accessibilité;
     * Des composants d’interface riches ne sont pas accessible au clavier ;
@@ -48,14 +55,13 @@ Après mise à jour, le taux de conformité à cette date est de :
     * des contenus avec une structuration (titres et intertitres, paragraphes, listes) incorrecte, ou insuffisante pour une navigation efficace avec un lecteur d’écran;
     * l’ordre de tabulation n’est pas traité correctement;
     * Titre de la page n’est pas à jour par rapport aux contenus;
-    * De nombreux textes et éléments d’interface avec des contrastes insuffisants;
     * Mauvaise utilisation des liens et des boutons ;
     * Des balises ouvertes pas fermés au niveau de code etc.… ;
 
 
 ## Établissement de cette déclaration d'accessibilité
 
-Cette déclaration a été établie le 01 juillet 2021. Elle a été mise à jour le 08 octobre 2021.
+Cette déclaration a été établie le 01 juillet 2021. Elle a été mise à jour le 07 juin 2022. 
 
 ### Technologies utilisées pour la réalisation de https://www.data.gouv.fr/fr/
 
@@ -78,27 +84,17 @@ Les vérifications de restitution de contenus ont été réalisées sur la base 
 * PDF accessibility checker
 
 ### Pages du site ayant fait l’objet de la vérification de conformité
-1. Accueil  : 
-https://www.data.gouv.fr/fr/
-2. Réutilisations : 
-https://www.data.gouv.fr/fr/reuses/
-3. Détails réutilisations & Zone commentaire : 
-https://www.data.gouv.fr/fr/reuses/evolution-des-immatriculations-et-radiations-des-societes/ 
+1. Accueil : https://www.data.gouv.fr/fr/
+2. Réutilisations : https://www.data.gouv.fr/fr/reuses/
+3. Détails réutilisations & Zone commentaire : https://www.data.gouv.fr/fr/reuses/evolution-des-immatriculations-et-radiations-des-societes/ 
 https://www.data.gouv.fr/fr/datasets/jeu-de-donnees-pour-audit-daccessibilite/
-4. Données : 
-https://www.data.gouv.fr/fr/datasets/
-5. Détails données : 
-https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
-6. Actualités : 
-https://www.data.gouv.fr/fr/posts/
-7. Organisation : 
-https://www.data.gouv.fr/fr/organizations/
-8. Détails organisation : 
-https://www.data.gouv.fr/fr/organizations/etalab/
-9. Détails actualités : 
-https://www.data.gouv.fr/fr/posts/suivi-des-sorties-decembre-2020/
-10. Page statique : 
-https://www.data.gouv.fr/fr/pages/donnees-des-elections 
+4. Données : https://www.data.gouv.fr/fr/datasets/
+5. Détails données : https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
+6. Actualités : https://www.data.gouv.fr/fr/posts/
+7. Organisation : https://www.data.gouv.fr/fr/organizations/
+8. Détails organisation : https://www.data.gouv.fr/fr/organizations/etalab/
+9. Détails actualités : https://www.data.gouv.fr/fr/posts/suivi-des-sorties-decembre-2020/
+10. Page statique : https://www.data.gouv.fr/fr/pages/donnees-des-elections 
        
 
 ## Retour d'information et contact
