@@ -46,7 +46,7 @@ Après mise à jour, le taux de conformité à cette date est de :
 
 ### Non-conformité
 
-* Plusieurs vont pénaliser les utilisateurs en situation de handicap, naviguant ou non à l’aide de technologies d’assistance.
+* Plusieurs anomalies vont pénaliser les utilisateurs en situation de handicap, naviguant ou non à l’aide de technologies d’assistance.
 * Les non-conformités les plus bloquantes pour les utilisateurs concernent : 
     * Des composants d’interface riches ne respectant pas les recommandations de structuration pour l’accessibilité;
     * Des composants d’interface riches ne sont pas accessible au clavier ;
