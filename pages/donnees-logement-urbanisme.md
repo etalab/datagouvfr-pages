@@ -60,7 +60,7 @@ Pour faciliter la découverte des données, cette page présente une sélection 
 
 Ces jeux de données sont présentés en 6 catégories :
 
--	**Situation, caractéristiques et performances du logement** : jeux de données présentant une photographie du logement en tant que bâtiment, sur plusieurs thèmes : cadastre, performances énergétiques, valeur, etc. 
+-	**Situation, caractéristiques et performances du logement** : jeux de données présentant une photographie du logement, sur plusieurs thèmes : cadastre, performances énergétiques, valeur, etc. 
 -	**Coût du logement** : informations sur les loyers sur l’ensemble du territoire national
 -	**Financement du logement** : données sur les aides disponibles, sur les aides accordées, sur le budget des politiques de logements, etc.
 -	**Aménagement du territoire** : projets d'aménagement urbains, politiques d’aménagement du territoire, …
@@ -73,7 +73,10 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
 
 ## Situation, caractéristiques et performances du logement
 
-- **[Enquête « Énergie et patrimoine communal » (2012-2017) :](/datasets/energie-et-patrimoine-communal-5-batiments/)**
+- **[Registre national d'Immatriculation des Copropriétés](/datasets/registre-national-dimmatriculation-des-coproprietes/)**
+  - Le registre vise à recenser les copropriétés à usage d’habitat. Il permet de procéder en ligne à l’immatriculation et à la mise à jour des données d’une copropriété par son représentant légal ou par un notaire, et d’accéder à un annuaire et à des données statistiques. Les données collectées contribuent aux politiques publiques à destination des copropriétés.
+
+- **[Enquête « Énergie et patrimoine communal » (2012-2017)](/datasets/energie-et-patrimoine-communal-5-batiments/)**
   - Enquête portant sur les consommations, les émissions de CO2 et les dépenses énergétiques des communes, et de leurs Groupements à Fiscalité Propre pour leur patrimoine.
 
 - **[Diagnostics de performance énergétique (DPE) pour les logements par habitation](/datasets/diagnostics-de-performance-energetique-pour-les-logements-par-habitation/)**
@@ -144,6 +147,9 @@ Sont ensuite listés les noms des principales organisations gestionnaires des do
   - Le jeu de données présente, par département, le nombre de logements sociaux et le nombre de bailleurs gérant ces logements dans le département. Il indique également la répartition des logements sociaux par type d'opérateurs (OPH, ESH, SEM, autres).
 
 ## Aménagement du territoire
+
+- **[Base de données nationale des bâtiments](datasets/base-de-donnees-nationale-des-batiments-version-0-6/)**
+  - La BDNB (Base de Données Nationale des Bâtiments) est une cartographie du parc de bâtiments existants, construite par croisement géospatial d’une vingtaine de base de données issues d’organismes publics. Structurée à la maille « bâtiment », elle contient une carte d’identité pour chacun des 20 millions de bâtiments, résidentiels ou tertiaires.
 
 - **[Base des ÉcoQuartiers](/datasets/base-des-ecoquartiers/)**
   - Offre une lecture exhaustive de tous les projets d'aménagement urbains durables rentrés dans la démarche ÉcoQuartier entre 2009 et 2016. (2 appels à projets en 2009 et 2011, 4 campagnes annuelles de labelisation entre 2013 et 2016)
