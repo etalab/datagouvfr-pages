@@ -160,7 +160,7 @@ Etalab n’effectue pas de contrôle _a priori_ sur les publications des Autorit
 
 ### Transparence sur le classement et mises en avant
 
-L’ordre de classement des Jeux de données issu du moteur de recherche de la Plateforme est issu d’un algorithme libre, dont [le code source est disponible ici](https://github.com/opendatateam/udata/tree/master/udata/search).
+L’ordre de classement des Jeux de données issu du moteur de recherche de la Plateforme est issu d’un algorithme libre, dont [le code source est disponible ici](https://github.com/opendatateam/udata-search-service/blob/main/udata_search_service/infrastructure/search_clients.py).
 
 Etalab choisit de mettre en avant certains contenus à travers les rubriques « L’Actu en données », « Jeux de données à la une » et « Meilleures Réutilisations », sur les pages d’accueil de la plateforme et des rubriques thématiques.
 
