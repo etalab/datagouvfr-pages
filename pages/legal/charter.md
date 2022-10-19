@@ -4,7 +4,7 @@
 
 La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décline en pratiques obligatoires et en pratiques recommandées. Des ressources seront mises à disposition des administrations afin d'approfondir les concepts mentionnés.
 
-### Intégration au site parent [data.gouv.fr](http://data.gouv.fr/)
+## Intégration au site parent [data.gouv.fr](http://data.gouv.fr/)
 
 *Pratiques obligatoires pour le site sous-domaine*
 
@@ -20,7 +20,7 @@ La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décl
 - Lorsque le produit a pour objectif de référencer des données, il est recommandé d'utiliser la plateforme [data.gouv.fr](http://data.gouv.fr/) pour héberger les données et de proposer "un point d'entrée thématique" des données sur le site sous-domaine. (Exemple : les producteurs de données de transport publient leurs jeux de données sur [data.gouv.fr](http://data.gouv.fr/) qui sont par la suite exposés sur le site [transport.data.gouv.fr](http://transport.data.gouv.fr/) en fonction des spécificités métier). Cette pratique permet la rationalisation technique et la réduction des coûts de développement ;
 - Le produit encourage le référencement de réutilisations de données sur la plateforme [data.gouv.fr](http://data.gouv.fr/).
 
-### Spécificités techniques
+## Spécificités techniques
 
 *Pratiques obligatoires pour le site sous-domaine*
 
@@ -33,7 +33,7 @@ La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décl
 - La priorité est donnée à l'intégration d'outils en logiciels libres ;
 - La priorité est donnée à l'intégration d'outils qui ne permettent pas le traçage des activités de l'utilisateur.
 
-### Design et accessibilité
+## Design et accessibilité
 
 *Pratiques obligatoires pour le site sous-domaine*
 
@@ -42,7 +42,7 @@ La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décl
 - Afin de conserver une cohérence graphique, le [design du logo](https://github.com/etalab/udata-front/blob/master/udata_front/theme/gouvfr/templates/svg/logotype.svg) du produit "[data.gouv.fr](http://data.gouv.fr/)" est conservé à l'identique ;
 - Le produit est accessible et conforme à l’ensemble des critères du RGAA ;
 
-### Gouvernance et stratégie
+## Gouvernance et stratégie
 
 *Pratiques obligatoires pour le site sous-domaine*
 
