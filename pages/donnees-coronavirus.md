@@ -221,13 +221,13 @@ Plusieurs villes et collectivités locales ont publié des jeux de données rela
 
 Les données relatives au COVID-19 ont donné lieu à de nombreuses réutilisations sur data.gouv.fr. Parmi ces réutilisations, Etalab a participé au développement de deux outils de visualisation des données. 
 
-#### Le tableau de bord de suivi de l'épidémie sur le site du gouvernement
+### Le tableau de bord de suivi de l'épidémie sur le site du gouvernement
 
 En continuité de l'initiative « OpenCOVID19 », l’équipe d’Etalab a travaillé à la construction d’un tableau de bord permettant de centraliser et de visualiser l’ensemble des données officielles relatives à l’épidémie de COVID-19. Le tableau de bord a été intégré au site du gouvernement le 28 mars 2020.
 
 [Voir le tableau de bord de suivi de l'épidémie](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees)
 
-#### Le tableau de bord des aides aux entreprises
+### Le tableau de bord des aides aux entreprises
 
 À partir des données mises à disposition par les ministères économiques et financiers, les équipes d’Etalab ont développé un tableau de bord permettant de consulter et de visualiser les différentes aides accordées par l’état aux entreprises en fonction de leur secteur d'activité.
 
