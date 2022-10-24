@@ -43,7 +43,7 @@ Chaque jeu est accompagné :
 
 *N.b.: Cette page est en cours de construction et est [ouvertes à la contribution](https://github.com/etalab/datagouvfr-pages/tree/master/pages) plus de jeux de données sont à venir. Le profiling a été effectué avec [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/) et les modèles ont été entrainés à l’aide de [mljar-supervised](https://supervised.mljar.com/)*.
 
-### Régression
+## Régression
 
 
 [**Émissions de CO2 et de polluants des véhicules commercialisés en France**](https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/)
@@ -86,7 +86,7 @@ C*e jeu de données contient un recensement des caractéristiques des logements 
 *Ce jeu contient les données issues de l’opération nationale de collecte de données sur l’insertion professionnelle (taux d’insertion, salaire, etc.) des diplômés de Master.*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/a27a4212-6732-408e-85e4-819ce897046b.html)
 
-### Classification
+## Classification
 
 [**Bases de données annuelles des accidents corporels de la circulation routière - Années de 2005 à 2019**](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2019/#_)
 *Ces jeux de données répertorient l’intégralité des accidents corporels de la circulation intervenus durant une année précise en France métropolitaine et dans les DOM-TOM. Ils comprennent des informations de localisation de l’accident ainsi que des informations concernant les caractéristiques de l’accident et son lieu, les véhicules impliqués et leurs victimes.
@@ -116,7 +116,7 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
   - [Profiling du dataset bâtiments](https://etalab-ia.github.io/DGML/profilings/849fa6c2-7d0b-46b8-9814-29bf18b35bfa.html), 
   - [Profiling du dataset contributions](https://etalab-ia.github.io/DGML/profilings/aef0f017-ba25-4772-b0e7-8693308d4404.html)
 
-### Séries temporelles
+## Séries temporelles
 
 [Données hospitalières relatives à l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/) 
 *Cinq jeux de données différents sont proposés contenant des données sur les hospitalisations, les réanimations et les décès, regroupés par région, puis par département et par sexe, par classe d’âge et par établissements.*
@@ -138,14 +138,14 @@ Ici nous avons choisi les données de 2019 et nous avons concaténé les jeux di
 *Ce jeu de données contient des données sur l’éclairage public de la ville de Béthune (62400) sur la période de janvier 2017 à décembre 2019. En particulier : la consommation en kWhEN, la dépense en euros TTC, l’émission GES (KgCO2).*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/fd34262e-355d-4ac6-bac2-06c1b52fa42a.html)
 
-### Apprentissage non supervisé
+## Apprentissage non supervisé
 
 [Parcoursup 2020](https://www.data.gouv.fr/fr/datasets/parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/#resource-1d916b7c-bd4c-4951-845a-70f7ad7c17db)
 *Ce jeu de données présente les voeux de poursuite d’études et de réorientation dans l’enseignement supérieur ainsi que les propositions des établissements pour chaque formation — hors apprentissage — à la fin du processus d’affectation de la plateforme Parcoursup pour la session 2020*
   - [Profiling](https://etalab-ia.github.io/DGML/profilings/1d916b7c-bd4c-4951-845a-70f7ad7c17db.html)
   - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/classifions-parcoursup/)
 
-### Traitement automatique du langage
+## Traitement automatique du langage
 
 [PIAF](https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/) un jeu de données de questions réponses francophones
   - [Réutilisation data.gouv.fr](https://www.data.gouv.fr/fr/reuses/modele-de-questions-reponses-francophone/)
