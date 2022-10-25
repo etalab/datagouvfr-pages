@@ -70,6 +70,11 @@ content_type: html
                                                     Les principaux producteurs de données relatives à l'énergie
                                                 </a>
                                             </li>
+                                            <li class="fr-sidemenu__item">
+                                                <a class="fr-sidemenu__link" href="#questions" target="_self">
+                                                    Des questions sur les données ouvertes relatives à l'énergie ?
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -77,6 +82,14 @@ content_type: html
                         </div>
                         <div class="fr-col-12 fr-col-md-8 markdown">
                             <h2 id="consommation">Données sur la consommation d'énergie</h2>
+                            <p>Les données de consommation sont proposées à <b>différentes mailles géographiques</b> (de
+                                la maille nationale à l'adresse) et
+                                sur
+                                <b>différentes échelles de temps</b> (du pas annuel au quasi temps réel), répondant
+                                ainsi à des usages distincts (ex :
+                                consommation annuelle sur une adresse vs consommation en quasi temps réel à la maille
+                                nationale).
+                            </p>
 
                             <h3>Electricité et gaz</h3>
                             <div class="markdown">
@@ -145,6 +158,12 @@ content_type: html
                                         et <a
                                             href="https://www.data.gouv.fr/fr/datasets/consommation-et-thermosensibilite-electriques-annuelles-a-la-maille-epci/">EPCI</a>
                                     </li>
+                                    <ul>
+                                        <li>La thermosensibilité représente la variation de la consommation engendrée
+                                            par une variation de la température, en deçà d'un certain seuil de
+                                            température. Elle vise ainsi à évaluer l'influence de la température sur la
+                                            consommation d'énergie.</li>
+                                    </ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/coefficients-de-gradients-des-profils-dynamiques/">Coefficients
                                             de gradients des profils dynamiques de consommation</a>
@@ -304,21 +323,62 @@ content_type: html
                             </div>
 
                             <h2 id="infrastructure">Données sur les infrastructures d'énergie</h2>
+                            <h3>Electricité</h3>
+                            <p>Pour les gestionnaires de distribution :</p>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-basse-tension-bt/">Lignes
+                                            électriques souterraines Basse Tension (BT)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-aeriennes-moyenne-tension-hta/">Lignes
+                                            électriques aériennes moyenne tension (HTA)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-moyenne-tension-hta/">Lignes
+                                            électriques souterraines moyenne tension (HTA)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/postes-source-et-postes-de-repartition-hta-hta-1/">Postes
+                                            Source et Postes de Répartition HTA/HTA</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/postes-de-distribution-publique-postes-hta-bt-1/">Postes
+                                            de distribution publique (postes HTA/BT)</a></li>
+                                    <li>Au périmètre d'<a
+                                            href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>,
+                                        <a
+                                            href="https://www.data.gouv.fr/fr/datasets/position-geographique-des-poteaux-hta-et-bt/">position
+                                            géographique des poteaux HTA et BT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>Pour le gestionnaire de transport :</p>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/lignes-souterraines-rte-au-4-juin-2022/">Lignes
+                                            souterraines RTE</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/lignes-aeriennes-rte-au-4-juin-2022/">Lignes
+                                            aériennes RTE</a></li>
+                                </ul>
+                            </div>
+                            <h3>Gaz</h3>
+                            <p>Pour les gestionnaires de distribution :</p>
                             <div class="markdown">
                                 <ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/datasets/infrastructures-de-reseau-de-gaz/">Infrastructures
                                             de réseau de gaz</a></li>
+                                </ul>
+                            </div>
+                            <p>Pour les gestionnaires de transport :</p>
+                            <div class="markdown">
+                                <ul>
                                     <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/grandes-infrastructures-gazieres-en-france/">Grandes
-                                            infrastructures gazières en France</a>
-                                        <ul>
-                                            <li>Transport, stockages et terminaux méthaniers</li>
-                                        </ul>
-                                    </li>
+                                            href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-grtgaz-precis-a-environ-250-m/">Tracé
+                                            simplifié du réseau GRTgaz</a></li>
                                     <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/position-geographique-des-poteaux-hta-et-bt/">Position
-                                            géographique des poteaux HTA et BT</a></li>
+                                            href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-terega-precis-a-environ-250-m/">Tracé
+                                            simplifié du réseau Teréga</a></li>
                                 </ul>
                             </div>
 
@@ -414,18 +474,70 @@ content_type: html
                                                 consommer l'électricité</b></a></li>
                                 </ul>
                             </div>
+                            <p>D'autres usages ont été développés à partir de ces données et permettent de mieux
+                                comprendre les enjeux de la transition énergétique. Il est possible d'en découvrir
+                                davantage en
+                                parcourant <a
+                                    href="https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=environment_and_energy"><b>les
+                                        réutilisations référencées sur data.gouv.fr</b></a>, ou en utilisant <a
+                                    href="https://www.agenceore.fr/datavisualisations"><b>l'outil de
+                                        recensement</b></a> conçu par <a
+                                    href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">l'Agence ORE</a>, qui
+                                répertorie déjà 450 datavisualisations.</p>
 
                             <h2 id="producteurs">Les principaux producteurs de données relatives à l'énergie</h2>
+                            <p>Le secteur de l'énergie s'organise autour d'un écosystème riche qui comprend notamment :
+                            </p>
+                            <div class="markdown">
+                                <ul>
+                                    <li><b>Les producteurs d'énergie</b> (électricité et gaz naturel) ;</li>
+                                    <li><b>Les fournisseurs d'énergie</b>, qui vendent "au détail", aux consommateurs,
+                                        l'électricité et/ou le gaz qu'ils ont acheté aux producteurs ;</li>
+                                    <li><b>Les gestionnaires de réseau</b>, qui acheminent l'énergie jusqu'aux clients
+                                        pour le compte des fournisseurs et exploitent, entretiennent et développent les
+                                        réseaux, avec :</li>
+                                    <ul>
+                                        <li><b>Les gestionnaires de transport</b> qui répartissent l'énergie sur le
+                                            territoire (<a
+                                                href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>
+                                            pour l'électricité et Teréga ainsi que GRTgaz pour le gaz)</li>
+                                        <li><b>Les gestionnaires de distribution</b> qui répartissent l'énergie entre
+                                            plusieurs communes et, au sein d'une commune, entre plusieurs habitations
+                                            (<a
+                                                href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>
+                                            pour l'électricité, <a
+                                                href="https://www.data.gouv.fr/fr/organizations/grdf/">GRDF</a> pour le
+                                            gaz, ou parfois des entreprises locales de distribution).</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <p>Beaucoup publient des données en open data, et voici une liste non exhaustive des
+                                principaux producteurs de données relatives à l'énergie.</p>
                             <div class="markdown">
                                 <ul>
                                     <li><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">Agence ORE</a>
                                     </li>
+                                    <ul>
+                                        <li>L’Agence ORE (Opérateurs de Réseaux d’Énergie) fédère l’ensemble des acteurs
+                                            français de la distribution d’électricité et de gaz, pour offrir une vision
+                                            globale de la distribution en France, en un guichet unique et gratuit de la
+                                            donnée.</li>
+                                    </ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/organizations/open-data-reseaux-energies-1/">Open
                                             Data Réseaux Energies</a></li>
+                                    <ul>
+                                        <li>La plateforme d'Open Data Réseaux Energies (ODRE) met à disposition des
+                                            données sur l'énergie et constitue le fruit d'une collaboration entre
+                                            GRTgaz, <a
+                                                href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>,
+                                            Teréga, <a
+                                                href="https://www.data.gouv.fr/fr/organizations/association-francaise-du-gnv/">l'AFGNV</a>,
+                                            Weathernews France, Elengy, Storengy et Dunkerque LNG.</li>
+                                    </ul>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/organizations/ministere-de-la-transition-ecologique/">Ministère
-                                            de la Transition écologique</a></li>
+                                            de la transition écologique et de la cohésion des territoires</a></li>
                                     <li><a
                                             href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Réseau
                                             de Transport d'Electricité (RTE)</a></li>
@@ -447,5 +559,11 @@ content_type: html
                                             de sûreté nucléaire</a></li>
                                 </ul>
                             </div>
+                            <h2 id="questions">Des questions sur les données ouvertes relatives à l'énergie ?</h2>
+                            <p><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">L'Agence ORE</a>
+                                propose <a href="https://www.agenceore.fr/forum-expert"><b>un forum des experts open
+                                        data électricité & gaz</b></a> pour répondre à
+                                toute question relative aux données de l'énergie disponibles en open data (méthodologie,
+                                mise à jour, etc.).</p>
                         </div>
                     </div>
