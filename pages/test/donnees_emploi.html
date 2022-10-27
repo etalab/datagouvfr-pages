@@ -8,403 +8,430 @@ description: Page inventaire des données relatives à l'emploi.
 content_type: html
 ---
 
-<section class="section-blue section-main">
-    <div class="fr-container">
-        <div>
-            <h1>Les données relatives à l'emploi</h1>
-            <p>Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement le plus
-                complet possible des bases et jeux de données publiques existantes dans le domaine de l'emploi, et
-                <a href="https://www.data.gouv.fr/fr/datasets/inventaire-des-bases-de-donnees-relatives-a-lemploi/">publie
-                    cet inventaire en open data</a>. 161 bases de données de 26 gestionnaires ont été recensés.
-            </p>
-            <p>Pour faciliter la découverte des données, cette page présente une sélection des principales bases qui
-                sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est pas
-                exhaustive et est ouverte aux contributions.</p>
-            <p>Ces jeux de données sont présentés en 3 catégories :</p>
-            <div class="markdown">
-                <ul>
-                    <li><b>Données sur le marché du travail </b>: jeux de données présentant une photographie du
-                        marché du travail, sur plusieurs thèmes : chômage et demandeurs d'emploi, retraite,
-                        activité, etc.</li>
-                    <li><b>Données sur les caractéristiques de l'emploi du travailleur </b>: informations sur le
-                        régime du travailleur, les secteurs d'activités, les contrats, les régimes, les salaires,
-                        etc.</li>
-                    <li><b>Données sur les droits et les aides liés à l'emploi </b>: données sur les services
-                        proposés, sur les formations et certifications, etc.</li>
-                </ul>
-            </div>
-            <p>Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant de manière
-                plus détaillée les données téléchargeables.</p>
-            <p>Sont ensuite listés les noms des principales organisations gestionnaires des données relatives à
-                l'emploi. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des informations
-                ou publications construites sur la base des jeux de données listés ci-dessous.</p>
-            <div class="fr-col-12">
+    <section class="section-blue section-main">
+        <div class="fr-container">
+            <div>
+                <h1>Les données relatives à l'emploi</h1>
+                <div class="fr-col-12">
 
-                <div class="fr-grid-row">
-                    <div class="fr-col-12 fr-col-md-4">
-                        <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                            style="max-width:350px;">
-                            <div class="fr-sidemenu__inner">
-                                <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
-                                    class="fr-sidemenu__btn" hidden="">
-                                    Dans cette rubrique
-                                </button>
-                                <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                    src="https://user-images.githubusercontent.com/72090652/172354994-73bb4995-67f4-406e-b806-72a695f8bbc1.svg"
-                                    alt="">
-                                <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                    <ul class="fr-sidemenu__list">
-                                        <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#donnees-marche" target="_self">
-                                                1. Données sur le marché du travail
-                                            </a>
-                                        </li>
-                                        <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#donnees-caracteristiques"
-                                                target="_self">
-                                                2. Données sur les caractéristiques de l'emploi du travailleur
-                                            </a>
-                                        </li>
-                                        <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#donnees-droits" target="_self">
-                                                3. Données sur les droits et les aides liés à l'emploi
-                                            </a>
-                                        </li>
-                                        <li class="fr-sidemenu__item">
-                                            <a class="fr-sidemenu__link" href="#organisations" target="_self">
-                                                4. Liste des organisations qui publient des données relatives à l'emploi
-                                            </a>
-                                        </li>
-                                    </ul>
+                    <div class="fr-grid-row">
+                        <div class="fr-col-12 fr-col-md-4">
+                            <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
+                                style="max-width:350px;">
+                                <div class="fr-sidemenu__inner">
+                                    <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
+                                        class="fr-sidemenu__btn" hidden="">
+                                        Dans cette rubrique
+                                    </button>
+                                    <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                                        src="https://user-images.githubusercontent.com/72090652/172354994-73bb4995-67f4-406e-b806-72a695f8bbc1.svg"
+                                        alt="">
+                                    <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                                        <ul class="fr-sidemenu__list">
+                                            <li class="fr-sidemenu__item">
+                                                <a class="fr-sidemenu__link" href="#donnees-marche" target="_self">
+                                                    1. Données sur le marché du travail
+                                                </a>
+                                            </li>
+                                            <li class="fr-sidemenu__item">
+                                                <a class="fr-sidemenu__link" href="#donnees-caracteristiques"
+                                                    target="_self">
+                                                    2. Données sur les caractéristiques de l'emploi du travailleur
+                                                </a>
+                                            </li>
+                                            <li class="fr-sidemenu__item">
+                                                <a class="fr-sidemenu__link" href="#donnees-droits" target="_self">
+                                                    3. Données sur les droits et les aides liés à l'emploi
+                                                </a>
+                                            </li>
+                                            <li class="fr-sidemenu__item">
+                                                <a class="fr-sidemenu__link" href="#organisations" target="_self">
+                                                    4. Liste des organisations qui publient des données relatives à
+                                                    l'emploi
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
+                            </nav>
+                        </div>
+                        <div class="fr-col-12 fr-col-md-8 markdown">
+                            <p>Dans le cadre de ses missions, le département Etalab a réalisé un travail de recensement
+                                le plus
+                                complet possible des bases et jeux de données publiques existantes dans le domaine de
+                                l'emploi, et
+                                <a
+                                    href="https://www.data.gouv.fr/fr/datasets/inventaire-des-bases-de-donnees-relatives-a-lemploi/">publie
+                                    cet inventaire en open data</a>. 161 bases de données de 26 gestionnaires ont été
+                                recensés.
+                            </p>
+                            <p>Pour faciliter la découverte des données, cette page présente une sélection des
+                                principales bases qui
+                                sont disponibles en format ouvert sur le portail national data.gouv.fr. La liste n'est
+                                pas
+                                exhaustive et <a
+                                    href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees_emploi.html">est
+                                    ouverte aux contributions</a>.</p>
+                            <p>Ces jeux de données sont présentés en 3 catégories :</p>
+                            <div class="markdown">
+                                <ul>
+                                    <li><b>Données sur le marché du travail </b>: jeux de données présentant une
+                                        photographie du
+                                        marché du travail, sur plusieurs thèmes : chômage et demandeurs d'emploi,
+                                        retraite,
+                                        activité, etc.</li>
+                                    <li><b>Données sur les caractéristiques de l'emploi du travailleur </b>:
+                                        informations sur le
+                                        régime du travailleur, les secteurs d'activités, les contrats, les régimes, les
+                                        salaires,
+                                        etc.</li>
+                                    <li><b>Données sur les droits et les aides liés à l'emploi </b>: données sur les
+                                        services
+                                        proposés, sur les formations et certifications, etc.</li>
+                                </ul>
                             </div>
-                        </nav>
+                            <p>Chaque base listée ci-dessous fait l’objet d’une page dédiée sur data.gouv.fr, présentant
+                                de manière
+                                plus détaillée les données téléchargeables.</p>
+                            <p>Sont ensuite listés les noms des principales organisations gestionnaires des données
+                                relatives à
+                                l'emploi. La plupart de ces gestionnaires proposent sur leurs portails ou sites web des
+                                informations
+                                ou publications construites sur la base des jeux de données listés ci-dessous.</p>
+                            <h2 id="donnees-marche">Données sur le marché du travail</h2>
+                            <h3>Données sur le chômage et les demandeurs d'emploi</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/declarations-prealables-a-lembauche-mensuelles-de-plus-dun-mois-france-entiere/"><b>Déclarations
+                                                préalables à l'embauche mensuelles de plus d'un mois (URSSAF)</b></a>
+                                    </li>
+                                    <ul>
+                                        <li>Série mensuelle des déclarations préalables à l'embauche (DPAE) de plus d'un
+                                            mois au niveau France entière</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h3>Données sur les retraites</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/nombre-dactifs-cotisant-a-la-cnracl-selon-les-employeurs/"><b>Nombre
+                                                d'actifs cotisant à la CNRACL selon les employeurs (CDC)</b></a></li>
+                                    <ul>
+                                        <li>La CNRACL est La Caisse nationale de retraites des agents des collectivités
+                                            locales. Cette caisse couvre le risque vieillesse et invalidité des
+                                            fonctionnaires territoriaux et des fonctionnaires hospitaliers. Elle est
+                                            gérée par la Caisse des dépôts.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/effectifs-de-cotisants-a-lircantec-par-employeurs/"><b>Effectifs
+                                                de cotisants à l'IRCANTEC, par employeurs (CDC)</b></a></li>
+                                    <ul>
+                                        <li>L'IRCANTEC est l'Institution de Retraite Complémentaire des Agents Non
+                                            Titulaires de l'Etat et des Collectivités publiques. Le régime de l'Ircantec
+                                            s'applique aux salariés de la fonction publique d'État, des collectivités
+                                            territoriales et hospitalières ainsi que des autres employeurs publics
+                                            (EPIC, sociétés de droit privé, Pôle Emploi, Banque de France, OPH, ...). Le
+                                            jeu de données présente les effectifs des cotisants l'IRCANTEC, par familles
+                                            d'employeurs, depuis 2014.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h3>Données sur les offres d'emploi et de recrutement</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/enquete-besoins-en-main-doeuvre-bmo/"><b>Enquête
+                                                Besoins en Main d'Œuvre (BMO) (Pôle Emploi)</b></a></li>
+                                    <ul>
+                                        <li>Chaque année, Pôle emploi adresse un questionnaire à 1,9 million
+                                            d'établissements afin de connaître leurs besoins en recrutement par secteur
+                                            d'activité et par bassin d'emploi.</li>
+                                        <li>Cette enquête permet entre autres : d'anticiper les difficultés de
+                                            recrutement ; d'améliorer l'orientation des demandeurs d'emploi vers des
+                                            formations ou des métiers en adéquation avec les besoins du marché du
+                                            travail ; d'informer les demandeurs d'emploi sur l'évolution de leur marché
+                                            du travail et les métiers porteurs.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/offres-demploi-diffusees-a-pole-emploi/"><b>Offres
+                                                d'emploi diffusées à Pôle emploi (Pôle Emploi)</b></a></li>
+                                    <ul>
+                                        <li>Le nombre d'offres publiées ici correspond à l'ensemble des offres
+                                            accessibles par les demandeurs d'emploi sur le site pole-emploi.fr</li>
+                                    </ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/datasets/particuliers-employeurs-en-2019/"><b>Particuliers
+                                                employeurs en 2019 (URSSAF)</b></a></li>
+                                    <ul>
+                                        <li>Données sur les particuliers employeurs en 2019 issues des dispositifs Cesu,
+                                            Pajemploi et DNS.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h3>Données sur le niveau d'activité</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/"><b>Marché du
+                                                travail (INSEE)</b></a></li>
+                                    <ul>
+                                        <li>Ce jeu de données provient de la Banque de Données Macro-économiques de
+                                            l'INSEE. La BDM est la principale base de données de séries et indices sur
+                                            l'ensemble des domaines économiques et sociaux. Elle met à disposition
+                                            toutes les informations nécessaires au diagnostic conjoncturel, et plus
+                                            généralement à l'analyse des fluctuations de l'activité économique, aux
+                                            niveaux global et sectoriel, dans une présentation harmonisée, pour un
+                                            ensemble de séries en provenance de sources multiples.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h3>Secteurs d'activités et branches professionnelles</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/"><b>Répertoire
+                                                Opérationnel des Métiers et des Emplois (ROME) (Pôle Emploi)</b></a>
+                                    </li>
+                                    <ul>
+                                        <li>Le ROME a été construit par les équipes de Pôle emploi avec la contribution
+                                            d'un large réseau de partenaires (entreprises, branches et syndicats
+                                            professionnels, AFPA...), en s'appuyant sur une démarche pragmatique :
+                                            inventaire des dénominations d'emplois/métiers les plus courantes, analyse
+                                            des activités et compétences, regroupement des emplois selon un principe
+                                            d'équivalence ou de proximité.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <h2 id="donnees-caracteristiques">Données sur les caractéristiques de l'emploi du
+                                travailleur</h2>
+                            <h3>Régime du travailleur</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/masse-salariale-et-assiette-chomage-partiel-mensuelles-du-secteur-prive/"><b>Masse
+                                                salariale et assiette chômage partiel mensuelles du secteur privé
+                                                (URSSAF)</b></a></li>
+                                </ul>
+                            </div>
+                            <h3>Secteurs d'activités et branches professionnelles</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/taux-dimpayes-mensuels-entreprises-de-10-salaries-ou-plus-metropole/"><b>Taux
+                                                d'impayés mensuels - entreprises de 10 salariés ou plus, métropole
+                                                (URSSAF)</b></a></li>
+                                    <ul>
+                                        <li>Séries mensuelles des taux d'impayés (restes à recouvrer : RAR) des
+                                            entreprises de 10 salariés ou plus hors taxations d'office</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <h2 id="donnees-droits">Données sur les droits et les aides liés à l'emploi</h2>
+                            <h3>Services proposés</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/datasets/les-adresses-des-centres-apec/"><b>Les
+                                                adresses des centres Apec (APEC)</b></a></li>
+                                    <ul>
+                                        <li>L'Apec est présente sur l'ensemble du territoire avec une cinquantaine de
+                                            centres, en France métropolitaine et en Outre-mer. Les 500 consultantes et
+                                            consultants peuvent ainsi accompagner les entreprises, les cadres et les
+                                            jeunes diplômés au plus près de leurs besoins et de leurs attentes. L'Apec
+                                            propose à ses clients un accompagnement ciblé.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/numero-de-telephone-des-services-usagers/"><b>Numéro
+                                                de téléphone des services usagers (URSSAF)</b></a></li>
+                                </ul>
+                            </div>
+                            <h3>Formations et certifications</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-certifications-professionnelles-et-repertoire-specifique/"><b>Répertoire
+                                                National des Certifications Professionnelles et Répertoire Spécifique
+                                                (France compétences)</b></a></li>
+                                    <ul>
+                                        <li>Les certifications enregistrées au RNCP (classées par niveau de
+                                            qualification et domaine d'activité) permettent de valider des compétences
+                                            et des connaissances acquises, nécessaires à l'exercice d'activités
+                                            professionnelles. Elles sont constituées de blocs de compétences : ensembles
+                                            homogènes et cohérents de compétences, pouvant être évaluées et validées,
+                                            qui doivent permettre l'exercice autonome d'une activité professionnelle.
+                                            Les certifications enregistrées au RS correspondent à des compétences
+                                            complémentaires : habilitations sécurité, certification professionnalisante,
+                                            compétences transversales.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/"><b>Liste
+                                                Publique des Organismes de Formation (DARES)</b></a></li>
+                                    <ul>
+                                        <li>Conformément à l'article L.6351-7-1 du Code du Travail, la liste des
+                                            organismes déclarés auprès du Préfet de Région territorialement compétent et
+                                            à jour de leur obligation de transmission du Bilan Pédagogique et Financier
+                                            est rendue publique.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/entrees-en-formation-des-demandeurs-demploi/"><b>Entrées
+                                                en formation des demandeurs d'emploi (Pôle Emploi)</b></a></li>
+                                    <ul>
+                                        <li>Conformément à l'article L.6351-7-1 du Code du Travail, la liste des
+                                            organismes déclarés auprès du Préfet de Région territorialement compétent et
+                                            à jour de leur obligation de transmission du Bilan Pédagogique et Financier
+                                            est rendue publique.</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/datasets/sortants-de-formation-et-retour-a-lemploi/"><b>Sortants
+                                                de formation et retour à l'emploi (Pôle Emploi)</b></a></li>
+                                    <ul>
+                                        <li>Ce fichier présente des données sur les taux d'accès à l'emploi des
+                                            demandeurs d'emploi qui sortent de formation.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h2 id="organisations">Liste des organisations qui publient des données relatives à l'emploi
+                            </h2>
+                            <h3>Principaux producteurs et gestionnaires des données publiées sur data.gouv.fr</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/"><b>Union
+                                                de recouvrement des cotisations de sécurité sociale et d'allocations
+                                                familiales
+                                                (URSSAF)</b></a> : Le réseau des Urssaf est le moteur de notre système
+                                        de
+                                        protection sociale avec pour mission principale la collecte des cotisations et
+                                        contributions sociales, sources du financement du régime général de la Sécurité
+                                        sociale.
+                                        Principales bases gérées par l'URSSAF :</li>
+                                    <ul>
+                                        <li>Déclarations préalables à l'embauche mensuelles de plus d'un mois</li>
+                                        <li>Particuliers employeurs</li>
+                                        <li>Masse salariale et assiette chômage partiel mensuelles du secteur privé</li>
+                                        <li>Taux d'impayés mensuels</li>
+                                    </ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/organizations/caisse-des-depots-1/"><b>Caisse
+                                                des
+                                                dépôts et consignations (CDC)</b></a> : institution financière publique
+                                        qui
+                                        exerce des activités d'intérêt général comme la gestion d'une partie de
+                                        l'épargne
+                                        (Livrets A, LDDS) et le financement de projets publics et privés. Elle publie
+                                        des
+                                        bases
+                                        relatives aux politiques publique et aux retraites. Toutes les données ouvrables
+                                        gérées
+                                        par la CDC sont déjà publiées en Open Data. Principales bases gérées par la CDC
+                                        :
+                                    </li>
+                                    <ul>
+                                        <li>Nombre d'actifs cotisant à la CNRACL selon les employeurs</li>
+                                        <li>Effectifs de cotisants à l'IRCANTEC, par employeurs</li>
+                                    </ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/organizations/pole-emploi/"><b>Pôle emploi
+                                                (PE)</b></a> : Pôle emploi a choisi de s'associer à la démarche globale
+                                        d'ouverture des données publiques (Open Data), initiée par l'Etat en
+                                        collaboration
+                                        avec
+                                        la mission Etalab, en rendant accessibles des données sur cette page.
+                                        Principales
+                                        bases
+                                        gérées par Pôle emploi :</li>
+                                    <ul>
+                                        <li>Offres d'emploi diffusées à Pôle emploi</li>
+                                        <li>Répertoire Opérationnel des Métiers et des Emplois (ROME)</li>
+                                        <li>Entrées en formation des demandeurs d'emploi</li>
+                                        <li>Sortants de formation et retour à l'emploi</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/apec-association-pour-lemploi-des-cadres/"><b>Association
+                                                pour l'emploi des cadres (APEC)</b></a> : L'Apec a pour principale
+                                        mission
+                                        d'aider les cadres à (re)trouver un emploi en lien avec les entreprises qui
+                                        recrutent.
+                                        L'association fournit également des études sur le marché de l'emploi des cadres
+                                        permettant ainsi de mieux répondre à leurs attentes et besoins futurs.
+                                        Principales
+                                        bases
+                                        gérées par l'APEC :</li>
+                                    <ul>
+                                        <li>Prévisions APEC</li>
+                                        <li>Baromètre des intentions de recrutement et de mobilité des cadres</li>
+                                        <li>Baromètre de la rémunération des cadres</li>
+                                    </ul>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/ministere-du-travail-de-l-emploi-et-du-dialogue-social/"><b>Direction
+                                                de l'Animation de la recherche, des Études et des Statistiques
+                                                (DARES)</b></a>:
+                                        La Dares est la direction du ministère du Travail qui produit des analyses, des
+                                        études
+                                        et des statistiques sur les thèmes du travail, de l'emploi, de la formation
+                                        professionnelle et du dialogue social Principales bases gérées par la Dares :
+                                    </li>
+                                    <ul>
+                                        <li>Portraits statistiques des métiers</li>
+                                        <li>L'emploi intérimaire</li>
+                                        <li>La durée individuelle du travail</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <h3>Autres producteurs et gestionnaires de données sur le thème logement et urbanisme</h3>
+                            <div class="markdown">
+                                <ul>
+                                    <li><a href="https://www.data.gouv.fr/fr/organizations/france-competences/">France
+                                            Compétences</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/">Institut
+                                            National de la Statistique et des Etudes Economiques (INSEE)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/agence-nationale-pour-l-amelioration-des-conditions-de-travail-anact/">Agence
+                                            Nationale pour l'Amélioration des Conditions de Travail (ANACT)</a></li>
+                                    <li><a href="https://esante.gouv.fr/">Agence du numérique en santé (ANS)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/agence-nationale-de-securite-sanitaire-de-l-alimentation-de-l-environnement-et-du-travail-anses/">Agence
+                                            nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du
+                                            travail
+                                            (ANSES)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/agence-de-services-et-de-paiement-asp/">Agence
+                                            de services et de paiement (ASP)</a></li>
+                                    <li><a href="https://www.businessfrance.fr/">Business France</a></li>
+                                    <li><a
+                                            href="https://ceet.cnam.fr/ceet/centre-d-etudes-de-l-emploi-et-du-travail-accueil-947519.kjsp">Centre
+                                            d'études de l'emploi et du travail (CEET)</a></li>
+                                    <li><a href="https://www.centre-inffo.fr/">Centre pour le développement de
+                                            l'information
+                                            sur
+                                            la formation permanente (CentreINFFO)</a></li>
+                                    <li><a href="https://www.cereq.fr/">Centre d'études et de recherche sur les
+                                            qualifications
+                                            (CEREQ)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/">Caisse
+                                            Nationale d'Assurance Maladie (CNAM)</a></li>
+                                    <li><a href="https://www.lassuranceretraite.fr/portail-info/home.html">Caisse
+                                            Nationale
+                                            d'Assurance Vieillesse (CNAV)</a></li>
+                                    <li><a href="http://evrest.istnf.fr/page-0-0-0.html">Groupement d'intérêt
+                                            scientifique
+                                            Evrest (ANSES, ANACT, CEE...)</a></li>
+                                    <li><a href="https://www.inrs.fr/">Institut National de Recherche et de Sécurité
+                                            (INRS)</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/irdes-ecosante-fr-institut-de-recherche-et-documentation-en-economie-de-la-sante/">Institut
+                                            de recherche et documentation en économie de la santé (IRDES)</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-des-finances-et-de-la-relance/">Ministère
+                                            de l'économie des finances et de la relance</a></li>
+                                    <li><a
+                                            href="https://www.data.gouv.fr/fr/organizations/ministere-du-travail-de-l-emploi-et-du-dialogue-social/">Ministère
+                                            du travail, de l'emploi et de l'insertion</a></li>
+                                    <li><a href="https://www.data.gouv.fr/fr/organizations/sante-publique-france/">Santé
+                                            Publique France (SPF)</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="fr-col-12 fr-col-md-8 markdown">
-                        <h2 id="donnees-marche">Données sur le marché du travail</h2>
-                        <h3>Données sur le chômage et les demandeurs d'emploi</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/declarations-prealables-a-lembauche-mensuelles-de-plus-dun-mois-france-entiere/"><b>Déclarations
-                                            préalables à l'embauche mensuelles de plus d'un mois (URSSAF)</b></a>
-                                </li>
-                                <ul>
-                                    <li>Série mensuelle des déclarations préalables à l'embauche (DPAE) de plus d'un
-                                        mois au niveau France entière</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h3>Données sur les retraites</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/nombre-dactifs-cotisant-a-la-cnracl-selon-les-employeurs/"><b>Nombre
-                                            d'actifs cotisant à la CNRACL selon les employeurs (CDC)</b></a></li>
-                                <ul>
-                                    <li>La CNRACL est La Caisse nationale de retraites des agents des collectivités
-                                        locales. Cette caisse couvre le risque vieillesse et invalidité des
-                                        fonctionnaires territoriaux et des fonctionnaires hospitaliers. Elle est
-                                        gérée par la Caisse des dépôts.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/effectifs-de-cotisants-a-lircantec-par-employeurs/"><b>Effectifs
-                                            de cotisants à l'IRCANTEC, par employeurs (CDC)</b></a></li>
-                                <ul>
-                                    <li>L'IRCANTEC est l'Institution de Retraite Complémentaire des Agents Non
-                                        Titulaires de l'Etat et des Collectivités publiques. Le régime de l'Ircantec
-                                        s'applique aux salariés de la fonction publique d'État, des collectivités
-                                        territoriales et hospitalières ainsi que des autres employeurs publics
-                                        (EPIC, sociétés de droit privé, Pôle Emploi, Banque de France, OPH, ...). Le
-                                        jeu de données présente les effectifs des cotisants l'IRCANTEC, par familles
-                                        d'employeurs, depuis 2014.</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h3>Données sur les offres d'emploi et de recrutement</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a href="https://www.data.gouv.fr/fr/datasets/enquete-besoins-en-main-doeuvre-bmo/"><b>Enquête
-                                            Besoins en Main d'Œuvre (BMO) (Pôle Emploi)</b></a></li>
-                                <ul>
-                                    <li>Chaque année, Pôle emploi adresse un questionnaire à 1,9 million
-                                        d'établissements afin de connaître leurs besoins en recrutement par secteur
-                                        d'activité et par bassin d'emploi.</li>
-                                    <li>Cette enquête permet entre autres : d'anticiper les difficultés de
-                                        recrutement ; d'améliorer l'orientation des demandeurs d'emploi vers des
-                                        formations ou des métiers en adéquation avec les besoins du marché du
-                                        travail ; d'informer les demandeurs d'emploi sur l'évolution de leur marché
-                                        du travail et les métiers porteurs.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/offres-demploi-diffusees-a-pole-emploi/"><b>Offres
-                                            d'emploi diffusées à Pôle emploi (Pôle Emploi)</b></a></li>
-                                <ul>
-                                    <li>Le nombre d'offres publiées ici correspond à l'ensemble des offres
-                                        accessibles par les demandeurs d'emploi sur le site pole-emploi.fr</li>
-                                </ul>
-                                <li><a href="https://www.data.gouv.fr/fr/datasets/particuliers-employeurs-en-2019/"><b>Particuliers
-                                            employeurs en 2019 (URSSAF)</b></a></li>
-                                <ul>
-                                    <li>Données sur les particuliers employeurs en 2019 issues des dispositifs Cesu,
-                                        Pajemploi et DNS.</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h3>Données sur le niveau d'activité</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a href="https://www.data.gouv.fr/fr/datasets/marche-du-travail/"><b>Marché du
-                                            travail (INSEE)</b></a></li>
-                                <ul>
-                                    <li>Ce jeu de données provient de la Banque de Données Macro-économiques de
-                                        l'INSEE. La BDM est la principale base de données de séries et indices sur
-                                        l'ensemble des domaines économiques et sociaux. Elle met à disposition
-                                        toutes les informations nécessaires au diagnostic conjoncturel, et plus
-                                        généralement à l'analyse des fluctuations de l'activité économique, aux
-                                        niveaux global et sectoriel, dans une présentation harmonisée, pour un
-                                        ensemble de séries en provenance de sources multiples.</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h3>Secteurs d'activités et branches professionnelles</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/"><b>Répertoire
-                                            Opérationnel des Métiers et des Emplois (ROME) (Pôle Emploi)</b></a>
-                                </li>
-                                <ul>
-                                    <li>Le ROME a été construit par les équipes de Pôle emploi avec la contribution
-                                        d'un large réseau de partenaires (entreprises, branches et syndicats
-                                        professionnels, AFPA...), en s'appuyant sur une démarche pragmatique :
-                                        inventaire des dénominations d'emplois/métiers les plus courantes, analyse
-                                        des activités et compétences, regroupement des emplois selon un principe
-                                        d'équivalence ou de proximité.</li>
-                                </ul>
-                            </ul>
-                        </div>
-
-                        <h2 id="donnees-caracteristiques">Données sur les caractéristiques de l'emploi du
-                            travailleur</h2>
-                        <h3>Régime du travailleur</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/masse-salariale-et-assiette-chomage-partiel-mensuelles-du-secteur-prive/"><b>Masse
-                                            salariale et assiette chômage partiel mensuelles du secteur privé
-                                            (URSSAF)</b></a></li>
-                            </ul>
-                        </div>
-                        <h3>Secteurs d'activités et branches professionnelles</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/taux-dimpayes-mensuels-entreprises-de-10-salaries-ou-plus-metropole/"><b>Taux
-                                            d'impayés mensuels - entreprises de 10 salariés ou plus, métropole
-                                            (URSSAF)</b></a></li>
-                                <ul>
-                                    <li>Séries mensuelles des taux d'impayés (restes à recouvrer : RAR) des
-                                        entreprises de 10 salariés ou plus hors taxations d'office</li>
-                                </ul>
-                            </ul>
-                        </div>
-
-                        <h2 id="donnees-droits">Données sur les droits et les aides liés à l'emploi</h2>
-                        <h3>Services proposés</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a href="https://www.data.gouv.fr/fr/datasets/les-adresses-des-centres-apec/"><b>Les
-                                            adresses des centres Apec (APEC)</b></a></li>
-                                <ul>
-                                    <li>L'Apec est présente sur l'ensemble du territoire avec une cinquantaine de
-                                        centres, en France métropolitaine et en Outre-mer. Les 500 consultantes et
-                                        consultants peuvent ainsi accompagner les entreprises, les cadres et les
-                                        jeunes diplômés au plus près de leurs besoins et de leurs attentes. L'Apec
-                                        propose à ses clients un accompagnement ciblé.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/numero-de-telephone-des-services-usagers/"><b>Numéro
-                                            de téléphone des services usagers (URSSAF)</b></a></li>
-                            </ul>
-                        </div>
-                        <h3>Formations et certifications</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-certifications-professionnelles-et-repertoire-specifique/"><b>Répertoire
-                                            National des Certifications Professionnelles et Répertoire Spécifique
-                                            (France compétences)</b></a></li>
-                                <ul>
-                                    <li>Les certifications enregistrées au RNCP (classées par niveau de
-                                        qualification et domaine d'activité) permettent de valider des compétences
-                                        et des connaissances acquises, nécessaires à l'exercice d'activités
-                                        professionnelles. Elles sont constituées de blocs de compétences : ensembles
-                                        homogènes et cohérents de compétences, pouvant être évaluées et validées,
-                                        qui doivent permettre l'exercice autonome d'une activité professionnelle.
-                                        Les certifications enregistrées au RS correspondent à des compétences
-                                        complémentaires : habilitations sécurité, certification professionnalisante,
-                                        compétences transversales.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/"><b>Liste
-                                            Publique des Organismes de Formation (DARES)</b></a></li>
-                                <ul>
-                                    <li>Conformément à l'article L.6351-7-1 du Code du Travail, la liste des
-                                        organismes déclarés auprès du Préfet de Région territorialement compétent et
-                                        à jour de leur obligation de transmission du Bilan Pédagogique et Financier
-                                        est rendue publique.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/entrees-en-formation-des-demandeurs-demploi/"><b>Entrées
-                                            en formation des demandeurs d'emploi (Pôle Emploi)</b></a></li>
-                                <ul>
-                                    <li>Conformément à l'article L.6351-7-1 du Code du Travail, la liste des
-                                        organismes déclarés auprès du Préfet de Région territorialement compétent et
-                                        à jour de leur obligation de transmission du Bilan Pédagogique et Financier
-                                        est rendue publique.</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/datasets/sortants-de-formation-et-retour-a-lemploi/"><b>Sortants
-                                            de formation et retour à l'emploi (Pôle Emploi)</b></a></li>
-                                <ul>
-                                    <li>Ce fichier présente des données sur les taux d'accès à l'emploi des
-                                        demandeurs d'emploi qui sortent de formation.</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h2 id="organisations">Liste des organisations qui publient des données relatives à l'emploi
-                        </h2>
-                        <h3>Principaux producteurs et gestionnaires des données publiées sur data.gouv.fr</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/"><b>Union
-                                            de recouvrement des cotisations de sécurité sociale et d'allocations
-                                            familiales
-                                            (URSSAF)</b></a> : Le réseau des Urssaf est le moteur de notre système de
-                                    protection sociale avec pour mission principale la collecte des cotisations et
-                                    contributions sociales, sources du financement du régime général de la Sécurité
-                                    sociale.
-                                    Principales bases gérées par l'URSSAF :</li>
-                                <ul>
-                                    <li>Déclarations préalables à l'embauche mensuelles de plus d'un mois</li>
-                                    <li>Particuliers employeurs</li>
-                                    <li>Masse salariale et assiette chômage partiel mensuelles du secteur privé</li>
-                                    <li>Taux d'impayés mensuels</li>
-                                </ul>
-                                <li><a href="https://www.data.gouv.fr/fr/organizations/caisse-des-depots-1/"><b>Caisse
-                                            des
-                                            dépôts et consignations (CDC)</b></a> : institution financière publique qui
-                                    exerce des activités d'intérêt général comme la gestion d'une partie de l'épargne
-                                    (Livrets A, LDDS) et le financement de projets publics et privés. Elle publie des
-                                    bases
-                                    relatives aux politiques publique et aux retraites. Toutes les données ouvrables
-                                    gérées
-                                    par la CDC sont déjà publiées en Open Data. Principales bases gérées par la CDC :
-                                </li>
-                                <ul>
-                                    <li>Nombre d'actifs cotisant à la CNRACL selon les employeurs</li>
-                                    <li>Effectifs de cotisants à l'IRCANTEC, par employeurs</li>
-                                </ul>
-                                <li><a href="https://www.data.gouv.fr/fr/organizations/pole-emploi/"><b>Pôle emploi
-                                            (PE)</b></a> : Pôle emploi a choisi de s'associer à la démarche globale
-                                    d'ouverture des données publiques (Open Data), initiée par l'Etat en collaboration
-                                    avec
-                                    la mission Etalab, en rendant accessibles des données sur cette page. Principales
-                                    bases
-                                    gérées par Pôle emploi :</li>
-                                <ul>
-                                    <li>Offres d'emploi diffusées à Pôle emploi</li>
-                                    <li>Répertoire Opérationnel des Métiers et des Emplois (ROME)</li>
-                                    <li>Entrées en formation des demandeurs d'emploi</li>
-                                    <li>Sortants de formation et retour à l'emploi</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/apec-association-pour-lemploi-des-cadres/"><b>Association
-                                            pour l'emploi des cadres (APEC)</b></a> : L'Apec a pour principale mission
-                                    d'aider les cadres à (re)trouver un emploi en lien avec les entreprises qui
-                                    recrutent.
-                                    L'association fournit également des études sur le marché de l'emploi des cadres
-                                    permettant ainsi de mieux répondre à leurs attentes et besoins futurs. Principales
-                                    bases
-                                    gérées par l'APEC :</li>
-                                <ul>
-                                    <li>Prévisions APEC</li>
-                                    <li>Baromètre des intentions de recrutement et de mobilité des cadres</li>
-                                    <li>Baromètre de la rémunération des cadres</li>
-                                </ul>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/ministere-du-travail-de-l-emploi-et-du-dialogue-social/"><b>Direction
-                                            de l'Animation de la recherche, des Études et des Statistiques
-                                            (DARES)</b></a>:
-                                    La Dares est la direction du ministère du Travail qui produit des analyses, des
-                                    études
-                                    et des statistiques sur les thèmes du travail, de l'emploi, de la formation
-                                    professionnelle et du dialogue social Principales bases gérées par la Dares :</li>
-                                <ul>
-                                    <li>Portraits statistiques des métiers</li>
-                                    <li>L'emploi intérimaire</li>
-                                    <li>La durée individuelle du travail</li>
-                                </ul>
-                            </ul>
-                        </div>
-                        <h3>Autres producteurs et gestionnaires de données sur le thème logement et urbanisme</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><a href="https://www.data.gouv.fr/fr/organizations/france-competences/">France
-                                        Compétences</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/">Institut
-                                        National de la Statistique et des Etudes Economiques (INSEE)</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/agence-nationale-pour-l-amelioration-des-conditions-de-travail-anact/">Agence
-                                        Nationale pour l'Amélioration des Conditions de Travail (ANACT)</a></li>
-                                <li><a href="https://esante.gouv.fr/">Agence du numérique en santé (ANS)</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/agence-nationale-de-securite-sanitaire-de-l-alimentation-de-l-environnement-et-du-travail-anses/">Agence
-                                        nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du
-                                        travail
-                                        (ANSES)</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/agence-de-services-et-de-paiement-asp/">Agence
-                                        de services et de paiement (ASP)</a></li>
-                                <li><a href="https://www.businessfrance.fr/">Business France</a></li>
-                                <li><a
-                                        href="https://ceet.cnam.fr/ceet/centre-d-etudes-de-l-emploi-et-du-travail-accueil-947519.kjsp">Centre
-                                        d'études de l'emploi et du travail (CEET)</a></li>
-                                <li><a href="https://www.centre-inffo.fr/">Centre pour le développement de l'information
-                                        sur
-                                        la formation permanente (CentreINFFO)</a></li>
-                                <li><a href="https://www.cereq.fr/">Centre d'études et de recherche sur les
-                                        qualifications
-                                        (CEREQ)</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/">Caisse
-                                        Nationale d'Assurance Maladie (CNAM)</a></li>
-                                <li><a href="https://www.lassuranceretraite.fr/portail-info/home.html">Caisse Nationale
-                                        d'Assurance Vieillesse (CNAV)</a></li>
-                                <li><a href="http://evrest.istnf.fr/page-0-0-0.html">Groupement d'intérêt scientifique
-                                        Evrest (ANSES, ANACT, CEE...)</a></li>
-                                <li><a href="https://www.inrs.fr/">Institut National de Recherche et de Sécurité
-                                        (INRS)</a>
-                                </li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/irdes-ecosante-fr-institut-de-recherche-et-documentation-en-economie-de-la-sante/">Institut
-                                        de recherche et documentation en économie de la santé (IRDES)</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/ministere-de-leconomie-des-finances-et-de-la-relance/">Ministère
-                                        de l'économie des finances et de la relance</a></li>
-                                <li><a
-                                        href="https://www.data.gouv.fr/fr/organizations/ministere-du-travail-de-l-emploi-et-du-dialogue-social/">Ministère
-                                        du travail, de l'emploi et de l'insertion</a></li>
-                                <li><a href="https://www.data.gouv.fr/fr/organizations/sante-publique-france/">Santé
-                                        Publique France (SPF)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <script type="text/javascript">
-                    document.querySelector('.container.py-lg').classList.remove('container')
-                </script>
