@@ -1,0 +1,35 @@
+---
+title: Demande de données
+keywords:
+  - Open data
+  - Request
+  - Ouverture
+description: Suggérer une ouverture de jeu de données
+content_type: html
+---
+
+
+	<h1 class="fr-display--sm fr-mb-2w">Suggérer une ouverture de données </h1>
+	
+  
+<div class="fr-callout">
+    <p class="fr-callout__text">
+    Vous pouvez suggérer la publication d’un jeu de données qui n’est pas actuellement disponible sur data.gouv.fr.
+Ces demandes aident notre équipe à identifier les besoins et prioriser les efforts d’ouverture des données en collaboration avec les producteurs de données.
+    </p>
+</div>
+
+<div class="fr-col-12 fr-mb-4w" style="text-align:center">
+				<a class="fr-btn fr-btn--primary fr-mt-3w" href="https://apps.evalandgo.com/form/372035/s/?id=JTlBaSU5NGolOUQlQUQ%3D&a=JTk3cCU5M2glOTklQUU%3D">Faire une demande</a>
+			</div>
+
+
+<p>Vous pouvez <a href="">explorer les demandes formulées</a> ainsi que <a href="">voir le jeu de données</a>
+<p>N’hésitez pas à utiliser l’espace commentaire du jeu de données pour échanger sur les demandes.</p>
+
+<p>Pour toutes autres demandes, vous pouvez <a href="https://support.data.gouv.fr/particulier/retour-plateforme">nous écrire</a>.</p>
+
+<p>NOTE : Les demandes effectuées ici ne sont pas assimilables à une 
+demande adressée à la <a href="https://www.cada.fr/">Commission d’Accès aux Documents Administratifs</a>.</p>
+
+
