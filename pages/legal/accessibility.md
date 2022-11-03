@@ -42,6 +42,12 @@ Le critère 5.4 est non applicable car les fonctions de prévisualisation sont h
 Après mise à jour, le taux de conformité à cette date est de :
 * 58.33 % des critères du RGAA version 4.0 sont respectés
 
+### Mise à jour du 03/11/2022
+
+Les critères 3.1, 6.1, 6.2, 7.5, 8.2 du RGAA 4.0 ont été corrigés par l'équipe de développement.
+Après mise à jour, le taux de conformité à cette date est de :
+* 68.75 % des critères du RGAA version 4.0 sont respectés
+
 ## Contenus non accessibles
 
 ### Non-conformité
@@ -61,7 +67,7 @@ Après mise à jour, le taux de conformité à cette date est de :
 
 ## Établissement de cette déclaration d'accessibilité
 
-Cette déclaration a été établie le 01 juillet 2021. Elle a été mise à jour le 07 juin 2022. 
+Cette déclaration a été établie le 01 juillet 2021. Elle a été dernièrement mise à jour le 03 novembre 2022. 
 
 ### Technologies utilisées pour la réalisation de https://www.data.gouv.fr/fr/
 
