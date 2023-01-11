@@ -1,0 +1,282 @@
+---
+title: Cas d'usage "Exploration du prix des carburants"
+keywords:
+  - Publier
+  - Producteurs
+  - Open data
+  - Ouverture
+description: Page de cas d'usage
+content_type: html
+---
+
+<section class="section-blue section-main">
+        <div class="fr-container">
+            <div>
+                <h1>Exploration des prix du carburant : Suivre l’évolution du prix et de la disponibilité des carburants</h1>
+                <p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+            </div>
+            <div class="fr-col-12">
+                <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
+                    href="https://explore.data.gouv.fr/prix-carburants"><b>Accéder à l'exploration des prix du
+                        carburant</b></a>
+            </div>
+
+
+            <div class="fr-grid-row">
+                <div class="fr-col-12 fr-col-md-4">
+                    <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
+                        style="max-width:350px;">
+                        <div class="fr-sidemenu__inner">
+                            <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn"
+                                hidden="">
+                                Dans cette rubrique
+                            </button>
+                            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                                src="https://user-images.githubusercontent.com/72090652/211614166-102b31b7-8ed3-4bb6-ae72-350726405226.svg"
+                                alt="">
+                            <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                                <ul class="fr-sidemenu__list">
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#données" target="_self">
+                                            1. Données ouvertes utilisées
+                                        </a>
+                                    </li>
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+                                            2. Réutilisateur
+                                        </a>
+                                    </li>
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#problématique" target="_self">
+                                            3. Problématique et proposition de valeur
+                                        </a>
+                                    </li>
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#solution" target="_self">
+                                            4. Solution
+                                        </a>
+                                    </li>
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#impact" target="_self">
+                                            5. Impact
+                                        </a>
+                                    </li>
+                                    <li class="fr-sidemenu__item">
+                                        <a class="fr-sidemenu__link" href="#enseignements" target="_self">
+                                            6. Enseignements
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="fr-col-12 fr-col-md-8 markdown">
+                    <h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill"
+                            aria-hidden="true"></span></h2>
+                    <div class="markdown">
+                        <ul>
+                            <li><a
+                                    href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane/"><b>Prix
+                                        des carburants en France - Flux instantané</b></a></li>
+                            <li><a
+                                    href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/"><b>Prix
+                                        des carburants en France - Flux quotidien</b></a></li>
+                            <li><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/"><b>Base Adresse
+                                        Nationale</b></a> et <a href="https://adresse.data.gouv.fr/"><b>l'API
+                                        associée</b></a></li>
+                            <li><a href="https://openmaptiles.org/"><b>OpenMapTiles</b></a> : tuiles vectorielles</li>
+                        </ul>
+                    </div>
+
+                    <h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
+                    <p><a href="https://www.etalab.gouv.fr/">Etalab</a> est un service du Premier ministre chargé
+                        notamment de coordonner la conception et la mise en œuvre de la stratégie de l’Etat dans le
+                        domaine de la donnée.</p>
+
+                    <h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill"
+                            aria-hidden="true"></span></h2>
+                    <p>L’outil répond à une problématique partagée par tous : alors que <b>le prix des carburants et
+                            leur
+                            disponibilité fluctuent</b>, il apparaît encore <b>difficile de s’informer sur ces
+                            évolutions</b>. Cette
+                        problématique s’accentue pendant les épisodes, ponctuels, de pénurie.</p>
+                    <p>L’application propose d’utiliser la Base Adresse Nationale et les tuiles vectorielles
+                        d’OpenMapTiles pour cartographier le prix des carburants et ainsi permettre de <b>connaître, en
+                            temps réel, la disponibilité et les prix pratiqués dans les stations-service</b>.</p>
+
+                    <h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
+                    <p>Une application qui présente :</p>
+
+                    <div style="display: flex; gap: 60px; margin-bottom: 60px; flex-wrap: wrap;">
+                        <div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px; height: auto;">
+                            <div class="fr-tile__body">
+                                <h3 class="fr-tile__title">
+                                    Une cartographie du prix des différents carburants
+                                </h3>
+                                <p class="fr-tile__desc"> avec la possibilité de rechercher les stations à proximité
+                                    d’une adresse et
+                                    d’afficher les stations en rupture</p>
+                            </div>
+                            <div class="fr-tile__img">
+                                <img src="https://user-images.githubusercontent.com/72090652/167825543-e2fd1574-4842-4633-b543-750ac7fe8664.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 300px">
+                            <div class="fr-tile__body">
+                                <h3 class="fr-tile__title">
+                                    Une visualisation de l’évolution du prix des carburants
+                                </h3>
+                                <p class="fr-tile__desc">à travers le temps</p>
+                            </div>
+                            <div class="fr-tile__img">
+                                <img src="https://user-images.githubusercontent.com/72090652/168040011-b2d4fdd6-fee9-4e47-a90b-e0c4c869394f.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Plusieurs ressources du jeu de données « Prix des carburants » ont été mobilisées :</p>
+                    <div class="markdown">
+                        <ul>
+                            <li><a href="https://www.data.gouv.fr/fr/datasets/r/087dfcbc-8119-4814-8412-d0a387fac561">Le
+                                    fichier « Flux instantané »</a>, pour récupérer l’ensemble des prix des carburants,
+                                par station-service, avec la date de remontée des prix la plus récente ;</li>
+                            <li><a href="https://www.data.gouv.fr/fr/datasets/r/7f76ff0e-b780-414e-b753-5e35108715af">Le
+                                    fichier « Flux quotidien »</a>, pour déduire les carburants en rupture dans une
+                                station-service ;</li>
+                            <li><a href="https://www.data.gouv.fr/fr/datasets/r/f8ac8d26-16fb-4d05-a3b6-c81b5bf2a9f5">Le
+                                    fichier « Flux annuel »</a>, pour obtenir l’évolution des prix moyens d’un carburant
+                                depuis le début de l’année.</li>
+                        </ul>
+                    </div>
+                    <p>La méthodologie employée est précisée dans <a
+                            href="https://www.data.gouv.fr/fr/posts/exploration-de-donnees-zoom-sur-de-nouvelles-briques-disponibles-sur-data-gouv-fr-avec-lexemple-du-prix-des-carburants/">cet
+                            article</a>.</p>
+
+                    <h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
+                    <p><b>Les citoyennes et citoyens</b> peuvent disposer d’informations fiables sur les carburants et
+                        notamment :</p>
+                    <div class="markdown">
+                        <ul>
+                            <li>comparer les prix des stations-service ;</li>
+                            <li>trouver une station avec du carburant ;</li>
+                            <li>connaître l’évolution du prix des carburants sur le territoire.</li>
+                        </ul>
+                    </div>
+                    <p><b>L’administration publique</b> peut :</p>
+                    <div class="markdown">
+                        <ul>
+                            <li>renseigner rapidement les citoyennes et les citoyens en temps de crise ;</li>
+                            <li>nourrir sa démarche de pilotage des politiques publiques par la donnée.</li>
+                        </ul>
+                    </div>
+
+                    <h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
+                    <p><b>Il existe aujourd’hui de nombreuses briques techniques ouvertes, mutualisables et
+                            réutilisables</b>
+                        qu’il est possible de mobiliser pour proposer des visualisations de données sur une diversité de
+                        thématiques comme le logement, l’aménagement du territoire, l’éducation ou encore l’énergie.
+                        Parmi elles, figurent notamment <a href="https://www.data.gouv.fr/fr/pages/spd/reference/">les
+                            données de référence du service public de la donnée</a>.</p>
+                    <p>Cette exploration des prix du carburant constitue une démonstration.</p>
+
+                    <div class="fr-col-12 fr-mt-6w" id="contact"
+                        style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+                        <h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+                        <p style="margin-bottom: unset;">
+                            <a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/"
+                                style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+                            <a style="background-color: white" class="fr-btn fr-btn--secondary"
+                                href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des
+                                données</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12" id="exemples">
+                    <h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+                </div>
+            </div>
+
+
+            <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12 fr-col-md-3">
+                    <div class="fr-card fr-card--sm fr-enlarge-link">
+                        <div class="fr-card__body">
+                            <h3 class="fr-card__title">
+                                <a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/"
+                                    class="fr-card__link">Identifier les entreprises en difficulté</a>
+                            </h3>
+                            <p class="fr-card__desc"></p>
+                            <p class="fr-card__detail">Signaux Faibles</p>
+                        </div>
+                        <div class="fr-card__header">
+                            <div class="fr-card__img">
+                                <img class="fr-responsive-img"
+                                    src="https://user-images.githubusercontent.com/72090652/169087035-b4720d4d-7b69-4e51-949e-acbcab7d8c44.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-3">
+                    <div class="fr-card fr-card--sm fr-enlarge-link">
+                        <div class="fr-card__body">
+                            <h3 class="fr-card__title">
+                                <a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/"
+                                    class="fr-card__link">Réaliser l'état des risques d'un bien immobilier</a>
+                            </h3>
+                            <p class="fr-card__desc"></p>
+                            <p class="fr-card__detail">ERRIAL</p>
+                        </div>
+                        <div class="fr-card__header">
+                            <div class="fr-card__img">
+                                <img class="fr-responsive-img"
+                                    src="https://user-images.githubusercontent.com/72090652/169087219-ad2d8eeb-32d8-4bab-8a67-49d9fab07763.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-3">
+                    <div class="fr-card fr-card--sm fr-enlarge-link">
+                        <div class="fr-card__body">
+                            <h3 class="fr-card__title">
+                                <a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/"
+                                    class="fr-card__link">Estimer les ressources florales autour des ruches</a>
+                            </h3>
+                            <p class="fr-card__desc"></p>
+                            <p class="fr-card__detail">BeeGIS</p>
+                        </div>
+                        <div class="fr-card__header">
+                            <div class="fr-card__img">
+                                <img class="fr-responsive-img"
+                                    src="https://user-images.githubusercontent.com/72090652/169087190-5a6ea7c4-17b7-422e-877b-e326036cbcd6.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-3">
+                    <div class="fr-card fr-card--sm fr-enlarge-link">
+                        <div class="fr-card__body">
+                            <h3 class="fr-card__title">
+                                <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/"
+                                    class="fr-card__link">Connaître le patrimoine arboré des communes</a>
+                            </h3>
+                            <p class="fr-card__desc"></p>
+                            <p class="fr-card__detail">Nos Villes Vertes</p>
+                        </div>
+                        <div class="fr-card__header">
+                            <div class="fr-card__img">
+                                <img class="fr-responsive-img"
+                                    src="https://user-images.githubusercontent.com/72090652/169090906-17161d55-6f4b-43be-acb6-f78a520435c4.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
