@@ -49,7 +49,7 @@ Ils s’engagent sur des niveaux de performance et de disponibilité.
 **Les utilisateurs** utilisent les données de référence pour produire de nouveaux services et créer de la valeur économique et sociale.
 Ils participent à la montée en qualité des données de référence (signalement des erreurs, propositions d’amélioration).
 
-**Le département Etalab**, en charge du portail data.gouv.fr recense l’ensemble des jeux de données de référence.
+**Le département Etalab**, recense l’ensemble des jeux de données de référence.
 Il gère le service public de la donnée en lien avec les producteurs.
 Il anime le dispositif et en assure la promotion auprès des utilisateurs.
 Il développe des outils mutualisables, notamment sur la montée en qualité des données.
