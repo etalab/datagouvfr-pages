@@ -40,7 +40,7 @@ Généralement des zonages sont dérivés de zonage communaux. Voici une liste c
     - [Contours géographiques des académies](https://www.data.gouv.fr/fr/datasets/contours-geographiques-des-academies/)
 - Zonages liés à des actions, principalement ANCT (Agence Nationale de Cohésion des Territoires)
     - [Zones de revitalisation rurale (ZRR)](https://www.data.gouv.fr/fr/datasets/zone-de-revitalisation-rurale-zrr-30382904/)
-    - Aides à finalité régionale (AFR) (en cours de validation pour la période, non disponible pour le moment)
+    - [Aides à finalité régionale (AFR)](https://www.data.gouv.fr/fr/datasets/zones-daide-a-finalite-regionale-afr/)
     - [Communes classées en zone de montagne](https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/)
     - <a href="https://www.observatoire-des-territoires.gouv.fr/kiosque/zonage-les-zones-de-perimetre-de-massifs" target="_blank">Communes classées en Périmètre de massif</a>
     - <a href="https://www.observatoire-des-territoires.gouv.fr/perimetre-des-territoires-dindustrie-0" target="_blank">Programme Territoires d'industrie</a>
@@ -246,7 +246,7 @@ Dispatcher entre droits/justice et sécurité
 - [Liste et localisation des Musées de France](https://www.data.gouv.fr/fr/datasets/liste-et-localisation-des-musees-de-france/)
 - [Liste des objets mobiliers propriété publique classés au titre des Monuments Historiques](https://www.data.gouv.fr/fr/datasets/liste-des-objets-mobiliers-propriete-publique-classes-au-titre-des-monuments-historiques/)  (information rapportable à la commune via le code INSEE)
 - [Fréquentation des musées de France](https://www.data.gouv.fr/fr/datasets/frequentation-des-musees-de-france/) (à lier géographiquement avec <a href="https://data.culture.gouv.fr/explore/dataset/liste-et-localisation-des-musees-de-france/information/" target="_blank">ce jeu de données</a>)
-- [Panorama des festivals](https://www.data.gouv.fr/fr/datasets/panorama-des-festivals/)
+- [Liste des festivals en France](https://www.data.gouv.fr/fr/datasets/liste-des-festivals-en-france/)
 - [DATAtourisme, la base nationale des données du tourisme en Open Data](https://www.data.gouv.fr/fr/datasets/datatourisme-la-base-nationale-des-donnees-du-tourisme-en-open-data/)
 - [Données touristiques de la base DATAtourisme](https://www.data.gouv.fr/fr/datasets/donnees-touristiques-de-la-base-datatourisme/)
 - [Zones Touristiques Internationales](https://www.data.gouv.fr/fr/datasets/zones-touristiques-internationales/)
