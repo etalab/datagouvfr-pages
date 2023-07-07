@@ -90,13 +90,10 @@ content_type: html
 content_resulting.append(directives_tags)
 
 title = "Les données à composante géographique"
-illustration_url = "https://user-images.githubusercontent.com/60264344/163353375-68ccb015-b845-4675-8ae7-35497aa2f5b8.svg"
+illustration_url = "https://user-images.githubusercontent.com/72090652/201092205-31a8911c-844c-4f59-b652-8b27cda0c217.svg"
 basic_description = """<p>
-          Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur
-          <a href="http://data.gouv.fr/">
-            data.gouv.fr
-          </a>
-          . Celle-ci n'est pas exhaustive et est
+          Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur <a href="http://data.gouv.fr/">data.gouv.fr</a>.
+          Celle-ci n'est pas exhaustive et est
           <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-geo.md" target="_blank">
             ouverte aux contributions
           </a>
@@ -119,14 +116,11 @@ left_menu = render_toc_ul(levels_to_inf_3)
 main_content_template = """<section class="section-blue section-main">
   <div class="fr-container">
     <div class="fr-grid-row fr-grid-row--gutters">
-      <div class="fr-col fr-col-12 fr-col-md-6 fr-col-offset-1">
-        <h1 class="fr-display--sm">{}</h1>
-      </div>
-      <div class="fr-col fr-col-12 fr-col-md-4">
-        <img class="fr-responsive-img" src="{}"></src>
+      <div class="fr-col">
+        <h1>{}</h1>
       </div>
       <div class="fr-col-12">
-        <div class="fr-highlight fr-my-6w">
+        <div class="fr-highlight">
           <p>{}
           </p>
         </div>
@@ -135,6 +129,7 @@ main_content_template = """<section class="section-blue section-main">
         <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
           <div class="fr-sidemenu__inner">
             <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
+            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="{}" alt="">
             <div class="fr-collapse" id="fr-sidemenu-wrapper">{}</div>
           </div>
         </nav>
@@ -143,19 +138,35 @@ main_content_template = """<section class="section-blue section-main">
     </div>
   </div>
 </section>
-""".format(title, illustration_url, basic_description, left_menu, html_tree)
+""".format(title, basic_description, illustration_url, left_menu, html_tree)
+
+'''
+main_content_template = """<section class="section-blue section-main">
+  <div class="fr-container">
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col">
+        <h1>{}</h1>
+      </div>
+      <div class="fr-col-12">
+        <div class="fr-highlight">
+          <p>{}
+          </p>
+        </div>
+      </div>
+      <div class="fr-col-12 fr-col-md-4">
+      </div>
+      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+    </div>
+  </div>
+</section>
+""".format(title, basic_description, left_menu, html_tree)
+'''
 
 # <h1 class="fr-h1"> pour surcharger
-main_content_template = main_content_template.replace("<h1 ", '<h1 class="fr-h1"')
+main_content_template = main_content_template.replace("<h1 ", '<h1 class="fr-h1 fr-mt-4w"').replace('<h1 class="fr-h1 fr-mt-4w"id="toc_1">', '<h1 class="fr-h1" id="toc_1">')
 soup = BeautifulSoup(main_content_template, 'html.parser')
 main_content_template = r.sub(r'\1\1', soup.prettify())
 content_resulting.append(main_content_template)
-
-script_hack = """<script type="text/javascript">
-    document.querySelector('.container.py-lg').classList.remove('container')
-</script>
-"""
-content_resulting.append(script_hack)
 
 html = '\n'.join(content_resulting)
 with open('donnees-geographiques.html', 'w') as input_file:
