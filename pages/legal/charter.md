@@ -47,7 +47,7 @@ La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décl
 *Pratiques obligatoires pour le site sous-domaine*
 
 - Tous les 6 mois, une présentation des évolutions du produit est réalisée auprès des autres équipes qui opèrent des sites [data.gouv.fr](http://data.gouv.fr/). Les bonnes pratiques et difficultés rencontrées seront notamment évoquées ;
-- En cas de changement stratégique significatif, l'équipe produit prévient les équipes d'Etalab ;
+- En cas de changement stratégique significatif, l'équipe produit prévient les équipes data.gouv.fr ;
 - L'objectif du produit est explicité et publié en ligne. Il doit répondre à une mission de service public, une obligation de l’administration, ou à un irritant identifié en son sein.
 
 *Pratiques recommandées pour le site sous-domaine*
