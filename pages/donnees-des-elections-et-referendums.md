@@ -298,6 +298,10 @@ datasets:
 
 ### Données du [Ministère de l’Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)
 
+-   **Élections sénatoriales 2023** :
+    -   [Candidatures au 1er tour](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-2023-candidatures-t1/)
+    -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](https://www.data.gouv.fr/fr/datasets/elections-senatoriales-2023-resultats/)
+
 -   **Élections sénatoriales 2020** :
     -   [Candidatures au 1er tour](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-candidatures-au-t1/)
     -   [Résultats du scrutin majoritaire, tours 1 et 2 et scrutin proportionnel](https://www.data.gouv.fr/fr/datasets/senatoriales-2020-resultats/)
