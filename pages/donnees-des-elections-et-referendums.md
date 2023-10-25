@@ -57,11 +57,11 @@ datasets:
 
 
 -   **Élections municipales partielles des 14 et 21 juin 2015** :
-    -   Résultats 1e et 2nd tours : [Puteaux (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
-    -   Résultats 1e et 2nd tours : [Asnières-sur-Seine (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
-    -   Résultats 1e et 2nd tours : [Clichy-la-Garenne (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
-    -   Résultats 1e et 2nd tours : [Pontault-Combault (77)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
-    -   Résultats 1e et 2nd tours : [Thionville (57)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
+    -   Résultats 1er et 2nd tours : [Puteaux (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
+    -   Résultats 1er et 2nd tours : [Asnières-sur-Seine (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
+    -   Résultats 1er et 2nd tours : [Clichy-la-Garenne (92)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
+    -   Résultats 1er et 2nd tours : [Pontault-Combault (77)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
+    -   Résultats 1er et 2nd tours : [Thionville (57)](https://www.data.gouv.fr/s/resources/resultats-des-elections-municipales-partielles-dans-les-communes-de-plus-de-30-000-habitants-14-et-21-juin-2015-1/20150622-154648/Municipales_partielles_14_21_juin_2015.xlsx)
 
 
 -   **Élections municipales 2014** :
@@ -98,14 +98,14 @@ datasets:
 ### [Données de « Nos Données »](http://www.data.gouv.fr/fr/organizations/nosdonnees-fr/)
 
 -   **Élections municipales 2014** :
-    -   Listes de candidats au 1e tour: [Pour les communes de + de 1000 habitants](http://www.nosdonnees.fr/dataset/967f9a46-e4c7-4abb-b29f-68562f447929/resource/b1dfa9b6-f9de-4d49-ba4b-50d46838dcb2/download/municipales2014listest1.csv).
-    -   Résultats 1e tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2014_municipales/municipales-2014-résultats-bureaux_vote-tour1.csv) 
+    -   Listes de candidats au 1er tour: [Pour les communes de plus de 1000 habitants](http://www.nosdonnees.fr/dataset/967f9a46-e4c7-4abb-b29f-68562f447929/resource/b1dfa9b6-f9de-4d49-ba4b-50d46838dcb2/download/municipales2014listest1.csv).
+    -   Résultats 1er tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2014_municipales/municipales-2014-résultats-bureaux_vote-tour1.csv) 
     -   Résultats 2nd tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2014_municipales/municipales-2014-résultats-bureaux_vote-tour2.csv).
 
 -   **Élections municipales 2008** :
-    -   Listes de candidats au 1e tour: [Pour les communes de + de 1000 habitants](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-candidats-tour1.csv)
-    -   Listes de candidats au 2e tour: [Pour les communes de + de 1000 habitants](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-candidats-tour2.csv)
-    -   Résultats 1e tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-r%c3%a9sultats-bureaux_vote-tour1.csv)
+    -   Listes de candidats au 1er tour: [Pour les communes de plus de 1000 habitants](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-candidats-tour1.csv)
+    -   Listes de candidats au 2nd tour: [Pour les communes de plus de 1000 habitants](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-candidats-tour2.csv)
+    -   Résultats 1er tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-r%c3%a9sultats-bureaux_vote-tour1.csv)
     -   Résultats 2nd tour (pour les communes de plus de 1000 habitants) : [par bureau de vote](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-r%c3%a9sultats-bureaux_vote-tour2.csv)
     -   Autres : [Source](http://www.regardscitoyens.org/telechargement/donnees/elections/2008_municipales/municipales-2008-r%c3%a9sultats-bureaux_vote-tour2.csv)
 
@@ -126,7 +126,7 @@ datasets:
     - Résultats 2nd tour : [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-resultats-par-bureaux-de-vote-tour-2/20151217-112435/RG15_Bvot_T2.txt)
     - Résultats 2nd tour : [par commune](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-par-communes-resultats-tour-2-1/20160121-104121/Reg_15_Resultats_Communes_T2c.xlsx)
     - Résultats 2nd tour : [par région, département, circonscription législative, canton et liste des élus](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-resultats-tour-2-1/20160121-104514/Reg_15_Resultats_T2c.xlsx)
-    - Liste des candidats 2e tour: [Fichier des listes de candidats pour le second tour des élections régionales, de l’Assemblée de Corse et des assemblées de Guyane et de Martinique des 6 et 13 décembre 2015](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-candidatures-2eme-tour/20151209-160248/Reg_15_Candidatures_T2.xlsx)
+    - Liste des candidats 2nd tour: [Fichier des listes de candidats pour le second tour des élections régionales, de l’Assemblée de Corse et des assemblées de Guyane et de Martinique des 6 et 13 décembre 2015](https://www.data.gouv.fr/s/resources/elections-regionales-2015-et-des-assemblees-de-corse-de-guyane-et-de-martinique-candidatures-2eme-tour/20151209-160248/Reg_15_Candidatures_T2.xlsx)
 
 - **Élections régionales 2010** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) 
     - Résultats 1er et 2nd tours : [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-regionales-2010-resultats-par-bureaux-de-vote/20150925-113159/RG10_BVot_T1_1.txt)
@@ -150,21 +150,21 @@ datasets:
 
 - **Élections régionales 2004** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) :
     - Résultats 1er tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160350/cdsp_regio2004t1_circ.csv)
-    - Résultats 1er tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160422/cdsp_regio2004t1_commp3500.csv)   
+    - Résultats 1er tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160422/cdsp_regio2004t1_commp3500.csv)   
     - Résultats 2nd tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160437/cdsp_regio2004t2_circ.csv)
-    - Résultats 2nd tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160520/cdsp_regio2004t2_comm.csv)
+    - Résultats 2nd tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160520/cdsp_regio2004t2_comm.csv)
 
 - **Élections régionales 1998** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) :
     - Résultats 1er et 2nd tours : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160254/cdsp_regio1998_circ.csv)
-    - Résultats 1er et 2nd tours : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160319/cdsp_regio1998_commp9000-ag.csv)
+    - Résultats 1er et 2nd tours : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160319/cdsp_regio1998_commp9000-ag.csv)
 
 - **Élections régionales 1992** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) :
-    - Résultats 1er et 2nd tours : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160232/cdsp_regio1992_commp9000.csv)
+    - Résultats 1er et 2nd tours : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160232/cdsp_regio1992_commp9000.csv)
     - Résultats 1er et 2nd tours : [par département](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160202/cdsp_regio1992_dep_ag.csv)
 
 
 - **Élections régionales 1986** (et de l’Assemblée de Corse, des Assemblées de Guyane et de Martinique) :
-    - Résultats 1er et 2nd tours : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160119/cdsp_regio1986_commp9000.csv)
+    - Résultats 1er et 2nd tours : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160119/cdsp_regio1986_commp9000.csv)
     - Résultats 1er et 2nd tours : [par département](https://www.data.gouv.fr/s/resources/elections-regionales-1986-2010/20150204-160014/cdsp_regio1986_dep_ag.csv)
 
 
@@ -239,36 +239,36 @@ datasets:
 ### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
 
 -   **Élections cantonales 2011** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194204/cdsp_cant2011t1_canton.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194204/cdsp_cant2011t1_canton.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194241/cdsp_cant2011t2_canton.csv)
 
 -   **Élections cantonales 2008** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194139/cdsp_cant2008t1_canton.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194139/cdsp_cant2008t1_canton.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194155/cdsp_cant2008t2_canton.csv)
 
 -   **Élections cantonales 2004** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194036/cdsp_cant2004t1_canton.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194036/cdsp_cant2004t1_canton.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-194118/cdsp_cant2004t2_canton.csv)
 
 -   **Élections cantonales 2001** :
-    -    Résultats 1e tour: [par bureau de vote]
+    -    Résultats 1er tour: [par bureau de vote]
 (https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193828/cdsp_cant2001t1_canton.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193850/cdsp_cant2001t2_canton.csv)
     
 -   **Élections cantonales 1998** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193516/cdsp_cant1998t1_canton-ag.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193516/cdsp_cant1998t1_canton-ag.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193533/cdsp_cant1998t2_canton-ag.csv)
 
 -   **Élections cantonales 1994** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193434/cdsp_cant1994t1_canton-ag.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193434/cdsp_cant1994t1_canton-ag.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193447/cdsp_cant1994t2_canton-ag.csv)
 
 -   **Élections cantonales 1992** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193350/cdsp_cant1992t1_canton-ag.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193350/cdsp_cant1992t1_canton-ag.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193403/cdsp_cant1992t2_canton-ag.csv)
 
 -   **Élections cantonales 1988** :
-    -    Résultats 1e tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-191849/cdsp_cant1988t1_canton-ag.csv)
+    -    Résultats 1er tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-191849/cdsp_cant1988t1_canton-ag.csv)
     -    Résultats 2nd tour: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-cantonales-1988-2011/20150105-193332/cdsp_cant1988t2_canton-ag.csv)
 
 - **Tous les jeux de données de 1988 à 2011** 
@@ -283,7 +283,7 @@ datasets:
     -   Listes des candidats : [candidats au 2nd tour](http://www.nosdonnees.fr/wiki/images/8/8a/Cantonales_2011_Candidats_T2_FE.ods)
     -   Résultats 1er tour : [élus au 1er tour](http://www.nosdonnees.fr/wiki/images/2/2e/Cantonales_2011_Elus_T1.ods)
     -   Résultats 2nd tour : [élus au 2nd tour](http://www.nosdonnees.fr/wiki/images/9/95/Cantonales_2011_Résultats_Can_FE_T2.ods)
-    -   Résultats 1e et 2nd tours : [tous les
+    -   Résultats 1er et 2nd tours : [tous les
 élus](http://www.nosdonnees.fr/wiki/images/c/c8/Cantonales_2011_elus_T1T2.ods)
     -   Résultats : [par canton](http://www.nosdonnees.fr/wiki/images/c/c8/Cantonales_2011_elus_T1T2.ods)
     
@@ -363,9 +363,9 @@ datasets:
     - Résultats 1er tour : [par bureau de vote](https://www.data.gouv.fr/fr/datasets/r/80cb1309-9147-4bae-b6e2-79877d549b50)
     - Résultats 1er tour : [par commune](https://www.data.gouv.fr/fr/datasets/r/7b613086-b5f5-4745-82e8-11b7397f9334)
     - Résultats 1er tour : [par région, département, circonscription législative, canton et liste des élus à l’issue de l’élection](https://www.data.gouv.fr/fr/datasets/r/3eb503cd-49cf-4e04-9efd-7262580f7fc7)
-    - Résultats 2e tour : [par bureau de vote](https://www.data.gouv.fr/fr/datasets/5948d371c751df471327bc4a)
-    - Résultats 2e tour : [par commune](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour-par-communes/)
-    - Résultats 2e tour : [par région, département, circonscription législative, canton et liste des élus à l’issue de l’élection](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour/)
+    - Résultats 2nd tour : [par bureau de vote](https://www.data.gouv.fr/fr/datasets/5948d371c751df471327bc4a)
+    - Résultats 2nd tour : [par commune](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour-par-communes/)
+    - Résultats 2nd tour : [par région, département, circonscription législative, canton et liste des élus à l’issue de l’élection](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-11-et-18-juin-2017-resultats-du-2nd-tour/)
 
 
 - **Élections législatives partielles 2016** :
@@ -406,65 +406,65 @@ datasets:
 ### Données du Centre de données socio-politiques de [Sciences Po](https://www.data.gouv.fr/fr/organizations/sciences-po/)
 
 - **Élections Législatives 2012** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165852/cdsp_legi2012t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165852/cdsp_legi2012t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165855/cdsp_legi2012t2_circ.csv)
 
 - **Élections Législatives 2007** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165846/cdsp_legi2007t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165846/cdsp_legi2007t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165849/cdsp_legi2007t2_circ.csv)
 
 - **Élections Législatives 2002** :
-    - Résultats 1e Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165834/cdsp_legi2002t1_comm.csv)
-    - Résultats 2nd Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165842/cdsp_legi2002t2_commp3500.csv)
+    - Résultats 1er Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165834/cdsp_legi2002t1_comm.csv)
+    - Résultats 2nd Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165842/cdsp_legi2002t2_commp3500.csv)
 
 - **Élections Législatives 1997** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165822/cdsp_legi1997t1_circ.csv)
-    - Résultats 1e Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165819/cdsp_legi1997t1_commp9000.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165822/cdsp_legi1997t1_circ.csv)
+    - Résultats 1er Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165819/cdsp_legi1997t1_commp9000.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165822/cdsp_legi1997t2_circ.csv)
-    - Résultats 2nd Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165825/cdsp_legi1997t2_commp9000.csv)
+    - Résultats 2nd Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165825/cdsp_legi1997t2_commp9000.csv)
 
 - **Élections Législatives 1993** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165803/cdsp_legi1993t1_circ.csv)
-    - Résultats 1e Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165806/cdsp_legi1993t1_commp9000.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165803/cdsp_legi1993t1_circ.csv)
+    - Résultats 1er Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165806/cdsp_legi1993t1_commp9000.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165809/cdsp_legi1993t2_circ.csv)
-    - Résultats 2nd Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165812/cdsp_legi1993t2_commp9000.csv)
+    - Résultats 2nd Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165812/cdsp_legi1993t2_commp9000.csv)
 
 - **Élections Législatives 1988** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165753/cdsp_legi1988t1_circ.csv)
-    - Résultats 1e Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165756/cdsp_legi1988t1_commp9000.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165753/cdsp_legi1988t1_circ.csv)
+    - Résultats 1er Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165756/cdsp_legi1988t1_commp9000.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165759/cdsp_legi1988t2_circ.csv)
-    - Résultats 2nd Tour: [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165756/cdsp_legi1988t2_commp9000.csv)
+    - Résultats 2nd Tour: [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165756/cdsp_legi1988t2_commp9000.csv)
 
 - **Élections Législatives 1986** :
     - Résultats de l'élection (Proportionnelle): [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165747/cdsp_legi1986_circ.csv)
-    - Résultats de l'élection (Proportionnelle): [par commune de + de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165749/cdsp_legi1986_commp9000.csv)
+    - Résultats de l'élection (Proportionnelle): [par commune de plus de 9000 habitants](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165749/cdsp_legi1986_commp9000.csv)
 
 - **Élections Législatives 1981** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165741/cdsp_legi1981t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165741/cdsp_legi1981t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165744/cdsp_legi1981t2_circ.csv)
 
 - **Élections Législatives 1978** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165735/cdsp_legi1978t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165735/cdsp_legi1978t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165738/cdsp_legi1978t2_circ.csv)
 
 - **Élections Législatives 1973** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165729/cdsp_legi1973t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165729/cdsp_legi1973t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165732/cdsp_legi1973t2_circ.csv)
 
 - **Élections Législatives 1968** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165723/cdsp_legi1968t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165723/cdsp_legi1968t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165726/cdsp_legi1968t2_circ.csv)
 
 - **Élections Législatives 1967** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165717/cdsp_legi1967t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165717/cdsp_legi1967t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165720/cdsp_legi1967t2_circ.csv)
 
 - **Élections Législatives 1962** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165710/cdsp_legi1962t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165710/cdsp_legi1962t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165713/cdsp_legi1962t2_circ.csv)
 
 - **Élections Législatives 1958** :
-    - Résultats 1e Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165701/cdsp_legi1958t1_circ.csv)
+    - Résultats 1er Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165701/cdsp_legi1958t1_circ.csv)
     - Résultats 2nd Tour: [par circonscription](https://www.data.gouv.fr/s/resources/elections-legislatives-1958-2012/20150206-165706/cdsp_legi1958t2_circ.csv)
 
 - **Tous les jeux de données de 1958 à 2012**
@@ -485,11 +485,11 @@ datasets:
     - [Résultats 1er et 2nd tours par bureau de vote](http://www.nosdonnees.fr/storage/f/2013-03-05T184148/LG12_BV_T1T2.zip)
 
 -   **Élections législatives 2007** :
-    -  [Résultats 1e et 2nd tours](http://www.regardscitoyens.org/telechargement/redecoupage/2009121601_synthese.csv.gz)
+    -  [Résultats 1er et 2nd tours](http://www.regardscitoyens.org/telechargement/redecoupage/2009121601_synthese.csv.gz)
     -  [Application au redécoupage de 2012](http://www.regardscitoyens.org/telechargement/redecoupage/2009121601_resultats.csv.gz)
 
 -   **Élections législatives 2002** :
-    -  [Résultats 1e et 2nd tours](http://www.regardscitoyens.org/telechargement/donnees_publiques/resultats_elections_legislatives_2002.tgz)
+    -  [Résultats 1er et 2nd tours](http://www.regardscitoyens.org/telechargement/donnees_publiques/resultats_elections_legislatives_2002.tgz)
 
 -   **Autre** :
     -   [Contours des circonscriptions des législatives](http://www.toxicode.fr/circonscriptions_download) ([source](http://www.toxicode.fr/circonscriptions))
@@ -567,23 +567,23 @@ datasets:
      - Résultats 2nd tour : [par circonscription](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183729/cdsp_presi2007t2_circ.csv)
 
 - **Élections présidentielles 2002** :
-     - Résultats 1er tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183718/cdsp_presi2002t1_commp9000.csv)
+     - Résultats 1er tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183718/cdsp_presi2002t1_commp9000.csv)
      - Résultats 1er tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183716/cdsp_presi2002t1_circ.csv)
      - Résultats 2nd tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183724/cdsp_presi2002t2_circ.csv)
 
 - **Élections présidentielles 1995** :
-     - Résultats 1er tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183710/cdsp_presi1995t1_commp9000.csv)
+     - Résultats 1er tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183710/cdsp_presi1995t1_commp9000.csv)
      - Résultats 1er tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183707/cdsp_presi1995t1_circ.csv)
      - Résultats 2nd tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183713/cdsp_presi1995t2_circ.csv)
 
 - **Élections présidentielles 1988** :
-     - Résultats 1er tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183657/cdsp_presi1988t1_commp9000.csv)
+     - Résultats 1er tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183657/cdsp_presi1988t1_commp9000.csv)
      - Résultats 1er tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183654/cdsp_presi1988t1_circ.csv)
-     - Résultats 2nd tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183704/cdsp_presi1988t2_commp9000.csv)
+     - Résultats 2nd tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183704/cdsp_presi1988t2_commp9000.csv)
      - Résultats 2nd tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183701/cdsp_presi1988t2_circ.csv)
 
 - **Élections présidentielles 1981** :
-     - Résultats 1er tour : [par commune (de + de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183649/cdsp_presi1981t1_commp9000.csv)
+     - Résultats 1er tour : [par commune (de plus de 9000 habitants)](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183649/cdsp_presi1981t1_commp9000.csv)
      - Résultats 1er tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183645/cdsp_presi1981t1_circ.csv)
      - Résultats 2nd tour : [par circonscription législative](https://www.data.gouv.fr/s/resources/elections-presidentielles-1965-2012-1/20150204-183652/cdsp_presi1981t2_circ.csv)
 
@@ -635,28 +635,28 @@ datasets:
 
 -   **Élections européennes 2014** :
     -   [Listes des candidats](https://www.data.gouv.fr/storage/f/2014-05-05T17-51-45/euro-2014-listes-et-candidats.xlsx).
-    - Résultats 1e et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2014-resultats-par-bureaux-de-vote/20150925-112120/ER14_BVOT.txt)
-    - Résultats 1e et 2nd tours: par commune [provisoire](https://www.data.gouv.fr/storage/f/2014-05-26T14-51-43/euro-2014-resultats-communes.xlsx) et [validés](https://www.data.gouv.fr/storage/f/2014-05-30T10-29-10/euro-2014-resultats-communes-c.xlsx)
-    - Résultats 1e et 2nd tours: par circonscription européenne, région, département, circonscription législative, canton et liste des élus [provisoire](https://www.data.gouv.fr/storage/f/2014-05-26T14-49-22/euro-2014-resultats.xlsx) et [validés](https://www.data.gouv.fr/storage/f/2014-05-30T10-34-25/euro-2014-resultats-c.xlsx)
+    - Résultats 1er et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2014-resultats-par-bureaux-de-vote/20150925-112120/ER14_BVOT.txt)
+    - Résultats 1er et 2nd tours: par commune [provisoire](https://www.data.gouv.fr/storage/f/2014-05-26T14-51-43/euro-2014-resultats-communes.xlsx) et [validés](https://www.data.gouv.fr/storage/f/2014-05-30T10-29-10/euro-2014-resultats-communes-c.xlsx)
+    - Résultats 1er et 2nd tours: par circonscription européenne, région, département, circonscription législative, canton et liste des élus [provisoire](https://www.data.gouv.fr/storage/f/2014-05-26T14-49-22/euro-2014-resultats.xlsx) et [validés](https://www.data.gouv.fr/storage/f/2014-05-30T10-34-25/euro-2014-resultats-c.xlsx)
 
 -   **Élections européennes 2009** :
-    - Résultats 1e et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2009-resultats-par-bureaux-de-vote/20150925-111605/ER09_BVOT.txt)
-    - Résultats 1e et 2nd tours: par commune [pour les départements 01 à 49](http://static.data.gouv.fr/23/6f086ac5c360ef6670820691b9ec33d03db5c26855491a360646c245b50bca.xls) et [pour les départements 50 à 95](http://static.data.gouv.fr/93/fbe07d1dd89cccadfe672ebb2a9ae32f4e88367aa0b539641b8818992bef88.xls))
-    - Résultats 1e et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/e0/88c770f067e9bc4cfd3dea656aa69b15add243c1c4c367a85d7314e74fde63.xls)
+    - Résultats 1er et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2009-resultats-par-bureaux-de-vote/20150925-111605/ER09_BVOT.txt)
+    - Résultats 1er et 2nd tours: par commune [pour les départements 01 à 49](http://static.data.gouv.fr/23/6f086ac5c360ef6670820691b9ec33d03db5c26855491a360646c245b50bca.xls) et [pour les départements 50 à 95](http://static.data.gouv.fr/93/fbe07d1dd89cccadfe672ebb2a9ae32f4e88367aa0b539641b8818992bef88.xls))
+    - Résultats 1er et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/e0/88c770f067e9bc4cfd3dea656aa69b15add243c1c4c367a85d7314e74fde63.xls)
 
 -   **Élections européennes 2004** :
-    - Résultats 1e et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2004-resultats-par-bureaux-de-vote/20150925-111042/ER04_BVot.txt)
-    - Résultats 1e et 2nd tours: [par commune](http://static.data.gouv.fr/82/b8b9cde91b95802dc0092d4a76c10dbf5b0b0fae8e4ccafc6ffb33397e8053.xls)
-    - Résultats 1e et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/c5/c210dfa60ff8d121f022ac64da8490648f3c774e9e46907f05cedbd43d1f0e.xls)
+    - Résultats 1er et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-2004-resultats-par-bureaux-de-vote/20150925-111042/ER04_BVot.txt)
+    - Résultats 1er et 2nd tours: [par commune](http://static.data.gouv.fr/82/b8b9cde91b95802dc0092d4a76c10dbf5b0b0fae8e4ccafc6ffb33397e8053.xls)
+    - Résultats 1er et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/c5/c210dfa60ff8d121f022ac64da8490648f3c774e9e46907f05cedbd43d1f0e.xls)
 
 -   **Élections européennes 1999** :
-    - Résultats 1e et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-1999-resultats-par-bureaux-de-vote/20150925-112413/ER99_Bvot.txt)
-    - Résultats 1e et 2nd tours: [par commune](http://static.data.gouv.fr/78/3888cc021dbcd12339c3f1b46d06a13488ec311d7c2599b25559d48b8eee31.xls)
-    - Résultats 1e et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/fa/d907ec8071c5f153de8235efa65df560bb269425132521c079657794a0c62a.xls)
+    - Résultats 1er et 2nd tours: [par bureau de vote](https://www.data.gouv.fr/s/resources/elections-europeennes-1999-resultats-par-bureaux-de-vote/20150925-112413/ER99_Bvot.txt)
+    - Résultats 1er et 2nd tours: [par commune](http://static.data.gouv.fr/78/3888cc021dbcd12339c3f1b46d06a13488ec311d7c2599b25559d48b8eee31.xls)
+    - Résultats 1er et 2nd tours: [par circonscription européenne, région, département, circonscription législative et canton](http://static.data.gouv.fr/fa/d907ec8071c5f153de8235efa65df560bb269425132521c079657794a0c62a.xls)
 
 -   **Élections européennes 1994** :
-    - Résultats 1e et 2nd tours: [par commune](http://static.data.gouv.fr/8e/086e01daf0bd7bc346d85f623f2c4a42e28a7f3909ae9cc45db464b76b0626.xls)
-    - Résultats 1e et 2nd tours: [par région, département, circonscription législative et canton](http://static.data.gouv.fr/a4/731f811041ca58d053c67bad14c4221dcaf840ed2c19ade99ce67e25e8da97.xls)
+    - Résultats 1er et 2nd tours: [par commune](http://static.data.gouv.fr/8e/086e01daf0bd7bc346d85f623f2c4a42e28a7f3909ae9cc45db464b76b0626.xls)
+    - Résultats 1er et 2nd tours: [par région, département, circonscription législative et canton](http://static.data.gouv.fr/a4/731f811041ca58d053c67bad14c4221dcaf840ed2c19ade99ce67e25e8da97.xls)
 
 
 ## Référendums et  Consultations
