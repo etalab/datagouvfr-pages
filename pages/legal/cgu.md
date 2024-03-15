@@ -2,7 +2,7 @@
 
 [Data.gouv.fr][] est la plateforme ouverte des données publiques du Gouvernement français.
 
-Elle est éditée et développée par la mission Etalab (ci-après, Etalab) de la Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+Elle est éditée et développée par le département Etalab (ci-après, Etalab) de la Direction interministérielle du numérique (DINUM).
 
 Toute utilisation de la plateforme [data.gouv.fr][] (ci-après, la Plateforme) est subordonnée au respect des présentes conditions générales d’utilisation (CGU).
 
@@ -160,7 +160,7 @@ Etalab n’effectue pas de contrôle _a priori_ sur les publications des Autorit
 
 ### Transparence sur le classement et mises en avant
 
-L’ordre de classement des Jeux de données issu du moteur de recherche de la Plateforme est issu d’un algorithme libre, dont [le code source est disponible ici](https://github.com/opendatateam/udata/tree/master/udata/search).
+L’ordre de classement des Jeux de données issu du moteur de recherche de la Plateforme est issu d’un algorithme libre, dont [le code source est disponible ici](https://github.com/opendatateam/udata-search-service/blob/main/udata_search_service/infrastructure/search_clients.py).
 
 Etalab choisit de mettre en avant certains contenus à travers les rubriques « L’Actu en données », « Jeux de données à la une » et « Meilleures Réutilisations », sur les pages d’accueil de la plateforme et des rubriques thématiques.
 
@@ -178,7 +178,7 @@ Les termes des présentes conditions d’utilisation peuvent être amendés à t
 
 ### Cookies
 
-Le site dépose des cookies de mesure d’audience (nombre de visites, pages consultées), respectant les conditions d’exemption du consentement de l’internaute définies par la recommandation « Cookies » de la Commission nationale informatique et libertés (CNIL) ; il utilise Piwik, un outil libre, paramétré pour ce faire. Cela signifie, notamment, que ces cookies ne servent qu’à la production de statistiques anonymes et ne permettent pas de suivre la navigation de l’internaute sur d’autres sites.
+Le site dépose des cookies de mesure d’audience (nombre de visites, pages consultées), respectant les conditions d’exemption du consentement de l’internaute définies par la recommandation « Cookies » de la Commission nationale informatique et libertés (CNIL) ; il utilise Matomo, un outil libre, paramétré pour ce faire. Cela signifie, notamment, que ces cookies ne servent qu’à la production de statistiques anonymes et ne permettent pas de suivre la navigation de l’internaute sur d’autres sites.
 
 Le site dépose également des cookies de navigation, aux fins strictement techniques, qui ne sont pas conservés.
 
@@ -194,7 +194,7 @@ La page de profil du Contributeur comprend ses prénom et nom et des éléments 
 
 L’historique de consultation de l’Utilisateur n’est jamais rendu public, ni communiqué à des tiers, en dehors des cas prévus par la loi.
 
-En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’utilisateur dispose d’un droit d’accès, de rectification et d’opposition auprès d’Etalab. Ce droit s’exerce par courriel adressé à [contact@data.gouv.fr](mailto:contact@data.gouv.fr) ou par voie postale à Mission Etalab, 20 avenue de Ségur, 75334 PARIS Cedex 07.
+En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, l’utilisateur dispose d’un droit d’accès, de rectification et d’opposition auprès d’Etalab. Ce droit s’exerce par courriel adressé à [contact@data.gouv.fr](mailto:contact@data.gouv.fr) ou par voie postale à Département Etalab, 20 avenue de Ségur, 75334 PARIS Cedex 07.
 
 La Plateforme a été déclarée à la Commission nationale de l’informatique et des libertés (CNIL) sous le numéro : eRa0876341t.
 
@@ -214,11 +214,11 @@ Les textes d’organisation d’Etalab.
 
 ### Editeur
 
-Mission Etalab, Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+Département Etalab, Direction interministérielle du numérique (DINUM).
 
 ### Directrice de la publication
 
-M<sup>me</sup> Laure LUCCHESI, cheffe de la mission Etalab, Direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).
+M<sup>me</sup> Laure LUCCHESI, cheffe du département Etalab, Direction interministérielle du numérique (DINUM).
 
 ### Prestataire d’hébergement
 
