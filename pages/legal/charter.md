@@ -39,7 +39,7 @@ La charte d'utilisation du domaine [data.gouv.fr](http://data.gouv.fr/) se décl
 
 - Le design du produit est conforme au [système de design](https://systeme-de-design.gouv.fr/) de l'État ;
 - Les éléments de communication sont conformes à la [Marque d’État](https://www.gouvernement.fr/marque-Etat) ;
-- Afin de conserver une cohérence graphique, le [design du logo](https://github.com/etalab/udata-front/blob/master/udata_front/theme/gouvfr/templates/svg/logotype.svg) du produit "[data.gouv.fr](http://data.gouv.fr/)" est conservé à l'identique ;
+- Afin de conserver une cohérence graphique, le [design du logo](https://github.com/datagouv/udata-front/blob/master/udata_front/theme/gouvfr/templates/svg/logotype.svg) du produit "[data.gouv.fr](http://data.gouv.fr/)" est conservé à l'identique ;
 - Le produit est accessible et conforme à l’ensemble des critères du RGAA ;
 
 ## Gouvernance et stratégie
