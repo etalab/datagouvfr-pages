@@ -6,7 +6,7 @@ L’inscription sur la Plateforme est gratuite et entraîne l’application de c
 
 ## **2. Objet**
 
-[data.gouv.fr](http://data.gouv.fr/) est la plateforme nationale ouverte et communautaire qui vise à centraliser et structurer les données ouvertes présentant un intérêt public. Elle s’adresse à ceux qui produisent des données et qui souhaitent ouvrir leurs données, à ceux qui exploitent des données et qui veulent télécharger des données et partager leurs réalisations, à tout personne qui souhaite découvrir des données ou trouver une information.
+[data.gouv.fr](http://data.gouv.fr/) est la plateforme nationale ouverte et communautaire qui vise à centraliser et structurer les données ouvertes présentant un intérêt public. Elle s’adresse à ceux qui produisent des données et qui souhaitent ouvrir leurs données, à ceux qui exploitent des données et qui veulent télécharger des données et partager leurs réalisations, à toute personne qui souhaite découvrir des données ou trouver une information.
 
 ## **3. Définitions**
 
