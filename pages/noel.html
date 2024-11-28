@@ -379,11 +379,9 @@ content_type: html
 
         const today = new Date()
         const todaysDay = today.getDate()
-        console.log(today, "today")
 
         const allOpened = (today.getFullYear() > CURRENT_YEAR)
-        console.log(CURRENT_YEAR, "CURRENT_YEAR")
-        console.log(allOpened, "allOpened")
+        const allClosed = (today.getMonth() < 11 && !allOpened)
 
         urlPerDay.forEach((url, index) => {
             const currentDay = index + 1
@@ -391,7 +389,7 @@ content_type: html
             const cardTitle = currentDayBlock.querySelector("h4.fr-card__title")
             const cardImageContainer = currentDayBlock.querySelector("div.fr-card__img")
 
-            const isOpen = (allOpened || todaysDay >= currentDay) ? true : false
+            const isOpen = (allOpened || todaysDay >= currentDay) && !allClosed
 
 
             const imageElement = document.createElement("img")
