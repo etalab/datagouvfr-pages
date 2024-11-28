@@ -332,12 +332,12 @@ content_type: html
         </section>
     </div>
     <script>
-        
+
         const IMAGES_COMMIT_SHA = 'f61bc06fd0654518966bf533b73a33b22f3779ec'
         const CURRENT_YEAR = 2024
 
         function generateFileNameFromDayAndState(day, isOpen) {
-            return `https://raw.githubusercontent.com/thanhhale7/images/${IMAGES_COMMIT_SHA}/noel/${day}${isOpen ? "o" : "c" }.svg`
+            return `https://raw.githubusercontent.com/thanhhale7/images/${IMAGES_COMMIT_SHA}/noel/${day}${isOpen ? "o" : "c"}.svg`
         }
 
         function getElementByDay(day) {
@@ -350,7 +350,7 @@ content_type: html
         }
 
         // Ho Ho Ho ! C'est Noël en avance !
-        const urlPerDay =  [
+        const urlPerDay = [
             "https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/",
             "https://www.data.gouv.fr/fr/",
             "https://www.data.gouv.fr/fr/",
@@ -376,18 +376,21 @@ content_type: html
             "https://www.data.gouv.fr/fr/reuses/scanr/",
             "https://ecologie.data.gouv.fr/",
         ]
-        
+
         const today = new Date()
         const todaysDay = today.getDate()
+        console.log(today, "today")
 
         const allOpened = (today.getFullYear() > CURRENT_YEAR)
+        console.log(CURRENT_YEAR, "CURRENT_YEAR")
+        console.log(allOpened, "allOpened")
 
         urlPerDay.forEach((url, index) => {
-            const currentDay = index + 1 
+            const currentDay = index + 1
             const currentDayBlock = getElementByDay(currentDay)
             const cardTitle = currentDayBlock.querySelector("h4.fr-card__title")
             const cardImageContainer = currentDayBlock.querySelector("div.fr-card__img")
-            
+
             const isOpen = (allOpened || todaysDay >= currentDay) ? true : false
 
 
