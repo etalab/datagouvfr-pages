@@ -15,9 +15,9 @@ Those blog posts aim at giving an overview on technical subjects regarding udata
 
 ## udata 4
 
-- [Introducing udata 4](pages/udata/4/introducing-udata-4)
+- [Introducing udata 4](/4/introducing-udata-4)
 
 ## udata 3
 
-- [The Road to udata 3](pages/udata/3/the-road-to-udata-3)
-- [udata 3 usage metrics explained](pages/udata/3/udata-3-usage-metrics-explained)
+- [The Road to udata 3](/3/the-road-to-udata-3)
+- [udata 3 usage metrics explained](/3/udata-3-usage-metrics-explained)

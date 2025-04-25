@@ -12,544 +12,514 @@ content_type: html
 
     <section class="section-blue section-main">
         <div class="fr-container">
-            <div>
-                <h1>Les données relatives à l'énergie</h1>
-                <div class="fr-col-12">
-                    <div class="fr-highlight fr-my-6w">
-                        <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la
-                            thématique “énergie” disponibles sur data.gouv.fr. Celle-ci n’est pas exhaustive et est
-                            ouverte aux contributions.</p>
-                    </div>
+            <h1>Les données relatives à l'énergie</h1>
+            <div class="fr-highlight fr-my-6w">
+                <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la
+                    thématique “énergie” disponibles sur data.gouv.fr. Celle-ci n’est pas exhaustive et est
+                    ouverte aux contributions.</p>
+            </div>
+            <div class="fr-grid-row">
+                <Sidemenu
+                    class="fr-col-12 fr-col-md-4 not-prose"
+                    button-text="Dans cette rubrique"
+                    :sticky-full-height="true"
+                >
+                    <template #title>
+                        <img 
+                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                            src="https://user-images.githubusercontent.com/72090652/194954118-812ea694-7762-457e-930d-c1486a3faa71.svg"
+                            alt=""
+                        >
+                        <p class="mb-0 fr-sr-only-lg">Menu</p>
+                    </template>
+                    <ul class="fr-sidemenu__list">
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#consommation" target="_self">
+                                1. Données sur la consommation d'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#production" target="_self">
+                                2. Données sur la production d'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#stockage" target="_self">
+                                3. Données sur le stockage d'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#infrastructure" target="_self">
+                                4. Données sur les infrastructures d'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#marches" target="_self">
+                                5. Données sur les marchés de l'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
+                                Réutilisations de données relatives à l'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#producteurs" target="_self">
+                                Les principaux producteurs de données relatives à l'énergie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#questions" target="_self">
+                                Des questions sur les données ouvertes relatives à l'énergie ?
+                            </a>
+                        </li>
+                    </ul>
+                </Sidemenu>
+                <div class="fr-col-12 fr-col-md-8">
+                    <h2 class="mt-0" id="consommation">Données sur la consommation d'énergie</h2>
+                    <p>Les données de consommation sont proposées à <b>différentes mailles géographiques</b> (de
+                        la maille nationale à l'adresse) et
+                        sur
+                        <b>différentes échelles de temps</b> (du pas annuel au quasi temps réel), répondant
+                        ainsi à des usages distincts (ex :
+                        consommation annuelle sur une adresse vs consommation en quasi temps réel à la maille
+                        nationale).
+                    </p>
 
-                    <div class="fr-grid-row">
-                        <div class="fr-col-12 fr-col-md-4">
-                            <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                                style="max-width:350px;">
-                                <div class="fr-sidemenu__inner">
-                                    <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
-                                        class="fr-sidemenu__btn" hidden="">
-                                        Dans cette rubrique
-                                    </button>
-                                    <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                        src="https://user-images.githubusercontent.com/72090652/194954118-812ea694-7762-457e-930d-c1486a3faa71.svg"
-                                        alt="">
-                                    <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                        <ul class="fr-sidemenu__list">
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#consommation" target="_self">
-                                                    1. Données sur la consommation d'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#production" target="_self">
-                                                    2. Données sur la production d'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#stockage" target="_self">
-                                                    3. Données sur le stockage d'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#infrastructure" target="_self">
-                                                    4. Données sur les infrastructures d'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#marches" target="_self">
-                                                    5. Données sur les marchés de l'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
-                                                    Réutilisations de données relatives à l'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#producteurs" target="_self">
-                                                    Les principaux producteurs de données relatives à l'énergie
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#questions" target="_self">
-                                                    Des questions sur les données ouvertes relatives à l'énergie ?
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="fr-col-12 fr-col-md-8 markdown">
-                            <h2 id="consommation">Données sur la consommation d'énergie</h2>
-                            <p>Les données de consommation sont proposées à <b>différentes mailles géographiques</b> (de
-                                la maille nationale à l'adresse) et
-                                sur
-                                <b>différentes échelles de temps</b> (du pas annuel au quasi temps réel), répondant
-                                ainsi à des usages distincts (ex :
-                                consommation annuelle sur une adresse vs consommation en quasi temps réel à la maille
-                                nationale).
-                            </p>
+                    <h3>Electricité et gaz</h3>
+                    <ul>
+                        <li>Consommation annuelle d'électricité et de gaz <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-region/">par
+                                région</a>, <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-departement/">par
+                                département</a>, <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-epci/">par
+                                EPCI</a>, <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-commune/">par
+                                commune</a> et <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-residentielle-par-adresse/">par
+                                adresse</a> (seulement pour l'électricité)
+                        </li>
+                        <li>Consommation quotidienne d'électricité et de gaz à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-quotidienne-brute/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-quotidienne-brute-regionale/">régionale</a>
+                        </li>
+                        <li>Consommation annuelle d'électricité et de gaz à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-brute/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-brute-regionale/">régionale</a>
+                        </li>
+                    </ul>
 
-                            <h3>Electricité et gaz</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li>Consommation annuelle d'électricité et de gaz <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-region/">par
-                                            région</a>, <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-departement/">par
-                                            département</a>, <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-epci/">par
-                                            EPCI</a>, <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-commune/">par
-                                            commune</a> et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-residentielle-par-adresse/">par
-                                            adresse</a> (seulement pour l'électricité)
-                                    </li>
-                                    <li>Consommation quotidienne d'électricité et de gaz à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-quotidienne-brute/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-quotidienne-brute-regionale/">régionale</a>
-                                    </li>
-                                    <li>Consommation annuelle d'électricité et de gaz à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-brute/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-annuelle-brute-regionale/">régionale</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h3>Electricité</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/elecdom-donnees-de-consommation-annuelle/">Consommation
+                                annuelle d'électricité du secteur résidentiel</a></li>
+                        <li>Pic de la consommation brute d'électricité avec un découpage <a
+                                href="https://www.data.gouv.fr/fr/datasets/pic-annuel-de-la-consommation-brute-delectricite-2001-a-2021/">annuel</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/pic-journalier-de-la-consommation-brute-delectricite-janvier-2012-a-aout-2022/">journalier</a>
+                        </li>
+                        <li>Données issues de <a href="https://www.rte-france.com/eco2mix">l'application
+                                éCO2mix</a>, avec notamment la consommation d'électricité en temps réel à la
+                            maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-nationales-temps-reel-1/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-regionales-temps-reel-1/">régionale</a>
+                        </li>
+                        <li>Diagnostic de performance énergétique des
+                            logements (<a
+                                href="https://www.data.gouv.fr/fr/datasets/dpe-logements-avant-juillet-2021/">avant
+                                juillet 2021</a> et depuis juillet 2021 : <a
+                                href="https://www.data.gouv.fr/fr/datasets/dpe-logements-neufs-depuis-juillet-2021/">neufs</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/dpe-logements-existants-depuis-juillet-2021/">existants</a>)
+                            et des
+                            bâtiments tertiaire (<a
+                                href="https://www.data.gouv.fr/fr/datasets/dpe-tertiaire-avant-juillet-2021/">avant
+                                juillet 2021</a> et <a
+                                href="https://www.data.gouv.fr/fr/datasets/dpe-tertiaire-depuis-juillet-2021/">depuis
+                                juillet 2021</a>)
+                            <ul>
+                                <li>Evaluation de la consommation d'énergie et de l'impact en termes
+                                    d'émissions de gaz à effet de serre</li>
+                            </ul>
+                        </li>
+                        <li>Consommation et thermosensibilité électriques annuelles à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-et-thermosensibilite-electriques-annuelles-a-la-maille-region/">régionale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-et-thermosensibilite-electriques-annuelles-a-la-maille-epci/">EPCI</a>
+                        </li>
+                        <ul>
+                            <li>La thermosensibilité représente la variation de la consommation engendrée
+                                par une variation de la température, en deçà d'un certain seuil de
+                                température. Elle vise ainsi à évaluer l'influence de la température sur la
+                                consommation d'énergie.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/coefficients-de-gradients-des-profils-dynamiques/">Coefficients
+                                de gradients des profils dynamiques de consommation</a>
+                            <ul>
+                                <li>Ils permettent de prendre en
+                                    compte les effets de la température sur la consommation d’électricité.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                            <h3>Electricité</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/elecdom-donnees-de-consommation-annuelle/">Consommation
-                                            annuelle d'électricité du secteur résidentiel</a></li>
-                                    <li>Pic de la consommation brute d'électricité avec un découpage <a
-                                            href="https://www.data.gouv.fr/fr/datasets/pic-annuel-de-la-consommation-brute-delectricite-2001-a-2021/">annuel</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/pic-journalier-de-la-consommation-brute-delectricite-janvier-2012-a-aout-2022/">journalier</a>
-                                    </li>
-                                    <li>Données issues de <a href="https://www.rte-france.com/eco2mix">l'application
-                                            éCO2mix</a>, avec notamment la consommation d'électricité en temps réel à la
-                                        maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-nationales-temps-reel-1/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-regionales-temps-reel-1/">régionale</a>
-                                    </li>
-                                    <li>Diagnostic de performance énergétique des
-                                        logements (<a
-                                            href="https://www.data.gouv.fr/fr/datasets/dpe-logements-avant-juillet-2021/">avant
-                                            juillet 2021</a> et depuis juillet 2021 : <a
-                                            href="https://www.data.gouv.fr/fr/datasets/dpe-logements-neufs-depuis-juillet-2021/">neufs</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/dpe-logements-existants-depuis-juillet-2021/">existants</a>)</a>
-                                        et des
-                                        bâtiments tertiaire (<a
-                                            href="https://www.data.gouv.fr/fr/datasets/dpe-tertiaire-avant-juillet-2021/">avant
-                                            juillet 2021</a> et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/dpe-tertiaire-depuis-juillet-2021/">depuis
-                                            juillet 2021</a>)
-                                        <ul>
-                                            <li>Evaluation de la consommation d'énergie et de l'impact en termes
-                                                d'émissions de gaz à effet de serre</li>
-                                        </ul>
-                                    </li>
-                                    <li>Consommation et thermosensibilité électriques annuelles à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-et-thermosensibilite-electriques-annuelles-a-la-maille-region/">régionale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-et-thermosensibilite-electriques-annuelles-a-la-maille-epci/">EPCI</a>
-                                    </li>
-                                    <ul>
-                                        <li>La thermosensibilité représente la variation de la consommation engendrée
-                                            par une variation de la température, en deçà d'un certain seuil de
-                                            température. Elle vise ainsi à évaluer l'influence de la température sur la
-                                            consommation d'énergie.</li>
-                                    </ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/coefficients-de-gradients-des-profils-dynamiques/">Coefficients
-                                            de gradients des profils dynamiques de consommation</a>
-                                        <ul>
-                                            <li>Ils permettent de prendre en
-                                                compte les effets de la température sur la consommation d’électricité.
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h3>Carburant</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/consommation-regionale-de-gaz-naturel-carburant-gnc/">Consommation
+                                régionale de Gaz Naturel Carburant (GNC)</a></li>
+                        <li>Prix des carburants en France en flux <a
+                                href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane-v2-amelioree/">instantané</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/">quotidien</a>
+                        </li>
+                    </ul>
 
-                            <h3>Carburant</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/consommation-regionale-de-gaz-naturel-carburant-gnc/">Consommation
-                                            régionale de Gaz Naturel Carburant (GNC)</a></li>
-                                    <li>Prix des carburants en France en flux <a
-                                            href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane-v2-amelioree/">instantané</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/">quotidien</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h2 id="production">Données sur la production d'énergie</h2>
+                    <h3>Electricité et gaz</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/installations-de-production-delectricite-et-de-gaz/">Installations
+                                de production d'électricité et de gaz</a></li>
+                    </ul>
 
-                            <h2 id="production">Données sur la production d'énergie</h2>
-                            <h3>Electricité et gaz</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/installations-de-production-delectricite-et-de-gaz/">Installations
-                                            de production d'électricité et de gaz</a></li>
-                                </ul>
-                            </div>
+                    <h3>Electricité</h3>
+                    <ul>
+                        <li>Registre
+                            national des installations de production et de stockage d'électricité (<a
+                                href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-30-04-2022/">au
+                                28/02/2023</a> et <a
+                                href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-31-12-2022-2/">au
+                                31/12/2023</a>)
+                        </li>
+                        <li>Production d'électricité annuelle par filière à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-nationale-annuelle-par-filiere-2012-a-2021/">nationale</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-region/">régionale</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-departement/">départementale</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-electrique-par-filiere-a-la-maille-epci/">EPCI</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/">communale</a>
+                        </li>
+                        <li>Production régionale <a
+                                href="https://www.data.gouv.fr/fr/datasets/production-regionale-mensuelle-delectricite-par-filiere/">mensuelle</a>
+                            d'électricité par filière</li>
+                        <li>Parc annuel de production d'électricité par filière à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/parc-national-annuel-de-production-par-filiere-2007-a-2021/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/parc-regional-annuel-de-production-par-filiere/">régionale</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/production-delectricite-par-filiere-et-couts-de-production-au-pas-horaire/">Production
+                                d’électricité par filière et coûts de production au pas horaire</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/production-demi-horaire-agregee-par-region/">Production
+                                d'électricité demi horaire agrégée par région</a></li>
+                        <li>Données issues de <a href="https://www.rte-france.com/eco2mix">l'application
+                                éCO2mix</a>, avec notamment la production d'électricité par filière en temps
+                            réel et des estimations des
+                            émissions de carbone générées par la production d'électricité, à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-nationales-temps-reel-1/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-regionales-temps-reel-1/">régionale</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/origine-de-lelectricite-fournie-par-edf-sa/">Origine
+                                de l'électricité fournie par Electricité de France (EDF)</a></li>
+                    </ul>
 
-                            <h3>Electricité</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li>Registre
-                                        national des installations de production et de stockage d'électricité (<a
-                                            href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-30-04-2022/">au
-                                            28/02/2023</a> et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-31-12-2022-2/">au
-                                            31/12/2023</a>)
-                                    </li>
-                                    <li>Production d'électricité annuelle par filière à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-nationale-annuelle-par-filiere-2012-a-2021/">nationale</a>,
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-region/">régionale</a>,
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-departement/">départementale</a>,
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-electrique-par-filiere-a-la-maille-epci/">EPCI</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/">communale</a>
-                                    </li>
-                                    <li>Production régionale <a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-regionale-mensuelle-delectricite-par-filiere/">mensuelle</a>
-                                        d'électricité par filière</li>
-                                    <li>Parc annuel de production d'électricité par filière à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/parc-national-annuel-de-production-par-filiere-2007-a-2021/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/parc-regional-annuel-de-production-par-filiere/">régionale</a>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-delectricite-par-filiere-et-couts-de-production-au-pas-horaire/">Production
-                                            d’électricité par filière et coûts de production au pas horaire</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-demi-horaire-agregee-par-region/">Production
-                                            d'électricité demi horaire agrégée par région</a></li>
-                                    <li>Données issues de <a href="https://www.rte-france.com/eco2mix">l'application
-                                            éCO2mix</a>, avec notamment la production d'électricité par filière en temps
-                                        réel et des estimations des
-                                        émissions de carbone générées par la production d'électricité, à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-nationales-temps-reel-1/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-regionales-temps-reel-1/">régionale</a>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/origine-de-lelectricite-fournie-par-edf-sa/">Origine
-                                            de l'électricité fournie par Electricité de France (EDF)</a></li>
-                                </ul>
-                            </div>
+                    <h3>Gaz</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/quantites-journalieres-definitives-acheminees-a-la-maille-france/">Quantités
+                                journalières définitives de gaz naturel acheminées sur le réseau de GRDF</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-dinjection-2013-2021/">Production
+                                annuelle de biométhane par site d'injection</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/quantites-journalieres-definitives-injectees-de-biomethane-agregees-a-la-maille-france-toute-unite-confondue/">Quantités
+                                journalières définitives injectées de biométhane</a></li>
+                        <li>Indicateur
+                            mensuel Gaz Renouvelable des territoires par <a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-region-1/">région</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-departement-1/">par
+                                département</a> et <a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-epci-1/">par
+                                EPCI</a>
+                            <ul>
+                                <li>Ratio entre la
+                                    production locale de gaz renouvelable et la consommation locale de gaz
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-potentiels-de-methanisation-a-horizon-2050-par-canton/">Répartition
+                                des potentiels de méthanisation à horizon 2050 par canton</a>
+                            <ul>
+                                <li>Potentiels accessibles par les ressources primaires suivantes : les
+                                    résidus de cultures, les déjections d'élevage, les herbes, les Cultures
+                                    intermédiaires multi-services environnementaux ou CIMSE, les résidus des
+                                    industries agro-alimentaires (IAA), les bio-déchets en GWh PCS</li>
+                            </ul>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/repartition-des-potentiels-de-gaz-verts-a-horizon-2050-par-departement-1/">Répartition
+                                des potentiels de gaz verts à horizon 2050 par département</a></li>
+                    </ul>
 
-                            <h3>Gaz</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/quantites-journalieres-definitives-acheminees-a-la-maille-france/">Quantités
-                                            journalières définitives de gaz naturel acheminées sur le réseau de GRDF</a>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-dinjection-2013-2021/">Production
-                                            annuelle de biométhane par site d'injection</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/quantites-journalieres-definitives-injectees-de-biomethane-agregees-a-la-maille-france-toute-unite-confondue/">Quantités
-                                            journalières définitives injectées de biométhane</a></li>
-                                    <li>Indicateur
-                                        mensuel Gaz Renouvelable des territoires par <a
-                                            href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-region-1/">région</a>,
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-departement-1/">par
-                                            département</a> et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/indicateur-mensuel-gaz-renouvelable-des-territoires-par-epci-1/">par
-                                            EPCI</a>
-                                        <ul>
-                                            <li>Ratio entre la
-                                                production locale de gaz renouvelable et la consommation locale de gaz
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/repartition-des-potentiels-de-methanisation-a-horizon-2050-par-canton/">Répartition
-                                            des potentiels de méthanisation à horizon 2050 par canton</a>
-                                        <ul>
-                                            <li>Potentiels accessibles par les ressources primaires suivantes : les
-                                                résidus de cultures, les déjections d'élevage, les herbes, les Cultures
-                                                intermédiaires multi-services environnementaux ou CIMSE, les résidus des
-                                                industries agro-alimentaires (IAA), les bio-déchets en GWh PCS</li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/repartition-des-potentiels-de-gaz-verts-a-horizon-2050-par-departement-1/">Répartition
-                                            des potentiels de gaz verts à horizon 2050 par département</a></li>
-                                </ul>
-                            </div>
-                            <h3>Énergies renouvelables</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/centrales-de-production-hydraulique-de-edf-sa/">Centrales
-                                            de production hydraulique de EDF SA</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/debit-des-rivieres-aux-abords-de-centrales-hydrauliques-depuis-2001/">Débit
-                                            des rivières aux abords de centrales hydrauliques (depuis 2001)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/production-regionale-annuelle-des-energies-renouvelables-2008-a-2021/">Production
-                                            régionale annuelle des énergies renouvelables (2008 à 2023)</a></li>
-                                    <li>Parc annuel de production éolien et solaire (2001 à 2023) à la maille <a
-                                            href="https://www.data.gouv.fr/fr/datasets/parc-national-annuel-de-production-eolien-et-solaire-2001-a-2021/">nationale</a>
-                                        et <a
-                                            href="https://www.data.gouv.fr/fr/datasets/parc-regional-annuel-de-production-eolien-et-solaire-2001-a-2021/">régionale</a>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/courbes-de-production-mensuelles-eolien-solaire-complement-de-remuneration/">Courbes
-                                            de production mensuelles Eolien & Solaire</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/facteurs-de-charge-et-taux-de-couverture-nationaux-mensuels-eoliens-et-solaires/">Facteurs
-                                            de charge et taux de couverture nationaux mensuels éoliens et solaires</a> :
-                                        <ul>
-                                            <li>Facteur de charge : rapport entre l'électricité effectivement produite
-                                                par la filière et celle qu'elle aurait pu produire si elle avait
-                                                fonctionné à sa puissance maximale théorique durant la même période</li>
-                                            <li>Taux de couverture : part de la consommation couverte par la production
-                                                de la filière</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h3>Énergies renouvelables</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/centrales-de-production-hydraulique-de-edf-sa/">Centrales
+                                de production hydraulique de EDF SA</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/debit-des-rivieres-aux-abords-de-centrales-hydrauliques-depuis-2001/">Débit
+                                des rivières aux abords de centrales hydrauliques (depuis 2001)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/production-regionale-annuelle-des-energies-renouvelables-2008-a-2021/">Production
+                                régionale annuelle des énergies renouvelables (2008 à 2023)</a></li>
+                        <li>Parc annuel de production éolien et solaire (2001 à 2023) à la maille <a
+                                href="https://www.data.gouv.fr/fr/datasets/parc-national-annuel-de-production-eolien-et-solaire-2001-a-2021/">nationale</a>
+                            et <a
+                                href="https://www.data.gouv.fr/fr/datasets/parc-regional-annuel-de-production-eolien-et-solaire-2001-a-2021/">régionale</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/courbes-de-production-mensuelles-eolien-solaire-complement-de-remuneration/">Courbes
+                                de production mensuelles Eolien & Solaire</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/facteurs-de-charge-et-taux-de-couverture-nationaux-mensuels-eoliens-et-solaires/">Facteurs
+                                de charge et taux de couverture nationaux mensuels éoliens et solaires</a> :
+                            <ul>
+                                <li>Facteur de charge : rapport entre l'électricité effectivement produite
+                                    par la filière et celle qu'elle aurait pu produire si elle avait
+                                    fonctionné à sa puissance maximale théorique durant la même période</li>
+                                <li>Taux de couverture : part de la consommation couverte par la production
+                                    de la filière</li>
+                            </ul>
+                        </li>
+                    </ul>
 
 
-                            <h2 id="stockage">Données sur le stockage d'énergie</h2>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/stock-quotidien-dans-les-stockages-de-gaz-a-partir-de-novembre-2010/">Stock
-                                            quotidien dans les stockages de gaz</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/debit-quotidien-des-stockages-de-gaz-a-partir-de-novembre-2010/">Débit
-                                            quotidien des stockages de gaz</a></li>
-                                </ul>
-                            </div>
+                    <h2 id="stockage">Données sur le stockage d'énergie</h2>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/stock-quotidien-dans-les-stockages-de-gaz-a-partir-de-novembre-2010/">Stock
+                                quotidien dans les stockages de gaz</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/debit-quotidien-des-stockages-de-gaz-a-partir-de-novembre-2010/">Débit
+                                quotidien des stockages de gaz</a></li>
+                    </ul>
 
-                            <h2 id="infrastructure">Données sur les infrastructures d'énergie</h2>
-                            <h3>Electricité</h3>
-                            <p>Pour les gestionnaires de distribution :</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-basse-tension-bt/">Lignes
-                                            électriques souterraines Basse Tension (BT)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-aeriennes-moyenne-tension-hta/">Lignes
-                                            électriques aériennes moyenne tension (HTA)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-moyenne-tension-hta/">Lignes
-                                            électriques souterraines moyenne tension (HTA)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/postes-source-et-postes-de-repartition-hta-hta-1/">Postes
-                                            Source et Postes de Répartition HTA/HTA</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/postes-de-distribution-publique-postes-hta-bt-1/">Postes
-                                            de distribution publique (postes HTA/BT)</a></li>
-                                    <li>Au périmètre d'<a
-                                            href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>,
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/position-geographique-des-poteaux-hta-et-bt/">position
-                                            géographique des poteaux HTA et BT</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>Gaz</h3>
-                            <p>Pour les gestionnaires de distribution :</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/infrastructures-de-reseau-de-gaz/">Infrastructures
-                                            de réseau de gaz</a></li>
-                                </ul>
-                            </div>
-                            <p>Pour les gestionnaires de transport :</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-grtgaz-precis-a-environ-250-m/">Tracé
-                                            simplifié du réseau GRTgaz</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-terega-precis-a-environ-250-m/">Tracé
-                                            simplifié du réseau Teréga</a></li>
-                                </ul>
-                            </div>
+                    <h2 id="infrastructure">Données sur les infrastructures d'énergie</h2>
+                    <h3>Electricité</h3>
+                    <p>Pour les gestionnaires de distribution :</p>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-basse-tension-bt/">Lignes
+                                électriques souterraines Basse Tension (BT)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-aeriennes-moyenne-tension-hta/">Lignes
+                                électriques aériennes moyenne tension (HTA)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-moyenne-tension-hta/">Lignes
+                                électriques souterraines moyenne tension (HTA)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/postes-source-et-postes-de-repartition-hta-hta-1/">Postes
+                                Source et Postes de Répartition HTA/HTA</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/postes-de-distribution-publique-postes-hta-bt-1/">Postes
+                                de distribution publique (postes HTA/BT)</a></li>
+                        <li>Au périmètre d'<a
+                                href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/position-geographique-des-poteaux-hta-et-bt/">position
+                                géographique des poteaux HTA et BT</a>
+                        </li>
+                    </ul>
 
-                            <h2 id="marches">Données sur les marchés de l'énergie</h2>
+                    <h3>Gaz</h3>
+                    <p>Pour les gestionnaires de distribution :</p>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/infrastructures-de-reseau-de-gaz/">Infrastructures
+                                de réseau de gaz</a></li>
+                    </ul>
 
-                            <h3>Imports et exports</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/imports-et-exports-commerciaux-2005-a-2021/">Imports
-                                            et exports commerciaux entre la France et chacun des pays avec lesquels elle
-                                            partage des interconnexions</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/origine-du-gaz-naturel-importe-en-france/">Origine
-                                            du gaz naturel importé en France</a></li>
-                                    <ul>
-                                        <li>Ratio entre la production primaire de gaz naturel et sa consommation
-                                            intérieure brute</li>
-                                    </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                    <p>Pour les gestionnaires de transport :</p>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-grtgaz-precis-a-environ-250-m/">Tracé
+                                simplifié du réseau GRTgaz</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/trace-simplifie-du-reseau-terega-precis-a-environ-250-m/">Tracé
+                                simplifié du réseau Teréga</a></li>
+                    </ul>
 
-                            <h3>Prix</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/niveaux-de-prix-par-commune-pour-les-tarifs-reglementes-de-vente-de-gaz-naturel-dengie/">Niveaux
-                                            de prix par commune pour les tarifs réglementés de vente de gaz naturel
-                                            d'Engie</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h2 id="marches">Données sur les marchés de l'énergie</h2>
 
-                            <h2 id="reutilisations">Réutilisations de données relatives à l'énergie</h2>
-                            <p>A partir de ces données ouvertes, des solutions ont été conçues pour permettre de :</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><b>connaître et suivre la consommation et la production d'électricité</b> : <a
-                                            href="https://www.rte-france.com/eco2mix"> l'application éCO2mix de RTE</a>
-                                        (suivi en temps réel), <a
-                                            href="https://opendata.reseaux-energies.fr/tdb-regional/">le
-                                            tableau de bord
-                                            régional d'Open Data Réseaux Energies</a>, les datavisualisations de
-                                        l'Agence ORE (<a
-                                            href="https://www.data.gouv.fr/fr/reuses/consommation-denergie-en-france/">consommation</a>
-                                        ; <a
-                                            href="https://www.data.gouv.fr/fr/reuses/cartographie-des-installations-de-production-et-de-stockage-delectricite/">production</a>),
-                                        <a
-                                            href="https://data.enedis.fr/pages/consommation-electrique-par-secteur-activite/">les
-                                            datavisualisations
-                                            d'Enedis</a>, <a href="https://opendata.grdf.fr/pages/accueil/">les
-                                            datavisualisations de
-                                            GRDF</a>, etc.
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/reuses/cartographie-des-reseaux-electriques-et-gaziers/"><b>visualiser
-                                                les infrastructures d'électricité et de gaz</b></a> et <a
-                                            href="https://www.data.gouv.fr/fr/reuses/visualiser-les-distributeurs-delectricite-et-de-gaz-sur-un-territoire-donne/"><b>
-                                                les distributeurs d'électricité et de gaz</b></a></li>
-                                    <li><b>connaître la production d'énergies renouvelables</b> : <a
-                                            href="https://www.data.gouv.fr/fr/reuses/panorama-de-lelectricite-renouvelable/">le
-                                            panorama de l'électricité renouvelable de l'Agence ORE</a>, <a
-                                            href="https://www.data.gouv.fr/fr/pages/onboarding/EnR_PdlL/">une
-                                            application de diagnostic territorial en Pays de la Loire</a>, etc. </li>
-                                    <li><a href="https://www.gasinfocus.com/marches"><b>examiner les marchés de
-                                                l'énergie</b></a></li>
-                                    <li><a href="https://www.monecowatt.fr/"><b>adopter les bons gestes pour mieux
-                                                consommer l'électricité</b></a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/"><b>visualiser
-                                                les prix des carburants</b></a></li>
-                                </ul>
-                            </div>
-                            <p>D'autres usages ont été développés à partir de ces données et permettent de mieux
-                                comprendre les enjeux de la transition énergétique. Il est possible d'en découvrir
-                                davantage en
-                                parcourant <a
-                                    href="https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=environment_and_energy"><b>les
-                                        réutilisations référencées sur data.gouv.fr</b></a>, ou en utilisant <a
-                                    href="https://www.agenceore.fr/datavisualisations"><b>l'outil de
-                                        recensement</b></a> conçu par <a
-                                    href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">l'Agence ORE</a>, qui
-                                répertorie déjà 450 datavisualisations.</p>
+                    <h3>Imports et exports</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/imports-et-exports-commerciaux-2005-a-2021/">Imports
+                                et exports commerciaux entre la France et chacun des pays avec lesquels elle
+                                partage des interconnexions</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/origine-du-gaz-naturel-importe-en-france/">Origine
+                                du gaz naturel importé en France</a></li>
+                        <ul>
+                            <li>Ratio entre la production primaire de gaz naturel et sa consommation
+                                intérieure brute</li>
+                        </ul>
+                    </ul>
 
-                            <h2 id="producteurs">Les principaux producteurs de données relatives à l'énergie</h2>
-                            <p>Le secteur de l'énergie s'organise autour d'un écosystème riche qui comprend notamment :
-                            </p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><b>Les producteurs d'énergie</b> (électricité et gaz naturel) ;</li>
-                                    <li><b>Les fournisseurs d'énergie</b>, qui vendent "au détail", aux consommateurs,
-                                        l'électricité et/ou le gaz qu'ils ont acheté aux producteurs ;</li>
-                                    <li><b>Les gestionnaires de réseau</b>, qui acheminent l'énergie jusqu'aux clients
-                                        pour le compte des fournisseurs et exploitent, entretiennent et développent les
-                                        réseaux, avec :</li>
-                                    <ul>
-                                        <li><b>Les gestionnaires de transport</b> qui répartissent l'énergie sur le
-                                            territoire (<a
-                                                href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>
-                                            pour l'électricité et Teréga ainsi que GRTgaz pour le gaz)</li>
-                                        <li><b>Les gestionnaires de distribution</b> qui répartissent l'énergie entre
-                                            plusieurs communes et, au sein d'une commune, entre plusieurs habitations
-                                            (<a
-                                                href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>
-                                            pour l'électricité, <a
-                                                href="https://www.data.gouv.fr/fr/organizations/grdf/">GRDF</a> pour le
-                                            gaz, ou parfois des entreprises locales de distribution).</li>
-                                    </ul>
-                                </ul>
-                            </div>
-                            <p>Beaucoup publient des données en open data, et voici une liste non exhaustive des
-                                principaux producteurs de données relatives à l'énergie.</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">Agence ORE</a>
-                                    </li>
-                                    <ul>
-                                        <li>L’Agence ORE (Opérateurs de Réseaux d’Énergie) fédère l’ensemble des acteurs
-                                            français de la distribution d’électricité et de gaz, pour offrir une vision
-                                            globale de la distribution en France, en un guichet unique et gratuit de la
-                                            donnée.</li>
-                                    </ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/open-data-reseaux-energies-1/">Open
-                                            Data Réseaux Energies</a></li>
-                                    <ul>
-                                        <li>La plateforme d'Open Data Réseaux Energies (ODRE) met à disposition des
-                                            données sur l'énergie et constitue le fruit d'une collaboration entre
-                                            GRTgaz, <a
-                                                href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>,
-                                            Teréga, <a
-                                                href="https://www.data.gouv.fr/fr/organizations/association-francaise-du-gnv/">l'AFGNV</a>,
-                                            Weathernews France, Elengy, Storengy et Dunkerque LNG.</li>
-                                    </ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/ministere-de-la-transition-ecologique/">Ministère
-                                            de la transition écologique et de la cohésion des territoires</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Réseau
-                                            de Transport d'Electricité (RTE)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>
-                                    </li>
-                                    <li><a href="https://www.data.gouv.fr/fr/organizations/electricite-de-france/">Electricité
-                                            de France (EDF)</a> et <a
-                                            href="https://www.data.gouv.fr/fr/organizations/edf-systemes-energetiques-insulaires/">EDF
-                                            Systèmes Energétiques Insulaires</a></li>
-                                    <li><a href="https://www.data.gouv.fr/fr/organizations/grdf/">Gaz Réseau
-                                            Distribution France (GRDF)</a></li>
-                                    <li><a href="https://www.data.gouv.fr/fr/organizations/ademe/">ADEME</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/commission-de-regulation-de-lenergie/">Commission
-                                            de régulation de l'énergie (CRE)</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/organizations/autorite-de-surete-nucleaire/">Autorité
-                                            de sûreté nucléaire</a></li>
-                                </ul>
-                            </div>
-                            <h2 id="questions">Des questions sur les données ouvertes relatives à l'énergie ?</h2>
-                            <p><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">L'Agence ORE</a>
-                                propose <a href="https://www.agenceore.fr/forum-expert"><b>un forum des experts open
-                                        data électricité & gaz</b></a> pour répondre à
-                                toute question relative aux données de l'énergie disponibles en open data (méthodologie,
-                                mise à jour, etc.).</p>
-                        </div>
-                    </div>
+                    <h3>Prix</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/niveaux-de-prix-par-commune-pour-les-tarifs-reglementes-de-vente-de-gaz-naturel-dengie/">Niveaux
+                                de prix par commune pour les tarifs réglementés de vente de gaz naturel
+                                d'Engie</a>
+                        </li>
+                    </ul>
+
+                    <h2 id="reutilisations">Réutilisations de données relatives à l'énergie</h2>
+                    <p>A partir de ces données ouvertes, des solutions ont été conçues pour permettre de :</p>
+                    <ul>
+                        <li><b>connaître et suivre la consommation et la production d'électricité</b> : <a
+                                href="https://www.rte-france.com/eco2mix"> l'application éCO2mix de RTE</a>
+                            (suivi en temps réel), <a
+                                href="https://opendata.reseaux-energies.fr/tdb-regional/">le
+                                tableau de bord
+                                régional d'Open Data Réseaux Energies</a>, les datavisualisations de
+                            l'Agence ORE (<a
+                                href="https://www.data.gouv.fr/fr/reuses/consommation-denergie-en-france/">consommation</a>
+                            ; <a
+                                href="https://www.data.gouv.fr/fr/reuses/cartographie-des-installations-de-production-et-de-stockage-delectricite/">production</a>),
+                            <a
+                                href="https://data.enedis.fr/pages/consommation-electrique-par-secteur-activite/">les
+                                datavisualisations
+                                d'Enedis</a>, <a href="https://opendata.grdf.fr/pages/accueil/">les
+                                datavisualisations de
+                                GRDF</a>, etc.
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/cartographie-des-reseaux-electriques-et-gaziers/"><b>visualiser
+                                    les infrastructures d'électricité et de gaz</b></a> et <a
+                                href="https://www.data.gouv.fr/fr/reuses/visualiser-les-distributeurs-delectricite-et-de-gaz-sur-un-territoire-donne/"><b>
+                                    les distributeurs d'électricité et de gaz</b></a></li>
+                        <li><b>connaître la production d'énergies renouvelables</b> : <a
+                                href="https://www.data.gouv.fr/fr/reuses/panorama-de-lelectricite-renouvelable/">le
+                                panorama de l'électricité renouvelable de l'Agence ORE</a>, <a
+                                href="https://www.data.gouv.fr/fr/pages/onboarding/EnR_PdlL/">une
+                                application de diagnostic territorial en Pays de la Loire</a>, etc. </li>
+                        <li><a href="https://www.gasinfocus.com/marches"><b>examiner les marchés de
+                                    l'énergie</b></a></li>
+                        <li><a href="https://www.monecowatt.fr/"><b>adopter les bons gestes pour mieux
+                                    consommer l'électricité</b></a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/"><b>visualiser
+                                    les prix des carburants</b></a></li>
+                    </ul>
+
+                    <p>D'autres usages ont été développés à partir de ces données et permettent de mieux
+                        comprendre les enjeux de la transition énergétique. Il est possible d'en découvrir
+                        davantage en
+                        parcourant <a
+                            href="https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=environment_and_energy"><b>les
+                                réutilisations référencées sur data.gouv.fr</b></a>, ou en utilisant <a
+                            href="https://www.agenceore.fr/datavisualisations"><b>l'outil de
+                                recensement</b></a> conçu par <a
+                            href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">l'Agence ORE</a>, qui
+                        répertorie déjà 450 datavisualisations.</p>
+
+                    <h2 id="producteurs">Les principaux producteurs de données relatives à l'énergie</h2>
+                    <p>Le secteur de l'énergie s'organise autour d'un écosystème riche qui comprend notamment :
+                    </p>
+                    <ul>
+                        <li><b>Les producteurs d'énergie</b> (électricité et gaz naturel) ;</li>
+                        <li><b>Les fournisseurs d'énergie</b>, qui vendent "au détail", aux consommateurs,
+                            l'électricité et/ou le gaz qu'ils ont acheté aux producteurs ;</li>
+                        <li><b>Les gestionnaires de réseau</b>, qui acheminent l'énergie jusqu'aux clients
+                            pour le compte des fournisseurs et exploitent, entretiennent et développent les
+                            réseaux, avec :</li>
+                        <ul>
+                            <li><b>Les gestionnaires de transport</b> qui répartissent l'énergie sur le
+                                territoire (<a
+                                    href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>
+                                pour l'électricité et Teréga ainsi que GRTgaz pour le gaz)</li>
+                            <li><b>Les gestionnaires de distribution</b> qui répartissent l'énergie entre
+                                plusieurs communes et, au sein d'une commune, entre plusieurs habitations
+                                (<a
+                                    href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>
+                                pour l'électricité, <a
+                                    href="https://www.data.gouv.fr/fr/organizations/grdf/">GRDF</a> pour le
+                                gaz, ou parfois des entreprises locales de distribution).</li>
+                        </ul>
+                    </ul>
+
+                    <p>Beaucoup publient des données en open data, et voici une liste non exhaustive des
+                        principaux producteurs de données relatives à l'énergie.</p>
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">Agence ORE</a>
+                        </li>
+                        <ul>
+                            <li>L’Agence ORE (Opérateurs de Réseaux d’Énergie) fédère l’ensemble des acteurs
+                                français de la distribution d’électricité et de gaz, pour offrir une vision
+                                globale de la distribution en France, en un guichet unique et gratuit de la
+                                donnée.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/open-data-reseaux-energies-1/">Open
+                                Data Réseaux Energies</a></li>
+                        <ul>
+                            <li>La plateforme d'Open Data Réseaux Energies (ODRE) met à disposition des
+                                données sur l'énergie et constitue le fruit d'une collaboration entre
+                                GRTgaz, <a
+                                    href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Rte</a>,
+                                Teréga, <a
+                                    href="https://www.data.gouv.fr/fr/organizations/association-francaise-du-gnv/">l'AFGNV</a>,
+                                Weathernews France, Elengy, Storengy et Dunkerque LNG.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/ministere-de-la-transition-ecologique/">Ministère
+                                de la transition écologique et de la cohésion des territoires</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/reseau-de-transport-delectricite/">Réseau
+                                de Transport d'Electricité (RTE)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/electricite-reseau-distribution-france/">Enedis</a>
+                        </li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/electricite-de-france/">Electricité
+                                de France (EDF)</a> et <a
+                                href="https://www.data.gouv.fr/fr/organizations/edf-systemes-energetiques-insulaires/">EDF
+                                Systèmes Energétiques Insulaires</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/grdf/">Gaz Réseau
+                                Distribution France (GRDF)</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/ademe/">ADEME</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/commission-de-regulation-de-lenergie/">Commission
+                                de régulation de l'énergie (CRE)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/autorite-de-surete-nucleaire/">Autorité
+                                de sûreté nucléaire</a></li>
+                    </ul>
+
+                    <h2 id="questions">Des questions sur les données ouvertes relatives à l'énergie ?</h2>
+                    <p><a href="https://www.data.gouv.fr/fr/organizations/agence-ore-3/">L'Agence ORE</a>
+                        propose <a href="https://www.agenceore.fr/forum-expert"><b>un forum des experts open
+                                data électricité & gaz</b></a> pour répondre à
+                        toute question relative aux données de l'énergie disponibles en open data (méthodologie,
+                        mise à jour, etc.).</p>
+                </div>
+            </div>
+        </div>
+    </section>

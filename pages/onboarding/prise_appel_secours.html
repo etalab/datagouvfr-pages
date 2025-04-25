@@ -11,220 +11,216 @@ content_type: html
 
 <section class="section-blue section-main">
 	<div class="fr-container">
-		<div>
-				<h1>La prise d'appel des secours : Localiser précisément les interventions</h1>
-				<p class="fr-mb-6w">Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
-			</div>
+		<div class="mb-4">
+            <h1>La prise d'appel des secours : Localiser précisément les interventions</h1>
+            <p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+        </div>
 
-			<div class="fr-grid-row">
-				<div class="fr-col-12 fr-col-md-4">
-					  <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="max-width:350px;">
-						<div class="fr-sidemenu__inner">
-						  <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">
-							Dans cette rubrique
-						  </button>
-						  <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="https://user-images.githubusercontent.com/72090652/169808207-929a7a6c-7563-425a-a1d4-ea14fdcdfe85.svg" alt="">
-						  <div class="fr-collapse" id="fr-sidemenu-wrapper">
-							<ul class="fr-sidemenu__list">
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#données" target="_self">
-								  1. Données ouvertes utilisées
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-								  2. Réutilisateur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#problématique" target="_self">
-								  3. Problématique et proposition de valeur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#solution" target="_self">
-								  4. Solution
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#impact" target="_self">
-								  5. Impact
-								</a>
-							  </li>
-                              <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#enseignements" target="_self">
-								  6. Enseignements
-								</a>
-							  </li>
-							</ul>
-						  </div>
-						</div>
-					  </nav>
-					</div>
-					<div class="fr-col-12 fr-col-md-8 markdown">
-						<h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span></h2>
-						<div class="markdown">
-						<ul>
-							<li><b><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">Base Adresse Nationale (BAN)</b></a></li>
-						</ul>
-						</div>
-						<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
-						<p>Cette démarche a été développée par le Service départemental d’incendie et de secours des Pyrénées Atlantiques (<a href="https://www.sdis64.fr/"><b>SDIS64</b></a>). Celui-ci est en charge de l’analyse des risques et de la mise en place des moyens de secours dans le département.</p>
+        <div class="fr-grid-row">
+            <Sidemenu
+                class="fr-col-12 fr-col-md-4 not-prose"
+                button-text="Dans cette rubrique"
+                :sticky-full-height="true"
+            >
+                <template #title>
+                    <img
+                        class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                        src="https://user-images.githubusercontent.com/72090652/169808207-929a7a6c-7563-425a-a1d4-ea14fdcdfe85.svg"
+                        alt="">
+                    <p class="mb-0 fr-sr-only-lg">Menu</p>
+                </template>
+                <ul class="fr-sidemenu__list">
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#données" target="_self">
+                        1. Données ouvertes utilisées
+                    </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+                        2. Réutilisateur
+                    </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#problématique" target="_self">
+                        3. Problématique et proposition de valeur
+                    </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#solution" target="_self">
+                        4. Solution
+                    </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#impact" target="_self">
+                        5. Impact
+                    </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                    <a class="fr-sidemenu__link" href="#enseignements" target="_self">
+                        6. Enseignements
+                    </a>
+                    </li>
+                </ul>
+            </Sidemenu>
+            <div class="fr-col-12 fr-col-md-8">
+                <h2 class="mt-0" id="données">
+                    Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+                </h2>
+                <ul>
+                    <li><b><a href="https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/">Base Adresse Nationale (BAN)</a></b></li>
+                </ul>
+                <h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
+                <p>Cette démarche a été développée par le Service départemental d’incendie et de secours des Pyrénées Atlantiques (<a href="https://www.sdis64.fr/"><b>SDIS64</b></a>). Celui-ci est en charge de l’analyse des risques et de la mise en place des moyens de secours dans le département.</p>
 
-						<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
-						<p>Le SDIS64 s’est saisi d’une problématique critique : le <b>manque de précision relatif à la localisation des interventions des secours</b>.</p>
-			            <p>Chaque intervention (secours d’urgence, incendies, etc.) est déclenchée suite à un traitement et une affectation de l’alerte à un Centre d’Incendie et de Secours par le Centre de Traitement de l’Alerte (CTA). Pour chaque appel au 18 qualifié, l’opérateur du CTA localisait une intervention sur une section de voie - appelée tronçon -, en le sélectionnant manuellement dans une liste proposée par le logiciel d’alerte. La plupart des tronçons sont identifiés par un numéro de début et de fin, mais pas tous : il était donc parfois difficile pour l’opérateur de choisir le bon tronçon.</p>
-			            <p>Dans les deux cas, les secours étaient envoyés en début de tronçon sélectionné pour chercher le lieu précis sur le terrain, <b>allongeant ainsi leurs délais d’arrivée</b>.</p>
-			            <p>Le SDIS64 propose d’utiliser les données adresses issues de la Base Adresse Nationale pour <b>localiser les interventions sur le lieu précis et permettre aux secours d’arriver rapidement au bon endroit</b>.</p>
+                <h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
+                <p>Le SDIS64 s’est saisi d’une problématique critique : le <b>manque de précision relatif à la localisation des interventions des secours</b>.</p>
+                <p>Chaque intervention (secours d’urgence, incendies, etc.) est déclenchée suite à un traitement et une affectation de l’alerte à un Centre d’Incendie et de Secours par le Centre de Traitement de l’Alerte (CTA). Pour chaque appel au 18 qualifié, l’opérateur du CTA localisait une intervention sur une section de voie - appelée tronçon -, en le sélectionnant manuellement dans une liste proposée par le logiciel d’alerte. La plupart des tronçons sont identifiés par un numéro de début et de fin, mais pas tous : il était donc parfois difficile pour l’opérateur de choisir le bon tronçon.</p>
+                <p>Dans les deux cas, les secours étaient envoyés en début de tronçon sélectionné pour chercher le lieu précis sur le terrain, <b>allongeant ainsi leurs délais d’arrivée</b>.</p>
+                <p>Le SDIS64 propose d’utiliser les données adresses issues de la Base Adresse Nationale pour <b>localiser les interventions sur le lieu précis et permettre aux secours d’arriver rapidement au bon endroit</b>.</p>
 
-						<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
-                        <p>Les données de la Base Adresse Nationale ont été intégrées dans le logiciel d’alerte après :</p>
-                        <div class="markdown">
-                            <ul>
-                                <li>Jointure entre la base des voies et de tronçons du SDIS64 et la Base Adresse Nationale</li>
-                                <li>Rapprochement géographique des points adresses de la Base Adresse Nationale sur les voies</li>
-                            </ul>
-                        <p>Les opérateurs du Centre de Traitement de l'Alerte peuvent désormais saisir textuellement une adresse dans le logiciel, qui, si elle figure dans la Base Adresse Nationale, permet :</p>
-                    
-                        <div style="display: flex; gap: 30px; margin-bottom: 60px; flex-wrap: wrap;">
-                            <div class="fr-tile" style="flex: 1; max-width: 230px; min-height: 270px; height: auto;">
-                                <div class="fr-tile__body">
-                                    <h3 class="fr-tile__title">
-                                        La sélection automatique de la bonne section de voie (tronçon)
-                                    </h3>
-                                </div>
-                                <div class="fr-tile__img">
-                                    <img src="https://user-images.githubusercontent.com/72090652/168032576-627cfc1f-34fe-4801-be4d-28a707bf5702.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="fr-tile" style="flex: 1; max-width: 230px; min-height: 270px">
-                                <div class="fr-tile__body">
-                                    <h3 class="fr-tile__title">
-                                        Le positionnement de l’intervention sur le point adresse
-                                    </h3>
-                                </div>
-                                <div class="fr-tile__img">
-                                    <img src="https://user-images.githubusercontent.com/72090652/167825543-e2fd1574-4842-4633-b543-750ac7fe8664.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="fr-tile" style="flex: 1; max-width: 230px;  min-height: 270px">
-                                <div class="fr-tile__body">
-                                    <h3 class="fr-tile__title">
-                                        Une cartographie pointant sur le lieu exact d’intervention
-                                    </h3>
-                                </div>
-                                <div class="fr-tile__img">
-                                    <img src="https://user-images.githubusercontent.com/72090652/167825519-4d2f01e4-f2d0-4ec4-81c4-c7c2de8ce36a.svg" alt="">
-                                </div>
-                            </div>
+                <h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
+                <p>Les données de la Base Adresse Nationale ont été intégrées dans le logiciel d’alerte après :</p>
+                <ul>
+                    <li>Jointure entre la base des voies et de tronçons du SDIS64 et la Base Adresse Nationale</li>
+                    <li>Rapprochement géographique des points adresses de la Base Adresse Nationale sur les voies</li>
+                </ul>
+                <p>Les opérateurs du Centre de Traitement de l'Alerte peuvent désormais saisir textuellement une adresse dans le logiciel, qui, si elle figure dans la Base Adresse Nationale, permet :</p>
+            
+                <div class="not-prose" style="display: flex; gap: 30px; margin-bottom: 60px; flex-wrap: wrap;">
+                    <div class="fr-tile" style="flex: 1; max-width: 230px; min-height: 270px; height: auto;">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">
+                                La sélection automatique de la bonne section de voie (tronçon)
+                            </h3>
                         </div>
-								
-						<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
-						<p>Environ ½ des interventions du SDIS64 semblent désormais localisées avec le point adresse, d’après l’observation du bulletin quotidien du Centre de Traitement de l'Alerte.</p>
-                        <h3>Pour les pompiers</h3>
-                        <p>La localisation des interventions sur le point adresse, plus précise, permet :</p>
-			            <div class="markdown">
-			            <ul>
-				            <li><b>l’utilisation de l’itinéraire le plus adapté</b></li>
-				            <li><b>la diminution du temps de recherche sur le terrain</b></li>
-			            </ul>
-			            </div>
-                        <p>Et donc la <b>réduction des délais d’arrivée.</b></p>
+                        <div class="fr-tile__img">
+                            <img src="https://user-images.githubusercontent.com/72090652/168032576-627cfc1f-34fe-4801-be4d-28a707bf5702.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="fr-tile" style="flex: 1; max-width: 230px; min-height: 270px">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">
+                                Le positionnement de l’intervention sur le point adresse
+                            </h3>
+                        </div>
+                        <div class="fr-tile__img">
+                            <img src="https://user-images.githubusercontent.com/72090652/167825543-e2fd1574-4842-4633-b543-750ac7fe8664.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="fr-tile" style="flex: 1; max-width: 230px;  min-height: 270px">
+                        <div class="fr-tile__body">
+                            <h3 class="fr-tile__title">
+                                Une cartographie pointant sur le lieu exact d’intervention
+                            </h3>
+                        </div>
+                        <div class="fr-tile__img">
+                            <img src="https://user-images.githubusercontent.com/72090652/167825519-4d2f01e4-f2d0-4ec4-81c4-c7c2de8ce36a.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                        
+                <h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
+                <p>Environ ½ des interventions du SDIS64 semblent désormais localisées avec le point adresse, d’après l’observation du bulletin quotidien du Centre de Traitement de l'Alerte.</p>
+                <h3>Pour les pompiers</h3>
+                <p>La localisation des interventions sur le point adresse, plus précise, permet :</p>
+                <ul>
+                    <li><b>l’utilisation de l’itinéraire le plus adapté</b></li>
+                    <li><b>la diminution du temps de recherche sur le terrain</b></li>
+                </ul>
+                <p>Et donc la <b>réduction des délais d’arrivée.</b></p>
 
-                        <h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
-                        <p><b>80 à 90% de la Base Adresse Nationale est de qualité</b>, et peut être utilisée de manière relativement simple.</p>
-			            <p>La réutilisation de la Base Adresse Nationale et la <b>mise en place d’un cercle vertueux permettent d’améliorer les données</b> : lorsque le SDIS64 constate des divergences d’adresse entre la Base Adresse Nationale, le panneau et leur base, il fait remonter un signalement aux communes. Celles-ci tranchent, corrigent, etc. et font remonter les modifications dans la Base Adresse Nationale afin que tous les réutilisateurs puissent bénéficier de données mises à jour.</p>
-			            <p>Pour instaurer ce cercle vertueux, il est nécessaire que <b>toutes les communes créent leurs bases adresses locales</b> pour être intégrées dans la Base Adresse Nationale, et continuent à les faire vivre avec des mises à jour.</p>
+                <h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
+                <p><b>80 à 90% de la Base Adresse Nationale est de qualité</b>, et peut être utilisée de manière relativement simple.</p>
+                <p>La réutilisation de la Base Adresse Nationale et la <b>mise en place d’un cercle vertueux permettent d’améliorer les données</b> : lorsque le SDIS64 constate des divergences d’adresse entre la Base Adresse Nationale, le panneau et leur base, il fait remonter un signalement aux communes. Celles-ci tranchent, corrigent, etc. et font remonter les modifications dans la Base Adresse Nationale afin que tous les réutilisateurs puissent bénéficier de données mises à jour.</p>
+                <p>Pour instaurer ce cercle vertueux, il est nécessaire que <b>toutes les communes créent leurs bases adresses locales</b> pour être intégrées dans la Base Adresse Nationale, et continuent à les faire vivre avec des mises à jour.</p>
 
-                        <figure class="fr-quote fr-mt-6w">
-                            <blockquote>
-                                <p>« Il faut utiliser la Base Adresse Nationale afin qu’elle devienne la base unique de référence de l’adresse en France. Arrêtons d’avoir chacun sa base dans son coin, les éditeurs de GPS, les agglomérations, les fournisseurs d’énergie ou de la fibre, la Poste, etc. »</p>
-                            </blockquote>
-                            <figcaption>
-                                <p class="fr-quote__author fr-mb-4w">Adrien Carpentier, chef du service SIG du SDIS64</p>
-                            </figcaption>
-                        </figure>
+                <figure class="fr-quote not-prose fr-mt-6w">
+                    <blockquote>
+                        <p>« Il faut utiliser la Base Adresse Nationale afin qu’elle devienne la base unique de référence de l’adresse en France. Arrêtons d’avoir chacun sa base dans son coin, les éditeurs de GPS, les agglomérations, les fournisseurs d’énergie ou de la fibre, la Poste, etc. »</p>
+                    </blockquote>
+                    <figcaption>
+                        <p class="fr-quote__author fr-mb-4w">Adrien Carpentier, chef du service SIG du SDIS64</p>
+                    </figcaption>
+                </figure>
 
-						<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-							<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
-							<p style="margin-bottom: unset;">
-							<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
-							<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			
-				<div class="fr-grid-row fr-grid-row--gutters">
-					<div class="fr-col-12" id="exemples">
-						<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-					</div>
-				</div>
-			
-			
-<div class="fr-grid-row fr-grid-row--gutters">
-	<div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/diagoriente/" class="fr-card__link">Proposer un parcours d’orientation</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">DiagOriente</p>
+                <div class="not-prose fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+                    <h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+                    <p style="margin-bottom: unset;">
+                    <a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+                    <a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
+                    </p>
+                </div>
             </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087764-ac205dd3-efeb-4631-a6af-b65521b14572.svg" alt="">
+        </div>
+        
+        <h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+        
+        
+        <div class="not-prose fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/diagoriente/" class="fr-card__link">Proposer un parcours d’orientation</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">DiagOriente</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087764-ac205dd3-efeb-4631-a6af-b65521b14572.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/" class="fr-card__link">Réaliser l'état des risques d'un bien immobilier</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">ERRIAL</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087219-ad2d8eeb-32d8-4bab-8a67-49d9fab07763.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/" class="fr-card__link">Estimer les ressources florales autour des ruches</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">BeeGIS</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371644-7abbc053-da04-43af-8c65-5349fe8fa6b9.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">Nos Villes Vertes</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169090906-17161d55-6f4b-43be-acb6-f78a520435c4.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/" class="fr-card__link">Réaliser l'état des risques d'un bien immobilier</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">ERRIAL</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087219-ad2d8eeb-32d8-4bab-8a67-49d9fab07763.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/" class="fr-card__link">Estimer les ressources florales autour des ruches</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">BeeGIS</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371644-7abbc053-da04-43af-8c65-5349fe8fa6b9.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">Nos Villes Vertes</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169090906-17161d55-6f4b-43be-acb6-f78a520435c4.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</section>

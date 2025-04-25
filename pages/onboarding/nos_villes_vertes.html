@@ -12,221 +12,212 @@ content_type: html
 <section class="section-blue section-main">
 	<div class="fr-container">
 		<div>
-				<h1>Nos Villes Vertes : Connaître le patrimoine arboré des communes</h1>
-				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
-			</div>
-			<div class="fr-col-12">
+			<h1>Nos Villes Vertes : Connaître le patrimoine arboré des communes</h1>
+			<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+		</div>
+		<div class="mb-4">
 			<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w" href="https://www.nosvillesvertes.fr/"><b>Accéder à Nos Villes Vertes</b></a>
-			</div>
+		</div>
 
+		<div class="fr-grid-row">
+			<Sidemenu
+				class="fr-col-12 fr-col-md-4 not-prose"
+				button-text="Dans cette rubrique"
+				:sticky-full-height="true"
+			>
+				<template #title>
+					<img
+						class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+						src="https://user-images.githubusercontent.com/72090652/169808235-3e7635cc-7937-4b20-b7de-b3e12a91efd0.svg"
+						alt="">
+					<p class="mb-0 fr-sr-only-lg">Menu</p>
+				</template>
+				<ul class="fr-sidemenu__list">
+					<li class="fr-sidemenu__item">
+					<a class="fr-sidemenu__link" href="#données" target="_self">
+						1. Données ouvertes utilisées
+					</a>
+					</li>
+					<li class="fr-sidemenu__item">
+					<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+						2. Réutilisateur
+					</a>
+					</li>
+					<li class="fr-sidemenu__item">
+					<a class="fr-sidemenu__link" href="#problématique" target="_self">
+						3. Problématique et proposition de valeur
+					</a>
+					</li>
+					<li class="fr-sidemenu__item">
+					<a class="fr-sidemenu__link" href="#solution" target="_self">
+						4. Solution
+					</a>
+					</li>
+					<li class="fr-sidemenu__item">
+					<a class="fr-sidemenu__link" href="#impact" target="_self">
+						5. Impact
+					</a>
+					</li>
+				</ul>
+			</Sidemenu>
+			<div class="fr-col-12 fr-col-md-8">
+				<h2 class="mt-0" id="données">
+					Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+				</h2>
+				<ul>
+					<li><a href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/"><b>Référentiel à Grande Echelle (RGE)</b></a> : données ortophotographiques, topographiques et altimétriques du territoire français</li>
+					<li><a href="https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/"><b>Données CORINE Land Cover</b></a> : base de données européenne sur l’occupation des sols</li>
+					<li><a href="https://www.data.gouv.fr/fr/datasets/population/"><b>Données statistiques sur la population française</b></a></li>
+				</ul>
+				<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
+				<p>Nos Villes Vertes a été conçue par <b><a href="https://kermap.com/">Kermap</a></b>, une startup spécialisée dans la production, l’analyse et la valorisation de données géographiques pour des applications liées à l’aménagement du territoire, l’environnement et l’agriculture.</p>
 
-			<div class="fr-grid-row">
-				<div class="fr-col-12 fr-col-md-4">
-					  <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="max-width:350px;">
-						<div class="fr-sidemenu__inner">
-						  <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">
-							Dans cette rubrique
-						  </button>
-						  <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="https://user-images.githubusercontent.com/72090652/169808235-3e7635cc-7937-4b20-b7de-b3e12a91efd0.svg" alt="">
-						  <div class="fr-collapse" id="fr-sidemenu-wrapper">
-							<ul class="fr-sidemenu__list">
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#données" target="_self">
-								  1. Données ouvertes utilisées
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-								  2. Réutilisateur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#problématique" target="_self">
-								  3. Problématique et proposition de valeur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#solution" target="_self">
-								  4. Solution
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#impact" target="_self">
-								  5. Impact
-								</a>
-							  </li>
-							</ul>
-						  </div>
-						</div>
-					  </nav>
-					</div>
-					<div class="fr-col-12 fr-col-md-8 markdown">
-						<h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span></h2>
-						<div class="markdown">
-						<ul>
-							<li><a href="https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/"><b>Référentiel à Grande Echelle (RGE)</b></a> : données ortophotographiques, topographiques et altimétriques du territoire français</li>
-							<li><a href="https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/"><b>Données CORINE Land Cover</b></a> : base de données européenne sur l’occupation des sols</li>
-							<li><a href="https://www.data.gouv.fr/fr/datasets/population/"><b>Données statistiques sur la population française</b></a></li>
-						</ul>
-						</div>
-						<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
-						<p>Nos Villes Vertes a été conçue par <b><a href="https://kermap.com/">Kermap</a></b>, une startup spécialisée dans la production, l’analyse et la valorisation de données géographiques pour des applications liées à l’aménagement du territoire, l’environnement et l’agriculture.</p>
+				<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
+				<p>Nos Villes Vertes entend adresser une problématique croissante : <b>le manque de données exhaustives sur la végétation urbaine</b>, indispensables aux collectivités territoriales pour penser leur politique de végétalisation et informer les citoyens.</p>
+				<p>Nos Villes Vertes propose d’<b>exploiter le Référentiel à Grande Echelle pour produire des données complètes sur la végétation arborée de toutes les villes françaises</b> et de rendre cette information accessible à tous.</p>
 
-						<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
-						<p>Nos Villes Vertes entend adresser une problématique croissante : <b>le manque de données exhaustives sur la végétation urbaine</b>, indispensables aux collectivités territoriales pour penser leur politique de végétalisation et informer les citoyens.</p>
-						<p>Nos Villes Vertes propose d’<b>exploiter le Référentiel à Grande Echelle pour produire des données complètes sur la végétation arborée de toutes les villes françaises</b> et de rendre cette information accessible à tous.</p>
-
-						<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
-						<p>Les photographies aériennes issues du Référentiel à Grande Echelle, ont été analysées avec des modèles algorithmiques qui reposent sur l’apprentissage profond pour contextualiser et <b>extraire automatiquement la végétation arborée</b>.</p>
-						<p>Ces données sont représentées sous la forme de <b>tableaux de bord</b> pour chaque ville française avec : </p>
-					
-						<div style="display: flex; gap: 15px; margin-bottom: 60px; flex-wrap: wrap;">
-							<div class="fr-tile" style="flex: 1; max-width: 240px; min-height: 220px">
-								<div class="fr-tile__body">
-									<h3 class="fr-tile__title">
-										Une cartographie de la végétation arborée
-									</h3>
-								</div>
-								<div class="fr-tile__img">
-									<img src="https://user-images.githubusercontent.com/72090652/167409653-e2bd94f3-2876-499c-bcb8-0b516edc612f.svg" alt="">
-								</div>
-							</div>
-							<div class="fr-tile" style="flex: 1; max-width: 240px; min-height: 220px">
-								<div class="fr-tile__body">
-									<h3 class="fr-tile__title">
-										Des indicateurs simples
-									</h3>
-								</div>
-								<div class="fr-tile__img">
-									<img src="https://user-images.githubusercontent.com/72090652/167409677-42dedb8b-270e-4fa5-9e5b-22c3cc04e290.svg" alt="">
-								</div>
-							</div>
-							<div class="fr-tile" style="flex: 1; max-width: 240px;  min-height: 220px">
-								<div class="fr-tile__body">
-									<h3 class="fr-tile__title">
-										Des visualisations de données
-									</h3>
-								</div>
-								<div class="fr-tile__img">
-									<img src="https://user-images.githubusercontent.com/72090652/167409697-93f697bc-a7f8-4490-91f7-f0acd30110d2.svg" alt="">
-								</div>
-							</div>
-						</div>
+				<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
+				<p>Les photographies aériennes issues du Référentiel à Grande Echelle, ont été analysées avec des modèles algorithmiques qui reposent sur l’apprentissage profond pour contextualiser et <b>extraire automatiquement la végétation arborée</b>.</p>
+				<p>Ces données sont représentées sous la forme de <b>tableaux de bord</b> pour chaque ville française avec : </p>
 			
-					<figure class="fr-quote">
-						<blockquote>
-							<p>«L’apprentissage machine permet de traiter rapidement un important volume de données et de réduire le coût de production des données.»</p>
-						</blockquote>
-						<figcaption>
-							<p class="fr-quote__author fr-mb-4w">Antoine Lefebvre, Co-fondateur de Kermap</p>
-						</figcaption>
-					</figure>
-								
-						<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
-						<p>L’exploitation du Référentiel à Grande Echelle permet de produire des données :</p>
-						<div class="markdown">
-						<ul>
-							<li><b>objectives</b>, fruit de l’observation factuelle d’une photographie</li>
-							<li><b>homogènes</b>, toutes les photographies respectant les mêmes caractéristiques</li>
-							<li><b>précises et complètes</b>, couvrant le patrimoine arboré des milieux publics et privés</li>
-						</ul>
+				<div class="not-prose" style="display: flex; gap: 15px; margin-bottom: 60px; flex-wrap: wrap;">
+					<div class="fr-tile" style="flex: 1; max-width: 240px; min-height: 220px">
+						<div class="fr-tile__body">
+							<h3 class="fr-tile__title">
+								Une cartographie de la végétation arborée
+							</h3>
 						</div>
-						<h3>Pour les citoyens</h3>
-						<div class="markdown">
-						<ul>
-							<li>Une <b>meilleure connaissance</b> de la végétation de leur territoire</li>
-							<li>Des données factuelles pour appuyer un projet d’aménagement</li>
-						</ul>
+						<div class="fr-tile__img">
+							<img src="https://user-images.githubusercontent.com/72090652/167409653-e2bd94f3-2876-499c-bcb8-0b516edc612f.svg" alt="">
 						</div>
-						<h3>Pour les collectivités territoriales</h3>
-						<div class="markdown">
-						<ul>
-							<li>Une <b>vision plus complète</b> de la végétation du territoire</li>
-							<li>Un premier outil d’aide à la décision pour <b>initier/penser les politiques de végétalisation</b></li>
-							<li>La <b>découverte de l’existence de ce type de données</b> et de la possibilité d’y accéder à un niveau adapté à leurs besoins, pour approfondir leurs politiques d’aménagement (en sollicitant les services de Kermap)</li>
-						</ul>
+					</div>
+					<div class="fr-tile" style="flex: 1; max-width: 240px; min-height: 220px">
+						<div class="fr-tile__body">
+							<h3 class="fr-tile__title">
+								Des indicateurs simples
+							</h3>
 						</div>
-						<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-							<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
-							<p style="margin-bottom: unset;">
-							<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
-							<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
-							</p>
+						<div class="fr-tile__img">
+							<img src="https://user-images.githubusercontent.com/72090652/167409677-42dedb8b-270e-4fa5-9e5b-22c3cc04e290.svg" alt="">
+						</div>
+					</div>
+					<div class="fr-tile" style="flex: 1; max-width: 240px;  min-height: 220px">
+						<div class="fr-tile__body">
+							<h3 class="fr-tile__title">
+								Des visualisations de données
+							</h3>
+						</div>
+						<div class="fr-tile__img">
+							<img src="https://user-images.githubusercontent.com/72090652/167409697-93f697bc-a7f8-4490-91f7-f0acd30110d2.svg" alt="">
 						</div>
 					</div>
 				</div>
-			
-				<div class="fr-grid-row fr-grid-row--gutters">
-					<div class="fr-col-12" id="exemples">
-						<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-					</div>
-				</div>
-			
-			
-<div class="fr-grid-row fr-grid-row--gutters">
-	<div class="fr-col-12 fr-col-md-3">
-		<div class="fr-card fr-card--sm fr-enlarge-link">
-			<div class="fr-card__body">
-				<h3 class="fr-card__title">
-					<a href="https://www.data.gouv.fr/fr/pages/onboarding/prise_appel_secours/" class="fr-card__link">Localiser précisément les interventions</a>
-				</h3>
-				<p class="fr-card__desc"></p>
-				<p class="fr-card__detail">La prise d'appel des secours</p>
-			</div>
-			<div class="fr-card__header">
-				<div class="fr-card__img">
-					<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169091685-1cacf63e-df5e-44d8-9f68-1f84af96a8e1.svg" alt="">
+	
+			<figure class="not-prose fr-quote">
+				<blockquote>
+					<p>«L’apprentissage machine permet de traiter rapidement un important volume de données et de réduire le coût de production des données.»</p>
+				</blockquote>
+				<figcaption>
+					<p class="fr-quote__author fr-mb-4w">Antoine Lefebvre, Co-fondateur de Kermap</p>
+				</figcaption>
+			</figure>
+						
+				<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
+				<p>L’exploitation du Référentiel à Grande Echelle permet de produire des données :</p>
+				<ul>
+					<li><b>objectives</b>, fruit de l’observation factuelle d’une photographie</li>
+					<li><b>homogènes</b>, toutes les photographies respectant les mêmes caractéristiques</li>
+					<li><b>précises et complètes</b>, couvrant le patrimoine arboré des milieux publics et privés</li>
+				</ul>
+				<h3>Pour les citoyens</h3>
+				<ul>
+					<li>Une <b>meilleure connaissance</b> de la végétation de leur territoire</li>
+					<li>Des données factuelles pour appuyer un projet d’aménagement</li>
+				</ul>
+				<h3>Pour les collectivités territoriales</h3>
+				<ul>
+					<li>Une <b>vision plus complète</b> de la végétation du territoire</li>
+					<li>Un premier outil d’aide à la décision pour <b>initier/penser les politiques de végétalisation</b></li>
+					<li>La <b>découverte de l’existence de ce type de données</b> et de la possibilité d’y accéder à un niveau adapté à leurs besoins, pour approfondir leurs politiques d’aménagement (en sollicitant les services de Kermap)</li>
+				</ul>
+				<div class="not-prose fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+					<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+					<p style="margin-bottom: unset;">
+					<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+					<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
+					</p>
 				</div>
 			</div>
 		</div>
+			
+		<h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+					
+		<div class="not-prose fr-grid-row fr-grid-row--gutters">
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h3 class="fr-card__title">
+							<a href="https://www.data.gouv.fr/fr/pages/onboarding/prise_appel_secours/" class="fr-card__link">Localiser précisément les interventions</a>
+						</h3>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">La prise d'appel des secours</p>
+					</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169091685-1cacf63e-df5e-44d8-9f68-1f84af96a8e1.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="fr-col-12 fr-col-md-3">
+						<div class="fr-card fr-card--sm fr-enlarge-link">
+								<div class="fr-card__body">
+										<h3 class="fr-card__title">
+												<a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/" class="fr-card__link">Identifier les entreprises en difficulté</a>
+										</h3>
+										<p class="fr-card__desc"></p>
+										<p class="fr-card__detail">Signaux Faibles</p>
+								</div>
+								<div class="fr-card__header">
+										<div class="fr-card__img">
+												<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371649-4b614096-0c75-453f-a2ca-06b18479ac27.svg" alt="">
+										</div>
+								</div>
+						</div>
+				</div>
+				<div class="fr-col-12 fr-col-md-3">
+						<div class="fr-card fr-card--sm fr-enlarge-link">
+								<div class="fr-card__body">
+										<h3 class="fr-card__title">
+												<a href="https://www.data.gouv.fr/fr/pages/onboarding/dvf/" class="fr-card__link">Connaître le prix de vente des biens immobiliers</a>
+										</h3>
+										<p class="fr-card__desc"></p>
+										<p class="fr-card__detail">Données de valeur foncière (DVF)</p>
+								</div>
+								<div class="fr-card__header">
+										<div class="fr-card__img">
+												<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371648-5aab4bd4-5ac0-44f8-ac37-b345c034c7ff.svg" alt="">
+										</div>
+								</div>
+						</div>
+				</div>
+				<div class="fr-col-12 fr-col-md-3">
+						<div class="fr-card fr-card--sm fr-enlarge-link">
+								<div class="fr-card__body">
+										<h3 class="fr-card__title">
+												<a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/" class="fr-card__link">Gérer simplement une exploitation agricole</a>
+										</h3>
+										<p class="fr-card__desc"></p>
+										<p class="fr-card__detail">Ekylibre</p>
+								</div>
+								<div class="fr-card__header">
+										<div class="fr-card__img">
+												<img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371641-155c1b88-18da-476a-a07b-25290f844d21.svg" alt="">
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
 	</div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/" class="fr-card__link">Identifier les entreprises en difficulté</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">Signaux Faibles</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371649-4b614096-0c75-453f-a2ca-06b18479ac27.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/dvf/" class="fr-card__link">Connaître le prix de vente des biens immobiliers</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">Données de valeur foncière (DVF)</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371648-5aab4bd4-5ac0-44f8-ac37-b345c034c7ff.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/" class="fr-card__link">Gérer simplement une exploitation agricole</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">Ekylibre</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371641-155c1b88-18da-476a-a07b-25290f844d21.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 

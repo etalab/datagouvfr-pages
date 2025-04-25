@@ -1,3 +1,7 @@
+---
+title: Accessibilité
+---
+
 # Accessibilité
 
 [Data.gouv.fr]() s'engage à rendre son site internet accessible conformément à l'article 47 de la loi n°2005-102 du 11 février 2005.

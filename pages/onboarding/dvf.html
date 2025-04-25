@@ -15,80 +15,75 @@ content_type: html
                 <h1>Explorateur des données de valeur foncière : Connaître le prix de vente des biens immobiliers</h1>
                 <p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
             </div>
-            <div class="fr-col-12">
+            <div class="mb-4">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://explore.data.gouv.fr/immobilier/"><b>Accéder à l'explorateur des données de valeur
                         foncière</b></a>
             </div>
 
-
             <div class="fr-grid-row">
-                <div class="fr-col-12 fr-col-md-4">
-                    <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                        style="max-width:350px;">
-                        <div class="fr-sidemenu__inner">
-                            <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn"
-                                hidden="">
-                                Dans cette rubrique
-                            </button>
-                            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                src="https://user-images.githubusercontent.com/72090652/169808300-bc5564fe-78b7-40f4-a358-0da2d4ff30bb.svg"
-                                alt="">
-                            <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                <ul class="fr-sidemenu__list">
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#données" target="_self">
-                                            1. Données ouvertes utilisées
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-                                            2. Réutilisateur
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#problématique" target="_self">
-                                            3. Problématique et proposition de valeur
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#solution" target="_self">
-                                            4. Solution
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#impact" target="_self">
-                                            5. Impact
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#enseignements" target="_self">
-                                            6. Enseignements
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="fr-col-12 fr-col-md-8 markdown">
-                    <h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill"
-                            aria-hidden="true"></span></h2>
-                    <div class="markdown">
-                        <ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/"><b>Plan
-                                        Cadastral Informatisé (PCI)</b></a> : données issues du plan cadastral
-                                (parcelles, sections, bâti et éléments d’habillage)</li>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/"><b>Demandes
-                                        de valeurs foncières</b></a> : données sur les transactions immobilières et
-                                foncières effectuées en France au cours des 5 dernières années</li>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/"><b>Base
-                                        de données nationale des bâtiments</b></a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/registre-national-dimmatriculation-des-coproprietes/"><b>Registre
-                                        national d’immatriculation des copropriétés</b></a></li>
-                        </ul>
-                    </div>
+                <Sidemenu
+                    class="fr-col-12 fr-col-md-4 not-prose"
+                    button-text="Dans cette rubrique"
+                    :sticky-full-height="true"
+                >
+                    <template #title>
+                        <img
+                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                            src="https://user-images.githubusercontent.com/72090652/169808300-bc5564fe-78b7-40f4-a358-0da2d4ff30bb.svg"
+                            alt="">
+                        <p class="mb-0 fr-sr-only-lg">Menu</p>
+                    </template>
+                    <ul class="fr-sidemenu__list">
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#données" target="_self">
+                                1. Données ouvertes utilisées
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+                                2. Réutilisateur
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#problématique" target="_self">
+                                3. Problématique et proposition de valeur
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#solution" target="_self">
+                                4. Solution
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#impact" target="_self">
+                                5. Impact
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#enseignements" target="_self">
+                                6. Enseignements
+                            </a>
+                        </li>
+                    </ul>
+                </Sidemenu>
+                <div class="fr-col-12 fr-col-md-8">
+                    <h2 class="mt-0" id="données">
+                        Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+                    </h2>
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/"><b>Plan
+                                    Cadastral Informatisé (PCI)</b></a> : données issues du plan cadastral
+                            (parcelles, sections, bâti et éléments d’habillage)</li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/"><b>Demandes
+                                    de valeurs foncières</b></a> : données sur les transactions immobilières et
+                            foncières effectuées en France au cours des 5 dernières années</li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/"><b>Base
+                                    de données nationale des bâtiments</b></a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/registre-national-dimmatriculation-des-coproprietes/"><b>Registre
+                                    national d’immatriculation des copropriétés</b></a></li>
+                    </ul>
                     <h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
                     <p>Initialement développée par Etalab, l’application “Demandes de valeur foncière” a été rapatriée
                         par data.gouv.fr au sein d’<a href="https://explore.data.gouv.fr/">explore.data.gouv.fr</a>.</p>
@@ -108,33 +103,29 @@ content_type: html
 
                     <h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
                     <p>Une carte interactive qui affiche :</p>
-                    <div class="markdown">
-                        <ul>
-                            <li><b>La liste des transactions immobilières et foncières</b> associées à une zone –
-                                parcelle
-                                cadastrale – donnée : appartements, maisons, parcelles, exploitations, etc. ;</li>
-                            <li><b>Des informations détaillées pour chaque transaction</b> : prix de vente, date de la
-                                transaction, adresse, descriptif du bien ;</li>
-                            <li><b>Des informations sur les diagnostics de performance énergétique, les copropriétés,
-                                    etc.</b>
-                                ;</li>
-                            <li><b>L’évolution des prix de vente au m2.</b></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><b>La liste des transactions immobilières et foncières</b> associées à une zone –
+                            parcelle
+                            cadastrale – donnée : appartements, maisons, parcelles, exploitations, etc. ;</li>
+                        <li><b>Des informations détaillées pour chaque transaction</b> : prix de vente, date de la
+                            transaction, adresse, descriptif du bien ;</li>
+                        <li><b>Des informations sur les diagnostics de performance énergétique, les copropriétés,
+                                etc.</b>
+                            ;</li>
+                        <li><b>L’évolution des prix de vente au m2.</b></li>
+                    </ul>
                     <p>Elle permet également de :</p>
-                    <div class="markdown">
-                        <ul>
-                            <li>Rechercher par adresse et filtrer par type de bien ;</li>
-                            <li>Naviguer au sein des données tabulaires DVF et de télécharger les données filtrées ;
-                            </li>
-                            <li>D’aller plus loin dans l’exploration de données avec des services portés par d’autres
-                                administrations (<a
-                                    href="https://datafoncier.cerema.fr/actualites/Outil%20Dynmark">Dynmark</a>, <a
-                                    href="https://maconnexioninternet.arcep.fr/">Maconnexioninternet</a>, <a
-                                    href="https://georisques.gouv.fr/">Georisques</a>, <a
-                                    href="https://acceslibre.beta.gouv.fr/">acceslibre</a>, etc.).</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>Rechercher par adresse et filtrer par type de bien ;</li>
+                        <li>Naviguer au sein des données tabulaires DVF et de télécharger les données filtrées ;
+                        </li>
+                        <li>D’aller plus loin dans l’exploration de données avec des services portés par d’autres
+                            administrations (<a
+                                href="https://datafoncier.cerema.fr/actualites/Outil%20Dynmark">Dynmark</a>, <a
+                                href="https://maconnexioninternet.arcep.fr/">Maconnexioninternet</a>, <a
+                                href="https://georisques.gouv.fr/">Georisques</a>, <a
+                                href="https://acceslibre.beta.gouv.fr/">acceslibre</a>, etc.).</li>
+                    </ul>
 
                     <p>Les fonctionnalités de cet explorateur sont présentées dans <a
                             href="https://tube.numerique.gouv.fr/w/6cPv1N213FWxHKkW5BSW8g">cette vidéo</a> et la
@@ -150,21 +141,19 @@ content_type: html
                             agrégats statistiques</a>).</p>
 
                     <h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
-                    <div class="markdown">
-                        <ul>
-                            <li><b>Les acheteurs et vendeurs</b> peuvent mieux évaluer la valeur d’un bien immobilier,
-                                en se
-                                rapportant à la valeur foncière de biens similaires, et ainsi <b>prendre des décisions
-                                    plus
-                                    éclairées</b>.</li>
-                            <li><b>Les notaires et agences immobilières</b> peuvent mieux conseiller leurs clients et
-                                notamment
-                                <b>fixer des prix de vente plus justes et cohérents</b>.
-                            </li>
-                            <li><b>Tout citoyen peut s’informer sur le prix de vente d’un logement ou d’un terrain.</b>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><b>Les acheteurs et vendeurs</b> peuvent mieux évaluer la valeur d’un bien immobilier,
+                            en se
+                            rapportant à la valeur foncière de biens similaires, et ainsi <b>prendre des décisions
+                                plus
+                                éclairées</b>.</li>
+                        <li><b>Les notaires et agences immobilières</b> peuvent mieux conseiller leurs clients et
+                            notamment
+                            <b>fixer des prix de vente plus justes et cohérents</b>.
+                        </li>
+                        <li><b>Tout citoyen peut s’informer sur le prix de vente d’un logement ou d’un terrain.</b>
+                        </li>
+                    </ul>
 
                     <h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
                     <p>Le développement de briques génériques, ouvertes et réutilisables (outils de visualisation,
@@ -176,7 +165,7 @@ content_type: html
                     <p>Cette démarche facilite l’appropriation des données ouvertes et favorise la transparence de
                         l’information.</p>
 
-                    <div class="fr-col-12 fr-mt-6w" id="contact"
+                    <div class="not-prose fr-col-12 fr-mt-6w" id="contact"
                         style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
                         <h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
                         <p style="margin-bottom: unset;">
@@ -190,14 +179,9 @@ content_type: html
                 </div>
             </div>
 
-            <div class="fr-grid-row fr-grid-row--gutters">
-                <div class="fr-col-12" id="exemples">
-                    <h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-                </div>
-            </div>
+            <h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
 
-
-            <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="not-prose fr-grid-row fr-grid-row--gutters">
                 <div class="fr-col-12 fr-col-md-3">
                     <div class="fr-card fr-card--sm fr-enlarge-link">
                         <div class="fr-card__body">
@@ -275,3 +259,5 @@ content_type: html
                     </div>
                 </div>
             </div>
+        </div>
+    </section>

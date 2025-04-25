@@ -1,3 +1,7 @@
+---
+title: A quoi sert l'open data ?
+---
+
 # A quoi sert l'open data ?
 > Les données ouvertes (ou open data) constituent une ressource essentielle pour de nombreux acteurs. 
 Ce sont des données numériques produites par les acteurs publics et privés, diffusées de manière structurée selon une licence ouverte garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
@@ -7,7 +11,7 @@ Découvrez ici quelques exemples d'usages des données ouvertes qui illustrent l
 
 Les [données ouvertes relatives aux transports](https://transport.data.gouv.fr/) comme les [horaires des transports en commun](https://transport.data.gouv.fr/datasets?type=public-transit) permettent aux collectivités comme  le [département de l’Isère avec Citiway](https://blog.transport.data.gouv.fr/billets/city-way/) et aux calculateurs d'itinéraires comme Google Maps, City Mapper ou  [MyBus](https://www.data.gouv.fr/fr/reuses/mybus/) de nous accompagner dans nos déplacements, même en dehors des grandes métropoles.
 
-![reuse_transport](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/transport.png?raw=true)
+![reuse_transport](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/transport.png?raw=true)
 
 ## L'open data est un outil de transparence démocratique
 
@@ -15,7 +19,7 @@ De nombreuses données sur la vie publique et politique sont mises à dispositio
 
 La société civile s'empare de ces données pour les rendre plus intelligibles et faciliter l'accès au fonctionnement des institutions.  C'est le cas, par exemple, du collectif [Regards Citoyens](https://www.regardscitoyens.org/qui-sommes-nous/)  grâce à [nosdéputés.fr](https://www.nosdeputes.fr/). 
 
-![nos_deputes](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/nosdeputes.png?raw=true)
+![nos_deputes](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/nosdeputes.png?raw=true)
 
 ## L'open data permet un suivi transparent de l'épidémie de Covid-19
 
@@ -25,13 +29,13 @@ La mise à disposition et la visualisation de très nombreuses [données relativ
 
 Ces données sont exploitées par l'[administration](https://www.gouvernement.fr/info-coronavirus/carte-et-donnees) mais également [largement réutilisée](https://www.data.gouv.fr/fr/posts/retour-sur-les-activites-de-data-gouv-fr-en-2020/) par la société civile comme en atteste le succès de [CovidTracker](https://covidtracker.fr/). 
 
-![tdb_covid](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/tableau%20de%20bord%20covid.png?raw=true)
+![tdb_covid](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/tableau%20de%20bord%20covid.png?raw=true)
 
 ## L'open data permet de connaître le prix des biens immobiliers
 
 Les données de vente des biens immobiliers permettent d'avoir une indication sur les prix en vigueur. Elles sont rendues accessibles au grand public grâce à l'[explorateur DVF développé par Etalab](https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/) ou par des acteurs privés tels que [Meilleurs Agents](https://www.meilleursagents.com/prix-immobilier/dvf/) qui enrichit notamment ces données d'estimations de prix actualisées.
 
-![meilleurs_agents](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/meilleurs%20agents.png?raw=true)
+![meilleurs_agents](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/meilleurs%20agents.png?raw=true)
 
 ## L'open data facilite les recherches généalogiques
 
@@ -39,7 +43,7 @@ Les données de vente des biens immobiliers permettent d'avoir une indication su
 
 Les recherches généalogiques sont, bien sûr, un des nombreux usages de ces données essentielles.
 
-![match_id](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/image.png?raw=true)
+![match_id](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/image.png?raw=true)
 
 ## L'open data nous aide à mieux manger
 
@@ -49,7 +53,7 @@ La [startup d'Etat](https://beta.gouv.fr/approche/) [Datagir](https://datagir.ad
 
 *Quelques exemples des réutilisateurs des données de l'ADEME :* 
 
-![reuses_alimentation](https://github.com/etalab/datagouvfr-pages/blob/master/pages/about/Reuses%20alimentation.png?raw=true)
+![reuses_alimentation](https://github.com/datagouv/datagouvfr-pages/blob/master/pages/about/Reuses%20alimentation.png?raw=true)
 
 ## Faites savoir vos usages des données publiques !
 

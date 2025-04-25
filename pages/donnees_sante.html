@@ -10,432 +10,403 @@ content_type: html
 
     <section class="section-blue section-main">
         <div class="fr-container">
-            <div>
-                <h1>Les données relatives à la santé</h1>
-                <div class="fr-col-12">
-                    <div class="fr-highlight fr-my-6w">
-                        <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la santé
-                            disponibles sur data.gouv.fr. Celle-ci n'est pas
-                            exhaustive et <a
-                                href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees_sante.html">est
-                                ouverte aux contributions</a>. Cet inventaire est aussi <a
-                                href="https://www.data.gouv.fr/fr/datasets/inventaire-des-bases-de-donnees-relatives-a-la-sante/">publié</a>
-                            en open data.</p>
-                        <p>Un inventaire spécifique sur <b>les données relatives à la COVID-19 est disponible <a
-                                    href="https://www.data.gouv.fr/fr/pages/donnees_covid/">ici</a></b>.
-                        </p>
-                    </div>
-                </div>
+            <h1>Les données relatives à la santé</h1>
+            <div class="fr-highlight fr-my-6w">
+                <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la santé
+                    disponibles sur data.gouv.fr. Celle-ci n'est pas
+                    exhaustive et <a
+                        href="https://github.com/datagouv/datagouvfr-pages/blob/master/pages/donnees_sante.html">est
+                        ouverte aux contributions</a>. Cet inventaire est aussi <a
+                        href="https://www.data.gouv.fr/fr/datasets/inventaire-des-bases-de-donnees-relatives-a-la-sante/">publié</a>
+                    en open data.</p>
+                <p>Un inventaire spécifique sur <b>les données relatives à la COVID-19 est disponible <a
+                            href="https://www.data.gouv.fr/fr/pages/donnees_covid/">ici</a></b>.
+                </p>
             </div>
 
             <div class="fr-grid-row">
-                <div class="fr-col-12 fr-col-md-4">
-                    <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                        style="max-width:350px;">
-                        <div class="fr-sidemenu__inner">
-                            <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn"
-                                hidden="">
-                                Dans cette rubrique
-                            </button>
-                            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                src="https://user-images.githubusercontent.com/72090652/201092150-bb7b8b20-fcc4-4cc0-8d21-e73e38f54129.svg"
-                                alt="">
-                            <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                <ul class="fr-sidemenu__list">
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#sante-publique" target="_self">
-                                            1. Données de santé publique et épidémiologie
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#offres-soin" target="_self">
-                                            2. Données sur les offres de soins
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#consommations" target="_self">
-                                            3. Données sur les consommations de soins et dépenses
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#performances" target="_self">
-                                            4. Données sur les performances et opérations
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
-                                            5. Réutilisations de données
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#organisations" target="_self">
-                                            6. Liste des organisations qui publient des données relatives à la santé
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="fr-col-12 fr-col-md-8 markdown">
-                    <h2 id="sante-publique">Données de santé publique et épidémiologie</h2>
+                <Sidemenu
+                    class="fr-col-12 fr-col-md-4 not-prose"
+                    button-text="Dans cette rubrique"
+                    :sticky-full-height="true"
+                >
+                    <template #title>
+                        <img 
+                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                            src="https://user-images.githubusercontent.com/72090652/201092150-bb7b8b20-fcc4-4cc0-8d21-e73e38f54129.svg"
+                            alt=""
+                        >
+                        <p class="mb-0 fr-sr-only-lg">Menu</p>
+                    </template>
+                    <ul class="fr-sidemenu__list">
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#sante-publique" target="_self">
+                                1. Données de santé publique et épidémiologie
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#offres-soin" target="_self">
+                                2. Données sur les offres de soins
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#consommations" target="_self">
+                                3. Données sur les consommations de soins et dépenses
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#performances" target="_self">
+                                4. Données sur les performances et opérations
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#reutilisations" target="_self">
+                                5. Réutilisations de données
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#organisations" target="_self">
+                                6. Liste des organisations qui publient des données relatives à la santé
+                            </a>
+                        </li>
+                    </ul>
+                </Sidemenu>
+                <div class="fr-col-12 fr-col-md-8">
+                    <h2 class="mt-0" id="sante-publique">Données de santé publique et épidémiologie</h2>
                     <h3>Etat de santé</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/effectif-de-patients-par-pathologie-sexe-classe-dage-et-territoire-departement-region/"><b>Effectif
+                                    de patients par pathologie, sexe, classe d’âge et territoire (département,
+                                    région)</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/effectif-de-patients-par-pathologie-sexe-classe-dage-et-territoire-departement-region/"><b>Effectif
-                                        de patients par pathologie, sexe, classe d’âge et territoire (département,
-                                        région)</b></a></li>
-                            <ul>
-                                <li>Les données présentent des informations sur les effectifs de patients pris en charge
-                                    par l'ensemble des régimes d'assurance maladie. Elles sont disponibles par
-                                    pathologie, traitement chronique ou épisode de soins, sexe, classe d’âge, région et
-                                    département.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/comorbidites-associees-a-chaque-pathologie/"><b>Comorbidités
-                                        associées à chaque pathologie</b></a></li>
-                            <ul>
-                                <li>Les données présentent des informations sur les comorbidités associées aux
-                                    pathologies (ou traitements chroniques ou épisodes de soins) repérées par la Caisse
-                                    nationale de l’Assurance Maladie (Cnam) : parmi les patients pris en charge pour une
-                                    pathologie donnée (ou traitement chronique ou épisode de soins), certains peuvent
-                                    également être pris en charge pour une ou plusieurs autres pathologies, appelées
-                                    comorbidités.</li>
-                            </ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-latlas-sante-mentale/"><b>Indicateurs
-                                        de l'atlas santé mentale</b></a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/la-sante-des-enfants-en-grande-section-de-maternelle-et-en-cm2-00000000/"><b>La
-                                        santé des enfants en grande section de maternelle et en CM2</b></a></li>
-                            <ul>
-                                <li>Tableaux statistiques : état de santé des enfants de 5 et 6 ans scolarisés en grande
-                                    section de maternelle ; état de santé des enfants scolarisés en CM2.</li>
-                            </ul>
+                            <li>Les données présentent des informations sur les effectifs de patients pris en charge
+                                par l'ensemble des régimes d'assurance maladie. Elles sont disponibles par
+                                pathologie, traitement chronique ou épisode de soins, sexe, classe d’âge, région et
+                                département.</li>
                         </ul>
-                    </div>
-                    <h3>Environnement</a></h3>
-                    <div class="markdown">
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/comorbidites-associees-a-chaque-pathologie/"><b>Comorbidités
+                                    associées à chaque pathologie</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune/"><b>Base
-                                        nationale SISE-Eaux d'alimentation</b></a></li>
-                            <ul>
-                                <li>Données sur les paramètres microbiologiques, physico-chimiques ou radiologiques,
-                                    afin de s'assurer que les eaux sont conformes aux exigences de qualité
-                                    réglementaires et ne présentent pas de risque pour la santé des consommateurs.</li>
-                            </ul>
+                            <li>Les données présentent des informations sur les comorbidités associées aux
+                                pathologies (ou traitements chroniques ou épisodes de soins) repérées par la Caisse
+                                nationale de l’Assurance Maladie (Cnam) : parmi les patients pris en charge pour une
+                                pathologie donnée (ou traitement chronique ou épisode de soins), certains peuvent
+                                également être pris en charge pour une ou plusieurs autres pathologies, appelées
+                                comorbidités.</li>
                         </ul>
-                    </div>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-latlas-sante-mentale/"><b>Indicateurs
+                                    de l'atlas santé mentale</b></a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/la-sante-des-enfants-en-grande-section-de-maternelle-et-en-cm2-00000000/"><b>La
+                                    santé des enfants en grande section de maternelle et en CM2</b></a></li>
+                        <ul>
+                            <li>Tableaux statistiques : état de santé des enfants de 5 et 6 ans scolarisés en grande
+                                section de maternelle ; état de santé des enfants scolarisés en CM2.</li>
+                        </ul>
+                    </ul>
+                    <h3>Environnement</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune/"><b>Base
+                                    nationale SISE-Eaux d'alimentation</b></a></li>
+                        <ul>
+                            <li>Données sur les paramètres microbiologiques, physico-chimiques ou radiologiques,
+                                afin de s'assurer que les eaux sont conformes aux exigences de qualité
+                                réglementaires et ne présentent pas de risque pour la santé des consommateurs.</li>
+                        </ul>
+                    </ul>
 
                     <h3>Autres</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/transparence-sante-1/"><b>Base de données
+                                    publique Transparence Santé</b></a></li>
                         <ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/transparence-sante-1/"><b>Base de données
-                                        publique Transparence Santé</b></a></li>
+                            <li>La base de données publique « Transparence - Santé » précise, pour chaque type de
+                                lien d'intérêts, les informations suivantes :</li>
                             <ul>
-                                <li>La base de données publique « Transparence - Santé » précise, pour chaque type de
-                                    lien d'intérêts, les informations suivantes :</li>
-                                <ul>
-                                    <li>Pour les conventions : l'identité des parties concernées, la date de la
-                                        convention, son objet précis, le montant et l'organisateur, le nom, la date et
-                                        le lieu de la manifestation le cas échéant ;</li>
-                                    <li>Pour les avantages en nature et en espèce, directs ou indirects : l'identité des
-                                        parties concernées, le montant, la nature et la date de chaque avantage dès lors
-                                        que le montant de chaque avantage est supérieur ou égal à 10 euros TTC.</li>
-                                    <li>Pour les rémunérations : l'identité des parties, la date du versement, le
-                                        montant dès lors qu'il est supérieur ou égal à 10 euros. Le cas échéant, le
-                                        bénéficiaire final de la rémunération ou de l'avantage est renseigné par
-                                        l'entreprise.</li>
-                                </ul>
+                                <li>Pour les conventions : l'identité des parties concernées, la date de la
+                                    convention, son objet précis, le montant et l'organisateur, le nom, la date et
+                                    le lieu de la manifestation le cas échéant ;</li>
+                                <li>Pour les avantages en nature et en espèce, directs ou indirects : l'identité des
+                                    parties concernées, le montant, la nature et la date de chaque avantage dès lors
+                                    que le montant de chaque avantage est supérieur ou égal à 10 euros TTC.</li>
+                                <li>Pour les rémunérations : l'identité des parties, la date du versement, le
+                                    montant dès lors qu'il est supérieur ou égal à 10 euros. Le cas échéant, le
+                                    bénéficiaire final de la rémunération ou de l'avantage est renseigné par
+                                    l'entreprise.</li>
                             </ul>
                         </ul>
-                    </div>
+                    </ul>
 
                     <h2 id="offres-soin">Données sur les offres de soins</h2>
                     <h3>Infrastructures</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/la-statistique-annuelle-des-etablissements-sae/"><b>Base
+                                    Statistique Annuelle des Etablissements de Santé (SAE)</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/la-statistique-annuelle-des-etablissements-sae/"><b>Base
-                                        Statistique Annuelle des Etablissements de Santé (SAE)</b></a></li>
+                            <li>Statistiques nationales, locales et par établissements sur :</li>
                             <ul>
-                                <li>Statistiques nationales, locales et par établissements sur :</li>
-                                <ul>
-                                    <li>Capacités d'accueil en établissements de santé (lits et places, nombre de
-                                        structures)</li>
-                                    <li>Activité hospitalière (séjours, journées, nombre d'actes ou de consultations)
-                                    </li>
-                                    <li>Équipements (salles de chirurgie, équipements médicaux lourds, pharmacie,
-                                        biologie)</li>
-                                    <li>Personnels hospitaliers au 31 décembre et en ET, pour 2 concepts : rémunérés par
-                                        les établissements ou contribuant à l'activité d'un service, déclinés par
-                                        spécialités pour les personnels médicaux, et par catégories de professions pour
-                                        les personnels médicaux, avec une ventilation par statut et type de contrat de
-                                        travail</li>
-                                </ul>
+                                <li>Capacités d'accueil en établissements de santé (lits et places, nombre de
+                                    structures)</li>
+                                <li>Activité hospitalière (séjours, journées, nombre d'actes ou de consultations)
+                                </li>
+                                <li>Équipements (salles de chirurgie, équipements médicaux lourds, pharmacie,
+                                    biologie)</li>
+                                <li>Personnels hospitaliers au 31 décembre et en ET, pour 2 concepts : rémunérés par
+                                    les établissements ou contribuant à l'activité d'un service, déclinés par
+                                    spécialités pour les personnels médicaux, et par catégories de professions pour
+                                    les personnels médicaux, avec une ventilation par statut et type de contrat de
+                                    travail</li>
                             </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/"><b>FINESS
-                                        Extraction du Fichier des établissements</b></a></li>
-                            <ul>
-                                <li>Liste des établissements du domaine sanitaire et social.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/"><b>Lieux
-                                        de vaccination contre la grippe (pharmacies)</b></a></li>
                         </ul>
-                    </div>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/"><b>FINESS
+                                    Extraction du Fichier des établissements</b></a></li>
+                        <ul>
+                            <li>Liste des établissements du domaine sanitaire et social.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/"><b>Lieux
+                                    de vaccination contre la grippe (pharmacies)</b></a></li>
+                    </ul>
                     <h3>Services proposés</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/annuaire-sante-de-la-cnam/"><b>Annuaire
+                                    santé de la Cnam</b></a></li>
                         <ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/annuaire-sante-de-la-cnam/"><b>Annuaire
-                                        santé de la Cnam</b></a></li>
-                            <ul>
-                                <li>L'annuaire santé répond à la mission générale d’information des assurés en vue
-                                    notamment de faciliter l’accès aux soins, confiée à l'Assurance Maladie en
-                                    application de l’article L.162-1-11 du Code de la Sécurité sociale. Il permet de
-                                    trouver les coordonnées des professionnels de santé exerçant à titre libéral et
-                                    celles des établissements de soins, ainsi que les actes pratiqués.</li>
-                            </ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/medecins-accredites-par-la-has/"><b>Médecins
-                                        accrédités par la HAS</b></a></li>
-                            <ul>
-                                <li>En application de l’article L. 1414-3-2 du Code de la santé publique,
-                                    l’accréditation des médecins est une démarche volontaire.
-
-                                    C’est une démarche de gestion des risques fondée sur les programmes élaborés par les
-                                    organismes agréés pour l’accréditation (OA-Accréditation) dont objectif est
-                                    d’améliorer la qualité des pratiques professionnelles, de réduire le nombre et de
-                                    limiter les conséquences des événements indésirables associés aux soins au bénéfice
-                                    de la sécurité du patient.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/personnes-en-affection-de-longue-duree-ald/"><b>Données
-                                        relatives à l'ensemble des bénéficiaires du dispositif des ALD une année donnée
-                                        (prévalence)</b></a></li>
-                            <ul>
-                                <li>Données relatives à l'ensemble des bénéficiaires du dispositif des ALD une année
-                                    donnée.</li>
-                            </ul>
+                            <li>L'annuaire santé répond à la mission générale d’information des assurés en vue
+                                notamment de faciliter l’accès aux soins, confiée à l'Assurance Maladie en
+                                application de l’article L.162-1-11 du Code de la Sécurité sociale. Il permet de
+                                trouver les coordonnées des professionnels de santé exerçant à titre libéral et
+                                celles des établissements de soins, ainsi que les actes pratiqués.</li>
                         </ul>
-                    </div>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/medecins-accredites-par-la-has/"><b>Médecins
+                                    accrédités par la HAS</b></a></li>
+                        <ul>
+                            <li>En application de l’article L. 1414-3-2 du Code de la santé publique,
+                                l’accréditation des médecins est une démarche volontaire.
+
+                                C’est une démarche de gestion des risques fondée sur les programmes élaborés par les
+                                organismes agréés pour l’accréditation (OA-Accréditation) dont objectif est
+                                d’améliorer la qualité des pratiques professionnelles, de réduire le nombre et de
+                                limiter les conséquences des événements indésirables associés aux soins au bénéfice
+                                de la sécurité du patient.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/personnes-en-affection-de-longue-duree-ald/"><b>Données
+                                    relatives à l'ensemble des bénéficiaires du dispositif des ALD une année donnée
+                                    (prévalence)</b></a></li>
+                        <ul>
+                            <li>Données relatives à l'ensemble des bénéficiaires du dispositif des ALD une année
+                                donnée.</li>
+                        </ul>
+                    </ul>
 
                     <h2 id="consommations">Données sur les consommations de soins et dépenses</h2>
                     <h3>Médicaments et dispositifs</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/"><b>Base
+                                    de données publique des médicaments</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/"><b>Base
-                                        de données publique des médicaments</b></a></li>
-                            <ul>
-                                <li>Données et documents de référence sur les médicaments commercialisés ou ayant été
-                                    commercialisés durant les cinq dernières années en France.</li>
-                            </ul>
-                            <li><b>Evaluation
-                                    des médicaments (<a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2019/">2019</a>,
-                                    <a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2020/">2020</a>
-                                    et <a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2022/">2022</b></a>)
-                            </li>
-                            <li><b>Evaluation
-                                    du dispositif médical (<a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2018/">2018</a>,
-                                    <a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2019/">2019</a>
-                                    et <a
-                                        href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2021/">2021</b></a>)
-                            </li>
-                            <ul>
-                                <li>En vue de leur prise en charge par l'assurance maladie, la Commission Nationale
-                                    d'Évaluation des Dispositifs Médicaux et des Technologies de Santé (CNEDiMTS),
-                                    commission spécialisée de la Haute Autorité de santé, évalue les dispositifs
-                                    médicaux à usage individuel ou d'autres produits à visée diagnostique, thérapeutique
-                                    ou de compensation du handicap (à l'exclusion des médicaments) et des prestations
-                                    associées.</li>
-                            </ul>
+                            <li>Données et documents de référence sur les médicaments commercialisés ou ayant été
+                                commercialisés durant les cinq dernières années en France.</li>
                         </ul>
-                    </div>
-                    <h3>Activité des établissements médicaux-sociaux</h3>
-                    <div class="markdown">
+                        <li><b>Evaluation
+                                des médicaments (<a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2019/">2019</a>,
+                                <a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2020/">2020</a>
+                                et <a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2022/">2022</a>)</b>
+                        </li>
+                        <li><b>Evaluation
+                                du dispositif médical (<a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2018/">2018</a>,
+                                <a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2019/">2019</a>
+                                et <a
+                                    href="https://www.data.gouv.fr/fr/datasets/evaluation-des-dispositifs-medicaux-2021/">2021</a>)</b>
+                        </li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/prix-hebergement-et-tarifs-dependance-des-ehpad/"><b>Prix
-                                        hébergement et tarifs dépendance des EHPAD</b></a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/les-subventions-de-la-caisse-nationale-de-solidarite-pour-lautonomie-cnsa/"><b>Subventions
-                                        de la Caisse nationale de solidarité pour l'autonomie</b></a></li>
+                            <li>En vue de leur prise en charge par l'assurance maladie, la Commission Nationale
+                                d'Évaluation des Dispositifs Médicaux et des Technologies de Santé (CNEDiMTS),
+                                commission spécialisée de la Haute Autorité de santé, évalue les dispositifs
+                                médicaux à usage individuel ou d'autres produits à visée diagnostique, thérapeutique
+                                ou de compensation du handicap (à l'exclusion des médicaments) et des prestations
+                                associées.</li>
+                        </ul>
+                    </ul>
+                    <h3>Activité des établissements médicaux-sociaux</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/prix-hebergement-et-tarifs-dependance-des-ehpad/"><b>Prix
+                                    hébergement et tarifs dépendance des EHPAD</b></a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/les-subventions-de-la-caisse-nationale-de-solidarite-pour-lautonomie-cnsa/"><b>Subventions
+                                    de la Caisse nationale de solidarité pour l'autonomie</b></a></li>
+                        <ul>
+                            <li>Il contient les données de subventions de l'ensemble de la CNSA :</li>
                             <ul>
-                                <li>Il contient les données de subventions de l'ensemble de la CNSA :</li>
+                                <li>Les subventions attribuées dans le cadre de la Section IV du budget de la CNSA,
+                                    relatives à la modernisation et à la professionnalisation du secteur de l'aide
+                                    et de l'accompagnement à domicile, la formation des professionnels notamment des
+                                    accueillants familiaux, le soutien aux bénévoles ainsi qu'à l'accompagnement des
+                                    proches aidants.</li>
                                 <ul>
-                                    <li>Les subventions attribuées dans le cadre de la Section IV du budget de la CNSA,
-                                        relatives à la modernisation et à la professionnalisation du secteur de l'aide
-                                        et de l'accompagnement à domicile, la formation des professionnels notamment des
-                                        accueillants familiaux, le soutien aux bénévoles ainsi qu'à l'accompagnement des
-                                        proches aidants.</li>
-                                    <ul>
-                                        <li>Les subventions attribuées au titre de la Section V du budget de la CNSA
-                                            dans le cadre de ses partenariats et de son soutien aux actions innovantes.
-                                        </li>
-                                        <li>Les subventions attribuées aux Conseils Départementaux et/ou Maisons
-                                            Départementales des Personnes Handicapées dans le cadre de l'harmonisation
-                                            de leurs Systèmes d'Informations.</li>
-                                        <li>Les subventions attribuées à divers organismes (ASIP Santé, ANCREAI, ODAS,
-                                            etc.) dans le cadre d'un partenariat avec la CNSA.</li>
-                                        <li>Les subventions attribuées à divers établissements et services d'aide à
-                                            domicile pour l'accompagnement de l'expérimentation de dérogations aux
-                                            durées légales de travail dans le cadre de la mise en œuvre des prestations
-                                            de suppléance de l'aidant à domicile".</li>
-                                    </ul>
+                                    <li>Les subventions attribuées au titre de la Section V du budget de la CNSA
+                                        dans le cadre de ses partenariats et de son soutien aux actions innovantes.
+                                    </li>
+                                    <li>Les subventions attribuées aux Conseils Départementaux et/ou Maisons
+                                        Départementales des Personnes Handicapées dans le cadre de l'harmonisation
+                                        de leurs Systèmes d'Informations.</li>
+                                    <li>Les subventions attribuées à divers organismes (ASIP Santé, ANCREAI, ODAS,
+                                        etc.) dans le cadre d'un partenariat avec la CNSA.</li>
+                                    <li>Les subventions attribuées à divers établissements et services d'aide à
+                                        domicile pour l'accompagnement de l'expérimentation de dérogations aux
+                                        durées légales de travail dans le cadre de la mise en œuvre des prestations
+                                        de suppléance de l'aidant à domicile".</li>
                                 </ul>
                             </ul>
                         </ul>
-                    </div>
+                    </ul>
                     <h3>Dépenses</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/medicaments-rembourses-par-lassurance-maladie/"><b>Base
+                                    Medic'AM</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/medicaments-rembourses-par-lassurance-maladie/"><b>Base
-                                        Medic'AM</b></a></li>
-                            <ul>
-                                <li>Données sur les médicaments délivrés par les pharmacies de ville et remboursés par
-                                    l'Assurance Maladie, par type de prescripteur ; Pour chaque médicament (code CIP13)
-                                    ou classe de médicaments (classes ATC1 à ATC5) : la base de remboursement ; le
-                                    montant remboursé ; le nombre de boites remboursées.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/open-bio-base-complete-sur-les-depenses-de-biologie-medicale-interregimes/"><b>Base
-                                        Open Bio</b></a></li>
-                            <ul>
-                                <li>Base complète sur les dépenses de biologie médicale interrégimes ; l'offre de
-                                    données Open Bio est constituée d'un ensemble de bases annuelles, portant sur les
-                                    remboursements et le nombre de bénéficiaires d'actes de biologie médicale de 2014 à
-                                    2019.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/open-damir-base-complete-sur-les-depenses-dassurance-maladie-inter-regimes/"><b>Base
-                                        Open DAMIR</b></a></li>
-                            <ul>
-                                <li>Base complète sur les dépenses d'assurance maladie interrégimes ; extraction du
-                                    système national interrégimes de l'Assurance Maladie (Sniiram) portant sur
-                                    l'ensemble des remboursements de l'Assurance Maladie tous régimes confondus.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes/"><b>Base
-                                        Open Medic</b></a></li>
-                            <ul>
-                                <li>Base complète sur les dépenses de médicaments interrégimes, offre articulée autour
-                                    de 2 jeux de données (une complète et une complémentaire enrichie des dénombrements
-                                    des consommants).</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/open-phmev-bases-sur-les-prescriptions-hospitalieres-de-medicaments-delivrees-en-ville/"><b>Base
-                                        Open PHMEV</b></a></li>
-                            <ul>
-                                <li>Bases sur les prescriptions hospitalières de médicaments délivrées en ville ;
-                                    constituée d'un ensemble de bases annuelles interrégimes (une complète et une
-                                    régionale) portant sur les remboursements de médicaments prescrits par les
-                                    établissements publics et ESPIC (établissements de santé privés d'intérêt collectif)
-                                    et délivrés en officine de ville de 2014 à 2019.</li>
-                            </ul>
+                            <li>Données sur les médicaments délivrés par les pharmacies de ville et remboursés par
+                                l'Assurance Maladie, par type de prescripteur ; Pour chaque médicament (code CIP13)
+                                ou classe de médicaments (classes ATC1 à ATC5) : la base de remboursement ; le
+                                montant remboursé ; le nombre de boites remboursées.</li>
                         </ul>
-                    </div>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/open-bio-base-complete-sur-les-depenses-de-biologie-medicale-interregimes/"><b>Base
+                                    Open Bio</b></a></li>
+                        <ul>
+                            <li>Base complète sur les dépenses de biologie médicale interrégimes ; l'offre de
+                                données Open Bio est constituée d'un ensemble de bases annuelles, portant sur les
+                                remboursements et le nombre de bénéficiaires d'actes de biologie médicale de 2014 à
+                                2019.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/open-damir-base-complete-sur-les-depenses-dassurance-maladie-inter-regimes/"><b>Base
+                                    Open DAMIR</b></a></li>
+                        <ul>
+                            <li>Base complète sur les dépenses d'assurance maladie interrégimes ; extraction du
+                                système national interrégimes de l'Assurance Maladie (Sniiram) portant sur
+                                l'ensemble des remboursements de l'Assurance Maladie tous régimes confondus.</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes/"><b>Base
+                                    Open Medic</b></a></li>
+                        <ul>
+                            <li>Base complète sur les dépenses de médicaments interrégimes, offre articulée autour
+                                de 2 jeux de données (une complète et une complémentaire enrichie des dénombrements
+                                des consommants).</li>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/open-phmev-bases-sur-les-prescriptions-hospitalieres-de-medicaments-delivrees-en-ville/"><b>Base
+                                    Open PHMEV</b></a></li>
+                        <ul>
+                            <li>Bases sur les prescriptions hospitalières de médicaments délivrées en ville ;
+                                constituée d'un ensemble de bases annuelles interrégimes (une complète et une
+                                régionale) portant sur les remboursements de médicaments prescrits par les
+                                établissements publics et ESPIC (établissements de santé privés d'intérêt collectif)
+                                et délivrés en officine de ville de 2014 à 2019.</li>
+                        </ul>
+                    </ul>
 
                     <h2 id="performances">Données sur les performances et opérations</h2>
                     <h3>Performance financière</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/tableau-des-donnees-essentielles-des-conventions-de-subventions-accordees-par-le-siege-de-letablissement-francais-du-sang-efs/"><b>Tableau
+                                    des données essentielles des conventions de subventions accordées par le siège
+                                    de l'Etablissement français du sang</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/tableau-des-donnees-essentielles-des-conventions-de-subventions-accordees-par-le-siege-de-letablissement-francais-du-sang-efs/"><b>Tableau
-                                        des données essentielles des conventions de subventions accordées par le siège
-                                        de l'Etablissement français du sang</b></a></li>
-                            <ul>
-                                <li>Données essentielles des conventions accordant des subventions conclues depuis le
-                                    1er août 2017 par le siège de l'EFS.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-marches-publics-inca/"><b>Données
-                                        essentielles marchés publics INCa</b></a></li>
-                            <ul>
-                                <li>L'Institut national du cancer met à disposition les données essentielles de ses
-                                    marchés publics passés depuis le 1er octobre 2018.</li>
-                            </ul>
+                            <li>Données essentielles des conventions accordant des subventions conclues depuis le
+                                1er août 2017 par le siège de l'EFS.</li>
                         </ul>
-                    </div>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-marches-publics-inca/"><b>Données
+                                    essentielles marchés publics INCa</b></a></li>
+                        <ul>
+                            <li>L'Institut national du cancer met à disposition les données essentielles de ses
+                                marchés publics passés depuis le 1er octobre 2018.</li>
+                        </ul>
+                    </ul>
                     <h3>Performance opérationnelle</h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/hospi-diag/"><b>Indicateurs Hospi Diag
+                                </b></a></li>
                         <ul>
-                            <li><a href="https://www.data.gouv.fr/fr/datasets/hospi-diag/"><b>Indicateurs Hospi Diag
-                                    </b></a></li>
-                            <ul>
-                                <li>Hospi Diag est un outil d'aide à la décision permettant de mesurer la performance
-                                    d'un établissement de santé qui pratique de la médecine, de la chirurgie ou de
-                                    l'obstétrique, en comparaison avec d'autres établissements de santé. Il permet
-                                    d'identifier ses forces et ses faiblesses et donc ses gisements de performance dans
-                                    5 composantes : qualité des soins, pratiques professionnelles, organisation des
-                                    soins, ressources humaines et finances.</li>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/logiciels-daide-a-la-prescription-certifies/"><b>Logiciels
-                                        d'aide à la prescription certifiés</b></a></li>
-                            <ul>
-                                <li>Liste des logiciels d'aide à la prescription certifiés par l'HAS : Editeur,
-                                    logiciel, version, date de certification, base de données médicaments.
-                                </li>
-                            </ul>
+                            <li>Hospi Diag est un outil d'aide à la décision permettant de mesurer la performance
+                                d'un établissement de santé qui pratique de la médecine, de la chirurgie ou de
+                                l'obstétrique, en comparaison avec d'autres établissements de santé. Il permet
+                                d'identifier ses forces et ses faiblesses et donc ses gisements de performance dans
+                                5 composantes : qualité des soins, pratiques professionnelles, organisation des
+                                soins, ressources humaines et finances.</li>
                         </ul>
-                    </div>
-                    <h3>Qualité</h3>
-                    <div class="markdown">
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/logiciels-daide-a-la-prescription-certifies/"><b>Logiciels
+                                    d'aide à la prescription certifiés</b></a></li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-satisfaction-et-de-performance-de-lefs/"><b>Indicateurs
-                                        de satisfaction et de performance de l'EFS</b></a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/base-sur-la-qualite-et-la-securite-des-soins-anciennement-scope-sante/"><b>Base
-                                        sur la qualité et la sécurité des soins</b></a></li>
-                            <ul>
-                                <li>La base sur la qualité et la sécurité des soins (BQSS) regroupe les informations sur
-                                    la qualité des hôpitaux et des cliniques produites par la Haute Autorité de Santé.
-                                </li>
-                            </ul>
-                            <li><b>Certification des établissements de santé pour la qualité des soins (<a
-                                        href="https://www.data.gouv.fr/fr/datasets/certification-des-etablissements-de-sante-pour-la-qualite-des-soins-referentiel-2014-2020/">référentiel
-                                        2014-2020</a> et <a
-                                        href="https://www.data.gouv.fr/fr/datasets/certification-des-etablissements-de-sante-pour-la-qualite-des-soins-referentiel-deploye-2021-2025/">référentiel
-                                        déployé 2021-2025</a>)</b></li>
-                            <ul>
-                                <li>La certification déclinée dans sa version V2014 est une appréciation globale et
-                                    indépendante de l’établissement de santé afin de favoriser l’amélioration continue
-                                    de la prise en charge des patients.</li>
-                            </ul>
-                            <li><b>Indicateurs de qualité et de sécurité des soins (<a
-                                        href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2019/">2019</a>,
-                                    <a
-                                        href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2020/">2020</a>
-                                    et <a
-                                        href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2021/">2021</a></b>)
+                            <li>Liste des logiciels d'aide à la prescription certifiés par l'HAS : Editeur,
+                                logiciel, version, date de certification, base de données médicaments.
                             </li>
-                            <ul>
-                                <li>Ces indicateurs, développés et validés avec les professionnels de santé, les
-                                    patients et les usagers permettent la comparaison inter-établissements.</li>
-                            </ul>
                         </ul>
-                    </div>
+                    </ul>
+                    <h3>Qualité</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-satisfaction-et-de-performance-de-lefs/"><b>Indicateurs
+                                    de satisfaction et de performance de l'EFS</b></a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/base-sur-la-qualite-et-la-securite-des-soins-anciennement-scope-sante/"><b>Base
+                                    sur la qualité et la sécurité des soins</b></a></li>
+                        <ul>
+                            <li>La base sur la qualité et la sécurité des soins (BQSS) regroupe les informations sur
+                                la qualité des hôpitaux et des cliniques produites par la Haute Autorité de Santé.
+                            </li>
+                        </ul>
+                        <li><b>Certification des établissements de santé pour la qualité des soins (<a
+                                    href="https://www.data.gouv.fr/fr/datasets/certification-des-etablissements-de-sante-pour-la-qualite-des-soins-referentiel-2014-2020/">référentiel
+                                    2014-2020</a> et <a
+                                    href="https://www.data.gouv.fr/fr/datasets/certification-des-etablissements-de-sante-pour-la-qualite-des-soins-referentiel-deploye-2021-2025/">référentiel
+                                    déployé 2021-2025</a>)</b></li>
+                        <ul>
+                            <li>La certification déclinée dans sa version V2014 est une appréciation globale et
+                                indépendante de l’établissement de santé afin de favoriser l’amélioration continue
+                                de la prise en charge des patients.</li>
+                        </ul>
+                        <li><b>Indicateurs de qualité et de sécurité des soins (<a
+                                    href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2019/">2019</a>,
+                                <a
+                                    href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2020/">2020</a>
+                                et <a
+                                    href="https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2021/">2021</a></b>)
+                        </li>
+                        <ul>
+                            <li>Ces indicateurs, développés et validés avec les professionnels de santé, les
+                                patients et les usagers permettent la comparaison inter-établissements.</li>
+                        </ul>
+                    </ul>
+
                     <h2 id="reutilisations">Réutilisations de données</h2>
                     <p>A partir de ces données ouvertes, des solutions ont été conçues pour permettre de :</p>
-                    <div class="markdown">
-                        <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/reuses/carte-des-etablissements-du-domaine-sanitaire-et-social/">visualiser
-                                    les établissements du domaine sanitaire et social</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/reuses/vivez-vous-dans-un-desert-medical-spallian/">mieux
-                                    comprendre les enjeux des déserts médicaux</a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/carte-des-etablissements-du-domaine-sanitaire-et-social/">visualiser
+                                les établissements du domaine sanitaire et social</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/reuses/vivez-vous-dans-un-desert-medical-spallian/">mieux
+                                comprendre les enjeux des déserts médicaux</a></li>
+                    </ul>
                     <p>D'autres usages ont été développés à partir de ces données. Il est possible d'en découvrir davantage <a
                             href="https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=health"><b>en parcourant les
                                 réutilisations référencées sur data.gouv.fr.</b></a></p>
@@ -443,196 +414,194 @@ content_type: html
                     <h3>Principaux producteurs et gestionnaires des données publiées sur data.gouv.fr (citées ci-dessus)
                         :
                     </h3>
-                    <div class="markdown">
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/agence-nationale-de-securite-du-medicament-et-des-produits-de-sante-ansm/"><b>Agence
+                                    nationale de sécurité du médicament et des produits de santé (ANSM)</b></a> :
+                            L'Agence
+                            nationale de sécurité du médicament et des produits de santé est l'acteur public qui
+                            permet,
+                            au
+                            nom de l'État, l'accès aux produits de santé en France et qui assure leur sécurité tout
+                            au
+                            long
+                            de leur cycle de vie.</li>
                         <ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/agence-nationale-de-securite-du-medicament-et-des-produits-de-sante-ansm/"><b>Agence
-                                        nationale de sécurité du médicament et des produits de santé (ANSM)</b></a> :
-                                L'Agence
-                                nationale de sécurité du médicament et des produits de santé est l'acteur public qui
-                                permet,
-                                au
-                                nom de l'État, l'accès aux produits de santé en France et qui assure leur sécurité tout
-                                au
-                                long
-                                de leur cycle de vie.</li>
+                            <li>Principale base gérée par l'ANSM :</li>
                             <ul>
-                                <li>Principale base gérée par l'ANSM :</li>
-                                <ul>
-                                    <li>Base de données publique des médicaments</li>
-                                </ul>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/"><b>Caisse
-                                        nationale de l'assurance maladie (CNAM)</b></a> : La CNAM des travailleurs
-                                salariés
-                                est
-                                un établissement public à caractère administratif ayant la mission d'assureur solidaire
-                                en
-                                santé
-                                définissant au niveau national, la politique de l'assurance maladie en France. Son rôle
-                                est
-                                de
-                                piloter, coordonner et conseiller l'action des organismes locaux qui composent son
-                                réseau,
-                                notamment les caisses primaires d'assurance maladie (CPAM) et les 5 caisses générales de
-                                sécurité sociale.</li>
-                            <ul>
-                                <li>Principales bases gérées par la CNAM :</li>
-                                <ul>
-                                    <li>Base Medic'AM</li>
-                                    <li>Base Open Bio</li>
-                                    <li>Base Open DAMIR</li>
-                                    <li>Base Open Medic</li>
-                                    <li>Base Open PHMEV</li>
-                                    <li>Données relatives à l'ensemble des bénéficiaires du dispositif des ALD une année
-                                        donnée
-                                        (prévalence)</li>
-                                </ul>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-solidarite-pour-lautonomie-cnsa/"><b>Caisse
-                                        nationale de solidarité pour l'autonomie (CNSA)</b></a> : la CNSA contribue au
-                                financement de l'aide à l'autonomie des personnes âgées et des personnes handicapées en
-                                versant
-                                aux conseils départementaux un concours au financement de l'allocation personnalisée
-                                d'autonomie
-                                et de la prestation de compensation du handicap.</li>
-                            <ul>
-                                <li>Principales bases gérées par la CNSA :</li>
-                                <ul>
-                                    <li>Prix hébergement et tarifs dépendance des EHPAD</li>
-                                    <li>Subventions de la Caisse nationale de solidarité pour l'autonomie</li>
-                                </ul>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/"><b>Direction
-                                        générale de la Santé (DGS)</b></a> : Ses missions sont fixées par le code de la
-                                santé
-                                publique. Elle est chargée de préparer la politique de santé publique et de contribuer à
-                                sa
-                                mise
-                                en œuvre.</li>
-                            <ul>
-                                <li>Principale base gérée par la DGS :</li>
-                                <ul>
-                                    <li>Base de données publique Transparence Santé</li>
-                                </ul>
-                            </ul>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/"><b>Direction
-                                        de la recherche, des études, de l'évaluation et des statistiques (Drees)
-                                    </b></a>:
-                                La
-                                Drees est une direction de l'administration publique centrale française produisant des
-                                travaux
-                                de statistiques et d'études socio-économiques.</li>
-                            <ul>
-                                <li>Principale base gérée par la Drees :</li>
-                                <ul>
-                                    <li>Base Statistique Annuelle des Etablissements de Santé (SAE)</li>
-                                </ul>
-                            </ul>
-                            <li><a href="https://www.data.gouv.fr/fr/organizations/etablissement-francais-du-sang/"><b>Etablissement
-                                        Français du Sang (EFS)</b></a> : L'EFS est un établissement public administratif
-                                avec
-                                des prérogatives d'établissement public à caractère industriel et commercial chargé de
-                                collecter, préparer, qualifier et distribuer les produits sanguins labiles (sang,
-                                plasma,
-                                plaquettes) en France, en vue de leur transfusion.</li>
-                            <ul>
-                                <li>Principales bases gérées par l'EFS :</li>
-                                <ul>
-                                    <li>Indicateurs de satisfaction et de performance de l'EFS</li>
-                                    <li>Tableau des données essentielles des conventions de subventions accordées par le
-                                        siège
-                                        de l'EFS</li>
-                                </ul>
-                            </ul>
-                            <li><a href="https://www.data.gouv.fr/fr/organizations/haute-autorite-de-sante-has/"><b>Haute
-                                        Autorité de Santé (HAS)</b></a> : La HAS est une autorité publique indépendante
-                                qui
-                                contribue à la régulation du système de santé par la qualité. Elle exerce ses missions
-                                dans
-                                les
-                                champs de l'évaluation des produits de santé, des pratiques professionnelles, de
-                                l'organisation
-                                des soins et de la santé publique.</li>
-                            <ul>
-                                <li>Principales bases gérées par la HAS :</li>
-                                <ul>
-                                    <li>Evaluation des médicaments</li>
-                                    <li>Evaluation du dispositif médical</li>
-                                    <li>Logiciels d'aide à la prescription certifiés</li>
-                                </ul>
+                                <li>Base de données publique des médicaments</li>
                             </ul>
                         </ul>
-                    </div>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-l-assurance-maladie-des-travailleurs-salaries/"><b>Caisse
+                                    nationale de l'assurance maladie (CNAM)</b></a> : La CNAM des travailleurs
+                            salariés
+                            est
+                            un établissement public à caractère administratif ayant la mission d'assureur solidaire
+                            en
+                            santé
+                            définissant au niveau national, la politique de l'assurance maladie en France. Son rôle
+                            est
+                            de
+                            piloter, coordonner et conseiller l'action des organismes locaux qui composent son
+                            réseau,
+                            notamment les caisses primaires d'assurance maladie (CPAM) et les 5 caisses générales de
+                            sécurité sociale.</li>
+                        <ul>
+                            <li>Principales bases gérées par la CNAM :</li>
+                            <ul>
+                                <li>Base Medic'AM</li>
+                                <li>Base Open Bio</li>
+                                <li>Base Open DAMIR</li>
+                                <li>Base Open Medic</li>
+                                <li>Base Open PHMEV</li>
+                                <li>Données relatives à l'ensemble des bénéficiaires du dispositif des ALD une année
+                                    donnée
+                                    (prévalence)</li>
+                            </ul>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/caisse-nationale-de-solidarite-pour-lautonomie-cnsa/"><b>Caisse
+                                    nationale de solidarité pour l'autonomie (CNSA)</b></a> : la CNSA contribue au
+                            financement de l'aide à l'autonomie des personnes âgées et des personnes handicapées en
+                            versant
+                            aux conseils départementaux un concours au financement de l'allocation personnalisée
+                            d'autonomie
+                            et de la prestation de compensation du handicap.</li>
+                        <ul>
+                            <li>Principales bases gérées par la CNSA :</li>
+                            <ul>
+                                <li>Prix hébergement et tarifs dépendance des EHPAD</li>
+                                <li>Subventions de la Caisse nationale de solidarité pour l'autonomie</li>
+                            </ul>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/"><b>Direction
+                                    générale de la Santé (DGS)</b></a> : Ses missions sont fixées par le code de la
+                            santé
+                            publique. Elle est chargée de préparer la politique de santé publique et de contribuer à
+                            sa
+                            mise
+                            en œuvre.</li>
+                        <ul>
+                            <li>Principale base gérée par la DGS :</li>
+                            <ul>
+                                <li>Base de données publique Transparence Santé</li>
+                            </ul>
+                        </ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/"><b>Direction
+                                    de la recherche, des études, de l'évaluation et des statistiques (Drees)
+                                </b></a>:
+                            La
+                            Drees est une direction de l'administration publique centrale française produisant des
+                            travaux
+                            de statistiques et d'études socio-économiques.</li>
+                        <ul>
+                            <li>Principale base gérée par la Drees :</li>
+                            <ul>
+                                <li>Base Statistique Annuelle des Etablissements de Santé (SAE)</li>
+                            </ul>
+                        </ul>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/etablissement-francais-du-sang/"><b>Etablissement
+                                    Français du Sang (EFS)</b></a> : L'EFS est un établissement public administratif
+                            avec
+                            des prérogatives d'établissement public à caractère industriel et commercial chargé de
+                            collecter, préparer, qualifier et distribuer les produits sanguins labiles (sang,
+                            plasma,
+                            plaquettes) en France, en vue de leur transfusion.</li>
+                        <ul>
+                            <li>Principales bases gérées par l'EFS :</li>
+                            <ul>
+                                <li>Indicateurs de satisfaction et de performance de l'EFS</li>
+                                <li>Tableau des données essentielles des conventions de subventions accordées par le
+                                    siège
+                                    de l'EFS</li>
+                            </ul>
+                        </ul>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/haute-autorite-de-sante-has/"><b>Haute
+                                    Autorité de Santé (HAS)</b></a> : La HAS est une autorité publique indépendante
+                            qui
+                            contribue à la régulation du système de santé par la qualité. Elle exerce ses missions
+                            dans
+                            les
+                            champs de l'évaluation des produits de santé, des pratiques professionnelles, de
+                            l'organisation
+                            des soins et de la santé publique.</li>
+                        <ul>
+                            <li>Principales bases gérées par la HAS :</li>
+                            <ul>
+                                <li>Evaluation des médicaments</li>
+                                <li>Evaluation du dispositif médical</li>
+                                <li>Logiciels d'aide à la prescription certifiés</li>
+                            </ul>
+                        </ul>
+                    </ul>
                     <h3>Autres producteurs et gestionnaires de données sur le thème santé</h3>
-                    <div class="markdown">
-                        <ul>
-                            <li><a href="https://www.agence-biomedecine.fr/">Agence de la biomédecine</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/agence-nationale-d-appui-a-la-performance-des-etablissements-de-sante-et-medico-sociaux-anap/">Agence
-                                    Nationale d'Appui à la Performance (ANAP)</a></li>
-                            <li><a href="https://www.anrs.fr/fr">Maladies infectieuses émergentes (ANRS)</a></li>
-                            <li><a href="https://esante.gouv.fr/">Agence du numérique en santé (ANS)</a></li>
-                            <li><a href="https://www.aphp.fr/">Assistance Publique - Hopitaux de Paris (AP-HP)</a></li>
-                            <li><a href="https://www.ars.sante.fr/">Agence Régionale de Santé (ARS)</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/agence-technique-de-l-information-sur-l-hospitalisation-atih/">Agence
-                                    Technique de l'Information sur l'Hospitalisation (ATIH)</a></li>
-                            <li><a href="https://www.cegedim.fr/Pages/default.aspx">Cegedim</a></li>
-                            <li><a
-                                    href="https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/article/ceps-comite-economique-des-produits-de-sante">Comité
-                                    Economique des Produits de Santé (CEPS)</a></li>
-                            <li><a href="https://www.theriaque.org/apps/contenu/accueil.php">Centre National Hospitalier
-                                    d'Information sur le Médicament (CNHIM)</a></li>
-                            <li><a href="https://www.cpias-ile-de-france.fr/">Centre d'Appui pour la Prévention des
-                                    Infections
-                                    associées aux soins en Ile de France</a></li>
-                            <li><a href="https://dares.travail-emploi.gouv.fr/">Direction de l'Animation de la
-                                    Recherche,
-                                    des
-                                    Etudes et des Statistiques (DARES)</a></li>
-                            <li><a href="https://www.ehesp.fr/">Ecole des Hautes Etudes en Santé Publique (EHESP)</a>
-                            </li>
-                            <li><a href="https://www.epo.org/searching-for-patents/technical/espacenet_fr.html">European
-                                    Patent
-                                    Office (EPO)</a></li>
-                            <li><a href="https://www.fhf.fr/">Fédération Hospitalière de France (FHF)</a></li>
-                            <li><a href="https://www.data.gouv.fr/fr/organizations/institut-national-du-cancer/">Institut
-                                    National du Cancer (INCA)</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/">Institut
-                                    National de la Statistique et des Etudes Economiques (INSEE)</a></li>
-                            <li><a href="https://www.inserm.fr/">Institut National de Santé et de Recherche Médicale
-                                    (INSERM)</a></li>
-                            <li><a href="https://www.pasteur.fr/fr">Institut Pasteur</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/en/organizations/irdes-ecosante-fr-institut-de-recherche-et-documentation-en-economie-de-la-sante/">Institut
-                                    de Recherche et de Documentation en Economie de la Santé (IRDES)</a></li>
-                            <li><a href="https://www.data.gouv.fr/fr/organizations/education-nationale/">Ministère de
-                                    l'Education Nationale</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/">Ministère
-                                    des Solidarités et de la Santé</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/organizations/observatoire-francais-des-drogues-et-des-toxicomanies/">Observatoire
-                                    Français des Drogues et des Toxicomanies (OFDT)</a></li>
-                            <li><a href="https://www.onpc.fr/">Office National Public et de Communication (ONPC)</a>
-                            </li>
-                            <li><a href="http://www.ordre.pharmacien.fr/">Ordre national des pharmaciens</a></li>
-                            <li><a href="https://francecoag.org/SiteWebPublic/public/Accueil.action">Réseau France
-                                    Coag</a>
-                            </li>
-                            <li><a href="https://sfcardio.fr/">Société Française de Cardiologie</a></li>
-                            <li><a href="https://www.sosmedecins.fr/">SOS médecins</a></li>
-                            <li><a href="https://www.data.gouv.fr/fr/organizations/sante-publique-france/">Santé
-                                    publique
-                                    France
-                                    (SpF)</a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="https://www.agence-biomedecine.fr/">Agence de la biomédecine</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/agence-nationale-d-appui-a-la-performance-des-etablissements-de-sante-et-medico-sociaux-anap/">Agence
+                                Nationale d'Appui à la Performance (ANAP)</a></li>
+                        <li><a href="https://www.anrs.fr/fr">Maladies infectieuses émergentes (ANRS)</a></li>
+                        <li><a href="https://esante.gouv.fr/">Agence du numérique en santé (ANS)</a></li>
+                        <li><a href="https://www.aphp.fr/">Assistance Publique - Hopitaux de Paris (AP-HP)</a></li>
+                        <li><a href="https://www.ars.sante.fr/">Agence Régionale de Santé (ARS)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/agence-technique-de-l-information-sur-l-hospitalisation-atih/">Agence
+                                Technique de l'Information sur l'Hospitalisation (ATIH)</a></li>
+                        <li><a href="https://www.cegedim.fr/Pages/default.aspx">Cegedim</a></li>
+                        <li><a
+                                href="https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/article/ceps-comite-economique-des-produits-de-sante">Comité
+                                Economique des Produits de Santé (CEPS)</a></li>
+                        <li><a href="https://www.theriaque.org/apps/contenu/accueil.php">Centre National Hospitalier
+                                d'Information sur le Médicament (CNHIM)</a></li>
+                        <li><a href="https://www.cpias-ile-de-france.fr/">Centre d'Appui pour la Prévention des
+                                Infections
+                                associées aux soins en Ile de France</a></li>
+                        <li><a href="https://dares.travail-emploi.gouv.fr/">Direction de l'Animation de la
+                                Recherche,
+                                des
+                                Etudes et des Statistiques (DARES)</a></li>
+                        <li><a href="https://www.ehesp.fr/">Ecole des Hautes Etudes en Santé Publique (EHESP)</a>
+                        </li>
+                        <li><a href="https://www.epo.org/searching-for-patents/technical/espacenet_fr.html">European
+                                Patent
+                                Office (EPO)</a></li>
+                        <li><a href="https://www.fhf.fr/">Fédération Hospitalière de France (FHF)</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/institut-national-du-cancer/">Institut
+                                National du Cancer (INCA)</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/">Institut
+                                National de la Statistique et des Etudes Economiques (INSEE)</a></li>
+                        <li><a href="https://www.inserm.fr/">Institut National de Santé et de Recherche Médicale
+                                (INSERM)</a></li>
+                        <li><a href="https://www.pasteur.fr/fr">Institut Pasteur</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/en/organizations/irdes-ecosante-fr-institut-de-recherche-et-documentation-en-economie-de-la-sante/">Institut
+                                de Recherche et de Documentation en Economie de la Santé (IRDES)</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/education-nationale/">Ministère de
+                                l'Education Nationale</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/ministere-des-solidarites-et-de-la-sante/">Ministère
+                                des Solidarités et de la Santé</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/organizations/observatoire-francais-des-drogues-et-des-toxicomanies/">Observatoire
+                                Français des Drogues et des Toxicomanies (OFDT)</a></li>
+                        <li><a href="https://www.onpc.fr/">Office National Public et de Communication (ONPC)</a>
+                        </li>
+                        <li><a href="http://www.ordre.pharmacien.fr/">Ordre national des pharmaciens</a></li>
+                        <li><a href="https://francecoag.org/SiteWebPublic/public/Accueil.action">Réseau France
+                                Coag</a>
+                        </li>
+                        <li><a href="https://sfcardio.fr/">Société Française de Cardiologie</a></li>
+                        <li><a href="https://www.sosmedecins.fr/">SOS médecins</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/organizations/sante-publique-france/">Santé
+                                publique
+                                France
+                                (SpF)</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </section>

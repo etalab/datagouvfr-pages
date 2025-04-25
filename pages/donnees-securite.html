@@ -13,258 +13,236 @@ content_type: html
 
     <section class="section-blue section-main">
         <div class="fr-container">
-            <div>
-                <h1>Les données relatives à la sécurité</h1>
-                <div class="fr-col-12">
-                    <div class="fr-highlight fr-my-6w">
-                        <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la
-                            thématique “sécurité” disponibles sur data.gouv.fr. Celle-ci n’est pas exhaustive et est
-                            ouverte aux contributions.</p>
-                    </div>
+            <h1>Les données relatives à la sécurité</h1>
+            <div class="fr-highlight fr-my-6w">
+                <p>Cette page a pour vocation de référencer les principaux jeux de données relatifs à la
+                    thématique “sécurité” disponibles sur data.gouv.fr. Celle-ci n’est pas exhaustive et est
+                    ouverte aux contributions.</p>
+            </div>
 
-                    <div class="fr-grid-row">
-                        <div class="fr-col-12 fr-col-md-4">
-                            <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                                style="max-width:350px;">
-                                <div class="fr-sidemenu__inner">
-                                    <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false"
-                                        class="fr-sidemenu__btn" hidden="">
-                                        Dans cette rubrique
-                                    </button>
-                                    <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                        src="https://user-images.githubusercontent.com/72090652/181448259-0ff84a2d-bbe9-4076-9dc2-b65866b80921.svg"
-                                        alt="">
-                                    <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                        <ul class="fr-sidemenu__list">
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#insecurite" target="_self">
-                                                    1. Données sur l’insécurité et la délinquance
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#protection" target="_self">
-                                                    2. Données sur la sécurité civile et la protection des populations
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#routiere" target="_self">
-                                                    3. Données sur la sécurité et l’éducation routières
-                                                </a>
-                                            </li>
-                                            <li class="fr-sidemenu__item">
-                                                <a class="fr-sidemenu__link" href="#armes" target="_self">
-                                                    4. Données sur les armes
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="fr-col-12 fr-col-md-8 markdown">
-                            <h2 id="insecurite">Données sur l’insécurité et la délinquance</h2>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/bases-communale-et-departementale-des-principaux-indicateurs-des-crimes-et-delits-enregistres-par-la-police-et-la-gendarmerie-nationales/">Bases
-                                            communale et départementale des principaux indicateurs des crimes et délits
-                                            enregistrés par la police et la gendarmerie nationales (depuis 2016)</a>
-                                        <ul>
-                                            <li>Réutilisation associée : <a
-                                                    href="https://www.data.gouv.fr/fr/reuses/delinquance-enregistree-au-niveau-departemental-et-communal/">Délinquance
-                                                    enregistrée au niveau départemental et communal</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/service-statistique-ministeriel-de-la-securite-interieure-base-des-series-chronologiques/">Bases
-                                            des séries chronologiques du Service statistique ministériel de la sécurité
-                                            intérieure</a>
-                                        <ul>
-                                            <li>Indicateurs statistiques mensuels, trimestriels ou annuels relatifs aux
-                                                périmètres suivis par le service : crimes, délits, contraventions,
-                                                victimations, sentiment d’insécurité, …</li>
-                                            <li>Réutilisation associée : <a
-                                                    href="https://www.data.gouv.fr/fr/reuses/series-chronologiques-sur-la-delinquance-et-linsecurite/">Séries
-                                                    chronologiques sur la délinquance et l'insécurité</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/indicateurs-annuels-de-la-victimation-et-du-sentiment-dinsecurite-issus-des-enquetes-cadre-de-vie-et-securite/">Indicateurs
-                                            annuels de la victimation et du sentiment d’insécurité issus des enquêtes
-                                            Cadre de Vie et Sécurité</a>
-                                        <ul>
-                                            <li>Les <a
-                                                    href="https://www.interieur.gouv.fr/Interstats/L-enquete-Cadre-de-vie-et-securite-CVS">enquêtes
-                                                    « Cadre de vie et sécurité »</a> constituent un complément
-                                                indispensable aux statistiques de la délinquance enregistrées par les
-                                                forces de sécurité, car les victimes ne déposent pas toujours plainte.
-                                            </li>
-                                        </ul>
+            <div class="fr-grid-row">
+                <Sidemenu
+                    class="fr-col-12 fr-col-md-4 not-prose"
+                    button-text="Dans cette rubrique"
+                    :sticky-full-height="true"
+                >
+                    <template #title>
+                        <img
+                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                            src="https://user-images.githubusercontent.com/72090652/181448259-0ff84a2d-bbe9-4076-9dc2-b65866b80921.svg"
+                            alt=""
+                        >
+                        <p class="mb-0 fr-sr-only-lg">Menu</p>
+                    </template>
+                    <ul class="fr-sidemenu__list">
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#insecurite" target="_self">
+                                1. Données sur l’insécurité et la délinquance
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#protection" target="_self">
+                                2. Données sur la sécurité civile et la protection des populations
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#routiere" target="_self">
+                                3. Données sur la sécurité et l’éducation routières
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#armes" target="_self">
+                                4. Données sur les armes
+                            </a>
+                        </li>
+                    </ul>
+                </Sidemenu>
+                <div class="fr-col-12 fr-col-md-8">
+                    <h2 class="mt-0" id="insecurite">Données sur l’insécurité et la délinquance</h2>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/bases-communale-et-departementale-des-principaux-indicateurs-des-crimes-et-delits-enregistres-par-la-police-et-la-gendarmerie-nationales/">Bases
+                                communale et départementale des principaux indicateurs des crimes et délits
+                                enregistrés par la police et la gendarmerie nationales (depuis 2016)</a>
+                            <ul>
+                                <li>Réutilisation associée : <a
+                                        href="https://www.data.gouv.fr/fr/reuses/delinquance-enregistree-au-niveau-departemental-et-communal/">Délinquance
+                                        enregistrée au niveau départemental et communal</a></li>
+                            </ul>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/service-statistique-ministeriel-de-la-securite-interieure-base-des-series-chronologiques/">Bases
+                                des séries chronologiques du Service statistique ministériel de la sécurité
+                                intérieure</a>
+                            <ul>
+                                <li>Indicateurs statistiques mensuels, trimestriels ou annuels relatifs aux
+                                    périmètres suivis par le service : crimes, délits, contraventions,
+                                    victimations, sentiment d’insécurité, …</li>
+                                <li>Réutilisation associée : <a
+                                        href="https://www.data.gouv.fr/fr/reuses/series-chronologiques-sur-la-delinquance-et-linsecurite/">Séries
+                                        chronologiques sur la délinquance et l'insécurité</a></li>
+                            </ul>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/indicateurs-annuels-de-la-victimation-et-du-sentiment-dinsecurite-issus-des-enquetes-cadre-de-vie-et-securite/">Indicateurs
+                                annuels de la victimation et du sentiment d’insécurité issus des enquêtes
+                                Cadre de Vie et Sécurité</a>
+                            <ul>
+                                <li>Les <a
+                                        href="https://www.interieur.gouv.fr/Interstats/L-enquete-Cadre-de-vie-et-securite-CVS">enquêtes
+                                        « Cadre de vie et sécurité »</a> constituent un complément
+                                    indispensable aux statistiques de la délinquance enregistrées par les
+                                    forces de sécurité, car les victimes ne déposent pas toujours plainte.
+                                </li>
+                            </ul>
 
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <h3>Gendarmerie et police nationale</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/liste-des-unites-de-gendarmerie-accueillant-du-public-comprenant-leur-geolocalisation-et-leurs-horaires-douverture/">Liste
-                                            des unités de gendarmerie accueillant du public, comprenant leur
-                                            géolocalisation et leurs horaires d'ouverture</a></li>
-                                    <li>
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/liste-des-services-de-police-accueillant-du-public-avec-geolocalisation/">Liste
-                                            des services de police accueillant du public avec géolocalisation</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/">Police municipale : Effectifs par commune</a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/competence-territoriale-gendarmerie-et-police-nationales/">Compétence
-                                            territoriale gendarmerie et police nationales</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.data.gouv.fr/fr/datasets/les-sanctions-disciplinaires-dans-la-police-depuis-1990/"> Les sanctions disciplinaires dans la police depuis 1990 </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/decoupage-des-zones-de-securite-prioritaires-zsp-1/">Découpage
-                                            des zones de sécurité prioritaires (ZSP)</a>
-                                        <ul>
-                                            <li>Les zones de sécurité prioritaires ont pour but d’assurer une sécurité
-                                                de proximité dans les quartiers les plus sensibles.</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.data.gouv.fr/fr/datasets/la-prefecture-de-police-de-paris/">La
-                                            préfecture de police de Paris</a>
-                                        <ul>
-                                            <li>Données appuyant une évaluation par la Cour des Comptes de
-                                                l’organisation et de la gestion de la préfecture de police, ainsi que
-                                                celle de l’exercice et des résultats de ses missions</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p>La Gendarmerie Nationale propose un <a
-                                    href="https://www.gendarmerie.interieur.gouv.fr/barometre-numerique/ma-gendarmerie"><b>Baromètre
-                                        numérique</b></a> : une plateforme qui met à disposition des données
-                                représentant une partie de l’activité des services proposés par la Gendarmerie en ligne
-                                et de leur perception par les usagers (Perceval, pré-plainte en ligne, etc.).</p>
-                            
-                            <h3>Vidéoprotection</h3>
-                            <p>Des caméras de vidéoprotection <a
-                                    href="https://www.service-public.fr/particuliers/vosdroits/F2517">peuvent être
-                                    installées sur la voie publique</a> pour prévenir des atteintes à la sécurité des
-                                personnes et des biens. Des données sont disponibles quant à leur localisation.</p>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/videoprotection-implantation-des-cameras-kml-ods/">Implantation
-                                            des caméras de vidéoprotection - Paris</a></li>
-                                    <li>
-                                        <a href="https://www.data.gouv.fr/fr/datasets/videoprotection/">Localisation des
-                                            caméras de vidéoprotection - Grand Paris Seine Ouest</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.data.gouv.fr/fr/datasets/localisation-des-cameras-de-videosurveillance-nogent-sur-marne-1/">Localisation des caméras de vidéosurveillance - Nogent-sur-Marne</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.data.gouv.fr/fr/datasets/recensement-des-cameras-de-videosurveillance/">Recensement des caméras de vidéosurveillance - SNCF</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </li>
+                    </ul>
+                    
+                    <h3>Gendarmerie et police nationale</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/liste-des-unites-de-gendarmerie-accueillant-du-public-comprenant-leur-geolocalisation-et-leurs-horaires-douverture/">Liste
+                                des unités de gendarmerie accueillant du public, comprenant leur
+                                géolocalisation et leurs horaires d'ouverture</a></li>
+                        <li>
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/liste-des-services-de-police-accueillant-du-public-avec-geolocalisation/">Liste
+                                des services de police accueillant du public avec géolocalisation</a>
+                        </li>
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/">Police municipale : Effectifs par commune</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/competence-territoriale-gendarmerie-et-police-nationales/">Compétence
+                                territoriale gendarmerie et police nationales</a>
+                        </li>
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/les-sanctions-disciplinaires-dans-la-police-depuis-1990/"> Les sanctions disciplinaires dans la police depuis 1990 </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/decoupage-des-zones-de-securite-prioritaires-zsp-1/">Découpage
+                                des zones de sécurité prioritaires (ZSP)</a>
+                            <ul>
+                                <li>Les zones de sécurité prioritaires ont pour but d’assurer une sécurité
+                                    de proximité dans les quartiers les plus sensibles.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/la-prefecture-de-police-de-paris/">La
+                                préfecture de police de Paris</a>
+                            <ul>
+                                <li>Données appuyant une évaluation par la Cour des Comptes de
+                                    l’organisation et de la gestion de la préfecture de police, ainsi que
+                                    celle de l’exercice et des résultats de ses missions</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>La Gendarmerie Nationale propose un <a
+                            href="https://www.gendarmerie.interieur.gouv.fr/barometre-numerique/ma-gendarmerie"><b>Baromètre
+                                numérique</b></a> : une plateforme qui met à disposition des données
+                        représentant une partie de l’activité des services proposés par la Gendarmerie en ligne
+                        et de leur perception par les usagers (Perceval, pré-plainte en ligne, etc.).</p>
+                    
+                    <h3>Vidéoprotection</h3>
+                    <p>Des caméras de vidéoprotection <a
+                            href="https://www.service-public.fr/particuliers/vosdroits/F2517">peuvent être
+                            installées sur la voie publique</a> pour prévenir des atteintes à la sécurité des
+                        personnes et des biens. Des données sont disponibles quant à leur localisation.</p>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/videoprotection-implantation-des-cameras-kml-ods/">Implantation
+                                des caméras de vidéoprotection - Paris</a></li>
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/videoprotection/">Localisation des
+                                caméras de vidéoprotection - Grand Paris Seine Ouest</a>
+                        </li>
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/localisation-des-cameras-de-videosurveillance-nogent-sur-marne-1/">Localisation des caméras de vidéosurveillance - Nogent-sur-Marne</a>
+                        </li>
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/recensement-des-cameras-de-videosurveillance/">Recensement des caméras de vidéosurveillance - SNCF</a>
+                        </li>
+                    </ul>
 
-                            <h2 id="protection">Données sur la sécurité civile et la protection des populations</h2>
-                            <h3>Services d’incendie et de secours</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/interventions-realisees-par-les-services-d-incendie-et-de-secours/">Interventions
-                                            réalisées par les services d'incendie et de secours</a></li>
-                                    <li><a href="https://www.data.gouv.fr/fr/datasets/comptes-des-sdis-2012-2021/">Comptes des Services départementaux d’incendie et de secours (SDIS) 2012-2021</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <h3>Direction générale de la sécurité civile et de la gestion des crises - Données essentielles des marchés publics</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-direction-generale-de-la-securite-civile-et-de-la-gestion-des-crises/">2020</a>
-                                    </li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-2021-direction-generale-de-la-securite-civile-et-de-la-gestion-des-crises/">2021</a>
-                                    </li>
-                                </ul>
-                            </div>
-                                                                                                                  
-                            <h3>Sauvetage en mer</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/">Opérations
-                                            coordonnées par les Centres régionaux opérationnels de surveillance et de
-                                            sauvetage (CROSS)</a></li>
-                                    <ul>
-                                        <li>Statistiques sur les interventions d’assistance et de sauvetage en mer</li>
-                                    </ul>
-                                </ul>
-                            </div>
+                    <h2 id="protection">Données sur la sécurité civile et la protection des populations</h2>
+                    <h3>Services d’incendie et de secours</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/interventions-realisees-par-les-services-d-incendie-et-de-secours/">Interventions
+                                réalisées par les services d'incendie et de secours</a></li>
+                        <li><a href="https://www.data.gouv.fr/fr/datasets/comptes-des-sdis-2012-2021/">Comptes des Services départementaux d’incendie et de secours (SDIS) 2012-2021</a>
+                        </li>
+                    </ul>
+                    
+                    <h3>Direction générale de la sécurité civile et de la gestion des crises - Données essentielles des marchés publics</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-direction-generale-de-la-securite-civile-et-de-la-gestion-des-crises/">2020</a>
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-2021-direction-generale-de-la-securite-civile-et-de-la-gestion-des-crises/">2021</a>
+                        </li>
+                    </ul>
+                                                                                                            
+                    <h3>Sauvetage en mer</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/">Opérations
+                                coordonnées par les Centres régionaux opérationnels de surveillance et de
+                                sauvetage (CROSS)</a></li>
+                        <ul>
+                            <li>Statistiques sur les interventions d’assistance et de sauvetage en mer</li>
+                        </ul>
+                    </ul>
 
-                            <h2 id="routiere">Données sur la sécurité et l’éducation routières</h2>
-                            <h3>Accidentologie routière</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2020/">Bases de données annuelles des accidents corporels de la circulation
-                                            routière</a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/accidents-impliquant-des-dispositifs-de-signalisation-lumineuse-sur-le-reseau-routier-national-non-concede/">Accidents
-                                            impliquant des dispositifs de signalisation lumineuse sur le réseau routier
-                                            national non concédé</a></li>
-                                </ul>
-                            </div>
-                            <h3>Infractions routières</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/simulateur-que-risque-t-on-en-cas-dinfraction-routiere-1/">Simulateur
-                                            “Que risque-t-on en cas d'infraction routière ?”</a></li>
-                                    <ul>
-                                        <li>Données d’un simulateur qui informe des sanctions qu’un conducteur risque
-                                            s’il commet une infraction routière relevée par un agent (policier ou
-                                            gendarme) ou par un dispositif automatique (radar).</li>
-                                    </ul>
-                                </ul>
-                            </div>
-                            <h3>Education routière</h3>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/liste-des-auto-ecoles-labelisees-1/">Liste
-                                            des auto-écoles labellisées</a></li>
-                                    <ul>
-                                        <li>Le label Ecole conduite qualité est délivré par l’Etat aux écoles de
-                                            conduite ou aux écoles associatives qui dispensent des formations de qualité
-                                            et diffusent une information claire et précise.</li>
-                                    </ul>
-                                </ul>
-                            </div>
-                                                                                                                           
-                            <h2 id="armes">Données sur les armes</h2>
-                            <div class="markdown">
-                                <ul>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/referentiel-general-des-armes/">Référentiel Général des Armes
-                                    </a></li>
-                                    <li><a
-                                            href="https://www.data.gouv.fr/fr/datasets/liste-des-armuriers/">Liste des armuriers
-                                    </a></li>
-                                </ul>
-                            </div>                                                                                              
-                        </div>
-                    </div>
+                    <h2 id="routiere">Données sur la sécurité et l’éducation routières</h2>
+                    <h3>Accidentologie routière</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2020/">Bases de données annuelles des accidents corporels de la circulation
+                                routière</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/accidents-impliquant-des-dispositifs-de-signalisation-lumineuse-sur-le-reseau-routier-national-non-concede/">Accidents
+                                impliquant des dispositifs de signalisation lumineuse sur le réseau routier
+                                national non concédé</a></li>
+                    </ul>
+                    <h3>Infractions routières</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/simulateur-que-risque-t-on-en-cas-dinfraction-routiere-1/">Simulateur
+                                “Que risque-t-on en cas d'infraction routière ?”</a></li>
+                        <ul>
+                            <li>Données d’un simulateur qui informe des sanctions qu’un conducteur risque
+                                s’il commet une infraction routière relevée par un agent (policier ou
+                                gendarme) ou par un dispositif automatique (radar).</li>
+                        </ul>
+                    </ul>
+                    <h3>Education routière</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/liste-des-auto-ecoles-labelisees-1/">Liste
+                                des auto-écoles labellisées</a></li>
+                        <ul>
+                            <li>Le label Ecole conduite qualité est délivré par l’Etat aux écoles de
+                                conduite ou aux écoles associatives qui dispensent des formations de qualité
+                                et diffusent une information claire et précise.</li>
+                        </ul>
+                    </ul>
+                                                                                                                    
+                    <h2 id="armes">Données sur les armes</h2>
+                    <ul>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/referentiel-general-des-armes/">Référentiel Général des Armes
+                        </a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/liste-des-armuriers/">Liste des armuriers
+                        </a></li>
+                    </ul>                                                                                            
+                </div>
+            </div>
+        </div>
+    </section>

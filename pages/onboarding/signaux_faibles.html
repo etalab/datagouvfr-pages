@@ -12,188 +12,176 @@ content_type: html
 <section class="section-blue section-main">
 	<div class="fr-container">
 		<div>
-				<h1>Signaux Faibles : Identifier les entreprises en difficulté</h1>
-				<p class="fr-mb-6w">Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
-			</div>
+            <h1>Signaux Faibles : Identifier les entreprises en difficulté</h1>
+            <p class="mb-4">Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+        </div>
 
+        <div class="fr-grid-row">
+            <Sidemenu
+                class="fr-col-12 fr-col-md-4 not-prose"
+                button-text="Dans cette rubrique"
+                :sticky-full-height="true"
+            >
+                <template #title>
+                    <img
+                        class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                        src="https://user-images.githubusercontent.com/72090652/169808180-e2ffebbe-6bb2-45ae-a371-a29d06e0d725.svg"
+                        alt="">
+                    <p class="mb-0 fr-sr-only-lg">Menu</p>
+                </template>
+                <ul class="fr-sidemenu__list">
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#données" target="_self">
+                            1. Données ouvertes utilisées
+                        </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+                            2. Réutilisateur
+                        </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#problématique" target="_self">
+                            3. Problématique et proposition de valeur
+                        </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#solution" target="_self">
+                            4. Solution
+                        </a>
+                    </li>
+                    <li class="fr-sidemenu__item">
+                        <a class="fr-sidemenu__link" href="#impact" target="_self">
+                            5. Impact
+                        </a>
+                    </li>
+                </ul>
+            </Sidemenu>
+            <div class="fr-col-12 fr-col-md-8">
+                <h2 class="mt-0" id="données">
+                    Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+                </h2>
+                <ul>
+                    <li><a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/"><b>Base Sirene des entreprises et de leurs établissements</b></a> : données sur les entreprises françaises</li>
+                </ul>
+                <h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
+                <p>Signaux Faibles est une <a href="https://beta.gouv.fr/">startup d’Etat</a> portée par un partenariat entre le Ministère de l’Economie, des Finances et de la Relance, le Ministère du Travail, de l’Emploi et de l’Insertion, la Banque de France et URSSAF Caisse Nationale. Ce projet a initialement été lancé au sein du programme <a href="https://eig.etalab.gouv.fr/defis/signaux-faibles/">Entrepreneurs d'intérêt général</a>.</p>
 
-			<div class="fr-grid-row">
-				<div class="fr-col-12 fr-col-md-4">
-					  <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height" style="max-width:350px;">
-						<div class="fr-sidemenu__inner">
-						  <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn" hidden="">
-							Dans cette rubrique
-						  </button>
-						  <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="https://user-images.githubusercontent.com/72090652/169808180-e2ffebbe-6bb2-45ae-a371-a29d06e0d725.svg" alt="">
-						  <div class="fr-collapse" id="fr-sidemenu-wrapper">
-							<ul class="fr-sidemenu__list">
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#données" target="_self">
-								  1. Données ouvertes utilisées
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-								  2. Réutilisateur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#problématique" target="_self">
-								  3. Problématique et proposition de valeur
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#solution" target="_self">
-								  4. Solution
-								</a>
-							  </li>
-							  <li class="fr-sidemenu__item">
-								<a class="fr-sidemenu__link" href="#impact" target="_self">
-								  5. Impact
-								</a>
-							  </li>
-							</ul>
-						  </div>
-						</div>
-					  </nav>
-					</div>
-					<div class="fr-col-12 fr-col-md-8 markdown">
-						<h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span></h2>
-						<div class="markdown">
-						<ul>
-							<li><a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/"><b>Base Sirene des entreprises et de leurs établissements</b></a> : données sur les entreprises françaises</li>
-						</ul>
-						</div>
-						<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
-						<p>Signaux Faibles est une <a href="https://beta.gouv.fr/">startup d’Etat</a> portée par un partenariat entre le Ministère de l’Economie, des Finances et de la Relance, le Ministère du Travail, de l’Emploi et de l’Insertion, la Banque de France et URSSAF Caisse Nationale. Ce projet a initialement été lancé au sein du programme <a href="https://eig.etalab.gouv.fr/defis/signaux-faibles/">Entrepreneurs d'intérêt général</a>.</p>
+                <h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
+                <p>Signaux Faibles s’attaque à une problématique économique importante : la <b>découverte tardive des difficultés des entreprises</b>. En effet, lorsque celles-ci sont signalées, il est souvent trop tard : beaucoup d’aides publiques qui auraient pu leur permettre de rebondir ne sont plus actionnables ou moins efficaces.</p>
+                <p>Signaux Faibles s’appuie sur l’infrastructure que constitue la Base Sirene pour construire un outil qui permet d’<b>identifier, le plus tôt possible, les entreprises en difficulté</b>. Il devient alors possible de les <b>accompagner précocement</b> et ainsi participer à la <b>prévention des défaillances</b>.</p>
 
-						<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill" aria-hidden="true"></span></h2>
-						<p>Signaux Faibles s’attaque à une problématique économique importante : la <b>découverte tardive des difficultés des entreprises</b>. En effet, lorsque celles-ci sont signalées, il est souvent trop tard : beaucoup d’aides publiques qui auraient pu leur permettre de rebondir ne sont plus actionnables ou moins efficaces.</p>
-			            <p>Signaux Faibles s’appuie sur l’infrastructure que constitue la Base Sirene pour construire un outil qui permet d’<b>identifier, le plus tôt possible, les entreprises en difficulté</b>. Il devient alors possible de les <b>accompagner précocement</b> et ainsi participer à la <b>prévention des défaillances</b>.</p>
-
-						<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
-						<div class="markdown">
-                            <ul>
-                                <li><b>Un algorithme, basé sur des mécanismes d’apprentissage, qui croise et analyse statistiquement des données</b> pour :</li>
-                                    <ul>
-                                        <li>repérer et mettre en exergue les signes de fragilité structurelles des entreprises</li>
-                                        <li>fournir une prédiction statistique de défaillance à 18 mois et la liste de détection des entreprises en difficulté associée</li>
-                                    </ul>
-                                <li><b>Un ensemble de règles expertes définies avec des utilisateurs et des experts pour capter des signaux ne pouvant être “appris” avec les données historiques</b>. Elles permettent notamment d’inclure la détection de signes appréhendés grâce à l’expérience.</li>
-                                <li><b>Une application de consultation des données des entreprises et des signalements</b></li>
-                                <li><b>Une application de suivi des entreprises</b> qui facilite la collaboration et l’échange d’informations entre les agents accompagnateurs d’entreprises</li>
-                            </ul>
-                        </div>
-                        <h3>Les données analysées (non ouvertes, partagées entre administrations)</h3>
-                        <div class="markdown">
-                            <ul>
-                                <li><b>Des données financières</b>, qui apportent une visibilité sur les tendances long terme des entreprises : ratios financiers, bilan et compte de résultats, etc.</li>
-                                <li><b>Des données sur l’emploi</b>, qui permettent notamment d’identifier des baisses d’activité : activité partielle, déclaration de mouvement de main d’oeuvre, etc.</li>
-                                <li><b>Des données sociales</b>, qui peuvent alerter sur des tensions de trésorerie : montant des dettes, demandes de délais de paiement, effectifs, etc.</li>
-                            </ul>
-                        </div>
+                <h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
+                <ul>
+                    <li><b>Un algorithme, basé sur des mécanismes d’apprentissage, qui croise et analyse statistiquement des données</b> pour :</li>
+                        <ul>
+                            <li>repérer et mettre en exergue les signes de fragilité structurelles des entreprises</li>
+                            <li>fournir une prédiction statistique de défaillance à 18 mois et la liste de détection des entreprises en difficulté associée</li>
+                        </ul>
+                    <li><b>Un ensemble de règles expertes définies avec des utilisateurs et des experts pour capter des signaux ne pouvant être “appris” avec les données historiques</b>. Elles permettent notamment d’inclure la détection de signes appréhendés grâce à l’expérience.</li>
+                    <li><b>Une application de consultation des données des entreprises et des signalements</b></li>
+                    <li><b>Une application de suivi des entreprises</b> qui facilite la collaboration et l’échange d’informations entre les agents accompagnateurs d’entreprises</li>
+                </ul>
+                <h3>Les données analysées (non ouvertes, partagées entre administrations)</h3>
+                <ul>
+                    <li><b>Des données financières</b>, qui apportent une visibilité sur les tendances long terme des entreprises : ratios financiers, bilan et compte de résultats, etc.</li>
+                    <li><b>Des données sur l’emploi</b>, qui permettent notamment d’identifier des baisses d’activité : activité partielle, déclaration de mouvement de main d’oeuvre, etc.</li>
+                    <li><b>Des données sociales</b>, qui peuvent alerter sur des tensions de trésorerie : montant des dettes, demandes de délais de paiement, effectifs, etc.</li>
+                </ul>
                         
-								
-						<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
-						<p>La mise en commun de données issues de différentes administrations, complémentaires et adossées à la Base Sirene, permet de disposer de <b>beaucoup d’indices fiables pour détecter les entreprises fragiles</b>.</p>
-						<p><b>La Base Sirene permet :</b></p>
-                        <div class="markdown">
-                            <ul>
-                                <li>de disposer de l’<b>exhaustivité du stock d’entreprises</b>, notamment lorsque ces références ne sont pas présentes dans les autres sources de données ;</li>
-                                <li>de <b>fiabiliser</b> le référentiel d’entreprises en associant chaque Sirene/Siret des jeux de données analysés à une <b>information stabilisée et à jour</b> ;</li>
-                                <li>de <b>compléter</b> le référentiel d’entreprises apportés par les sources de données analysées avec d’autres champs (adresse, code APE, état administratif, etc.) ;</li>
-                                <li>d’avoir une <b>source fiable sur la localisation des entreprises</b> et ainsi pouvoir affecter les permissions de consultation des informations, qui reposent sur une habilitation territoriale</li>
-                            </ul>
+                <h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
+                <p>La mise en commun de données issues de différentes administrations, complémentaires et adossées à la Base Sirene, permet de disposer de <b>beaucoup d’indices fiables pour détecter les entreprises fragiles</b>.</p>
+                <p><b>La Base Sirene permet :</b></p>
+                <ul>
+                    <li>de disposer de l’<b>exhaustivité du stock d’entreprises</b>, notamment lorsque ces références ne sont pas présentes dans les autres sources de données ;</li>
+                    <li>de <b>fiabiliser</b> le référentiel d’entreprises en associant chaque Sirene/Siret des jeux de données analysés à une <b>information stabilisée et à jour</b> ;</li>
+                    <li>de <b>compléter</b> le référentiel d’entreprises apportés par les sources de données analysées avec d’autres champs (adresse, code APE, état administratif, etc.) ;</li>
+                    <li>d’avoir une <b>source fiable sur la localisation des entreprises</b> et ainsi pouvoir affecter les permissions de consultation des informations, qui reposent sur une habilitation territoriale</li>
+                </ul>
+                <p>Les agents publics compétents peuvent ainsi <b>identifier les entreprises fragiles, investiguer leur situation, cibler leur accompagnement et intervenir au bon moment avec les solutions adaptées</b> (prêt, crédits, accompagnement stratégique, formations, etc.).</p>
+                <h3>Chiffres clés</h3>
+                <ul>
+                    <li><b>2 000 000</b> établissements issus de <b>500 000</b> entreprises analysées</li>
+                    <li>Environ <b>40%</b> des entreprises suivies par les Commissaires aux Restructurations et à la Prévention des difficultés des entreprises (CRP) ont été identifiées grâce à Signaux Faibles</li>
+                    <li><b>500+</b> agents utilisateurs, dont les <b>50 CRP</b></li>
+                </ul>
+                <div class="not-prose fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+                    <h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+                    <p style="margin-bottom: unset;">
+                    <a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+                    <a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
+			
+        <div class="not-prose fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/" class="fr-card__link">Réaliser l'état des risques d'un bien immobilier</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">ERRIAL</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087219-ad2d8eeb-32d8-4bab-8a67-49d9fab07763.svg" alt="">
                         </div>
-                        <p>Les agents publics compétents peuvent ainsi <b>identifier les entreprises fragiles, investiguer leur situation, cibler leur accompagnement et intervenir au bon moment avec les solutions adaptées</b> (prêt, crédits, accompagnement stratégique, formations, etc.).</p>
-                        <h3>Chiffres clés</h3>
-			            <div class="markdown">
-			            <ul>
-				            <li><b>2 000 000</b> établissements issus de <b>500 000</b> entreprises analysées</li>
-				            <li>Environ <b>40%</b> des entreprises suivies par les Commissaires aux Restructurations et à la Prévention des difficultés des entreprises (CRP) ont été identifiées grâce à Signaux Faibles</li>
-					    <li><b>500+</b> agents utilisateurs, dont les <b>50 CRP</b></li>
-			            </ul>
-			            </div>
-						<div class="fr-col-12 fr-mt-6w" id="contact" style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-							<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
-							<p style="margin-bottom: unset;">
-							<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/" style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
-							<a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des données</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			
-				<div class="fr-grid-row fr-grid-row--gutters">
-					<div class="fr-col-12" id="exemples">
-						<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-					</div>
-				</div>
-			
-			
-<div class="fr-grid-row fr-grid-row--gutters">
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/" class="fr-card__link">Réaliser l'état des risques d'un bien immobilier</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">ERRIAL</p>
+                    </div>
+                </div>
             </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169087219-ad2d8eeb-32d8-4bab-8a67-49d9fab07763.svg" alt="">
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/prise_appel_secours/" class="fr-card__link">Localiser précisément les interventions</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">La prise d'appel des secours</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169091685-1cacf63e-df5e-44d8-9f68-1f84af96a8e1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/" class="fr-card__link">Estimer les ressources florales autour des ruches</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">BeeGIS</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371644-7abbc053-da04-43af-8c65-5349fe8fa6b9.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-3">
+                <div class="fr-card fr-card--sm fr-enlarge-link">
+                    <div class="fr-card__body">
+                        <h3 class="fr-card__title">
+                            <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
+                        </h3>
+                        <p class="fr-card__desc"></p>
+                        <p class="fr-card__detail">Nos Villes Vertes</p>
+                    </div>
+                    <div class="fr-card__header">
+                        <div class="fr-card__img">
+                            <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169369846-a5b61a66-a021-4650-a94c-e827f5d3c70e.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/prise_appel_secours/" class="fr-card__link">Localiser précisément les interventions</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">La prise d'appel des secours</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/72090652/169091685-1cacf63e-df5e-44d8-9f68-1f84af96a8e1.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/" class="fr-card__link">Estimer les ressources florales autour des ruches</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">BeeGIS</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169371644-7abbc053-da04-43af-8c65-5349fe8fa6b9.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-12 fr-col-md-3">
-        <div class="fr-card fr-card--sm fr-enlarge-link">
-            <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                    <a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/" class="fr-card__link">Connaître le patrimoine arboré des communes</a>
-                </h3>
-                <p class="fr-card__desc"></p>
-                <p class="fr-card__detail">Nos Villes Vertes</p>
-            </div>
-            <div class="fr-card__header">
-                <div class="fr-card__img">
-                    <img class="fr-responsive-img" src="https://user-images.githubusercontent.com/60264344/169369846-a5b61a66-a021-4650-a94c-e827f5d3c70e.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-	</div>
+</section>

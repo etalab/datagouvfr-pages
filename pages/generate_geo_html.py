@@ -94,7 +94,7 @@ illustration_url = "https://user-images.githubusercontent.com/72090652/201092205
 basic_description = """<p>
           Les données à composantes géographiques sont souvent indispensables pour réaliser des analyses. Sont référencées ici les principaux jeux de données disponibles sur <a href="http://data.gouv.fr/">data.gouv.fr</a>.
           Celle-ci n'est pas exhaustive et est
-          <a href="https://github.com/etalab/datagouvfr-pages/blob/master/pages/donnees-geo.md" target="_blank">
+          <a href="https://github.com/datagouv/datagouvfr-pages/blob/master/pages/donnees-geo.md" target="_blank">
             ouverte aux contributions
           </a>
           .
@@ -125,16 +125,22 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="fr-col-12 fr-col-md-4">
-        <nav class="fr-sidemenu fr-sidemenu--sticky-full-height" aria-label="Menu latéral" style="min-width:230px;">
-          <div class="fr-sidemenu__inner">
-            <button class="fr-sidemenu__btn" hidden aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Dans cette rubrique</button>
-            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w" src="{}" alt="">
-            <div class="fr-collapse" id="fr-sidemenu-wrapper">{}</div>
-          </div>
-        </nav>
-      </div>
-      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+      <Sidemenu
+        class="fr-col-12 fr-col-md-4 not-prose"
+        button-text="Dans cette rubrique"
+        :sticky-full-height="true"
+      >
+        <template #title>
+          <img
+            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+            src="{}"
+            alt=""
+          >
+          <p class="mb-0 fr-sr-only-lg">Menu</p>
+        </template>
+        {}
+      </Sidemenu>
+      <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
   </div>
 </section>
@@ -153,9 +159,9 @@ main_content_template = """<section class="section-blue section-main">
           </p>
         </div>
       </div>
-      <div class="fr-col-12 fr-col-md-4">
+      <div class="fr-col-12 fr-col-md-4 not-prose">
       </div>
-      <div class="fr-col-12 fr-col-md-8 markdown">{}</div>
+      <div class="fr-col-12 fr-col-md-8">{}</div>
     </div>
   </div>
 </section>

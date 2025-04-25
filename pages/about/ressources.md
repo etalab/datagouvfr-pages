@@ -1,4 +1,8 @@
-# **En savoir plus sur [data.gouv.fr](http://data.gouv.fr/)**
+---
+title: En savoir plus sur data.gouv.fr
+---
+
+# En savoir plus sur [data.gouv.fr](http://data.gouv.fr/)
 
 - **[Qu’est-ce que data.gouv.fr ?](https://www.data.gouv.fr/fr/pages/about/a-propos/)**
   Découvrez à qui s’adresse [data.gouv.fr](http://data.gouv.fr/) et qui est derrière la plateforme.

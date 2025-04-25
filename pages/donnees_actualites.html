@@ -10,14 +10,22 @@ description: Page qui recense les données ouvertes liées à l'actualité
 content_type: html
 ---
 
-<section class="section-blue section-main" style="background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-    <div class="fr-container">
-        <div class="fr-grid-row fr-grid-row--gutters fr-py-6w">
-            <div class="fr-col fr-col-12 fr-col-md-6">
-                <h1 class="fr-display--sm" style="color:#3558A2">Le calendrier des actualités en données ouvertes
-                </h1>
-                <p class="fr-text--lead" style="color:#3558A2">Mettre les actualités et journées internationales en
-                    données.</p>
+    <section class="section-blue section-main" style="background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+        <div class="fr-container">
+            <div class="not-prose fr-grid-row not-prose fr-grid-row--gutters fr-py-6w">
+                <div class="fr-col fr-col-12 fr-col-md-6">
+                    <h1 class="fr-display--sm" style="color:#3558A2">Le calendrier des actualités en données ouvertes
+                    </h1>
+                    <p class="fr-text--lead" style="color:#3558A2">Mettre les actualités et journées internationales en
+                        données.</p>
+                </div>
+                <div
+                    class="fr-col fr-col-8 fr-col-md-4"
+                    style="height: 100%;display: flex;width: 2px;float: right;justify-content: end;padding-right: 100px;padding-top: 35px; height: auto;align-items: center"
+                >
+                    <img src="https://raw.githubusercontent.com/thanhhale7/images/acbc679dfe6b02e305a11f224e9103fb08bbc479/illu-actualites.svg"
+                        alt="">
+                </div>
             </div>
             <div class="fr-col fr-col-8 fr-col-md-4"
                 style="height: 100%;display: flex;width: 2px;float: right;justify-content: end;padding-right: 100px;padding-top: 35px; height: auto;align-items: center">
@@ -28,30 +36,26 @@ content_type: html
     </div>
 </section>
 
-<div class="fr-container">
+    <div class="fr-container">
+        <h2>Découvrez les données des prochaines actualités</h2>
+        <p>Journalistes, chercheurs, professionnels d'entreprise ou de l'administration, étudiants, etc., l'équipe
+            de data.gouv.fr a conçu ce calendrier pour vous permettre de :
+        </p>
 
-    <h2>Découvrez les données des prochaines actualités</h2>
-    <p>Journalistes, chercheurs, professionnels d'entreprise ou de l'administration, étudiants, etc., l'équipe
-        de data.gouv.fr a conçu ce calendrier pour vous permettre de :
-    </p>
+        <div>
+            <ol>
+                <li>Accéder simplement aux données ouvertes liées à l’actualité pour vos projets, articles et
+                    recherches ;</li>
+                <li>Demander l’ouverture d’autres données associées à ces thématiques.</li>
+            </ol>
+        </div>
+        <p> </p>
 
-    <div class="markdown">
-        <ol>
-            <li>Accéder simplement aux données ouvertes liées à l’actualité pour vos projets, articles et
-                recherches ;</li>
-            <li>Demander l’ouverture d’autres données associées à ces thématiques.</li>
-        </ol>
-    </div>
-    <p> </p>
-
-    <div class="fr-accordions-group">
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-116"><b>👩 08 mars
-                        2025 - Journée
-                        internationale des droits des femmes</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-116">
+        <AccordionGroup class="not-prose">
+            <Accordion
+                title="👩 08 mars 2025 - Journée internationale des droits des femmes"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=droits-femmes"><b>Voir
                         les jeux de données</b></a>
@@ -59,15 +63,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-117"><b>🌳 21 mars
-                        2025 - Journée
-                        internationale de la forêt</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-117">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🌳 21 mars 2025 - Journée internationale de la forêt"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=for%C3%AAt"><b>Voir les
                         jeux
@@ -77,15 +78,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-118"><b>💧 22 mars
-                        2025 - Journée
-                        mondiale de l'eau</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-118">
+            </p>
+            </Accordion>
+            <Accordion
+                title="💧 22 mars 2025 - Journée mondiale de l'eau"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=eau"><b>Voir les
                         jeux
@@ -95,16 +93,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-119"><b>🩺 07
-                        avril
-                        2025 -
-                        Journée mondiale de la santé</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-119">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🩺 07 avril 2025 - Journée mondiale de la santé"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=sant%C3%A9"><b>Voir les
                         jeux
@@ -114,16 +108,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-120"><b>🎨 15
-                        avril
-                        2025 -
-                        Journée mondiale d'art</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-120">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🎨 15 avril 2025 - Journée mondiale d'art"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=art"><b>Voir les
                         jeux
@@ -133,14 +123,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-150"><b>👷‍♀️ 1er
-                        mai 2025 - Fête du travail</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-150">
+            </p>
+            </Accordion>
+            <Accordion
+                title="👷‍♀️ 1er mai 2025 - Fête du travail"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=travail"><b>Voir les
                         jeux
@@ -150,15 +138,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-121"><b>📰 03 mai
-                        2025 - Journée
-                        de la liberté de la presse</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-121">
+            </p>
+            </Accordion>
+            <Accordion
+                title="📰 03 mai 2025 - Journée de la liberté de la presse"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=presse"><b>Voir les
                         jeux de données</b></a>
@@ -166,15 +151,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-123"><b>🌱 05 juin
-                        2025 - Journée
-                        mondiale de l'environnement</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-123">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🌱 05 juin 2025 - Journée mondiale de l'environnement"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=environnement"><b>Voir
                         les
@@ -184,15 +166,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-                  </section>
-        <!--
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-124"><b>🎶 21 juin
-                        2025 - Fête de la musique</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-124">
+            </p>
+            </Accordion>
+            <!-- <Accordion
+                title="🎶 21 juin 2025 - Fête de la musique"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=musique"><b>Voir
                         les
@@ -202,15 +181,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-        -->
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-125"><b>💌 19 août
-                        2025 - Journée mondiale de l'aide humanitaire</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-125">
+            </p>
+            </Accordion> -->
+            <!-- <Accordion
+                title="💌 19 août 2025 - Journée mondiale de l'aide humanitaire"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=humanitaire"><b>Voir
                         les
@@ -220,15 +196,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     d'autres données</a>
-            </div>
-        </section>
-            <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-126"><b>📚 1er
-                        septembre 2025 -
-                        Rentrée scolaire</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-126">
+            </p>
+            </Accordion> -->
+            <Accordion
+                title="📚 1er septembre 2025 - Rentrée scolaire"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=%C3%A9ducation"><b>Voir
                         les
@@ -238,15 +211,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-127"><b>🚲 16
-                        septembre 2025 -
-                        Semaine européenne de la mobilité</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-127">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🚲 16 septembre 2025 - Semaine européenne de la mobilité"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=mobilit%C3%A9s"><b>Voir
                         les
@@ -256,14 +226,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-128"><b>🧭 27
-                        septembre 2025 - Journée mondiale du tourisme</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-128">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🧭 27 septembre 2025 - Journée mondiale du tourisme"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=tourisme"><b>Voir les
                         jeux
@@ -272,14 +240,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-129"><b>💎 10
-                        octobre 2025 - Journée mondiale de la santé mentale</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-129">
+            </p>
+            </Accordion>
+            <Accordion
+                title="💎 10 octobre 2025 - Journée mondiale de la santé mentale"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=sant%C3%A9+mentale"><b>Voir
                         les
@@ -289,31 +255,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-
-                  </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-"><b>🧭 27
-                        septembre 2025 - Journée mondiale du tourisme</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-">
-                <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
-                    href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=tourisme"><b>Voir les
-                        jeux
-                        de données</b></a>
-                <br>
-                <br>
-                <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
-                    des données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-131"><b>🥦 16
-                        octobre 2025 - Journée mondiale de l'alimentation</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-131">
+            </p>
+            </Accordion>
+            <Accordion
+                title="🥦 16 octobre 2025 - Journée mondiale de l'alimentation"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=alimentation"><b>Voir
                         les
@@ -323,17 +270,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-            </section>
-          
-        <!--
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-132"><b>💥 25
-                        novembre 2025 - Journée internationale pour l'élimination de la violence à l'égard des
-                        femmes</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-132">
+            </p>
+            </Accordion>
+            <!-- <Accordion
+                title="💥 25 novembre 2025 - Journée internationale pour l'élimination de la violence à l'égard des femmes"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=violences+femmes"><b>Voir
                         les
@@ -343,15 +285,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-        -->
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-133"><b>♿ 3
-                        décembre 2025 - Journée internationale des personnes handicapées</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-133">
+            </p>
+            </Accordion> -->
+            <Accordion
+                title="♿ 3 décembre 2025 - Journée internationale des personnes handicapées"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=handicap"><b>Voir les
                         jeux
@@ -360,14 +299,12 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-        <section class="fr-accordion">
-            <h3 class="fr-accordion__title">
-                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-134"><b>⛅ 8
-                        décembre 2025 - Journée mondiale du climat</b></button>
-            </h3>
-            <div class="fr-collapse" id="accordion-134">
+            </p>
+            </Accordion>
+            <Accordion
+                title="⛅ 8 décembre 2025 - Journée mondiale du climat"
+            >
+            <p class="fr-m-0">
                 <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
                     href="https://ouverture.data.gouv.fr/suivi_ouverture.html?thematique=climat"><b>Voir les
                         jeux
@@ -376,10 +313,10 @@ content_type: html
                 <br>
                 <a class="fr-btn" href="https://forum.data.gouv.fr/c/recherche-et-ouverture-de-donnees/8">Demander
                     des données</a>
-            </div>
-        </section>
-    </div>
-    <br>
+            </p>
+            </Accordion>
+        </AccordionGroup>
+        <br>
 
     <h2>Administrations, publiez et valorisez vos données avec nous</h2>
     <p>Vous souhaitez publier un jeu de données à l’occasion d’un sujet d’actualité ? Prenez contact avec
@@ -405,4 +342,13 @@ content_type: html
         </a>
     </div>
 
-</div>
+        <div class="not-prose fr-col-12 fr-mt-3w" id="contact" style="text-align:center;padding: 25px;margin-bottom: 20px;">
+            <a class="fr-btn" href="https://support.data.gouv.fr/help/datagouv/moissonnage#support-tree"
+                style="margin-right: 19px;margin-bottom: 15px">Contacter
+                l'équipe</a>
+                <a style="background-color: white" class="fr-btn fr-btn--secondary" href="https://tally.so/r/nrqGWN">
+                    Donner son avis sur le calendrier
+                </a>
+        </div>
+
+    </div>

@@ -15,92 +15,88 @@ content_type: html
                 <h1>SupTracker : Eclairer les choix d’orientation scolaire</h1>
                 <p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
             </div>
-            <div class="fr-col-12">
-                <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
+            <div class="mb-4">
+                <a class="fr-link fr-icon-arrow-right-line fr-link--icon-left"
                     href="https://beta.suptracker.org/"><b>Accéder à SupTracker</b></a>
             </div>
 
             <div class="fr-grid-row">
-                <div class="fr-col-12 fr-col-md-4">
-                    <nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-                        style="max-width:350px;">
-                        <div class="fr-sidemenu__inner">
-                            <button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn"
-                                hidden="">
-                                Dans cette rubrique
-                            </button>
-                            <img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-                                src="https://user-images.githubusercontent.com/72090652/283114449-87bcc239-d1dd-4e3f-a48d-00263b75a1c9.svg"
-                                alt="">
-                            <div class="fr-collapse" id="fr-sidemenu-wrapper">
-                                <ul class="fr-sidemenu__list">
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#données" target="_self">
-                                            1. Données ouvertes utilisées
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-                                            2. Réutilisateurs
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#problématique" target="_self">
-                                            3. Problématique et proposition de valeur
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#solution" target="_self">
-                                            4. Solution
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#impact" target="_self">
-                                            5. Impact envisagé
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#enseignements" target="_self">
-                                            6. Enseignements
-                                        </a>
-                                    </li>
-                                    <li class="fr-sidemenu__item">
-                                        <a class="fr-sidemenu__link" href="#perspectives" target="_self">
-                                            7. Perspectives
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="fr-col-12 fr-col-md-8 markdown">
-                    <h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill"
-                            aria-hidden="true"></span></h2>
-                    <div class="markdown">
-                        <ul>
-                            <li>Parcoursup : vœux de poursuite d’études et de réorientation dans l’enseignement
-                                supérieur et réponses des établissements (<a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-2018-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/">2018</a>,
-                                <a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-2019-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-2/">2019</a>,
-                                <a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/">2020</a>,
-                                <a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-2021-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-3/">2021</a>,
-                                <a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-2022-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-1/">2022</a>)
-                            </li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/parcoursup-propositions-dadmission-dans-lenseignement-superieur-des-eleves-de-terminale-diplomes-du-baccalaureat-general-selon-leurs-enseignements-de-specialite/">Parcoursup
-                                    : propositions d'admission dans l'enseignement supérieur des élèves de
-                                    terminale diplômés du baccalauréat général selon leurs enseignements de
-                                    spécialité</a></li>
-                            <li><a
-                                    href="https://www.data.gouv.fr/fr/datasets/cartographie-des-formations-parcoursup-1/">Cartographie
-                                    des formations Parcoursup</a></li>
-                        </ul>
-                    </div>
+                <Sidemenu
+                    class="fr-col-12 fr-col-md-4 not-prose"
+                    button-text="Dans cette rubrique"
+                    :sticky-full-height="true"
+                >
+                    <template #title>
+                        <img
+                            class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+                            src="https://user-images.githubusercontent.com/72090652/283114449-87bcc239-d1dd-4e3f-a48d-00263b75a1c9.svg"
+                            alt="">
+                        <p class="mb-0 fr-sr-only-lg">Menu</p>
+                    </template>
+                    <ul class="fr-sidemenu__list">
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#données" target="_self">
+                                1. Données ouvertes utilisées
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+                                2. Réutilisateurs
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#problématique" target="_self">
+                                3. Problématique et proposition de valeur
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#solution" target="_self">
+                                4. Solution
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#impact" target="_self">
+                                5. Impact envisagé
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#enseignements" target="_self">
+                                6. Enseignements
+                            </a>
+                        </li>
+                        <li class="fr-sidemenu__item">
+                            <a class="fr-sidemenu__link" href="#perspectives" target="_self">
+                                7. Perspectives
+                            </a>
+                        </li>
+                    </ul>
+                </Sidemenu>
+                <div class="fr-col-12 fr-col-md-8">
+                    <h2 class="mt-0" id="données">
+                        Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+                    </h2>
+                    <ul>
+                        <li>Parcoursup : vœux de poursuite d’études et de réorientation dans l’enseignement
+                            supérieur et réponses des établissements (<a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-2018-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/">2018</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-2019-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-2/">2019</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-2020-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/">2020</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-2021-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-3/">2021</a>,
+                            <a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-2022-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements-1/">2022</a>)
+                        </li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/parcoursup-propositions-dadmission-dans-lenseignement-superieur-des-eleves-de-terminale-diplomes-du-baccalaureat-general-selon-leurs-enseignements-de-specialite/">Parcoursup
+                                : propositions d'admission dans l'enseignement supérieur des élèves de
+                                terminale diplômés du baccalauréat général selon leurs enseignements de
+                                spécialité</a></li>
+                        <li><a
+                                href="https://www.data.gouv.fr/fr/datasets/cartographie-des-formations-parcoursup-1/">Cartographie
+                                des formations Parcoursup</a></li>
+                    </ul>
 
                     <h2 id="réutilisateur">Réutilisateurs <span class="fr-icon-user-fill" aria-hidden="true"></span>
                     </h2>
@@ -122,7 +118,7 @@ content_type: html
                         ressource
                         complémentaire aux outils existants (site de Parcoursup, Onisep, etc.).
                     </p>
-                    <figure class="fr-quote fr-mt-6w">
+                    <figure class="fr-quote not-prose fr-mt-6w">
                         <blockquote>
                             <p>« Ce que nous souhaitons vraiment faire, c’est valoriser l’open data et la statistique
                                 publique qui sont particulièrement riches. »</p>
@@ -137,17 +133,15 @@ content_type: html
                     <p><b>Une application de datavisualisation</b> qui permet de :
                     </p>
 
-                    <div class="markdown">
-                        <ul>
-                            <li>s’informer sur une formation, parmi les 21 000 référencées sur Parcoursup : candidatures
-                                et admissions, profil des candidats admis, indicateurs de sélectivité, positionnement
-                                parmi les autres formations de la filière, etc. ;</li>
-                            <li>comparer des formations ;</li>
-                            <li>analyser l’orientation par spécialités au bac ;</li>
-                            <li>explorer la répartition des candidats selon leur profil, à travers les années : mention
-                                au bac, bourse, etc.</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>s’informer sur une formation, parmi les 21 000 référencées sur Parcoursup : candidatures
+                            et admissions, profil des candidats admis, indicateurs de sélectivité, positionnement
+                            parmi les autres formations de la filière, etc. ;</li>
+                        <li>comparer des formations ;</li>
+                        <li>analyser l’orientation par spécialités au bac ;</li>
+                        <li>explorer la répartition des candidats selon leur profil, à travers les années : mention
+                            au bac, bourse, etc.</li>
+                    </ul>
 
                     <p>SupTracker affiche par défaut <b>des visualisations simples et intelligibles</b> (accompagnées
                         d’explications) et peut présenter des informations plus complexes à la demande. Au-delà de la
@@ -165,22 +159,20 @@ content_type: html
 
                     <h2 id="impact">Impact envisagé <span class="fr-icon-checkbox-circle-fill"
                             aria-hidden="true"></span></h2>
-                    <div class="markdown">
-                        <ul>
-                            <li><b>Les élèves</b> pourront mieux s’informer sur les formations qu’ils envisagent
-                                d’intégrer et
-                                ainsi formuler des projets d’orientation cohérents (notamment en se faisant une première
-                                idée objective de leurs chances d’admission dans une formation).</li>
-                            <li><b>Les parents, enseignants et conseillers d’orientation</b> seront davantage équipés
-                                pour
-                                accompagner et conseiller leurs élèves dans leurs choix.
-                            </li>
-                            <li><b>Les étudiants, chercheurs, journalistes et autres personnes curieuses</b> pourront
-                                nourrir
-                                leurs travaux et réflexions sur les questions éducatives, et appuyer leurs propos avec
-                                des données chiffrées.</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><b>Les élèves</b> pourront mieux s’informer sur les formations qu’ils envisagent
+                            d’intégrer et
+                            ainsi formuler des projets d’orientation cohérents (notamment en se faisant une première
+                            idée objective de leurs chances d’admission dans une formation).</li>
+                        <li><b>Les parents, enseignants et conseillers d’orientation</b> seront davantage équipés
+                            pour
+                            accompagner et conseiller leurs élèves dans leurs choix.
+                        </li>
+                        <li><b>Les étudiants, chercheurs, journalistes et autres personnes curieuses</b> pourront
+                            nourrir
+                            leurs travaux et réflexions sur les questions éducatives, et appuyer leurs propos avec
+                            des données chiffrées.</li>
+                    </ul>
 
                     <h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
                     <p>Pour les fondateurs de SupTracker, l’open data constitue <b>une source fiable qui leur permet
@@ -193,7 +185,7 @@ content_type: html
                         méconnues.
                     </p>
 
-                    <figure class="fr-quote fr-mt-6w">
+                    <figure class="fr-quote not-prose fr-mt-6w">
                         <blockquote>
                             <p>« Les réutilisateurs, en tant qu’intermédiaires, sont des personnes très utiles pour
                                 rendre accessible l’open data, notamment auprès du grand public : beaucoup de personnes
@@ -211,19 +203,17 @@ content_type: html
                     <p>SupTracker est aujourd’hui en version « beta » publique.</p>
                     <p>Les concepteurs de l’application souhaitent désormais :
                     </p>
-                    <div class="markdown">
-                        <ul>
-                            <li><b>Collecter des retours sur la version « beta »</b>, afin d’améliorer l’outil (les
-                                suggestions, remarques et commentaires sont les bienvenus à l'adresse
-                                contact@suptracker.org) ;</li>
-                            <li><b>Diffuser les codes de création des données et des graphiques en open source</b>, dans
-                                une
-                                démarche de transparence.
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><b>Collecter des retours sur la version « beta »</b>, afin d’améliorer l’outil (les
+                            suggestions, remarques et commentaires sont les bienvenus à l'adresse
+                            contact@suptracker.org) ;</li>
+                        <li><b>Diffuser les codes de création des données et des graphiques en open source</b>, dans
+                            une
+                            démarche de transparence.
+                        </li>
+                    </ul>
 
-                    <div class="fr-col-12 fr-mt-6w" id="contact"
+                    <div class="not-prose fr-col-12 fr-mt-6w" id="contact"
                         style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
                         <h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
                         <p style="margin-bottom: unset;">
@@ -237,14 +227,9 @@ content_type: html
                 </div>
             </div>
 
-            <div class="fr-grid-row fr-grid-row--gutters">
-                <div class="fr-col-12" id="exemples">
-                    <h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-                </div>
-            </div>
+            <h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
 
-
-            <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="not-prose fr-grid-row fr-grid-row--gutters">
                 <div class="fr-col-12 fr-col-md-3">
                     <div class="fr-card fr-card--sm fr-enlarge-link">
                         <div class="fr-card__body">
@@ -323,3 +308,5 @@ content_type: html
                     </div>
                 </div>
             </div>
+        </div>
+    </section>

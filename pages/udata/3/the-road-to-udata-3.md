@@ -9,18 +9,18 @@ author: abulte
 
 # The Road to udata 3
 
-## *What is udata?*
+## What is udata?
 
 [udata](https://github.com/opendatateam/udata) is the free software that provides the core features of [data.gouv.fr, the French government open data portal](https://www.data.gouv.fr/fr/). It has been developed in the open since 2013 and is freely reused and customized by a few countries (Luxembourg, Serbia, Portugal), some government agencies and at least one NGO.
 
 That latest major breaking release, [udata 2](https://github.com/opendatateam/udata/blob/master/CHANGELOG.md#200-2020-03-11), focused mainly on the migration to python 3, right before the deadline of python 2 support being dropped. Since then, we shipped six minor releases and more patches.
 
-## *Who’s behind udata?*
+## Who’s behind udata?
 An [overwhelming majority of commits](https://github.com/opendatateam/udata/graphs/contributors) on udata have been made by members of [Etalab](https://www.etalab.gouv.fr), the French government agency responsible for data.gouv.fr.
 
 The technical team dedicated at Etalab responsible not only for development but also for operating the platform and handling user support has always been relatively small: between one and three people.
 
-## *The burden of technical debt*
+## The burden of technical debt
 
 The software has been starting to show signs of heavy technical debt a few years ago, despite our best “rolling” refactoring efforts while working on the maintenance and new features.
 
@@ -32,7 +32,7 @@ Regarding udata directly, one of the heaviest burdens we face is to maintain two
 - One default minimalist theme shipped with udata, meant as a starting basis for other users of udata. We never use this theme directly but we still have to test and fix things on it before shipping,
 - The “official” theme used by data.gouv.fr: [udata-gouvfr](https://github.com/etalab/udata-gouvfr), inherited from the default theme.
 
-## *Graphical redesign as an opportunity to reduce technical debt*
+## Graphical redesign as an opportunity to reduce technical debt
 
 In this context, we recently started a project of total graphical overhaul of data.gouv.fr.
 
@@ -42,12 +42,12 @@ This also led us to reflect more profoundly upon “separation of concerns” in
 
 We believe this will ultimately lead to an easier way to maintain product, allowing use to iterate more rapidly on the API for example, without breaking the presentation logic. As a side note, we could have gone to the SPA way on top of our APIs for our new front end, but we chose not to, mainly for performance and SEO reasons.
 
-## *What’s next?*
+## What’s next?
 
 This is the road to udata 3. We don’t have a release date yet and there are a lot of corner cases yet to be handled. The 3.0 release will probably still have some entanglement between the core part and the theme part but we plan to iterate on that in the 3.x series.
 
 We hope this has given you at least an insight into the future of udata, which will keep powering data.gouv.fr for the foreseeable future. We’d also love to hear from you if you some insights as a udata user.
 
-## *Interact with the community*
+## Interact with the community
 
  If you're interested in udata 3, you can join the community to discuss architectural changes or get started with udata 3 at https://github.com/opendatateam/udata/discussions/2723.

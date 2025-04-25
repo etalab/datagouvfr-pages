@@ -1,3 +1,7 @@
+---
+title: Données limites administratives
+---
+
 # Données limites administratives
 
 ## **Données communales**
@@ -6,7 +10,7 @@ Le Code Officiel Géographique (COG). C’est une donnée pivot qui permet de ra
 
 - [Code officiel géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) avec les données sous forme JSON dans le cadre de <a href="https://github.com/etalab/decoupage-administratif#via-des-urls" target="_blank">l’API Découpage Administratif</a> (**SPD**)
 
-### *Données IGN*
+### Données IGN
 
 - [Admin Express](https://www.data.gouv.fr/fr/datasets/admin-express/): données communales à partir de 2017 jusqu’à nos jours. Les versions récentes intègrent les EPCI
 - [Geofla](https://www.data.gouv.fr/fr/datasets/geofla-r/): données communales, cantonales et départementales en 1997, 2002 puis régulièrement de 2010 à 2016 régulièrement 
@@ -19,7 +23,7 @@ Ces données font partie du SPD via le RGE (Référentiel à Grande Échelle)
 
 Pour ne pas avoir à gérer les DOM/TOM du fait de l’éloignement, lorsqu'on produit des cartes France entière, il existe une [version de données avec les Contours des communes de France simplifié, avec régions et département d'outre-mer rapprochés](https://www.data.gouv.fr/fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/)
 
-### *Données OpenStreetMap*
+### Données OpenStreetMap
 
 Pour les données communales, celle-ci ont tracées depuis un fond raster communal de la direction générale des Finances publiques (DGFiP) comme cet article <a href="http://prev.openstreetmap.fr/36680-communes" target="_blank">"Achèvement du tracé collaboratif des limites communales françaises dans OpenStreetMap"</a> le retrace.
 

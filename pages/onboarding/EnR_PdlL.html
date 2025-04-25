@@ -10,294 +10,287 @@ content_type: html
 ---
 
 <section class="section-blue section-main">
-		<div class="fr-container">
-			<div>
-				<h1>EnR de réseaux en Pays de la Loire : Connaître la production d’énergies renouvelables sur son
-					territoire</h1>
-				<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
-			</div>
-			<div class="fr-col-12">
-				<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
-					href="http://apps.datalab.pays-de-la-loire.developpement-durable.gouv.fr/enr_reseaux_teo/"><b>Accéder
-						à l’application EnR de réseaux en Pays de la Loire</b></a>
-			</div>
+	<div class="fr-container">
+		<div>
+			<h1>EnR de réseaux en Pays de la Loire : Connaître la production d’énergies renouvelables sur son
+				territoire</h1>
+			<p>Ceci est un exemple de cas d’usage selectionné par notre équipe.</p>
+		</div>
+		<div class="mb-4">
+			<a 
+				class="fr-link fr-icon-arrow-right-line fr-link--icon-left fr-mb-4w"
+				href="http://apps.datalab.pays-de-la-loire.developpement-durable.gouv.fr/enr_reseaux_teo/"
+			>
+				<b>Accéder à l’application EnR de réseaux en Pays de la Loire</b>
+			</a>
+		</div>
 
-			<div class="fr-grid-row">
-				<div class="fr-col-12 fr-col-md-4">
-					<nav aria-label="Menu latéral" class="fr-sidemenu fr-sidemenu--sticky-full-height"
-						style="max-width:350px;">
-						<div class="fr-sidemenu__inner">
-							<button aria-controls="fr-sidemenu-wrapper" aria-expanded="false" class="fr-sidemenu__btn"
-								hidden="">
-								Dans cette rubrique
-							</button>
-							<img class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
-								src="https://user-images.githubusercontent.com/72090652/191075968-620e3cd1-4aa9-4b58-bd02-a82978766974.svg"
+		<div class="fr-grid-row">
+			<Sidemenu
+				class="fr-col-12 fr-col-md-4 not-prose"
+				button-text="Dans cette rubrique"
+				:sticky-full-height="true"
+			>
+				<template #title>
+					<img
+						class="fr-responsive-img fr-hidden fr-displayed-lg fr-mb-4w"
+						src="https://user-images.githubusercontent.com/72090652/191075968-620e3cd1-4aa9-4b58-bd02-a82978766974.svg"
+						alt=""
+					>
+					<p class="mb-0 fr-sr-only-lg">Menu</p>
+				</template>
+				<ul class="fr-sidemenu__list">
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#données" target="_self">
+							1. Données ouvertes utilisées
+						</a>
+					</li>
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
+							2. Réutilisateur
+						</a>
+					</li>
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#problématique" target="_self">
+							3. Problématique et proposition de valeur
+						</a>
+					</li>
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#solution" target="_self">
+							4. Solution
+						</a>
+					</li>
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#impact" target="_self">
+							5. Impact
+						</a>
+					</li>
+					<li class="fr-sidemenu__item">
+						<a class="fr-sidemenu__link" href="#enseignements" target="_self">
+							6. Enseignements
+						</a>
+					</li>
+				</ul>
+			</Sidemenu>
+			<div class="fr-col-12 fr-col-md-8">
+				<h2 class="mt-0" id="données">
+					Données ouvertes utilisées <span class="fr-icon-file-pdf-fill" aria-hidden="true"></span>
+				</h2>
+				<ul>
+					<li><a
+							href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-30-04-2022/"><b>Registre
+								national des installations de production et de stockage d'électricité</b></a>
+					</li>
+					<li><a
+							href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/"><b>Production
+								électrique annuelle par filière à la maille commune</b></a></li>
+					<li><a
+							href="https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/"><b>Points
+								d’injection de Biométhane en France en service</b></a></li>
+					<li><a
+							href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-dinjection-2013-2021/"><b>Production
+								annuelle de biométhane par site d'injection (2013-2021)</b></a></li>
+					<li><a
+							href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-raccorde-au-reseau-de-transport-et-de-distribution-hors-grdf/"><b>Production
+								annuelle de biométhane par site raccordé au réseau de GRTgaz et de
+								Teréga</b></a></li>
+					<li><a
+							href="https://www.statistiques.developpement-durable.gouv.fr/donnees-locales-de-consommation-denergie#lectricit"><b>Données
+								locales de consommation d’électricité et de gaz</b></a></li>
+				</ul>
+
+				<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
+				<p>L’application est le fruit d’un partenariat entre l’<a
+						href="https://teo-paysdelaloire.fr/lobservatoire/" target="_blank"><b>Observatoire de la
+							Transition écologique
+							des Pays de la Loire</b></a> (TEO Pays de la Loire), en charge d’améliorer la
+					connaissance sur l’énergie, le climat, les déchets et les ressources en Pays de la Loire, et la
+					<a href="https://www.pays-de-la-loire.developpement-durable.gouv.fr/" target="_blank"><b>DREAL
+							régionale</b></a>.
+				</p>
+
+				<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill"
+						aria-hidden="true"></span></h2>
+				<p>L’outil s’attaque à une problématique commune aux collectivités territoriales : <b>une
+						appropriation difficile des données relatives aux énergies renouvelables</b>, pourtant
+					essentielles dans une démarche de transition énergétique. Cette difficulté résulte notamment :
+				</p>
+				<ul>
+					<li>d’un accès complexe aux sources disponibles ;</li>
+					<li>d’une fiabilité parfois relative des données ;</li>
+					<li>d’un manque d’expertise pour l’exploitation.</li>
+				</ul>
+				<p>L’application propose <b>de croiser et de consolider les données produites par les gestionnaires
+						de réseaux d’énergie (Enedis, GRDF, GRTgaz, RTE) pour établir un diagnostic synthétique des
+						énergies renouvelables de réseaux sur le territoire</b>. Elle est déployée à l’échelle de la
+					région des Pays de la Loire.</p>
+
+				<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
+				<p><a href="https://gitlab.com/dreal-datalab/enr_reseaux_teo"><b>Un outil open source</b></a> qui
+					restitue des données relatives aux énergies renouvelables de réseaux
+					préalablement collectées et traitées. Le <b>tableau de bord</b> proposé présente, sur plusieurs
+					attributs du <b>parc de production d’énergies renouvelables de réseaux</b> (nombre
+					d’installations par typologie, puissances installées, consommations couvertes, etc.) :</p>
+
+				<div class="not-prose" style="display: flex; gap: 60px; margin-bottom: 60px; flex-wrap: wrap;">
+					<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 200px">
+						<div class="fr-tile__body">
+							<h3 class="fr-tile__title">
+								Des visualisations de données
+							</h3>
+						</div>
+						<div class="fr-tile__img">
+							<img src="https://user-images.githubusercontent.com/72090652/167825874-dc5fa62a-8caf-4f5b-a591-bea5308925f1.svg"
 								alt="">
-							<div class="fr-collapse" id="fr-sidemenu-wrapper">
-								<ul class="fr-sidemenu__list">
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#données" target="_self">
-											1. Données ouvertes utilisées
-										</a>
-									</li>
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#réutilisateur" target="_self">
-											2. Réutilisateur
-										</a>
-									</li>
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#problématique" target="_self">
-											3. Problématique et proposition de valeur
-										</a>
-									</li>
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#solution" target="_self">
-											4. Solution
-										</a>
-									</li>
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#impact" target="_self">
-											5. Impact
-										</a>
-									</li>
-									<li class="fr-sidemenu__item">
-										<a class="fr-sidemenu__link" href="#enseignements" target="_self">
-											6. Enseignements
-										</a>
-									</li>
-								</ul>
-							</div>
 						</div>
-					</nav>
+					</div>
+					<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 200px">
+						<div class="fr-tile__body">
+							<h3 class="fr-tile__title">
+								Des indicateurs synthétiques
+							</h3>
+						</div>
+						<div class="fr-tile__img">
+							<img src="https://user-images.githubusercontent.com/72090652/167409677-42dedb8b-270e-4fa5-9e5b-22c3cc04e290.svg"
+								alt="">
+						</div>
+					</div>
 				</div>
-				<div class="fr-col-12 fr-col-md-8 markdown">
-					<h2 id="données">Données ouvertes utilisées <span class="fr-icon-file-pdf-fill"
-							aria-hidden="true"></span></h2>
-					<div class="markdown">
-						<ul>
-							<li><a
-									href="https://www.data.gouv.fr/fr/datasets/registre-national-des-installations-de-production-et-de-stockage-delectricite-au-30-04-2022/"><b>Registre
-										national des installations de production et de stockage d'électricité</b></a>
-							</li>
-							<li><a
-									href="https://www.data.gouv.fr/fr/datasets/production-electrique-annuelle-par-filiere-a-la-maille-commune/"><b>Production
-										électrique annuelle par filière à la maille commune</b></a></li>
-							<li><a
-									href="https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/"><b>Points
-										d’injection de Biométhane en France en service</b></a></li>
-							<li><a
-									href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-dinjection-2013-2021/"><b>Production
-										annuelle de biométhane par site d'injection (2013-2021)</b></a></li>
-							<li><a
-									href="https://www.data.gouv.fr/fr/datasets/production-annuelle-de-biomethane-par-site-raccorde-au-reseau-de-transport-et-de-distribution-hors-grdf/"><b>Production
-										annuelle de biométhane par site raccordé au réseau de GRTgaz et de
-										Teréga</b></a></li>
-							<li><a
-									href="https://www.statistiques.developpement-durable.gouv.fr/donnees-locales-de-consommation-denergie#lectricit"><b>Données
-										locales de consommation d’électricité et de gaz</b></a></li>
-						</ul>
-					</div>
+				<p>Un service de téléchargement est également disponible pour accéder à l’ensemble des données
+					utilisées (données brutes diffusées par les gestionnaires de réseaux et données traitées).</p>
 
-					<h2 id="réutilisateur">Réutilisateur <span class="fr-icon-user-fill" aria-hidden="true"></span></h2>
-					<p>L’application est le fruit d’un partenariat entre l’<a
-							href="https://teo-paysdelaloire.fr/lobservatoire/" target="_blank"><b>Observatoire de la
-								Transition écologique
-								des Pays de la Loire</b></a> (TEO Pays de la Loire), en charge d’améliorer la
-						connaissance sur l’énergie, le climat, les déchets et les ressources en Pays de la Loire, et la
-						<a href="https://www.pays-de-la-loire.developpement-durable.gouv.fr/" target="_blank"><b>DREAL
-								régionale</b></a>.
-					</p>
+				<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
+				<p><b>Pour les collectivités territoriales</b></p>
+				<p>Une meilleure connaissance territoriale
+					des énergies renouvelables qui leur permet d’objectiver les besoins d’évolution de leur
+					mix énergétique et de planifier des actions visant à assurer la transition vers des
+					énergies décarbonées.</p>
+				<p><b>Pour les gestionnaires de réseaux d'énergie</b></p>
+				<ul>
+					<li>Une valorisation croisée des données qu’ils produisent et diffusent de manière
+						dispersée.</li>
+					<li>Un rapprochement avec les collectivités et autres acteurs territoriaux, qui
+						constituent des partenaires privilégiés dans une transition vers davantage
+						d’énergies renouvelables.</li>
+				</ul>
+				<p><b>Pour tout citoyen</b></p>
+				<p>Une connaissance et une transparence accrues concernant les
+					énergies renouvelables produites et distribuées dans leur bassin de vie.</p>
 
-					<h2 id="problématique">Problématique et proposition de valeur <span class="fr-icon-search-fill"
-							aria-hidden="true"></span></h2>
-					<p>L’outil s’attaque à une problématique commune aux collectivités territoriales : <b>une
-							appropriation difficile des données relatives aux énergies renouvelables</b>, pourtant
-						essentielles dans une démarche de transition énergétique. Cette difficulté résulte notamment :
-					</p>
-					<div class="markdown">
-						<ul>
-							<li>d’un accès complexe aux sources disponibles ;</li>
-							<li>d’une fiabilité parfois relative des données ;</li>
-							<li>d’un manque d’expertise pour l’exploitation.</li>
-						</ul>
-					</div>
-					<p>L’application propose <b>de croiser et de consolider les données produites par les gestionnaires
-							de réseaux d’énergie (Enedis, GRDF, GRTgaz, RTE) pour établir un diagnostic synthétique des
-							énergies renouvelables de réseaux sur le territoire</b>. Elle est déployée à l’échelle de la
-						région des Pays de la Loire.</p>
-
-					<h2 id="solution">Solution <span class="fr-icon-edit-fill" aria-hidden="true"></span></h2>
-					<p><a href="https://gitlab.com/dreal-datalab/enr_reseaux_teo"><b>Un outil open source</b></a> qui
-						restitue des données relatives aux énergies renouvelables de réseaux
-						préalablement collectées et traitées. Le <b>tableau de bord</b> proposé présente, sur plusieurs
-						attributs du <b>parc de production d’énergies renouvelables de réseaux</b> (nombre
-						d’installations par typologie, puissances installées, consommations couvertes, etc.) :</p>
-
-					<div style="display: flex; gap: 60px; margin-bottom: 60px; flex-wrap: wrap;">
-						<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 200px">
-							<div class="fr-tile__body">
-								<h3 class="fr-tile__title">
-									Des visualisations de données
-								</h3>
-							</div>
-							<div class="fr-tile__img">
-								<img src="https://user-images.githubusercontent.com/72090652/167825874-dc5fa62a-8caf-4f5b-a591-bea5308925f1.svg"
-									alt="">
-							</div>
-						</div>
-						<div class="fr-tile" style="flex: 1; min-width: 100px; min-height: 200px">
-							<div class="fr-tile__body">
-								<h3 class="fr-tile__title">
-									Des indicateurs synthétiques
-								</h3>
-							</div>
-							<div class="fr-tile__img">
-								<img src="https://user-images.githubusercontent.com/72090652/167409677-42dedb8b-270e-4fa5-9e5b-22c3cc04e290.svg"
-									alt="">
-							</div>
-						</div>
-					</div>
-					<p>Un service de téléchargement est également disponible pour accéder à l’ensemble des données
-						utilisées (données brutes diffusées par les gestionnaires de réseaux et données traitées).</p>
-
-					<h2 id="impact">Impact <span class="fr-icon-checkbox-circle-fill" aria-hidden="true"></span></h2>
-					<p><b>Pour les collectivités territoriales</b></p>
-					<p>Une meilleure connaissance territoriale
-						des énergies renouvelables qui leur permet d’objectiver les besoins d’évolution de leur
-						mix énergétique et de planifier des actions visant à assurer la transition vers des
-						énergies décarbonées.</p>
-					<p><b>Pour les gestionnaires de réseaux d'énergie</b></p>
-					<div class="markdown">
-						<ul>
-							<li>Une valorisation croisée des données qu’ils produisent et diffusent de manière
-								dispersée.</li>
-							<li>Un rapprochement avec les collectivités et autres acteurs territoriaux, qui
-								constituent des partenaires privilégiés dans une transition vers davantage
-								d’énergies renouvelables.</li>
-						</ul>
-					</div>
-					<p><b>Pour tout citoyen</b></p>
-					<p>Une connaissance et une transparence accrues concernant les
-						énergies renouvelables produites et distribuées dans leur bassin de vie.</p>
-
-					<figure class="fr-quote fr-mt-6w">
-						<blockquote>
-							<p>« Ce projet contribue à la valorisation des connaissances sur les énergies renouvelables
-								pour accompagner les territoires dans leur transition et suivre l’atteinte des objectifs
-								locaux et régionaux. C’est un appui aux missions de l’observatoire et à celles des
-								acteur.rice.s du territoire. »</p>
-						</blockquote>
-						<figcaption>
-							<p class="fr-quote__author fr-mb-4w">Baptiste Decorps, Chef de projet Energie-Climat, TEO
-							</p>
-						</figcaption>
-					</figure>
-
-					<h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
-					<p>Les données exploitées n’ayant pas la même fréquence ou période de mise à jour, une réflexion est
-						en cours pour satisfaire la demande <b>d’avoir des données les plus récentes possibles tout en
-							maintenant un service fiable et cohérent</b>.</p>
-					<p><b>L’ouverture du <a href="https://gitlab.com/dreal-datalab/enr_reseaux_teo">code source</a> de
-							l’application et sa documentation détaillée</b> facilitent l’amélioration, la réplication et
-						l’essaimage de cet usage dans d’autres territoires.</p>
-
-					<div class="fr-col-12 fr-mt-6w" id="contact"
-						style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
-						<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
-						<p style="margin-bottom: unset;">
-							<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/"
-								style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
-							<a style="background-color: white" class="fr-btn fr-btn--secondary"
-								href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des
-								données</a>
+				<figure class="fr-quote not-prose fr-mt-6w">
+					<blockquote>
+						<p>« Ce projet contribue à la valorisation des connaissances sur les énergies renouvelables
+							pour accompagner les territoires dans leur transition et suivre l’atteinte des objectifs
+							locaux et régionaux. C’est un appui aux missions de l’observatoire et à celles des
+							acteur.rice.s du territoire. »</p>
+					</blockquote>
+					<figcaption>
+						<p class="fr-quote__author fr-mb-4w">Baptiste Decorps, Chef de projet Energie-Climat, TEO
 						</p>
-					</div>
+					</figcaption>
+				</figure>
+
+				<h2 id="enseignements">Enseignements <span class="fr-icon-eye-fill" aria-hidden="true"></span></h2>
+				<p>Les données exploitées n’ayant pas la même fréquence ou période de mise à jour, une réflexion est
+					en cours pour satisfaire la demande <b>d’avoir des données les plus récentes possibles tout en
+						maintenant un service fiable et cohérent</b>.</p>
+				<p><b>L’ouverture du <a href="https://gitlab.com/dreal-datalab/enr_reseaux_teo">code source</a> de
+						l’application et sa documentation détaillée</b> facilitent l’amélioration, la réplication et
+					l’essaimage de cet usage dans d’autres territoires.</p>
+
+				<div class="not-prose fr-col-12 fr-mt-6w" id="contact"
+					style="text-align:center;background-color: #f5f5fe;padding: 25px;margin-bottom: 50px;">
+					<h3>Cette exploitation des données ouvertes vous a inspiré et vous souhaitez contribuer ?</h3>
+					<p style="margin-bottom: unset;">
+						<a class="fr-btn" href="https://www.data.gouv.fr/fr/pages/onboarding/producteurs/"
+							style="margin-right: 19px;margin-bottom: 15px">Publiez des données</a>
+						<a style="background-color: white" class="fr-btn fr-btn--secondary"
+							href="https://www.data.gouv.fr/fr/pages/onboarding/reutilisateurs/">Utilisez des
+							données</a>
+					</p>
 				</div>
 			</div>
+		</div>
 
-			<div class="fr-grid-row fr-grid-row--gutters">
-				<div class="fr-col-12" id="exemples">
-					<h2>Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
-				</div>
-			</div>
+		<h2 class="mt-4" id="exemples">Découvrez d’autres exemples d’utilisation de données ouvertes</h2>
 
-
-			<div class="fr-grid-row fr-grid-row--gutters">
-				<div class="fr-col-12 fr-col-md-3">
-					<div class="fr-card fr-card--sm fr-enlarge-link">
-						<div class="fr-card__body">
-							<h3 class="fr-card__title">
-								<a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/"
-									class="fr-card__link">Identifier les entreprises en difficulté</a>
-							</h3>
-							<p class="fr-card__desc"></p>
-							<p class="fr-card__detail">Signaux Faibles</p>
-						</div>
-						<div class="fr-card__header">
-							<div class="fr-card__img">
-								<img class="fr-responsive-img"
-									src="https://user-images.githubusercontent.com/72090652/169087035-b4720d4d-7b69-4e51-949e-acbcab7d8c44.svg"
-									alt="">
-							</div>
-						</div>
+		<div class="not-prose fr-grid-row fr-grid-row--gutters">
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h3 class="fr-card__title">
+							<a href="https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/"
+								class="fr-card__link">Identifier les entreprises en difficulté</a>
+						</h3>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">Signaux Faibles</p>
 					</div>
-				</div>
-				<div class="fr-col-12 fr-col-md-3">
-					<div class="fr-card fr-card--sm fr-enlarge-link">
-						<div class="fr-card__body">
-							<h3 class="fr-card__title">
-								<a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/"
-									class="fr-card__link">Gérer simplement une exploitation agricole</a>
-							</h3>
-							<p class="fr-card__desc"></p>
-							<p class="fr-card__detail">Ekylibre</p>
-						</div>
-						<div class="fr-card__header">
-							<div class="fr-card__img">
-								<img class="fr-responsive-img"
-									src="https://user-images.githubusercontent.com/72090652/169087252-3ee35698-84f0-4def-a4cd-5de88e1b5797.svg"
-									alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="fr-col-12 fr-col-md-3">
-					<div class="fr-card fr-card--sm fr-enlarge-link">
-						<div class="fr-card__body">
-							<h3 class="fr-card__title">
-								<a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/"
-									class="fr-card__link">Estimer les ressources florales autour des ruches</a>
-							</h3>
-							<p class="fr-card__desc"></p>
-							<p class="fr-card__detail">BeeGIS</p>
-						</div>
-						<div class="fr-card__header">
-							<div class="fr-card__img">
-								<img class="fr-responsive-img"
-									src="https://user-images.githubusercontent.com/72090652/169087190-5a6ea7c4-17b7-422e-877b-e326036cbcd6.svg"
-									alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="fr-col-12 fr-col-md-3">
-					<div class="fr-card fr-card--sm fr-enlarge-link">
-						<div class="fr-card__body">
-							<h3 class="fr-card__title">
-								<a href="https://www.data.gouv.fr/fr/pages/onboarding/diagoriente/"
-									class="fr-card__link">Proposer un parcours d'orientation</a>
-							</h3>
-							<p class="fr-card__desc"></p>
-							<p class="fr-card__detail">DiagOriente</p>
-						</div>
-						<div class="fr-card__header">
-							<div class="fr-card__img">
-								<img class="fr-responsive-img"
-									src="https://user-images.githubusercontent.com/72090652/169087764-ac205dd3-efeb-4631-a6af-b65521b14572.svg"
-									alt="">
-							</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img"
+								src="https://user-images.githubusercontent.com/72090652/169087035-b4720d4d-7b69-4e51-949e-acbcab7d8c44.svg"
+								alt="">
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h3 class="fr-card__title">
+							<a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/"
+								class="fr-card__link">Gérer simplement une exploitation agricole</a>
+						</h3>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">Ekylibre</p>
+					</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img"
+								src="https://user-images.githubusercontent.com/72090652/169087252-3ee35698-84f0-4def-a4cd-5de88e1b5797.svg"
+								alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h3 class="fr-card__title">
+							<a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/"
+								class="fr-card__link">Estimer les ressources florales autour des ruches</a>
+						</h3>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">BeeGIS</p>
+					</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img"
+								src="https://user-images.githubusercontent.com/72090652/169087190-5a6ea7c4-17b7-422e-877b-e326036cbcd6.svg"
+								alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fr-col-12 fr-col-md-3">
+				<div class="fr-card fr-card--sm fr-enlarge-link">
+					<div class="fr-card__body">
+						<h3 class="fr-card__title">
+							<a href="https://www.data.gouv.fr/fr/pages/onboarding/diagoriente/"
+								class="fr-card__link">Proposer un parcours d'orientation</a>
+						</h3>
+						<p class="fr-card__desc"></p>
+						<p class="fr-card__detail">DiagOriente</p>
+					</div>
+					<div class="fr-card__header">
+						<div class="fr-card__img">
+							<img class="fr-responsive-img"
+								src="https://user-images.githubusercontent.com/72090652/169087764-ac205dd3-efeb-4631-a6af-b65521b14572.svg"
+								alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

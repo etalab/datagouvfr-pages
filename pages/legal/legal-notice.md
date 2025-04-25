@@ -1,3 +1,8 @@
+---
+title: Mentions légales
+---
+
+
 # Mentions légales
 
 **Éditeur de la plateforme**
