@@ -1,3 +1,7 @@
+**⚠️ Ce dépôt de code n'est plus utilisé.**
+
+Nous vous invitons à utiliser https://github.com/datagouv/datagouvfr-pages/ qui prend le relais.
+
 # datagouvfr-pages
 
 Ce dépôt contient les fichiers qui alimentent [les pages inventaire du portail data.gouv.fr](https://www.data.gouv.fr/fr/pages/thematiques-a-la-une).
